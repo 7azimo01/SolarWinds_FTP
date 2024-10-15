@@ -1,0 +1,63 @@
+<!--#include "..\..\Common\Strings\Result.strings"-->
+%PRIV_GROUP_ADMIN%
+<?xml version="1.0" encoding="UTF-8" ?>
+<user>
+<var name="ObjectID" val="%ID%" />
+<var name="HasOwnHomeDirectory" val="%CUser.%ID%.HasOwnHomeDirectory%" type="0"/>
+<var name="LoginID" val="%CUser.%ID%.LoginID%" type="0"/>
+<var name="TOTPLoginID" val="%CUser.%ID%.TOTPLoginID%" type="0"/>
+<var name="TOTPProvisioning" val="%CUser.%ID%.TOTPProvisioning%" defaultval="%CUser.%ID%.TOTPProvisioning.Default%" default="%CUser.%ID%.TOTPProvisioning.IsDefault%" exists="%CUser.%ID%.TOTPProvisioning.Exists%" type="0"/>
+<var name="TOTPCompanyName" val="%CUser.%ID%.TOTPCompanyName%" defaultval="%CUser.%ID%.TOTPCompanyName.Default%" default="%CUser.%ID%.TOTPCompanyName.IsDefault%" exists="%CUser.%ID%.TOTPCompanyName.Exists%" type="0"/>
+<var name="TOTPProtected" val="%CUser.%ID%.TOTPProtected%" type="1"/>
+<var name="TOTPAble" val="%CUser.%ID%.TOTPAble%" type="0"/>
+<var name="PasswordType" val="%CUser.%ID%.PasswordType%" type="0"/>
+<var name="Password" val="%CUser.%ID%.Password%" type="0"/>
+<var name="FullName" val="%CUser.%ID%.FullName%" type="0"/>
+<var name="Description" val="%CUser.%ID%.Description%" type="0"/>
+<var name="Type" val="%CUser.%ID%.Type%" type="0"/>
+<var name="ExpiresOn" val="%CUser.%ID%.ExpiresOn%" type="0"/>
+<var name="Enabled" val="%CUser.%ID%.Enabled%" defaultval="%CUser.%ID%.Enabled.Default%" default="%CUser.%ID%.Enabled.IsDefault%" exists="%CUser.%ID%.Enabled.Exists%" type="1"/>
+<var name="LockInHomeDir" val="%CUser.%ID%.LockInHomeDir%" defaultval="%CUser.%ID%.LockInHomeDir.Default%" default="%CUser.%ID%.LockInHomeDir.IsDefault%" exists="%CUser.%ID%.LockInHomeDir.Exists%" type="1"/>
+<var name="QuotaBytes" val="%CUser.%ID%.QuotaBytes%" type="0"/>
+<var name="HomeDir" val="%CUser.%ID%.HomeDir%" defaultval="%CUser.%ID%.HomeDir.Default%" default="%CUser.%ID%.HomeDir.IsDefault%" exists="%CUser.%ID%.HomeDir.Exists%" type="3"/>
+<var name="LockInHomeDir" val="%CUser.%ID%.LockInHomeDir%" defaultval="%CUser.%ID%.LockInHomeDir.Default%" default="%CUser.%ID%.LockInHomeDir.IsDefault%" exists="%CUser.%ID%.LockInHomeDir.Exists%" type="1"/>
+<var name="SignOnMessageFilePath" val="%CUser.%ID%.SignOnMessageFilePath%" defaultval="%CUser.%ID%.SignOnMessageFilePath.Default%" default="%CUser.%ID%.SignOnMessageFilePath.IsDefault%" exists="%CUser.%ID%.SignOnMessageFilePath.Exists%" type="0"/>
+<var name="IncludeRespCodesInMsgFiles" val="%CUser.%ID%.IncludeRespCodesInMsgFiles%" defaultval="%CUser.%ID%.IncludeRespCodesInMsgFiles.Default%" default="%CUser.%ID%.IncludeRespCodesInMsgFiles.IsDefault%" exists="%CUser.%ID%.IncludeRespCodesInMsgFiles.Exists%" type="1"/>
+<var name="SignOnMessage" val="%CUser.%ID%.SignOnMessage%" defaultval="%CUser.%ID%.SignOnMessage.Default%" default="%CUser.%ID%.SignOnMessage.IsDefault%" exists="%CUser.%ID%.SignOnMessage.Exists%" type="3"/>
+<var name="Quota" val="%CUser.%ID%.Quota%" defaultval="%CUser.%ID%.Quota.Default%" default="%CUser.%ID%.Quota.IsDefault%" exists="%CUser.%ID%.Quota.Exists%" type="0"/>
+<var name="AdminType" val="%CUser.%ID%.AdminType%" defaultval="%CUser.%ID%.AdminType.Default%" default="%CUser.%ID%.AdminType.IsDefault%" exists="%CUser.%ID%.AdminType.Exists%" type="3"/>
+<var name="AlwaysAllowLogin" val="%CUser.%ID%.AlwaysAllowLogin%" defaultval="%CUser.%ID%.AlwaysAllowLogin.Default%" default="%CUser.%ID%.AlwaysAllowLogin.IsDefault%" exists="%CUser.%ID%.AlwaysAllowLogin.Exists%" type="1"/>
+<var name="WebClientStartupMode" val="%CUser.%ID%.WebClientStartupMode%" defaultval="%CUser.%ID%.WebClientStartupMode.Default%" default="%CUser.%ID%.WebClientStartupMode.IsDefault%" exists="%CUser.%ID%.WebClientStartupMode.Exists%" type="3"/>
+<var name="CanListHomeDir" val="%CUser.%ID%.CanListHomeDir%"/>
+<var name="CheckRequestParameters" val="%CUser.%ID%.CheckRequestParameters%"/>
+<var name="SSHPublicKeyFilePath" val="%CUser.%ID%.SSHPublicKeyFilePath%" defaultval="%CUser.%ID%.SSHPublicKeyFilePath.Default%" default="%CUser.%ID%.SSHPublicKeyFilePath.IsDefault%" exists="%CUser.%ID%.SSHPublicKeyFilePath.Exists%" type="3"/>
+<var name="EmailAddress" val="%CUser.%ID%.EmailAddress%" type="0"/>
+<var name="RequirePasswordChange" val="%CUser.%ID%.RequirePasswordChange%" type="1"/>
+<var name="SecurityMessages" val="%CLogging.%CSessionAttrsLogging.%CUser.%ID%.Logging.ID%.FileLogging.ID%.SecurityMessages%" type="1"/>
+<var name="IPNames" val="%CLogging.%CSessionAttrsLogging.%CUser.%ID%.Logging.ID%.FileLogging.ID%.IPNames%" type="1"/>
+<var name="Downloads" val="%CLogging.%CSessionAttrsLogging.%CUser.%ID%.Logging.ID%.FileLogging.ID%.Downloads%" type="1"/>
+<var name="ZippedDownloads" val="%CLogging.%CSessionAttrsLogging.%CUser.%ID%.Logging.ID%.FileLogging.ID%.ZippedDownloads%" type="1"/>
+<var name="Uploads" val="%CLogging.%CSessionAttrsLogging.%CUser.%ID%.Logging.ID%.FileLogging.ID%.Uploads%" type="1"/>
+<var name="FileDeletes" val="%CLogging.%CSessionAttrsLogging.%CUser.%ID%.Logging.ID%.FileLogging.ID%.FileDeletes%" type="1"/>
+<var name="FileDirRenames" val="%CLogging.%CSessionAttrsLogging.%CUser.%ID%.Logging.ID%.FileLogging.ID%.FileDirRenames%" type="1"/>
+<var name="DirCreates" val="%CLogging.%CSessionAttrsLogging.%CUser.%ID%.Logging.ID%.FileLogging.ID%.DirCreates%" type="1"/>
+<var name="DirDeletes" val="%CLogging.%CSessionAttrsLogging.%CUser.%ID%.Logging.ID%.FileLogging.ID%.DirDeletes%" type="1"/>
+<var name="FTPCommands" val="%CLogging.%CSessionAttrsLogging.%CUser.%ID%.Logging.ID%.FileLogging.ID%.FTPCommands%" type="1"/>
+<var name="FTPReplies" val="%CLogging.%CSessionAttrsLogging.%CUser.%ID%.Logging.ID%.FileLogging.ID%.FTPReplies%" type="1"/>
+<var name="SSHCommands" val="%CLogging.%CSessionAttrsLogging.%CUser.%ID%.Logging.ID%.FileLogging.ID%.SSHCommands%" type="1"/>
+<var name="SSHReplies" val="%CLogging.%CSessionAttrsLogging.%CUser.%ID%.Logging.ID%.FileLogging.ID%.SSHReplies%" type="1"/>
+<var name="SSHDetailedCommands" val="%CLogging.%CSessionAttrsLogging.%CUser.%ID%.Logging.ID%.FileLogging.ID%.SSHDetailedCommands%" type="1"/>
+<var name="SSHDetailedReplies" val="%CLogging.%CSessionAttrsLogging.%CUser.%ID%.Logging.ID%.FileLogging.ID%.SSHDetailedReplies%" type="1"/>
+<var name="HTTPCommands" val="%CLogging.%CSessionAttrsLogging.%CUser.%ID%.Logging.ID%.FileLogging.ID%.HTTPCommands%" type="1"/>
+<var name="HTTPReplies" val="%CLogging.%CSessionAttrsLogging.%CUser.%ID%.Logging.ID%.FileLogging.ID%.HTTPReplies%" type="1"/>
+<var name="LogFilePath" val="%CSessionAttrsLogging.%CUser.%ID%.Logging.ID%.LogFilePath%" type="0"/>
+<var name="MaxLogFiles" val="%CSessionAttrsLogging.%CUser.%ID%.Logging.ID%.MaxLogFiles%" type="0"/>
+<var name="MaxLogFilesBytes" val="%CSessionAttrsLogging.%CUser.%ID%.Logging.ID%.MaxLogFilesBytes%" type="0"/>
+<var name="LogToFile" val="%CSessionAttrsLogging.%CUser.%ID%.Logging.ID%.LogToFile%" type="0"/>
+<var name="LogFileArchiveMode" val="%CSessionAttrsLogging.%CUser.%ID%.Logging.ID%.LogFileArchiveMode%" type="3"/>
+<var name="CurrentLogFilePath" val="%CUser.%ID%.CurrentLogFilePath%" type="0"/>
+<var name="LoggingID" val="%CUser.%ID%.Logging.ID%" type="0"/>
+<var name="UserLoggingID" val="%CSessionAttrsLogging.%CUser.%ID%.Logging.ID%.FileLogging.ID%" type="0"/>
+<var name="Result" val="%RESULT%"/>
+<var name="ResultText" val="%RESULT_TEXT%"/>
+</user>

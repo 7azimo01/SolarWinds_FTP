@@ -1,0 +1,39 @@
+<!--#include "..\Common\Strings\Strings.strings"-->
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0+" codebase="%HEADER_URL%%FVJV_FILE%">
+<information>
+<title>$FVJV_TITLE$</title>
+<vendor>$FVJV_VENDOR$</vendor>
+<icon href="%HEADER_URL%%FVJV_FILE%Images/FVJV_64x64.png" width="64" height="64" />
+<icon href="%HEADER_URL%%FVJV_FILE%Images/FVJV_48x48.png" width="48" height="48" />
+<icon href="%HEADER_URL%%FVJV_FILE%Images/FVJV_32x32.png" width="32" height="32" />
+<icon href="%HEADER_URL%%FVJV_FILE%Images/FVJV_24x24.png" width="24" height="24" />
+</information>
+<security>
+<all-permissions/>
+</security>
+<resources>
+<j2se version="1.7+"/>
+<jar href="%HEADER_URL%%FVJV_FILE%FTP_Voyager_JV.jar" main="true"/>
+<jar href="%HEADER_URL%%COMMON_FILE%Java/Libs/RhinoJavaCore.jar"/>
+<jar href="%HEADER_URL%%FVJV_FILE%lib/jide-action.jar"/>
+<jar href="%HEADER_URL%%FVJV_FILE%lib/jide-common.jar"/>
+<jar href="%HEADER_URL%%FVJV_FILE%lib/jide-dock.jar"/>
+</resources>
+<application-desc main-class="com.rhinosoft.app.CApp">
+<argument>-hh,%HEADER_HOST%</argument>			
+<argument>-sp,%SERVER_PORT%</argument>			
+<argument>-hp,%HEADER_PORT%</argument>			
+<argument>-esi,%ENC_SESSION_ID%</argument>		
+<argument>-si,%SESSION_ID%</argument>			
+<argument>-li,%LOGIN_ID%</argument>				
+<argument>-hl,%HEADER_LANGUAGE%</argument>		
+<argument>-hu,%HEADER_URL%</argument>			
+<argument>-is,%IS_SECURE%</argument>			
+<argument>-ccp,%CAN_CHANGE_PASSWORD%</argument>	
+<argument>-ila,%IS_LOCAL_ADMIN%</argument>		
+<argument>-uea,%USER_EMAIL_ADDRESS%</argument>	
+<argument>-csea,%USER_CAN_SET_EMAIL_ADDRESS%</argument>		
+<argument>-hbu,%HELP_BASE_URL%</argument>		
+</application-desc>
+</jnlp>

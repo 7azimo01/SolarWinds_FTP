@@ -1,0 +1,9 @@
+<!--#include "..\..\Common\Strings\Result.strings"-->
+<?xml version="1.0" encoding="UTF-8" ?>
+<response>
+<result>%RESULT%</result>
+<ResultText>%RESULT_TEXT%</ResultText>
+<ShareToken>%SHARE_TOKEN%</ShareToken>
+<ShareURL>%SHARE_URL%</ShareURL>
+<ShareDateCreated>%SHARE_DATE_CREATED%</ShareDateCreated>
+</response>

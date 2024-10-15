@@ -1,0 +1,19 @@
+<!--#include "../Common/Strings/Result.strings"-->
+{
+    "shares": [
+    %FILE_SHARE_INFO%
+    %DELETE_LIST_STRINGS%
+    %ADD_LIST_STRING%{
+        %ADD_LIST_STRING%"shareToken": "%CAdHocShare.%LIST_ID%.ShareToken%",
+        %ADD_LIST_STRING%"hasPassword": %CAdHocShare.%LIST_ID%.HasPassword%,
+        %ADD_LIST_STRING%"name": "%CAdHocShare.%LIST_ID%.MsgSubject%",
+        %ADD_LIST_STRING%"sender": "%CAdHocShare.%LIST_ID%.FirstRecipient%",
+        %ADD_LIST_STRING%"numOfSenders": %CAdHocShare.%LIST_ID%.NumRecipients%,
+        %ADD_LIST_STRING%"files": %CAdHocShare.%LIST_ID%.NumFiles%,
+        %ADD_LIST_STRING%"size": %CAdHocShare.%LIST_ID%.TotalFileSize%,
+        %ADD_LIST_STRING%"status": "%CAdHocShare.%LIST_ID%.NotificationStatus%",
+        %ADD_LIST_STRING%"sent": "%CAdHocShare.%LIST_ID%.DateCreated%",
+        %ADD_LIST_STRING%"expires": "%CAdHocShare.%LIST_ID%.DateExpiration%" 
+    %ADD_LIST_STRING%},
+    {}]
+}

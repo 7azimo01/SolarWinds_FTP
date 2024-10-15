@@ -1,0 +1,64 @@
+﻿<!-- Strings.strings - For ease of localization, strings have been separated into this file.  Place all localizable strings here. -->
+<!-- Strings.strings - For ease of localization, strings have been separated into this file.  Place all localizable strings here. -->
+<!-- NOTE: assignments require left justification and the assignment to appear as "$=" without whitespace between the $ and =. -->
+<!-- File location: <<Install>>\Client\Admin\Include\ -->
+
+<!-- **************** ServerSettingsTab.htm **************** -->
+$PASV_CHECK_PEER_IP$=Krev samsvarende likemanns-IP-adresser for kontroll og dataforbindelser
+
+<!-- **************** BrowseDialog.htm **************** -->
+$FILE_PATH$=Filsti
+
+
+<!-- **************** LDAPServerDialog.htm **************** -->
+$LDAP_BROWSE$=Bla gjennom
+$LDAP_RETRIEVE$=Hente
+$LDAP_ROOT_CERTIFICATE$=Sertifikatsmyndighet
+$LDAP_DEFAULT_CERTIFICATE$=Standard OS-konfigurering
+$LDAP_BROWSE_CERTIFICATE$=Velg sertifikatroten
+$LDAP_PICK_CERTIFICATE$=Hente sertifikatroten fra LDAP-server
+$LDAP_ROOT_PATH_HINT$=CA sertifikatrotens filbane i det lokale filsystemet. Sørg for at sertifikatfilen er kodet i base-64.
+$LDAP_BROWSE_BUTTON_HINT$=Bla gjennom CA sertifikatrotens filbane i det lokale filsystemet
+$LDAP_RETRIEVE_BUTTON_HINT$=Hente CA sertifikatrot LDAPS-serveren
+$LDAP_SERIAL_NUMBER$=Serienummer
+$LDAP_SIGNATURE_ALGORITHM$=Signaturalgoritme
+$LDAP_PUBLIC_KEY_ALGORITHM$=Offentlig nøkkelalgoritme
+$LDAP_ORGANIZATION$=Organisasjon
+$LDAP_LOCATION$=Beliggenhet
+$LDAP_VALID_FROM$=Gjelder fra
+$LDAP_VALID_TO$=Gjelder til
+$LDAP_VALIDATE$=Vennligst bekreft informasjonen for det utvalgte CA sertifikatet nedenfor:
+$LDAP_ALGORITHMS$=Algoritmer
+$LDAP_ISSUER$=Utsteder
+$LDAP_SUBJECT$=Emne
+$LDAP_VALIDITY_PERIOD$=Gyldighetsperiode
+$LDAP_FINGERPRINTS$=Fingeravtrykk
+$LDAP_FILE_PATH$=Filbane
+$LDAP_CONFIRM_QUESTION$=Bekrefter du sertifikatets gyldighet?
+
+
+<!-- **************** MFA **************** -->
+$TOTP_HMAC_SHA1$=SHA-1
+$TOTP_HMAC_SHA256$=SHA-256
+$TOTP_HMAC_SHA512$=SHA-512
+$TOTP_MFA_ENABLED$=Aktivert
+$TOTP_MFA_DISABLED$=Deaktivert
+$TOTP_MFA_ENFORCED$=Påtvunget
+$TOTP_MFA_RESET_FOR_USER$=Er du sikker på at du vil tilbakestille TOTP for den utvalgte brukeren?
+$MFA_TAB_NAME$=Multifaktor-autentisering
+$MFA_TAB_INFO$=Dersom multifaktor-autentisering er aktivert, kan kunden bruke engangskoden fra autentiseringsprogrammet som en ekstra autentiseringsfaktor, i tillegg til brukernavnet og passordet, for en trygg innlogging. Hvis multifaktor-autentisering er satt til å være påtvunget, vil dette være obligatorisk og kunden får ikke logget inn uten den.
+$MFA_STATUS$=MFA-status
+$MFA_STATUS_ACTIVE$=Aktiv
+$MFA_STATUS_NOT_CONFIG$=Ikke konfigurert
+$MFA_LOGIN_ID$=Innloggings-ID:
+$MFA_AUTHENTICATOR$=Multifaktor-autentisering:
+$MFA_COMPANY_NAME$=Selskapets navn:
+$MFA_PRODUCT_NAME$=Serv-U
+$MFA_GENERAL_USERS_NOT_AVAILABLE$=Multifaktor-autentisering er ikke tilgjengelig for den aktuelle brukertypen.
+$MFA_GENERAL_GROUPS_NOT_AVAILABLE$=Multifaktor-autentisering er ikke tilgjengelig for den aktuelle gruppetypen.
+$MFA_LDAP_USERS_NOT_AVAILABLE$=Multifaktor-autentisering er ikke tilgjengelig for LDAP-brukere.
+$MFA_LDAP_GROUPS_NOT_AVAILABLE$=Multifaktor-autentisering er ikke tilgjengelig for LDAP-grupper.
+$MFA_DB_USERS_NOT_AVAILABLE$=Multifaktor-autentisering er ikke tilgjengelig for databasens brukere.
+$MFA_DB_GROUPS_NOT_AVAILABLE$=Multifaktor-autentisering er ikke tilgjengelig for databasens grupper.
+$MFA_WINDOWS_USERS_NOT_AVAILABLE$=Multifaktor-autentisering er ikke tilgjengelig for Windows-brukere.
+$MFA_WINDOWS_GROUPS_NOT_AVAILABLE$=Multifaktor-autentisering er ikke tilgjengelig for Windows-grupper.

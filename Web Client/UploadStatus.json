@@ -1,0 +1,5 @@
+<!--#include "../Common/Strings/Result.strings"-->
+{
+    "result": "%RESULT%",
+    "resultText": "%RESULT_TEXT%"
+}

@@ -1,0 +1,10 @@
+<!--#include "../Common/Strings/Result.strings"-->
+{
+    "result": "%RESULT%",
+	"resultText": "%RESULT_TEXT%",
+    "mfaTotpStatus": "%USER_TOTP_STATUS%",
+    "mfaUriBarcodeUrl": "%USER_TOTP_URI_BAR_CODE_URL%",
+    "mfaTotpSecret": "%USER_TOTP_SECRET%",
+    "mfaTotpProvisioning": "%CUser.%USER_ID%.TOTPProvisioning%",
+    "totpLoginTriesLeft": "%CHTTPSession.%SESSION_ID%.TOTPLoginTriesLeft%"
+}

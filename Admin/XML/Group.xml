@@ -1,0 +1,50 @@
+<!--#include "..\..\Common\Strings\Result.strings"-->
+%PRIV_GROUP_ADMIN%
+<?xml version="1.0" encoding="UTF-8" ?>
+<group>
+<var name="ObjectID" val="%ID%" />
+<var name="GroupName" val="%CGroup.%ID%.GroupName%" type="0"/>
+<var name="Description" val="%CGroup.%ID%.Description%" type="0"/>
+<var name="TOTPProvisioning" val="%CGroup.%ID%.TOTPProvisioning%" defaultval="%CGroup.%ID%.TOTPProvisioning.Default%" default="%CGroup.%ID%.TOTPProvisioning.IsDefault%" exists="%CGroup.%ID%.TOTPProvisioning.Exists%" type="0"/>
+<var name="TOTPCompanyName" val="%CGroup.%ID%.TOTPCompanyName%" defaultval="%CGroup.%ID%.TOTPCompanyName.Default%" default="%CGroup.%ID%.TOTPCompanyName.IsDefault%" exists="%CGroup.%ID%.TOTPCompanyName.Exists%" type="0"/>
+<var name="TOTPAble" val="%CGroup.%ID%.TOTPAble%" type="0"/>
+<var name="ApplyDirAccessRulesAboveUser" val="%CGroup.%ID%.ApplyDirAccessRulesAboveUser%" type="1"/>
+<var name="HomeDir" val="%CGroup.%ID%.HomeDir%" defaultval="%CGroup.%ID%.HomeDir.Default%" default="%CGroup.%ID%.HomeDir.IsDefault%" exists="%CGroup.%ID%.HomeDir.Exists%" type="0"/>
+<var name="Enabled" val="%CGroup.%ID%.Enabled%" defaultval="%CGroup.%ID%.Enabled.Default%" default="%CGroup.%ID%.Enabled.IsDefault%" exists="%CGroup.%ID%.Enabled.Exists%" type="1"/>
+<var name="LockInHomeDir" val="%CGroup.%ID%.LockInHomeDir%" defaultval="%CGroup.%ID%.LockInHomeDir.Default%" default="%CGroup.%ID%.LockInHomeDir.IsDefault%" exists="%CGroup.%ID%.LockInHomeDir.Exists%" type="1"/>
+<var name="SignOnMessageFilePath" val="%CGroup.%ID%.SignOnMessageFilePath%" defaultval="%CGroup.%ID%.SignOnMessageFilePath.Default%" default="%CGroup.%ID%.SignOnMessageFilePath.IsDefault%" exists="%CGroup.%ID%.SignOnMessageFilePath.Exists%" type="0"/>
+<var name="SignOnMessage" val="%CGroup.%ID%.SignOnMessage%" defaultval="%CGroup.%ID%.SignOnMessage.Default%" default="%CGroup.%ID%.SignOnMessage.IsDefault%" exists="%CGroup.%ID%.SignOnMessage.Exists%" type="0"/>
+<var name="IncludeRespCodesInMsgFiles" val="%CGroup.%ID%.IncludeRespCodesInMsgFiles%" defaultval="%CGroup.%ID%.IncludeRespCodesInMsgFiles.Default%" default="%CGroup.%ID%.IncludeRespCodesInMsgFiles.IsDefault%" exists="%CGroup.%ID%.IncludeRespCodesInMsgFiles.Exists%" type="1"/>
+<var name="Quota" val="%CGroup.%ID%.Quota%" defaultval="%CGroup.%ID%.Quota.Default%" default="%CGroup.%ID%.Quota.IsDefault%" exists="%CGroup.%ID%.Quota.Exists%" type="0"/>
+<var name="AdminType" val="%CGroup.%ID%.AdminType%" defaultval="%CGroup.%ID%.AdminType.Default%" default="%CGroup.%ID%.AdminType.IsDefault%" exists="%CGroup.%ID%.AdminType.Exists%" type="3"/>
+<var name="AlwaysAllowLogin" val="%CGroup.%ID%.AlwaysAllowLogin%" defaultval="%CGroup.%ID%.AlwaysAllowLogin.Default%" default="%CGroup.%ID%.AlwaysAllowLogin.IsDefault%" exists="%CGroup.%ID%.AlwaysAllowLogin.Exists%" type="1"/>
+<var name="WebClientStartupMode" val="%CGroup.%ID%.WebClientStartupMode%" defaultval="%CGroup.%ID%.WebClientStartupMode.Default%" default="%CGroup.%ID%.WebClientStartupMode.IsDefault%" exists="%CGroup.%ID%.WebClientStartupMode.Exists%" type="3"/>
+<var name="SSHPublicKeyFilePath" val="%CGroup.%ID%.SSHPublicKeyFilePath%" defaultval="%CGroup.%ID%.SSHPublicKeyFilePath.Default%" default="%CGroup.%ID%.SSHPublicKeyFilePath.IsDefault%" exists="%CGroup.%ID%.SSHPublicKeyFilePath.Exists%" type="0"/>
+<var name="SecurityMessages" val="%CLogging.%CSessionAttrsLogging.%CGroup.%ID%.Logging.ID%.FileLogging.ID%.SecurityMessages%" type="1"/>
+<var name="IPNames" val="%CLogging.%CSessionAttrsLogging.%CGroup.%ID%.Logging.ID%.FileLogging.ID%.IPNames%" type="1"/>
+<var name="Downloads" val="%CLogging.%CSessionAttrsLogging.%CGroup.%ID%.Logging.ID%.FileLogging.ID%.Downloads%" type="1"/>
+<var name="ZippedDownloads" val="%CLogging.%CSessionAttrsLogging.%CGroup.%ID%.Logging.ID%.FileLogging.ID%.ZippedDownloads%" type="1"/>
+<var name="Uploads" val="%CLogging.%CSessionAttrsLogging.%CGroup.%ID%.Logging.ID%.FileLogging.ID%.Uploads%" type="1"/>
+<var name="FileDeletes" val="%CLogging.%CSessionAttrsLogging.%CGroup.%ID%.Logging.ID%.FileLogging.ID%.FileDeletes%" type="1"/>
+<var name="FileDirRenames" val="%CLogging.%CSessionAttrsLogging.%CGroup.%ID%.Logging.ID%.FileLogging.ID%.FileDirRenames%" type="1"/>
+<var name="DirCreates" val="%CLogging.%CSessionAttrsLogging.%CGroup.%ID%.Logging.ID%.FileLogging.ID%.DirCreates%" type="1"/>
+<var name="DirDeletes" val="%CLogging.%CSessionAttrsLogging.%CGroup.%ID%.Logging.ID%.FileLogging.ID%.DirDeletes%" type="1"/>
+<var name="FTPCommands" val="%CLogging.%CSessionAttrsLogging.%CGroup.%ID%.Logging.ID%.FileLogging.ID%.FTPCommands%" type="1"/>
+<var name="FTPReplies" val="%CLogging.%CSessionAttrsLogging.%CGroup.%ID%.Logging.ID%.FileLogging.ID%.FTPReplies%" type="1"/>
+<var name="SSHCommands" val="%CLogging.%CSessionAttrsLogging.%CGroup.%ID%.Logging.ID%.FileLogging.ID%.SSHCommands%" type="1"/>
+<var name="SSHReplies" val="%CLogging.%CSessionAttrsLogging.%CGroup.%ID%.Logging.ID%.FileLogging.ID%.SSHReplies%" type="1"/>
+<var name="SSHDetailedCommands" val="%CLogging.%CSessionAttrsLogging.%CGroup.%ID%.Logging.ID%.FileLogging.ID%.SSHDetailedCommands%" type="1"/>
+<var name="SSHDetailedReplies" val="%CLogging.%CSessionAttrsLogging.%CGroup.%ID%.Logging.ID%.FileLogging.ID%.SSHDetailedReplies%" type="1"/>
+<var name="HTTPCommands" val="%CLogging.%CSessionAttrsLogging.%CGroup.%ID%.Logging.ID%.FileLogging.ID%.HTTPCommands%" type="1"/>
+<var name="HTTPReplies" val="%CLogging.%CSessionAttrsLogging.%CGroup.%ID%.Logging.ID%.FileLogging.ID%.HTTPReplies%" type="1"/>
+<var name="LogFilePath" val="%CSessionAttrsLogging.%CGroup.%ID%.Logging.ID%.LogFilePath%" type="0"/>
+<var name="MaxLogFiles" val="%CSessionAttrsLogging.%CGroup.%ID%.Logging.ID%.MaxLogFiles%" type="0"/>
+<var name="MaxLogFilesBytes" val="%CSessionAttrsLogging.%CGroup.%ID%.Logging.ID%.MaxLogFilesBytes%" type="0"/>
+<var name="LogToFile" val="%CSessionAttrsLogging.%CGroup.%ID%.Logging.ID%.LogToFile%" type="0"/>
+<var name="LogFileArchiveMode" val="%CSessionAttrsLogging.%CGroup.%ID%.Logging.ID%.LogFileArchiveMode%" type="3"/>
+<var name="CurrentLogFilePath" val="%CGroup.%ID%.CurrentLogFilePath%" type="0"/>
+<var name="LoggingID" val="%CGroup.%ID%.Logging.ID%" type="0"/>
+<var name="UserLoggingID" val="%CSessionAttrsLogging.%CGroup.%ID%.Logging.ID%.FileLogging.ID%" type="0"/>
+<var name="Result" val="%RESULT%"/>
+<var name="ResultText" val="%RESULT_TEXT%"/>
+</group>

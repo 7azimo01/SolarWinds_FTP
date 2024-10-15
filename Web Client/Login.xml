@@ -1,0 +1,21 @@
+<!--#include "..\Common\Strings\Result.strings"-->
+<?xml version="1.0" encoding="UTF-8" ?>
+<response>
+<result>%RESULT%</result>
+<ResultText>%RESULT_TEXT%</ResultText>
+<welcomemsg>%CHTTPSession.%SESSION_ID%.UserSignOnMessage%</welcomemsg>
+<userplacement>%CHTTPSession.%SESSION_ID%.WebClientStartupMode%</userplacement>
+<usertype>%CHTTPSession.%SESSION_ID%.UserType%</usertype>
+<CsrfToken>%ENC_CSRF_TOKEN%</CsrfToken>
+<requireemailchange>%REQUIRE_EMAIL_ADDRESS%</requireemailchange>
+<usercansetemail>%USER_CAN_SET_EMAIL_ADDRESS%</usercansetemail>
+<useremail>%USER_EMAIL_ADDRESS%</useremail>
+<AllowWC>%ALLOW_WEB_CLIENT%</AllowWC>
+<allowFVJV>%ALLOW_FTP_VOYAGER_JV%</allowFVJV>
+<AllowFileSharing>%ALLOW_ADHOC_FILE_SHARING%</AllowFileSharing>
+<ResultViewShare>%RESULT_VIEW_SHARE%</ResultViewShare>
+<MFATOTPStatus>%USER_TOTP_STATUS%</MFATOTPStatus>
+<MFAURIBarcodeURL>%USER_TOTP_URI_BAR_CODE_URL%</MFAURIBarcodeURL>
+<MFATOTPSecret>%USER_TOTP_SECRET%</MFATOTPSecret>
+<TOTPLoginTriesLeft>%CHTTPSession.%SESSION_ID%.TOTPLoginTriesLeft%</TOTPLoginTriesLeft>
+</response>

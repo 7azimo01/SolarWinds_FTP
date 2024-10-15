@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Response>
+<Result>%RESULT%</Result>
+<CsrfToken>%ENC_CSRF_TOKEN%</CsrfToken>
+<CanChangePassword>%CAN_CHANGE_PASSWORD%</CanChangePassword>
+<HeaderURL>%HEADER_URL%</HeaderURL>
+<IsLocalAdmin>%IS_LOCAL_ADMIN%</IsLocalAdmin>
+<UserEmailAddress>0,%USER_EMAIL_ADDRESS%</UserEmailAddress>
+<UserCanSetEmailAddress>%USER_CAN_SET_EMAIL_ADDRESS%</UserCanSetEmailAddress>
+<RequireEmailAddress>%REQUIRE_EMAIL_ADDRESS%</RequireEmailAddress>
+<WelcomeMsg>%CHTTPSession.%SESSION_ID%.UserSignOnMessage%</WelcomeMsg>
+</Response>

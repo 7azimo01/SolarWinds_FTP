@@ -1,0 +1,289 @@
+﻿<!-- Strings.strings - For ease of localization, strings have been separated into this file.  Place all localizable strings here. -->
+<!-- NOTE: assignments require left justification and the assignment to appear as "$=" without whitespace between the $ and =. -->
+<!-- File location: <<Install>>\Client\Web Client\Include\ -->
+
+<!-- General -->
+$CLICK_HERE_CURRENT_DIR$=<a href="#" onclick="goBackWithRefresh();return false;">Haga clic aquí para la lista de su directorio actual.</a>
+$WARN_IMAGE$=<img src="%FILE%Images\warn.gif" style="float:left;">
+$DELETE$=Borrar
+$OPEN$=Abrir
+$CURRENTLY_LOCATED$=Actualmente se encuentra en
+$USE_INHERITED$=Heredar valor por defecto
+$NO_SCRIPT_TEXT$=Parece que su navegador no está habilitado para ejecutar Javascript. Esta página requiere que JavaScript esté habilitado.
+$PLEASE_ENTER_USER_NAME$=Por favor, introduzca un ID de entrada.
+$FOLDER_SIZE$=Tamaño de la carpeta
+$DIR_PROPERTIES$=Propiedades del directorio
+$MODIFIED_TIME$=Modificado
+$CREATED_TIME$=Creado
+$LAST_ACCESSED_TIME$=Último acceso
+$DONT_SHOW_AGAIN$=No volver a mostrar este mensaje.
+$PLEASE_SELECT_FILE_UPLOAD_MOBILE$=Por favor, elija un archivo para subir
+$LOGGED_IN$=Conectado
+$IMAGE_DIALOG_WIDTH$=650
+$MOBILE_LOGIN_BTN_WIDTH$=100
+
+<!-- Menu Text -->
+$SHOW_NO_LABELS$=No Mostrar Etiquetas de Texto
+$SHOW_ALL_LABELS$=Mostrar Etiquetas de Texto
+$SHOW_SELECTIVE_LABELS$=Texto Selectivo a la Derecha
+
+<!-- Login -->
+$LOGIN_TITLE$=Serv-U
+$LANGUAGE$=Idioma
+$PASSWORD$=Contraseña
+$LOGIN$=Entrar
+$CHANGE_PASSWORD$=Cambiar Contraseña
+$REMEMBER_USER$=Recordarme
+$RELOAD$=Recarga
+$JSCRIPT_DISABLED_WARN$=Javascript esta deshabilitado en las opciones de su navegador.  Para usar el servidor Serv-U File Server javascript debe star habilitado. <br /><br />Haga Click en "Recargar"una vez haya habilitado el javascript en las opicones de su navegador.
+$IE_NOT_COMPATIBLE_WARN$=Esta usando una version incompatible. Debe actualizar al Internet Explorer 6.0 o mas para usar Serv-U.
+$BROWSER_NOT_COMPATIBLE_WARN$=El navegador que esta usando es incompatible con la esta version de Serv-U.  Puede usar Internet Explorer 6.0+, Firefox 1.0+, Safari 3+ u Opera 9+.
+
+<!-- Languages -->
+$ENGLISH$=English (Inglés)
+$GERMAN$=Deutsch (Alemán)
+$ITALIAN$=Italiano (Italiano)
+$FRENCH$=Français (Francés)
+$SPANISH$=Español
+$PORTUGUESE$=Português (Portugués)
+$SERBIAN$=Srpski (Serbio)
+$SWEDISH$=Svenska (Sueco)
+$FINISH$=Suomi (Finlandés)
+$NORWEGIAN$=Norsk (Noruego)
+$DANISH$=Dansk (Danés)
+$RUSSIAN$=Русский (Ruso)
+$TRADITIONAL_CHINESE$=繁體中文 (Chino Tradicional)
+$SIMPLIFIED_CHINESE$=简体中文 (Chino Simplificado)
+$JAPANESE$=日本語 (Japonés)
+
+
+<!-- Logout -->
+$LOGOUT_TITLE$=Desconectar
+$LOGOUT_DESC$=Ha sido desconectado.  <a href="%LOGIN%">Haga Click aqui pra volver a conectarse.</a>
+$LOGGED_OUT_MSG$=Ha sido desconectado.
+
+
+<!-- Login Change Password -->
+$PASSWORD_EXPIRED_TITLE$=Contraseña caducada - Cambie la Contraseña.
+$PASSWORD_EXPIRED_DESC$=Su contraseña ha caducado, cambie su contraseña antes de continuar.
+
+
+<!-- Session Not Found -->
+$SESSION_NOT_FOUND_TITLE$=No Autorizado - Sesion No Encontrada
+$SESSION_NOT_FOUND_HEAD$=401 No Autorizado, la sesion especificada no existe
+$SESSION_NOT_FOUND_DESC$=La sesión especificada no existe. Esto puede ser debido a un largo periodo de la inactividad. Intente abrir una sesión otra vez.
+
+
+<!-- Not Logged In -->
+$NOT_LOGGED_IN_TITLE$=No Autorizado - No ha abierto ninguna sesión
+$NOT_LOGGED_IN_HEAD$=401 No Autorizado, No tiene ninguna sesión abierta.
+$NOT_LOGGED_IN_DESC$=No esta autorizado a realizar esta operacion.  <a href="%LOGIN%">Validese antes de intentar esta operación.</a>
+
+
+<!-- Permission Denied -->
+$PERMISSION_DENIED_TITLE$=Permiso denegado
+$PERMISSION_DENIED_DESC$=Permiso denegado
+
+<!-- Secure Connection Required -->
+$SECURE_CONN_REQUIRED_TITLE$=Error de conexión - Se requiere una conexión segura.
+
+
+<!-- Listing -->
+$CURR_DIR_NAME$=%CURRENT_DIR_NAME%
+$MOD_TIME$=Hora
+$ATTRS$=Atributos
+$THUMBNAIL_LIST$=Miniaturas
+$UPLOAD_ACTION$=Subir
+$UPLOAD$=Subir
+$UPLOAD_ALT$=Subir
+$THUMBNAILS_ALT$=Miniaturas
+$DETAILS_ALT$=Detalles
+$CREATE_DIR_ALT$=Crear directorio
+$FILETOOLS$=Herramientas
+$DOWNLOAD$=Descargar
+$THUMBNAIL_SIZE$=Tamaño miniatura
+$SELECT_THUMBNAIL_SIZE$=Seleccione Tamaño
+$PREVIEW_IMAGE$=Imagen previa
+$CHANGE_PASSWORD_BUTTON$=Cambiar Contraseña
+$CHANGE_EMAIL_BUTTON$=Cambiar la dirección de correo electrónico
+$FILE_PATH$=Ruta del archivo
+$PLAY_MEDIA$=Ejecutar Multimedia
+$PLAY_LIST$=Lista reproducción
+$AUDIO_PLAY_LIST$=Lista reproducción Audio
+$PLAYLIST_SIZE$=Tamaño Lista de reproducción
+$SHUFFLE_PLAYLIST$=Lista de reproducción aleatoria
+$NEXT_MEDIA_FILE$=Siguiente archivo multimedia
+$PREVIOUS_MEDIA_FILE$=Anterior archivo multimedia
+$HOME$=Inicio
+$FOLDER_EMPTY$=Carpeta está vacía.
+$BACK$=Atrás
+$FORWARD$=Adelante
+$HISTORY_LIST$=Historial
+$SEARCH_ACTION$=Buscar
+$NO_FILES_FOUND$=No se encontraron archivos.
+$HTTP_MEDIA_PLAY_DISABLED$=La reproducción de medios HTTP ha sido deshabilitada por el administrador.
+$DISABLE_WEB_CLIENT_PRO$=Desactivar el Cliente Web Pro
+$ENABLE_WEB_CLIENT_PRO$=Activar el Cliente Web Pro
+$WEB_CLIENT_PRO$=Cliente Web Pro
+$WAIT_BUTTON$=Esperar
+$DIRS_AND_FILES$=Archivos y Directorios
+$FILES_ONLY$=Sólo archivos
+$DIRS_ONLY$=Sólo directorios
+$SORTING$=Clasificación
+
+
+<!-- Web Client Transfer Applet -->
+$XFER_APPLET_PRODUCT_NAME$=Cliente Web Pro de Serv-U
+$XFER_APPLET_SHOW_IN_FOLDER$=Mostrar en el directorio
+$XFER_APPLET_OPEN_FILE$=Abrir archivo
+$XFER_APPLET_STOP_AFTER$=Detener después de que el Archivo termine
+$XFER_APPLET_SKIP$=Saltar Archivo
+$XFER_APPLET_PAUSE$=Pausar
+$XFER_APPLET_RESUME$=Continuar
+$XFER_APPLET_START$=Empezar
+$XFER_APPLET_RESTART$=Recomenzar
+$XFER_APPLET_CANCEL$=Cancelar
+$XFER_APPLET_REMOVE$=Borrar
+$XFER_APPLET_REMOVE_COMPLETED$=Borrar los Completados
+$XFER_APPLET_OPTIONS_DLG$=Opciones
+$XFER_APPLET_ABOUT_DLG$=Acerca de
+$XFER_APPLET_ENABLE_TITLE$=Activar Cliente Web Pro
+$XFER_APPLET_LOADING$=Ha seleccionado activar el cliente Web Pro. Un diálogo de una aplicación de verificación de firmas digitales aparecerá y debe ser aceptado para que el Cliente Web Pro pueda arrancar. <br><br> La cancelación de la verificación de firma digital hará que el programa no arranque. Para volver a habilitar el Cliente Web Pro debe cerrar el navegador y cargar la aplicación. <br><br> Por favor, asegúrese de que la última versión de Oracle Java Runtime Environment (JRE), está instalada. <a href="http://www.java.com/" target="_blank">Haga click aquí</a> para obtener la última versión.
+$XFER_NO_JAVA_WARNING$=El Java Runtime Environment (JRE) no pudo ser detectado en este equipo. Por favor, siga los pasos descritos en la sección de ayuda del cliente Web Pro para obtener información sobre cómo instalar el Java Runtime Environment.
+$XFER_NO_SUPPORT_ON_MAC$=La versión del navegador web Google Chrome para Mac OS no cumple con los requisitos del cliente Web Pro.<br><br> Si desea utilizar el cliente Web Pro, por favor utilice otro navegador, tal como: Safari de Apple, Mozilla Firefox, u Opera.
+$XFER_NO_SUPPORT_ON_SAF_WIN$=El navegador Safari en Windows no cumple con los requisitos del cliente Web Pro. <br> Para usar el Cliente Web Pro, por favor utilice otro navegador, como Internet Explorer, Firefox, Google Chrome u Opera.
+$MULTI_TRANS_BALLOON_TIP$=Puede hacer clic en el botón \"Habilitar cliente Web Pro\" situado más abajo para activar la capacidad de cargar y descargar simultáneamente múltiples archivos y directorios.
+$XFER_APPLET_REMOVE_CANCELLED$=Borrar las canceladas
+$WCP_NO_FILE_SYS_ACCESS$=El cliente Web Pro no pudo acceder a su sistema de archivos local. Por favor, pruebe con un navegador diferente.
+$WCP_CONFIRM_OPENJDK$=<b>IMPORTANTE:</ b>El plugin para el navegador IcedTea instalado en Linux no es compatible con el Cliente Web Pro <br><br> Se recomienda la instalación de Oracle Java Runtime Environment (JRE) como una alternativa a la OpenJDK Runtime. <a href="http://%HELP_BASE_URL%/documentation/serv-u-webclient/help.aspx?topic=Help-WCP-Java.htm" target="_blank">Clique aquí para instrucciones</a> sobre cómo instalar el Oracle JRE en Sistemas Operativos Unix/Linux.
+$WCP_CONFIRM_OPENJDK_OK_BTN$=Continuar, Tengo el JRE de Oracle instalado
+$WCP_CONFIRM_OPENJDK_CANCEL_BTN$=Cancelar, No iniciar el Cliente Web Pro
+$XFER_APPLET_REMOVE_SKIPPED$=Borrar elementos Saltados
+$XFER_APPLET_REMOVE_PAUSED$=Borrar elementos Pausados
+$XFER_APPLET_REMOVE_WAITING$=Borrar elementos en Espera
+$XFER_APPLET_REMOVE_STOPPED$=Borrar elementos Detenidos
+$XFER_APPLET_REMOVE_ALL$=Borrar Todos
+$CONFIRM_WCP_QUIT$=El Cliente Web Pro está procesando una operación. Estaacción detendrá la operación en curso.<br><br>¿Está seguro de querer cancelar esta operación?
+<!-- Thumbnail Listing -->
+$DETAIL_LIST$=Detalles
+
+
+<!-- STOR File Uploaded -->
+$STOR_FILE_UPLOADED_TITLE$=Archivo cargado.
+$STOR_FILE_UPLOADED_DESC$=El archivo ha sido cargado con éxito.<br><br>$CLICK_HERE_CURRENT_DIR$
+
+
+<!-- Rename -->
+$RENAME_TITLE$=Cambiar el nombre
+$RENAME_DESC$=Introduzca el nuevo nombre:
+$NEW_NAME$=Nuevo nombre
+$RENAME$=Cambiar el nombre
+
+
+<!-- Delete -->
+$DELETE_DIR$=¿Estás seguro de que desea eliminar el directorio seleccionado?
+$DELETE_FILE$=¿Estás seguro de que desea eliminar el archivo seleccionado?
+
+
+<!-- Style Swap Properties -->
+$BOX_WIDTH_SMALL$=boxwidth300
+
+
+<!-- Overwrite file on upload -->
+$OVERWRITE_FILE$=¿Estás seguro de que desea sobrescribir el archivo?
+
+<!-- Search -->
+$FILE_SEARCH_DESC$=Todo o parte del nombre de archivo
+$FILE_SEARCH_TITLE$=Buscar Archivo
+$SEARCH_SAMPLES$=Ejemplos de búsqueda
+$SEARCH_RESULTS$=Buscar Resultados de la búsqueda
+
+
+<!-- Drag and Drop Move File -->
+$DRAG_DROP_CANNOT_MOVE_FILE$=El directorio de destino es el mismo que el directorio actual. Por favor, seleccione un directorio diferente para mover el archivo.
+$CONFIRM_MOVE_FILE_FROM$=¿Está seguro que desea mover?
+$TO$=a
+
+
+<!-- **************** ImagePreviewDialog.htm **************** -->
+$IMAGE_DIALOG_TITLE$=Imagen previa
+$PREVIOUS_IMAGE$=Imagen anterior
+$PAUSE_SLIDESHOW$=Pausar presentación
+$PLAY_SLIDESHOW$=Reproducir presentación
+$NEXT_IMAGE$=Imagen siguiente
+$OF$=de
+$IMAGES$=Imágenes
+$SLIDE_SHOW$=Presentación
+$SLIDE_SHOW_SPEED$=velocidad de presentación
+$FAST$=Rápida
+$SLOW$=Lenta
+$THUMBNAIL_SCROLL$=Barra de desplazamineto de miniaturas
+
+<!-- **************** AlertDialog.htm **************** -->
+$SELECT_FILE_DELETE$=Por favor, primero seleccione un archivo o directorio a borrar.
+$SELECT_FILE_RENAME$=Por favor, primero seleccione un archivo o directorio para cambiar el nombre.
+$RECOMMEND_IE_UPGRADE_1$=Está utilizando una versión anterior de Microsoft Internet Explorer. Internet Explorer 8.0 y Superiores incluyen muchas mejoras de características para mejorar su experiencia.
+$RECOMMEND_IE_UPGRADE_2$=<a class="links" href="http://www.microsoft.com/ie" target="_blank">Haga clic aquí</a> para descargar la última versión de Internet Explorer.
+
+
+<!-- **************** AskUserPlacementDialog.htm **************** -->
+$ASK_USER_TITLE$=Opciones del cliente.
+$CLIENT_SELECTION$=Selección del cliente
+$USER_PLACEMENT_DESC1$=Por favor, seleccione cómo desea acceder a su cuenta. El cliente Web es una herramienta fácil de usar,interfaz basada en navegador.
+$USER_PLACEMENT_DESC2$=FTP Voyager JV le permite transferir archivos desde y hacia el servidor a través de una interfaz de cliente FTP tradicional.
+$BASIC_WEB_CLIENT$=Cliente Web
+$FVJV$=FTP Voyager JV
+
+
+<!-- **************** LoggedInDialog.htm **************** -->
+$LOGGED_IN_DIALOG_TITLE$=Actualmente en sesión
+$LOGGED_IN_DESC$=Está actualmente en sesión. Haga clic en Aceptar para reiniciar la sesión y volver entrar.
+
+
+<!-- **************** FVJVLoggedInDialog.htm **************** -->
+$FVJV_LOGGED_IN_DESC$=Está actualmente en sesión. 
+$FVJV_LOGGED_IN_ACTION$=Haga clic aquí para reiniciar la sesión y volver a entrar.
+
+
+<!-- **************** UploadProgressDialog.htm **************** -->
+$UPLOAD_PROGRESS$=Cargar Progreso
+$TRANSFER_RATE$=Tasa de transferencia
+$WRITTEN$=Escrito
+$REMAINING$=Restante
+$TIME_REMAINING$=Tiempo restante
+$DESTINATION$=Destino
+$KB_SEC_LABEL$=KB/seg
+$PLEASE_SELECT_FILE_UPLOAD$=Por favor, seleccione un archivo para cargarlo utilizando el botón Examinar.
+$UPLOADING$=Cargando
+$LARGE_FILE_UPLOAD_WARN$=El estado de la subida de archivos de más de 2 GB puede ser incompleta o inexacta debido a su navegador web.
+$MOZ_LARGE_FILE_UPLOAD_WARN$=Navegadores Mozilla no permiten la carga de archivos de más de 2GB.
+$UNABLE_TO_UPLOAD$=El explorador Web no ha podido cargar el archivo. El archivo puede ser grande para el navegador de Internet que utiliza.  $MOZ_LARGE_FILE_UPLOAD_WARN$
+$WEB_CLIENT_UPLOAD_TXT1$=Para cargar archivos de gran tamaño o iniciar múltiples transferencias simultáneas, activar
+$WEB_CLIENT_UPLOAD_TXT2$=Para cargar archivos de gran tamaño o iniciar múltiples transferencias simultáneas, ejecutar
+$OR_LAUNCH$=o Arrancar
+<!-- **************** PasswordRecoveryDialog.htm **************** -->
+$RECOVER_PASSWORD_TITLE$=Recuperar Contraseña
+$PASSWORD_RECOVERED$=La recuperación de la contraseña fue un éxito. La contraseña se ha enviado por correo electrónico.
+$PASSWORD_RECOVER_FAILURE_ERROR$=Falló la recuperación de contraseña. Póngase en contacto con su administrador para obtener ayuda.
+
+
+<!-- **************** MFA modal **************** -->
+$MFA_MODAL_TITLE$=Autenticación multifactor
+$MFA_ADMIN_ENABLED$=El administrador habilitó la autenticación multifactor para su organización y recomienda configurarla.
+$MFA_ADMIN_ENFORCED$=El administrador ha aplicado la autenticación multifactor para su organización. Configúrela de la siguiente manera.
+$MFA_SETUP_HEADER$=Configurar la autenticación multifactor
+$MFA_SETUP_COMPLETE$=Complete los siguientes pasos para configurar la MFA en su aplicación móvil.
+$MFA_SETUP_STEP_ONE_INSTALL$=Instale la aplicación del autenticador en su teléfono.
+$MFA_SETUP_STEP_ONE_REOMMENDATIONS$=Recomendaciones
+$MFA_SETUP_STEP_TWO_CHOOSE$=En la aplicación, elija agregar una cuenta y escanee el código QR.
+$MFA_SETUP_STEP_TWO_SHOW_KEY$=Mostrar la clave secreta para la configuración manual.
+$MFA_SETUP_STEP_TWO_HIDE_KEY$=Ocultar la clave secreta para la configuración manual.
+$MFA_SETUP_STEP_TWO_TYPE_KEY$=Escriba la clave de configuración secreta cuando se lo solicite la aplicación MFA.
+$MFA_SETUP_STEP_THREE_NEXT$=Una vez configurada la aplicación, haga clic en Siguiente.
+$MFA_FORM_ENTER$=Ingrese el código de seis dígitos de la aplicación del autenticador multifactor y haga clic en Siguiente para configurar su cuenta de MFA.
+$MFA_COPY_TO_CLIPBOARD$=Copiar en portapapeles
+$MFA_COPIED_TO_CLIPBOARD$=Copiado en portapapeles
+$MFA_FORM_ERROR$=La operación no sea realizó correctamente. Vuelva a intentarlo.
+$MFA_FORM_TRIES$=Tiene <span class="tries-left"></span> intentos aún. Se lo redirigirá a la página de inicio de sesión.
+$MFA_MODAL_SUCCESS$=Autenticación multifactor verificada.
+$MFA_MODAL_ENTERING$=Ingresar a Serv-U

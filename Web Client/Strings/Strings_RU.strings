@@ -1,0 +1,287 @@
+﻿<!-- Strings.strings - For ease of localization, strings have been separated into this file.  Place all localizable strings here. -->
+<!-- NOTE: assignments require left justification and the assignment to appear as "$=" without whitespace between the $ and =. -->
+<!-- File location: <<Install>>\Client\Web Client\Include\ -->
+
+<!-- General -->
+$CLICK_HERE_CURRENT_DIR$=<a href="#" onclick="goBackWithRefresh();return false;">Щелкните для листинга текущей директории.</a>
+$WARN_IMAGE$=<img src="%FILE%Images\warn.gif" style="float:left;">
+$DELETE$=Удалить
+$OPEN$=Открыть
+$CURRENTLY_LOCATED$=Сейчас вы находитесь в
+$USE_INHERITED$=Наследовать значения по умолчагию
+$NO_SCRIPT_TEXT$=Похоже в вашем браузере отключена поддержка JavaScript.   Необходимо включить JavaScript для корректного отбражения страницы.
+$PLEASE_ENTER_USER_NAME$=Введите имя пользователя.
+$FOLDER_SIZE$=Размер Папки
+$DIR_PROPERTIES$=Свойства Каталога
+$MODIFIED_TIME$=Изменен
+$CREATED_TIME$=Создан
+$LAST_ACCESSED_TIME$=Последний доступ
+$DONT_SHOW_AGAIN$=Больше не показывать это сообщение.
+$PLEASE_SELECT_FILE_UPLOAD_MOBILE$=выберите файл для выгрузки
+$LOGGED_IN$=Вход выполнен
+$IMAGE_DIALOG_WIDTH$=620
+$MOBILE_LOGIN_BTN_WIDTH$=100
+
+
+
+<!-- Menu Text -->
+$SHOW_NO_LABELS$=Скрыть текстовые подсказки
+$SHOW_ALL_LABELS$=Показать текстовый подсказки
+$SHOW_SELECTIVE_LABELS$=Всплывающие подсказки справа
+
+<!-- Login -->
+$LOGIN_TITLE$=Serv-U
+$LANGUAGE$=Язык
+$PASSWORD$=Пароль
+$LOGIN$=Вход
+$CHANGE_PASSWORD$=Сменить пароль
+$REMEMBER_USER$=Запомнить меня
+$RELOAD$=Перегрузить
+$JSCRIPT_DISABLED_WARN$=В вашем браузере отключен Javascript.  Для использования Serv-U Javascript необходимо включить. <br /><br />Щелкните по кнопке "перегрузить" ниже после включения javascript.
+$IE_NOT_COMPATIBLE_WARN$=Вы используете несовместимую версию Internet Explorer. Обновите MSIE до версии 6.0 или выше для использования Serv-U.
+$BROWSER_NOT_COMPATIBLE_WARN$=Браузер, который вы используете, несовместим с Serv-U.  Используйте Internet Explorer 6.0+, Firefox 1.0+, Safari 3+ или Opera 9+.
+
+
+<!-- Languages -->
+$ENGLISH$=English (Английский)
+$GERMAN$=Deutsch (Немецкий)
+$ITALIAN$=Italiano (Итальянский)
+$FRENCH$=Français (Французский)
+$SPANISH$=Español (Испанский)
+$PORTUGUESE$=Português (Португальский язык)
+$SERBIAN$=Srpski (Сербский)
+$SWEDISH$=Svenska (Шведский)
+$FINISH$=Suomi (Финский)
+$NORWEGIAN$=Norsk (Норвежский)
+$DANISH$=Dansk (Датский)
+$RUSSIAN$=Русский
+$TRADITIONAL_CHINESE$=繁體中文 (Китайский традиционый)
+$SIMPLIFIED_CHINESE$=简体中文 (Китайский упрощенный)
+$JAPANESE$=日本語 (Японский)
+
+
+<!-- Logout -->
+$LOGOUT_TITLE$=Отключен
+$LOGOUT_DESC$=Вы вышли из аккаунта.  <a href="%LOGIN%">Щелкните здесь чтобы войти снова.</a>
+$LOGGED_OUT_MSG$=Вы вышли из аккаунта.
+
+
+<!-- Login Change Password -->
+$PASSWORD_EXPIRED_TITLE$=Пароль недействителен - смените пароль
+$PASSWORD_EXPIRED_DESC$=Срок действия вашего пароля истек. Смените пароль на новый
+
+
+<!-- Session Not Found -->
+$SESSION_NOT_FOUND_TITLE$=Неавторизован - Сессия не найдена
+$SESSION_NOT_FOUND_HEAD$=401 Неавторизован, сессия определена, но не найдена
+$SESSION_NOT_FOUND_DESC$=Заданная сессия не найдена.  Это могло случится из-за длительного отсутствия активности.  Попробуйте авторизоваться снова.
+
+
+<!-- Not Logged In -->
+$NOT_LOGGED_IN_TITLE$=Неавторизован - вход не выполнен
+$NOT_LOGGED_IN_HEAD$=401 неавторизован, вход не выполнен
+$NOT_LOGGED_IN_DESC$=Вы не авторизованы для выполнения требуемой операции.  <a href="%LOGIN%">Авторизируйтесь перед выполнением операции.</a>
+
+
+<!-- Permission Denied -->
+$PERMISSION_DENIED_TITLE$=Отказано в доступе
+$PERMISSION_DENIED_DESC$=Отказано в доступе
+
+<!-- Secure Connection Required -->
+$SECURE_CONN_REQUIRED_TITLE$=Ошибка подключения - требуется защищенное соединение
+
+<!-- Listing -->
+$CURR_DIR_NAME$=%CURRENT_DIR_NAME%
+$MOD_TIME$=Время
+$ATTRS$=Аттрибуты
+$THUMBNAIL_LIST$=Эскизы
+$UPLOAD_ACTION$=Выгрузка
+$UPLOAD$=Выгрузка
+$UPLOAD_ALT$=Выгрузка
+$THUMBNAILS_ALT$=Эскизы
+$DETAILS_ALT$=Подробности
+$CREATE_DIR_ALT$=Создать папку
+$FILETOOLS$=Инструменты
+$DOWNLOAD$=Загрузка
+$THUMBNAIL_SIZE$=Размер эскизов
+$SELECT_THUMBNAIL_SIZE$=Выбрать размер
+$PREVIEW_IMAGE$=Предпросмотр картинки
+$CHANGE_PASSWORD_BUTTON$=Изменить пароль
+$CHANGE_EMAIL_BUTTON$=Изменить Email
+$FILE_PATH$=Путь к файлу
+$PLAY_MEDIA$=Проиграть медиафайл
+$PLAY_LIST$=Проиграть список
+$AUDIO_PLAY_LIST$=Аудио плейлист
+$PLAYLIST_SIZE$=Размер плейлиста
+$SHUFFLE_PLAYLIST$=Перемешать плейлист
+$NEXT_MEDIA_FILE$=Следующий медиафайл
+$PREVIOUS_MEDIA_FILE$=Предыдущий медиафайл
+$HOME$=Домой
+$FOLDER_EMPTY$=Папка пуста
+$BACK$=Назад
+$FORWARD$=Вперед
+$HISTORY_LIST$=Список Истории
+$SEARCH_ACTION$=Поиск
+$NO_FILES_FOUND$=файлов не найдено.
+$HTTP_MEDIA_PLAY_DISABLED$=Воспроизведение мультимедиа через HTTP запрещено администратором.
+$DISABLE_WEB_CLIENT_PRO$=Отключить Веб-клиента Про
+$ENABLE_WEB_CLIENT_PRO$=Включить Веб-клиента Про
+$WEB_CLIENT_PRO$=Веб-клиент Про
+$WAIT_BUTTON$=Ждать
+$DIRS_AND_FILES$=Каталоги и файлы
+$FILES_ONLY$=Только файлы
+$DIRS_ONLY$=Только каталоги
+$SORTING$=Сортировка
+
+
+<!-- Web Client Transfer Applet -->
+$XFER_APPLET_PRODUCT_NAME$=Serv-U Веб-клиент Про
+$XFER_APPLET_SHOW_IN_FOLDER$=Показать в папке
+$XFER_APPLET_OPEN_FILE$=Открыть файл
+$XFER_APPLET_STOP_AFTER$=Остановить после передачи файла
+$XFER_APPLET_SKIP$=Пропустить файл
+$XFER_APPLET_PAUSE$=Приостановить
+$XFER_APPLET_RESUME$=Возобновить
+$XFER_APPLET_START$=Запустить
+$XFER_APPLET_RESTART$=Начать Заново
+$XFER_APPLET_CANCEL$=Отмена
+$XFER_APPLET_REMOVE$=Удалить
+$XFER_APPLET_REMOVE_COMPLETED$=Удалить завершенные
+$XFER_APPLET_OPTIONS_DLG$=Опции
+$XFER_APPLET_ABOUT_DLG$=О программе
+$XFER_APPLET_ENABLE_TITLE$=Включить Web Client Pro
+$XFER_APPLET_LOADING$=Вы включили Модуль Многопотоковой передачи.  Для загрузки Модуля Многопотоковой передачи необходимо принять цифровую подпись в окне проверки подлинности. <br><br>Отказ от принятия цифровой подписи приведет к сбою загрузки модуля.  Для повтороного включения модуля необходимо закрыть браузер и перезагрузить приложение.<br><br>Также убедитесь, что у вас установлена последняя версия Java Runtime Environment (JRE).  <a href="http://www.java.com/"
+$XFER_NO_JAVA_WARNING$=Java Runtime Environment (JRE) на данном компьютере не найдена.  Для установки JRE следуйте инструкции, находящейся в справке.
+$XFER_NO_SUPPORT_ON_MAC$=Данный браузер под Macintosh OS не соответсвует требованиям для запуска Web Client Pro.<br><br>Если вы хотите использовать Web Client Pro, выберите альтернативный браузер.  Web Client Pro поддерживает Safari, Firefox или Opera под Mac OS X.
+$MULTI_TRANS_BALLOON_TIP$=Щелкните кнопку \"Включить Многопоточность\" ниже для активации возможности одновременной скачки и выгрузки нескольких файлов или каталогов.
+$XFER_APPLET_REMOVE_CANCELLED$=Удалить отмененные
+$WCP_NO_FILE_SYS_ACCESS$=Web Client Pro не может получить доступ к вашей фаловой системе. Попробуйте другой браузер.
+$WCP_CONFIRM_OPENJDK$=<b>ВАЖНО:</b>  Плагин IcedTea в браузере под Linux несовместим с Web Client Pro.<br><br>Мы рекомендуем установить Oracle Java Runtime Environment (JRE) как альтернативу OpenJDK Runtime.  <a href="http://%HELP_BASE_URL%/documentation/serv-u-webclient/help.aspx?topic=Help-WCP-Java.htm" target="_blank">Щелкните здесь для получения инструкций</a> по установке Oracle JRE на Linux/Unix системы.
+$WCP_CONFIRM_OPENJDK_OK_BTN$=Продолжить - У меня установлено Oracle JRE
+$WCP_CONFIRM_OPENJDK_CANCEL_BTN$=Отмена - не запускать Web Client Pro
+$XFER_APPLET_REMOVE_SKIPPED$=Удалить Пропущенные
+$XFER_APPLET_REMOVE_PAUSED$=Удалить Приостановленные
+$XFER_APPLET_REMOVE_WAITING$=Удалить Ожидающие
+$XFER_APPLET_REMOVE_STOPPED$=Удалить Остановленные
+$XFER_APPLET_REMOVE_ALL$=Удалить Все
+$CONFIRM_WCP_QUIT$=Web Client Pro выполняет команду. Данное действие завершит выполнение команды<br><br>Вы действительно хотите отменить команду?
+
+<!-- Thumbnail Listing -->
+$DETAIL_LIST$=Подробности
+
+
+<!-- STOR File Uploaded -->
+$STOR_FILE_UPLOADED_TITLE$=Файл выгружен
+$STOR_FILE_UPLOADED_DESC$=Выгрузка файла прошла успешно.<br><br>$CLICK_HERE_CURRENT_DIR$
+
+
+<!-- Rename -->
+$RENAME_TITLE$=Переименовать
+$RENAME_DESC$=Введите новое имя:
+$NEW_NAME$=Новое имя
+$RENAME$=Переименовать
+
+
+<!-- Delete -->
+$DELETE_DIR$=Вы уверены что хотите удалить выбранную директорию?
+$DELETE_FILE$=Вы уверены что хотите удалить выбранный файл?
+
+
+<!-- Style Swap Properties -->
+$BOX_WIDTH_SMALL$=boxwidth300
+
+
+<!-- Overwrite file on upload -->
+$OVERWRITE_FILE$=Вы уверены что хотите переписать этот файл?
+
+<!-- Search -->
+$FILE_SEARCH_DESC$=Имя или часть имени файла
+$FILE_SEARCH_TITLE$=Поиск Файла
+$SEARCH_SAMPLES$=Примеры поиска
+$SEARCH_RESULTS$=Результаты Поиска
+
+
+<!-- Drag and Drop Move File -->
+$DRAG_DROP_CANNOT_MOVE_FILE$=Каталог назначения совпадает с текущим. Выберите другой каталог для перемещения файла.
+$CONFIRM_MOVE_FILE_FROM$=Вы действительно хотите переместить
+$TO$=в
+
+
+<!-- **************** ImagePreviewDialog.htm **************** -->
+$IMAGE_DIALOG_TITLE$=Предпросмотр картинки
+$PREVIOUS_IMAGE$=Предыдущая картинка
+$PAUSE_SLIDESHOW$=Приостановить слайдщоу
+$PLAY_SLIDESHOW$=Начать слайдшоу
+$NEXT_IMAGE$=Следующая картинка
+$OF$=из
+$IMAGES$=картинки
+$SLIDE_SHOW$=Слайдшоу
+$SLIDE_SHOW_SPEED$=Скорость сладшоу
+$FAST$=Быстрее
+$SLOW$=Медленнее
+$THUMBNAIL_SCROLL$=Прокрутка эскизов
+
+<!-- **************** AlertDialog.htm **************** -->
+$SELECT_FILE_DELETE$=Сначала выберите файл для удаления.
+$SELECT_FILE_RENAME$=Сначала выберите файл для переименования.
+$RECOMMEND_IE_UPGRADE_1$=Вы используете устаревшую версию Microsoft Internet Explorer. Internet Explorer 8.0 и более поздней версии содержит множество новых возможностей и улучшений для повышения производительности м облегчения работы.
+$RECOMMEND_IE_UPGRADE_2$=<a class="links" href="http://www.microsoft.com/ie" target="_blank">Щелкните здесь</a> для загрузки последней версии Internet Explorer.
+
+
+<!-- **************** AskUserPlacementDialog.htm **************** -->
+$ASK_USER_TITLE$=Опции клиента
+$CLIENT_SELECTION$=выбор клиента
+$USER_PLACEMENT_DESC1$=Выберите, как вы хотите войти в ваш аккаунт.  Веб клиент - это простой в использовании браузерный клиент.
+$USER_PLACEMENT_DESC2$=FTP Voyager JV позволяет передавать файлы между клиентом и сервером через традиционный интерфейс FTP клиента.
+$BASIC_WEB_CLIENT$=Веб клиент
+$FVJV$=FTP Voyager JV
+
+
+<!-- **************** LoggedInDialog.htm **************** -->
+$LOGGED_IN_DIALOG_TITLE$=В настоящее время вы авторизованы.
+$LOGGED_IN_DESC$=В настоящее время вы авторизованы. Щелкните ОК для перезапуска сессии и повторной авторизации
+
+<!-- **************** FVJVLoggedInDialog.htm **************** -->
+$FVJV_LOGGED_IN_DESC$=В настоящее время вы авторизованы. 
+$FVJV_LOGGED_IN_ACTION$=Щелкните здесь для перезапуска сессии.
+
+
+<!-- **************** UploadProgressDialog.htm **************** -->
+$UPLOAD_PROGRESS$=Прогресс выгрузки
+$TRANSFER_RATE$=Соотношение передачи
+$WRITTEN$=Записано
+$REMAINING$=Осталось
+$TIME_REMAINING$=Времени осталось
+$DESTINATION$=Назначение
+$KB_SEC_LABEL$=Kб/сек
+$PLEASE_SELECT_FILE_UPLOAD$=Выберите файл для выгрузки используя кнопку навигаци.
+$UPLOADING$=Выгрузка
+$LARGE_FILE_UPLOAD_WARN$=Прогресс выгрузки файлов размером больше чем  2GB может быть неполным или неточным из-за вашего барузера.
+$MOZ_LARGE_FILE_UPLOAD_WARN$=В барузере Mozilla нельзя выгружать файлы больше чем  2GB.
+$UNABLE_TO_UPLOAD$=Браузер не может выгрузить файл.  Файл может быть слишком большим для вашего браузера.  $MOZ_LARGE_FILE_UPLOAD_WARN$
+<!-- **************** PasswordRecoveryDialog.htm **************** -->
+$RECOVER_PASSWORD_TITLE$=Восстановление пароля
+$PASSWORD_RECOVERED$=Пароль успешно восстановлен и послан по электронной почте.
+$PASSWORD_RECOVER_FAILURE_ERROR$=Не удалось восстановить пароль.  Свяжитесь с вашим администратором для помощи. 
+
+
+<!-- **************** MFA modal **************** -->
+$MFA_MODAL_TITLE$=Многофакторная проверка подлинности
+$MFA_ADMIN_ENABLED$=Администратор включил многофакторную проверку подлинности для вашей организации и рекомендует ее настроить.
+$MFA_ADMIN_ENFORCED$=Администратор включил принудительную многофакторную проверку подлинности для вашей организации. Используйте следующие настройки.
+$MFA_SETUP_HEADER$=Настройка многофакторной проверки подлинности
+$MFA_SETUP_COMPLETE$=Выполните следующие действия, чтобы настроить многофакторную проверку подлинности для мобильного приложения.
+$MFA_SETUP_STEP_ONE_INSTALL$=Установите приложение для проверки подлинности на телефон.
+$MFA_SETUP_STEP_ONE_REOMMENDATIONS$=Рекомендации
+$MFA_SETUP_STEP_TWO_CHOOSE$=В приложении выберите добавление учетной записи и отсканируйте QR-код.
+$MFA_SETUP_STEP_TWO_SHOW_KEY$=Показать секретный ключ для настройки вручную.
+$MFA_SETUP_STEP_TWO_HIDE_KEY$=Скрыть секретный ключ для настройки вручную.
+$MFA_SETUP_STEP_TWO_TYPE_KEY$=При получении запроса от приложения для многофакторной проверки подлинности ведите секретный ключ конфигурации.
+$MFA_SETUP_STEP_THREE_NEXT$=После настройки приложения нажмите кнопку «Далее».
+$MFA_FORM_ENTER$=Введите код из шести цифр, предоставленный приложением для многофакторной проверки подлинности, и нажмите кнопку «Далее», чтобы настроить учетную запись многофакторной проверки подлинности.
+$MFA_COPY_TO_CLIPBOARD$=Копировать в буфер обмена
+$MFA_COPIED_TO_CLIPBOARD$=Скопировано в буфер обмена
+$MFA_FORM_ERROR$=Не удалось выполнить операцию. Повторите попытку.
+$MFA_FORM_TRIES$=Осталось попыток: <span class="tries-left"></span>. Вы будете перенаправлены на страницу входа.
+$MFA_MODAL_SUCCESS$=Многофакторная проверка подлинности подтверждена.
+$MFA_MODAL_ENTERING$=Вход в Serv-U

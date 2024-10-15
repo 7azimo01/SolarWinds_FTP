@@ -1,0 +1,282 @@
+html
+{
+	height: 100%;
+}
+.titlebar
+{
+	background: #646464;
+	color: #FFF;
+	font-weight: bold;
+	line-height: 40px;
+	font-size: 14pt;
+	padding-left: 5px;
+}
+#wizardTitleTable
+{
+	margin: 0px 0px 0px 0px;
+}
+#TitleLogo
+{
+	margin-right: 5px;
+}
+.column
+{
+	width: 49%;
+	/*margin-right: 1%;*/
+}
+.columnTitle
+{
+	width: 100%;
+}
+.colMarginRightDiv
+{
+	margin-right: 14px;
+}
+.inputFieldDiv
+{
+	margin-right: 20px;
+}
+.emailMsg
+{
+	height: 200px;
+	width: 100%;
+	-moz-box-sizing: border-box;
+	resize: none;
+	border: 1px solid #C6C6C6;
+	border-radius: 4px;
+}
+.subItemMargin
+{
+	padding: 0px 28px;
+}
+.AdhocExpireLinkOptGroup div, .AdhocExpireLinkOptGroup input, .AdhocExpireLinkOptGroup label, .AdhocExpireLinkOptGroup span, .AdhocExpireLinkOptGroup img
+{
+	vertical-align: middle;
+}
+.AdhocExpireLinkOpt
+{
+	padding: 5px 0px;
+}
+.inputRadio
+{
+	margin-left: 18px;
+	position: relative;
+	top: 3px;
+	left: 0px;
+}
+.inputCheck
+{
+	position: relative;
+	top: 3px;
+}
+.pwordBttn
+{
+	width: 28px;
+	height: 18px;
+	position: relative;
+	top: -2px;
+	left: -34px;
+	z-index: 100;
+}
+
+.password-container {
+	position: relative;
+}
+
+.password-container .pwordBttn {
+	height: 23px;
+	left: 0;
+}
+
+.pass-hide {
+	position: absolute;
+	top: 2px;
+	left: 252px;
+	width: 13px;
+	height: 13px;
+	background: no-repeat url(/Common/Images/event_log.ico);
+	background-position: 80%;
+	background-size: cover;
+}
+
+.pass-hide--opened {
+	background-position: 60%;
+}
+
+.pass-hide:hover {
+	cursor: pointer;
+}
+
+.checkBoxSpacer
+{
+	padding: 7px 0px 7px 0px;
+}
+.linkNoteBox
+{
+	margin: 8px 16px 10px 10px;
+	padding: 8px;
+	background-color: #EAF2FA;
+	border: 1px solid #D5E4F4;
+}
+.linkNoteBox img, .linkNoteBoxTxt
+{
+	float: left;
+}
+.linkNoteBoxTxt
+{
+	width: 92%;
+	margin-left: 10px;
+}
+.linkNoteImgCol
+{
+	width: 20px;
+	height: auto;
+	vertical-align: middle;
+	text-align: center;
+	padding-left: 10px;
+}
+.linkNote
+{
+	clear: left;
+	font-size: 8pt;
+	line-height: 18px;
+	margin: 3px auto 0px;
+	padding-top: 8px;
+	padding-left: 16px;
+	text-align: left;
+	vertical-align: text-bottom;
+	color: #909095;
+}
+.ListItemFile
+{
+	vertical-align: middle;
+	width: 100%;
+	height: auto;
+	margin-bottom: 10px;
+}
+.titleUploadDlg
+{
+	background: #E5E5E5;
+	color: black;
+	font-weight: bold;
+	line-height: 30px;
+	font-size: 11pt;
+	padding-left: 22px;
+}
+.bottomReviewBtns
+{
+	float: right;
+}
+ul.tagit
+{
+	background: white;
+}
+.showHandCursor:hover
+{
+	cursor: pointer;
+} 
+#FileListDesc
+{
+	margin-left: 10px;
+}
+#OptionalNextSteps
+{
+	margin-top: 22px;
+}
+#DateImg img
+{
+	width: 13px;
+	height: 13px;
+	position: relative;
+	top: 2px;
+	left: -19px;
+	z-index: 100;
+}
+#ulFileShareTable
+{
+	padding-bottom: 80px;
+}
+.tableSummarySteps
+{
+	width: 100%;
+}
+.colSummaryStepsLeft, .colSummaryStepsRight
+{
+	vertical-align: top;
+	text-align: left;
+	width: 50%;
+}
+.colSummaryStepsLeft
+{
+	padding-right: 10px;
+}
+.colSummaryStepsRight
+{
+	padding-left: 10px;
+}
+.colSummaryHeaderLeft, .colSummaryHeaderRight
+{
+    border-bottom: 1px solid #E3E3E3;
+	padding-bottom: 6px;
+	font-weight: bold;
+	font-size: 10pt;
+}
+/* doesn't work right; reverted to old table
+.rowSummaryHeader
+{
+	padding-bottom: 4px;
+	font-size: 10pt;
+	font-weight: bold;
+}
+.rowSummary
+{
+    clear: both;
+    height: 32px;
+    line-height: 32px;
+	min-width: 400px;		/* +40 for margins * /
+}
+.colSummaryHeaderLeft, .colSummaryHeaderRight,
+.colSummaryLeft, .colSummaryRight
+{
+	float: left;
+	text-align: left;
+	margin: 0px 0px 0px 0px;
+	min-width: 200px;
+	width: 50%;
+}
+*/
+#wizBtnDone
+{
+	float: right;
+	clear: both;
+	width: 100px;
+}
+#OptionalNextStepsList, #UploadConfirmNotes
+{
+	margin-left: 16px;
+}
+#OptionalNextStepsList a
+{
+	text-decoration: underline;
+	font-weight: bold;
+}
+.sendRequestBttn
+{
+	width: 110px !important;
+}
+#MaxFileSizeID
+{
+	vertical-align: middle;
+}
+#DateImg, #ExpiresInHoursSel, #ExpiresInDaysSel
+{
+	margin: 0px 8px;
+}
+#ConstrainFileSizesBlock label
+{
+	margin-right: 5px;
+}
+#ConstrainFileSizesBlock span
+{
+	margin-right: 5px;
+}

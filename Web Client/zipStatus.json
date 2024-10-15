@@ -1,0 +1,13 @@
+<!--#include "../Common/Strings/Result.strings"-->
+{
+    "result": "%RESULT%",
+    "resultText": "%RESULT_TEXT%",
+    "status": "%ZIP_FILES_JOB_STATUS%",
+    "files": [
+		%ZIP_STATUS_RECORD_DELIMITER_START%,%ZIP_STATUS_DELIMITER_END%
+		{
+		    "name": "%ZIP_STATUS_OBJECT%",
+		    "status": "%ZIP_STATUS_OBJECT_STATUS%"			
+        }%ZIP_STATUS_RECORD_END_START%
+    ]
+}

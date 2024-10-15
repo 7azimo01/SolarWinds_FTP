@@ -1,0 +1,230 @@
+﻿<!-- Result.strings - For ease of localization, strings have been separated into this file.  This has result strings common to all SU apps.  Place all localizable strings here. -->
+<!-- NOTE: assignments require left justification and the assignment to appear as "$=" without whitespace between the $ and =. -->
+<!-- File location: <<Install>>\Client\Common\ -->
+
+<!-- ******************** RESULT CODE TEXT ******************** -->
+<!-- NOTE: This file should contain all result codes and only	-->
+<!--	   result codes, all other strings should be placed		-->
+<!--	   in other string files.								-->
+
+<!-- shared result strings -->
+$OR_CONTACT_SYSTEM_ADMIN$=or contact your system administrator for further assistance.
+$CONTACT_SYSTEM_ADMIN$=Please contact your system administrator for further assistance.
+
+<!-- global results -->
+$SESS_OKAY_STR$=Operacija je bila uspešna.
+$SESS_FAIL_STR$=GREŠKA :operacija se ne može vršiti.
+$SESS_PENDING_STR$=Greška: operacija se i dalje izvodi.
+$SESS_PERMISSION_DENIED_STR$=GREŠKA: Fajl ili direktorijum kojima pokušavate da pristupite ne postoji za vas.
+$SESS_INVALID_PARAMETER_STR$=GREŠKA: Operacija nije uspela ,parametar je bio nevažeći.
+$SESS_BAD_SEQUENCE_OF_COMMANDS_STR$=Greška: Loš niz komandi.
+$SESS_NOT_FOUND_STR$=GREŠKA: Navedena datoteka ili direktorijum ne postoji.
+$SESS_PATH_IS_PORT_STR$=GREŠKA :navedena putanja je Windows PORT i operacija se ne može izvršiti.
+$SESS_LOGIN_TOO_MANY_INVALID_TRIES_STR$=Prekoračili ste maksimalan broj pokušaja prijave.
+$SESS_COMMAND_PENDING_STR$=Komanda je trenutno u toku. Ova akcija ne može biti izvršena dok se operacija ne završi.
+$SESS_COMMAND_ABORTED_STR$=GREŠKA: Operacija nije bila uspešna ,komanda je prekinuta.
+$SESS_INTERNAL_ERROR_STR$=GREŠKA: operacija se ne može obaviti, interna greška.
+$SESS_ALREADY_EXISTS_STR$=GREŠKA :datoteka ili fascikla već postoji.
+$SESS_FILE_IS_DIR_STR$=GREŠKA: operacija se ne može obaviti, tražena putanja je direktorijum, a ne fajl.
+$SESS_DIR_IS_FILE_STR$=GREŠKA: operacija se ne može obaviti, tražena putanja je fajl, a ne direktorijum.
+$SESS_CANT_REST_EMPTY_FILE_STR$=Ne može se nastaviti prenos fajla na prazan fajl.
+$SESS_CANT_REST_BEYOND_EOF_STR$=Ne može se nastaviti transfer fajla iza kraja fajla.
+$SESS_CANT_SET_FILE_POS_STR$=Nije moguće podesiti položaj fajla u fajl.
+<!-- $SESS_COMPRESSED_TRANSFER_COMPLETE_STR$= -- placeholder -- -->
+$SESS_UNAUTHORIZED_IP_STR$=GREŠKA: Neovlašćena IP adresa.
+$SESS_TIME_OUT_STR$=GREŠKA: sesija je istekla.
+$SESS_EXCEEDED_MAX_SESSION_TIME_STR$=GREŠKA: Maksimalno vreme za sesiju ovog naloga je prekoračen.
+$SESS_TOO_MANY_SESSIONS_IP_STR$=GREŠKA: Previše sesija koristeći IP adresu.
+$SESS_TOO_MANY_SESSIONS_STR$=GREŠKA: Previše sesija.
+$SESS_BLOCKED_STR$=Bili ste blokirani. Molimo Vas da pokušate ponovo kasnije, $OR_CONTACT_SYSTEM_ADMIN$
+<!-- $SESS_DATA_SOCKET_CONNECT_STR$= -- placeholder -- -->
+<!-- $SESS_DATA_SOCKET_CLOSED_STR$= -- placeholder -- -->
+<!-- $SESS_DECR_USER_QUOTA_STR$= -- placeholder -- -->
+$SESS_NO_FILES_FOUND_STR$=GREŠKA: Nijedan fajl nije bio nađen.
+<!-- $SESS_LOCK_CONFLICT_STR$= -- placeholder -- -->
+$SESS_ADMIN_ABORTED_STR$=GREŠKA :operacija je prekinuta od strane administratora.
+$SESS_UNAUTHORIZED_STR$=GREŠKA: Niste više prijavljeni ili ste bili isključeni od strane administratora.
+$SESS_CANT_DELETE_SESSION_DOMAIN_STR$=GREŠKA: Nije moguće izbrisati domen koji sadrži trenutno prijavljeni korisnički nalog.
+$SESS_NO_SUCH_PATH_STR$=tražena putanja datoteke ne postoji, to obično znači da Roditeljski Direktorijum nije stvoren. Molimo Vas da kreirate Roditeljski Direktorijum pre nego što pokušate ovu operaciju.
+$SESS_INVALID_PATH_STR$=Navedena datoteka ili direktorijum ne važi za ovu operaciju.
+$SESS_PROTOCOL_NOT_ALLOWED_FOR_USER_STR$=Nije vam dozvoljeno da se prijavite na ovaj server sa vašim veb pretraživačem. Molimo Vas da se obratite svom administratoru sistema za informacije o tome kako da koristite ovaj server.
+$SESS_PERMISSION_DENIED_READ_ONLY_ADMIN_STR$=Nije vam dozvoljeno da promenite podešavanja. Molimo Vas da se obratite svom administratoru sistema za informacije o vašem nalogu.
+$SESS_CANT_DELETE_SELF_STR$=Ne možete da izbrišete korisnički nalog koji sada koristite. Prijavite se na različitim administrativnim nalogom ili koristite aplikaciju tray da izbrišete ovaj nalog.
+$SESS_REVERSE_DNS_NAME_REQUIRED_TO_LOGIN_STR$=obrnuto DNS ime je potrebno da se povežete i prijavite na ovaj server. Molimo Vas da se obratite svom ISP i / ili vasem administratoru sistema za više informacija.
+$SESS_USER_UNAVAILABLE_STR$=Vaš korisnički nalog je trenutno nedostupan. Molimo Vas da se obratite svom administratoru sistema za više informacija o vašem korisničkom nalogu.
+$SESS_ODBC_USER_PASSWORD_TOO_LONG_STR$=Navedena lozinka je predugačka za bazu podataka koja skladišti kada je kodiran. Molimo Vas da koristite kraću lozinku.
+$SESS_DEVICE_NOT_READY_STR$=Hard disk , CD-ROM , DVD-ROM , ili drugi uređaj nije spreman.  $CONTACT_SYSTEM_ADMIN$
+$SESS_USER_NO_RESET_PERM$=Niste ovlašćeni da resetujete statistiku ovog korisnika.
+$SESS_GROUP_NO_RESET_PERM$=Niste ovlašćeni da resetujete statistiku za ovu grupu.
+<!-- $SESS_DATA_SOCKET_CLOSED_ERR_STR$= -- placeholder -- -->
+<!-- $SESS_BUFFER_FULL_STR$= -- placeholder -- -->
+
+<!-- CheckUser() results -->
+$SESS_USER_OKAY_NEED_PWD_STR$=Greška: Korisniku treba lozinka.
+$SESS_USER_NOT_FOUND_STR$=Greška: Korisnik nije pronađen.
+$SESS_USER_OKAY_NEED_EMAIL_STR$=Greška: Korisniku je potreban email.
+$SESS_USER_NO_ANONYMOUS_STR$=Greška: Nije dozvoljen anonimni pristup.
+$SESS_USER_NEED_SECURE_CONNECTION_STR$=Možete se povezati samo kada koristite bezbednu vezu.  $CONTACT_SYSTEM_ADMIN$
+<!-- $SESS_USER_OKAY_NEED_SKEY_PWD_STR$= -- placeholder -- -->
+
+<!-- CheckPassword() results -->
+$SESS_PASSWORD_CANT_FIND_HOME_STR$=Greška: Ne postoji domaći direktorijum za ovaj nalog.
+$SESS_PASSWORD_USE_REAL_EMAIL_ADDR_STR$=Kada se prijavljujete, molimo Vas da koristite Vašu stvarnu email adresu.
+$SESS_PASSWORD_EXPIRED_CHANGE_STR$=Vaša lozinka je istekla. Molimo Vas da promenite lozinku da biste nastavili.
+
+<!-- ChangePassword() results -->
+$SESS_CHG_PASSWORD_NO_OLD_PASSWORD_MATCH_STR$=Stara lozinka je neispravna.
+$SESS_CHG_PASSWORD_TOO_SHORT_STR$=GREŠKA: navedena lozinka je prekratka.
+$SESS_CHG_PASSWORD_NOT_COMPLEX_STR$=GREŠKA: navedena lozinka nije složena.
+$SESS_CHG_PASSWORD_OLD_NEW_MATCH_STR$=Nova lozinka mora biti drugačija od stare lozinke.
+$SESS_CHG_PASSWORD_CANT_CHANGE_ANONYMOUS_STR$=Nemože se promeniti anonimna lozinka
+$SESS_CHG_PASSWORD_NEW_CANNOT_BE_EMPTY_STR$=Nova šifra ne može biti prazna.
+
+<!-- Hash() results -->
+$SESS_HASH_CANNOT_READ_FROM_FILE_STR$=Hash vrednost se ne može izračunati , ili je fajl nedostupan ili je operacija otkazana.
+
+<!-- List() results -->
+<!-- $SESS_LIST_START_DIR_STR$= -- placeholder -- -->
+<!-- $SESS_LIST_END_DIR_STR$= -- placeholder-- -->
+<!-- $SESS_LIST_FILE_STR$= -- placeholder-- -->
+
+<!-- Retrieve() & Store() results -->
+<!-- $SESS_RETR_DATA_STR$= -- placeholder-- -->
+$SESS_CANT_LOAD_GDI_PLUS_STR$=Interna greška: GDI+ ne može da se učita da izvrši operaciju.  $CONTACT_SYSTEM_ADMIN$
+$SESS_CANT_LOAD_GD_LIBRARY_STR$=Greška operativnog sistema: libgd.so.2 ne može da se učita da izvrši operaciju. Uverite se da da je ova biblioteka instalirana.  $CONTACT_SYSTEM_ADMIN$
+$SESS_CANT_CREATE_THUMBNAIL_STR$=Interna greška: Nije moguće napraviti sličicu.
+$SESS_CANT_SAVE_THUMBNAIL_STR$=Interna greška: Nije moguće sačuvati privremenu sličicu.Moguće da je disk na serveru pun.
+<!-- $SESS_FILE_OPENED_STR$= -- placeholder -- -->
+$SESS_CANT_WRITE_STR$=Interna greška: ne može da se napiše na hard disku servera.Moguće da je disk na serveru pun.  $CONTACT_SYSTEM_ADMIN$
+$SESS_SERVER_STOP_PENDING_STR$=Operacija nije dostupna, server se zatvara.
+$SESS_RETR_INSUFFICIENT_CREDIT_STR$=Morate da uploadujete pre preuzimanja. Molimo Vas da uplaodujete datoteku pre nego što pokušate da preuzmete datoteku.
+$SESS_STOR_INSUFFICIENT_DISK_QUOTA_STR$=Nemate dovoljno kvote na raspolaganju. Molimo Vas da izbrišete pre nego što pokušate da uploadujete.
+$SESS_STOR_INSUFFICIENT_DISK_SPACE_STR$=Nemate dovoljno prostora na disku na raspolaganju. Molimo Vas da izbrišete pre nego što pokušate da uploadujete. $OR_CONTACT_SYSTEM_ADMIN$
+$SESS_STOR_FILE_TOO_LARGE_STR$=Veličina datoteke je prevelika. Morate da napravite prostor pre nego što pokušate da uploadujete ili nemate dovoljno prostora na raspolaganju.  $CONTACT_SYSTEM_ADMIN$
+<!-- $SESS_STOR_DATA_WRITTEN_STR$= -- placeholder -- -->
+$SESS_APPE_CANT_RESTART_STR$=Nije moguće dodati u datoteku kada je pozicija fajla već navedena.
+$SESS_RETR_CANT_READ_STR$=Nije moguće pročitati iz datoteke.Hard disk ili uređaj je možda u kvaru.  $CONTACT_SYSTEM_ADMIN$
+
+<!-- GetUniqueFileName() results -->
+$SESS_STOU_CANT_CREATE_UNIQUE_NAME_STR$=Nije moguće napraviti jedinstveno ime datoteke.
+
+<!-- SetLastWriteTime() results -->
+$SESS_FUTURE_TIME_STR$=Nije moguće postaviti datum i vreme datoteke, jer je to u budućnosti.
+
+<!-- HTTP attribute list results -->
+<!-- $SESS_LIST_NO_CHANGE_STR$= -- placeholder -- -->
+
+<!-- SSL certificate creation results -->
+$SESS_SSL_CANT_CREATE_KEY_FILE_STR$=SSL Greška: Nije moguće napraviti ključni fajl.
+$SESS_SSL_CANT_WRITE_KEY_FILE_STR$=SSL Greška: Ključni fajl ne može biti napisan.
+$SESS_SSL_CANT_CREATE_CERT_FILE_STR$=SSL Greška: Nije moguće napraviti fajl sertifikata.
+$SESS_SSL_CANT_WRITE_CERT_FILE_STR$=SSL Greška: Ne moze se napisati odgovarajući sertifikat fajl.
+$SESS_SSL_CANT_CREATE_CERT_REQUEST_FILE_STR$=SSL Greška: Nije moguće napraviti fajl upit sertifikata.
+
+<!-- licensing results -->
+$SESS_ID_INVALID_STR$=Obezbeđena registracija ID-a je nevažeća. Unesite važeću ID registraciju.
+$SESS_ID_EXPIRED_STR$=Obezbeđena registracija ID-a je istekla i ne važi za ovu verziju Serv-U. Molimo vas da navedete noviju ID registraciju.
+$SESS_LIC_TOO_MANY_DOMAINS_STR$=Dostigli ste maksimalan broj dozvoljenih domena od strane vaše dozvole. Da biste kreirali novi domen, morate da kupite unapređenu licencu.
+$SESS_LIC_TOO_MANY_USERS_STR$=Dostigli ste maksimalan broj korisničkih naloga dozvoljenih od strane vaše dozvole. Da biste kreirali novi korisnički nalog, morate da kupite unapredjenu licencu.
+$SESS_LIC_TOO_MANY_SESSIONS_STR$=Dostigli ste maksimalan broj istovremenih sesija dozvoljenih od strane vaše dozvole. Da biste dozvolili više istovremenih sesija, morate da kupite unapredjenu licencu.
+$SESS_LIC_NO_REMOTE_ADMIN_STR$=Vaša licenca ne dozvoljava daljinsku administraciju servera. Da biste omogućili daljinsku administraciju servera, morate da kupite unapredjenu licencu.
+$SESS_LIC_NO_FVJV_STR$=FTP Voiager JV nije dostupan sa ovom licencom.
+$SESS_LIC_NO_WEB_CLIENT_STR$=Pristup pretrazivacu nije dostupan sa ovom Serv-U licencom. Molimo Vas da kontaktirate administratora ovog servera da zahtevate Serv-U nadogradnju.
+$SESS_LIC_NO_PASSWORD_RECOVERY_STR$=Licenca ne dozvoljava za oporavak lozinke.
+$SESS_LIC_NO_WEB_CLIENT_PRO_STR$=Licenca ne dozvoljava Pro Web klijente.
+
+<!-- password recovery -->
+$SESS_PASSWORD_RECOVERY_DISABLED_STR$=Oporavak lozinke je onemogućen.Molimo kontaktirajte vašeg administratora za pomoć.
+
+<!-- Port() results -->
+<!-- $FTPSESS_PORT_ONLY_CLIENT_IP_ALLOWED_STR$= -- placeholder -- -->
+<!-- $FTPSESS_PORT_INVALID_PORT_NUMBER_STR$= -- placeholder-- -->
+
+<!-- EPort() results -->
+<!-- $FTPSESS_EPRT_PROTOCOL_NOT_SUPPORTED_STR= -- placeholder-- -->
+
+<!-- Pasv() results -->
+<!-- $FTPSESS_PASV_UNABLE_TOSETUP_LISTEN_SOCK_STR$= -- placeholder-- -->
+<!-- $FTPSESS_PASV_ONLY_CLIENT_IP_ALLOWED_STR$= -- placeholder-- -->
+<!-- $FTPSESS_PASV_TOO_MANY_PASV_REQUESTS_STR$= -- placeholder-- -->
+
+<!-- EPasv() results -->
+<!-- $FTPSESS_EPSV_PROTOCOL_NOT_SUPPORTED_STR= -- placeholder-- -->
+<!-- $FTPSESS_EPSV_PROTOCOL_1_NOT_SUPPORTED_STR= -- placeholder-- -->
+<!-- $FTPSESS_EPSV_PROTOCOL_2_NOT_SUPPORTED_STR= -- placeholder-- -->
+
+<!-- Mlsd() results  -->
+<!-- $FTPSESS_MLSD_WILDCARDS_NOT_ALLOWED_STR$= -- placeholder-- -->
+<!-- $FTPSESS_MLSD_PATHNAME_NOT_DIRECTORY_STR$= -- placeholder-- -->
+
+<!-- data connection -->
+<!-- $FTPSESS_DATACHAN_IN_USE_STR$= -- placeholder-- -->
+<!-- $FTPSESS_DATACHAN_OUT_OF_NETWORK_SOCKETS_STR$= -- placeholder-- -->
+<!-- $FTPSESS_DATACHAN_CANNOT_OPEN_STR$= -- placeholder-- -->
+<!-- $FTPSESS_DATACHAN_CLOSED_ABORTED_STR$= -- placeholder-- -->
+<!-- $FTPSESS_DATACHAN_NOT_SPECIFIED_STR$= -- placeholder-- -->
+
+<!-- validation results -->
+$SU_VALID_USER_EXISTS_STR$=GREŠKA: korisnički nalog sa tim ID-om već postoji.
+$SU_VALID_GROUP_EXISTS_STR$=GREŠKA:grupa sa tim imenom već postoji.
+$SU_VALID_ATTR_LESS_THAN_MIN_STR$=GREŠKA: Obezbeđena vrednost je premala. Molimo Vas da koristite veliku vrednost.
+$SU_VALID_ATTR_GREATER_THAN_MAX_STR$=GREŠKA: Obezbeđena vrednost je prevelika. Molimo Vas da koristite manju vrednost.
+$SU_VALID_INVALID_RESPONSE_CODE_FORMATTING_STR$=GREŠKA: Ova FTP komanda zahteva specijalan format stringova da budu prisutni. Molimo Vas da sačuvate formata stringova prilikom uređivanja teksta odgovora.
+$SU_VALID_PATH_CONTAINS_WILDCARD_CHARS_STR$=navedena putanja imena ne može da sadrži znakove intepunkcije, kao što su * i ?.
+$SU_VALID_EMPTY_PHYSICAL_PATH_STR$=GREŠKA: Navedite fizičku putanju.
+$SU_VALID_EMPTY_VIRTUAL_PATH_STR$=GREŠKA: Navedite virtuelnu putanju.
+$SU_VALID_LOGIN_ID_EMPTY_STR$=GREŠKA: Molimo Vas da obezbedite jedinstveni ID za  korisnika.
+$SU_VALID_GROUP_NAME_EMPTY_STR$=GREŠKA: Molimo Vas da obezbedite jedinstveno ime za grupu.
+$SU_VALID_DOMAIN_EXISTS_STR$=GREŠKA:domen sa tim imenom već postoji.
+$SU_VALID_ORGANIZATION_EXISTS_STR$=GREŠKA: korisnička zbirka sa tim imenom već postoji.
+$SU_VALID_PERMISSION_DENIED_STR$=GREŠKA: Dozvola odbijena.
+$SU_VALID_UNABLE_TO_CREATE_SSL_METHOD_STR$=OpenSSL GREŠKA: Nije moguće napraviti SSL metodu.
+$SU_VALID_UNABLE_TO_CREATE_SSL_CONTEXT_STR$=OpenSSL GREŠKA: Nije moguće napraviti SSL kontekst.
+$SU_VALID_CERT_PATH_IS_EMPTY_STR$=GREŠKA: Navedite važeću putanju do fajla sertifikata.
+$SU_VALID_UNABLE_TO_LOAD_CERT_FILE_STR$=GREŠKA: Nije moguće učitati sertifikat. Molimo Vas da proverite da li je ispravna putanja.
+$SU_VALID_UNABLE_TO_LOAD_PRIVATE_KEY_FILE_STR$=GREŠKA: Nije moguće učitati privatan ključni fajl. Molimo Vas da proverite da li su putanja i privatni ključ lozinke ispravni.
+$SU_VALID_UNABLE_TO_LOAD_OPENSSL_STR$=Nije moguće učitati OpenSSL biblioteke.
+$SU_VALID_PHYSICAL_PATH_INVALID_STR$=GREŠKA: Obezbeđena fizička putanja je neispravna.
+$SU_VALID_VIRTUAL_PATH_INVALID_STR$=GREŠKA: Obezbeđena virtuelna putanja je neispravna.Put bi trebao da počinje sa kosom crtom, "%25HOME%25", ili sličnom promenljivom.
+$SU_VALID_HOST_NAME_EXISTS_STR$=GREŠKA: Obezbeđeno virtuelno voditeljsko ime je već u upotrebi.
+$SU_VALID_FTP_RESP_REQUIRES_COMMAND_RESULT_STR$=GREŠKA: FTP komandni odgovor je potreban da obuhvati $CommandResult makro da bi ispravno funkcionisao.
+$SU_VALID_FTP_RESP_READ_ONLY_STR$=GREŠKA: Izabrani FTP komandni odgovor je samo za čitanje i ne može se menjati.
+$SU_VALID_USER_CANNOT_BE_ADMIN_STR$=GREŠKA: Domain admin ne može da kreira drugog administratora.
+$SU_VALID_GROUP_CANNOT_BE_ADMIN_STR$=GREŠKA: Domain admin ne može stvoriti admin grupu.
+$SU_VALID_HOME_DIR_CANNOT_CONTAIN_HOME_VAR_STR$=GREŠKA: domaći direktorijum ne može da sadrži %25HOME%25 makro.
+$SU_VALID_CANNOT_LOAD_GDI_PLUS_STR$=$SESS_CANT_LOAD_GDI_PLUS_STR$
+$SU_VALID_CANNOT_LOAD_GD_LIBRARY_STR$=$SESS_CANT_LOAD_GD_LIBRARY_STR$
+$SU_VALID_NOT_AN_IMAGE_STR$=GREŠKA: Obezbeđena datoteka nije ispravna slika fajla.
+$SU_VALID_INVALID_IMAGE_SIZE_STR$=GREŠKA: dimenzije za obezbeđenu sliku su nevažeći. Dimenzije prilagođene za logo slike moraju imati širinu od 400 piksela i visinu od 100 piksela.
+$SU_VALID_NOT_FOUND_STR$=navedena jedinica nije pronađena.
+$SU_VALID_EV_SUBJECT_EMPTY_STR$=Ovaj događaj mora da sadrži predmet razgovora.
+$SU_VALID_EV_BODY_EMPTY_STR$=Ovaj događaj mora da sadrži tekst za e-mail telo.
+$SU_VALID_EV_TO_ADDRESS_EMPTY_STR$=Ovaj događaj mora da sadrži e-mail na adresu.
+$SU_VALID_EV_INVALID_EMAIL_ADDRESS_STR$=Unesite važeću destinaciju e-mail adrese.
+$SU_VALID_EV_BALLON_TIP_TITLE_TOO_LARGE_STR$=Balon savet naslov za ovaj događaj je prevelik.
+$SU_VALID_EV_BALLON_TIP_MESSAGE_TOO_LARGE_STR$=Balon savet poruka za ovaj događaj je prevelika.
+$SU_VALID_EV_BALLON_TIP_EMPTY_STR$=Ovaj događaj mora da sadrži Balon savet naslov i poruku
+$SU_VALID_EV_EXE_PATH_EMPTY_STR$=Ovaj događaj mora da sadrži putanju do izvršne datoteke.
+$SU_VALID_EV_EXE_PARAMETERS_CONTAIN_CR_LF_STR$=Parametri komandne linije za ovu akciju ne smeju da sadrže izvodne linije ili novih linija.
+$SU_VALID_EV_INVALID_VAR_FOR_ADMIN_STR$=Domain Admini ne mogu da koriste unete promenljive za ovu akciju. Možete koristiti sledeće: $PathName, $FileName, $OldPathName, $OldFileName
+$SU_VALID_INVALID_SMTP_EMAIL_ADDRESS_STR$=SMTP e-mail adresa je nevažeća.
+$SU_VALID_INVALID_EMAIL_ADDRESS_STR$=E-mail adresa je nevažeća.
+$SU_VALID_EV_INVALID_EMAIL_ADDRESS_BCC_STR$=BCC adresa je nevažeća.
+$SU_VALID_NOT_A_NUMBER_STR$=Numeričko polje ne sadrži broj. Molimo Vas da unesete numeričku vrednost.
+$SU_VALID_NOT_A_DOUBLE_STR$=Polje plutajuće tačke ne sadrži broj plutajuće tačke.Molimo Vas da unesete važeći broj plutajuće tačke. 
+$SU_VALID_INVALID_FILE_NAME_CHARACTERS_STR$=Polje sadrži nevažeće znake. Polje ne može da sadrži bilo koji od sledećih znakova: \/:"&lt;&gt;|
+$SU_VALID_FILE_NAME_CONTAINS_WILDCARD_STR$=Polje sadrži znakove interpunkcije.Polje ne može da sadrži bilo koji od sledećih znakova: *?
+$SU_VALID_GROUP_ADMIN_MUST_BE_GROUP_MEMBER_STR$=Grupa administratora mora biti član najmanje jednoj grupi. Molimo Vas da ovaj korisnik postane član grupe.
+$SU_VALID_INVALID_IP_ADDRESS_STR$=Navedena IP adresa je nevažeća. Molimo Vas da unesete važeću IP adresu.
+$SU_VALID_INVALID_IP_MASK_STR$=navedena IP maska izgleda nevažeća. Molimo Vas da unesete ispravnu masku IP adrese.
+$SU_VALID_UNABLE_TO_OPEN_LOG_FILE_STR$=Nije moguće otvoriti ili napraviti navedenu datoteku log fajla. Molimo Vas da proverite putanju za greške i dostupnost Serv-U-a.
+$SU_VALID_EMAIL_ADDRESS_EMPTY_STR$=Email adresa ne može biti prazna. Unesite važeću email adresu.
+$SU_VALID_CANT_SET_ANONYMOUS_EMAIL_ADDRESS_STR$=email adresa ne može biti postavljena za anonimni nalog.
+$SU_VALID_GATEWAY_MISSING_IP_ADDRESS_STR$=Nedostaje Serv-U Gateway IP adresa. Molimo Vas da unesete važeću IP adresu.
+$SU_VALID_GATEWAY_INVALID_PUBLIC_IP_ADDRESS_STR$=Nevažeća Javna IP adresa. Molimo Vas da unesete ispravnu javnu IP adresu.
+$SU_VALID_EV_NOT_MSMQ_LICENSE_STR$=Microsoft Message Queue (MSMQ) zapisivanje događaja nije dostupno sa vašeg tipa licence. Da biste omogućili ovu funkciju, nadogradite vašu licencu.
+$SU_VALID_EV_MSMQ_PATH_IS_EMPTY_STR$=Putanja Poruke Redosleda zadataka ne može da bude prazna. Molimo Vas da unesete važeću Putanju poruke redosleda zadataka.
+$SU_VALID_CANT_INITIALIZE_TLS_CONNECTION_STR$=OpenSSL GREŠKA: Nije moguće započeti TLS vezu.
+$SU_VALID_CANT_CONNECT_TLS_SERVER_STR$=Nije moguće izvršiti TLS povezivanje sa serverom.
+$SU_VALID_NO_CA_CERTIFICATE_IN_CHAIN_STR$=Nije moguće preuzeti CA osnovni sertifikat. Server ga ne uključuje u lanac sertifikata.
+$SESS_LDAP_INVALID_FINGERPRINT_STR$=Greška LDAP veze: Greška u verifikaciji digitalnog otiska, CA sertifikat je promenjen izvan Serv-U.

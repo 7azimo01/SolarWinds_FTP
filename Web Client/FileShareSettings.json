@@ -1,0 +1,14 @@
+<!--#include "../Common/Strings/Result.strings"-->
+{
+    "subject": "%ADHOC_EMAIL_SUBJECT_TEMPLATE%",
+    "requirePasswordForGuests": "%CUser.%USER_ID%.RequirePasswordForGuests%",
+    "insertPasswordInEmailInvite": "%CUser.%USER_ID%.InsertPasswordInEmailInvite%",
+    "notifyAfterGuestDownload": "%CUser.%USER_ID%.NotifyAfterGuestDownload%",
+    "notifyAfterGuestUpload": "%CUser.%USER_ID%.NotifyAfterGuestUpload%",
+    "sendAccessLinkToRecipients": "%CUser.%USER_ID%.SendAccessLinkToRecipients%",
+    "sendAccessLinkToSender": "%CUser.%USER_ID%.SendAccessLinkToSender%",
+    "allowCustomContactInfo": "%CUser.%USER_ID%.AllowCustomContactInfo%",
+    "allowUserDefinedGuestAccessInFileShare": %CUser.%USER_ID%.AllowUserDefinedGuestAccess%,
+    "restrictGuestAccessDaysInFileShare": %CUser.%USER_ID%.RestrictGuestAccessDays%,
+    "maxFileSize": %CUser.%USER_ID%.MaxGuestUploadFileSize%
+}

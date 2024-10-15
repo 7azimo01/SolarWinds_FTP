@@ -1,0 +1,149 @@
+
+body
+{
+	background-color: #f0f0f0;
+	margin:25px 0;
+}
+body,table{
+	
+	font-family:Arial,sans-serif;
+	-moz-user-select: -moz-none;
+	-webkit-user-select: none; 
+	-khtml-user-select: none;
+	-o-user-select: none;   
+	user-select: none;
+	/*background-image: url(/Web%20Client/Images/LoginBackground.gif);
+	background-repeat: no-repeat;
+	background-position: right top;*/
+}
+
+.content {
+	margin: 0 auto 0 auto;
+	padding-top: 20px;
+	color: #fff;
+	background-color: #505050;
+}
+.Bottom-Logos {
+	background-color: #505050;
+    height: 25px;
+    line-height: 20px;
+    padding-top: 5px;
+}
+.Bottom-Logos-No-Toolbar {
+	padding-top: 12px;
+}
+.content {
+	width: 400px;
+  }
+  * html .content {
+    width: 402px; /* for IE5 and IE6 in quirks mode */
+    w\idth: 402px; /* for IE6 in standards mode */
+}
+
+.logo{
+	margin:0 auto 0 auto;
+	width:400px;
+	display:block;
+	border-bottom:none;
+}
+
+.logo img {
+	height: 100px;
+}
+
+.copyright{
+	font-size: 8pt;
+	margin: 0 auto;
+	padding: 0 0 5px 0;
+}
+a:hover{
+	color: #ff0000;
+}
+a:screen{
+	color: #fff;
+}
+a{
+	color: #fff;
+}
+.content a:hover,  a.links:hover {
+	color: #ff0000;
+}
+.content a:screen, a.links:screen  {
+	color: #0000cc;
+}
+.content a, a.links {
+	color: #0000cc;
+}
+FORM, INPUT, TEXTAREA, SELECT{
+	display:inline;
+}
+.boxwidth300{
+	/*width:300px;*/
+	text-align:center;
+}
+#Login-Wrapper{
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	position: absolute;
+	text-align: center;
+	width: 400px;
+	height: 300px;
+	background-color: #505050;
+}
+.footerDiv1 {
+	font-size: 8pt !important;
+	color: #999999;
+	font-family: arial !important;
+}
+.footerDiv1 a {
+	color: #999999;
+	text-decoration: none;
+}
+.footerDiv1 a:hover {
+	color: #fff;
+	text-decoration: underline;
+}
+
+#ErrMsg {
+	display: none;
+	height: 50px;
+	vertical-align: middle;
+	text-align: center
+}
+
+#ErrMsg-text {
+	line-height: 40px;
+}
+
+.RememberMeTable {
+	padding:0;
+	margin:5px auto 0 auto;
+	width:400px;
+	background-color:#505050;
+}
+
+#CustomHTTPLoginText {
+	text-align: left;
+	padding: 5px;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #fff;
+}
+
+#LoginTaskBar {
+	background-color: #505050;
+	height: 30px;
+	line-height: 1.5em;
+	text-align: left;
+	padding-left: 100px;
+	padding-top: 8px;
+	font-weight: 600;
+}
+
+#LoginTaskBar :hover {
+	color: #fff;
+	text-decoration: underline;
+	cursor: pointer;
+}

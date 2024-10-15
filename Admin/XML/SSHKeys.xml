@@ -1,0 +1,14 @@
+%PRIV_GROUP_ADMIN%
+<?xml version="1.0" encoding="UTF-8" ?>
+<response>
+<SSHKeys>
+%DELETE_LIST_STRINGS%
+%ADD_LIST_STRING%	<SSHKey listitem="%LIST_ITEM%">
+%ADD_LIST_STRING% 		<SSHPublicKeyName>%CSSHPublicKeyFile.%LIST_ID%.SSHPublicKeyName%</SSHPublicKeyName>
+%ADD_LIST_STRING% 		<SSHPublicKeyFilePath>%CSSHPublicKeyFile.%LIST_ID%.SSHPublicKeyFilePath%</SSHPublicKeyFilePath>
+%ADD_LIST_STRING% 		<ID>%LIST_ID%</ID>
+%ADD_LIST_STRING%	</SSHKey>
+%CUserAttrs.%ID%.SSHPublicKeyFile.List%
+</SSHKeys>
+<listresult>%LIST_RESULT%</listresult>
+</response>

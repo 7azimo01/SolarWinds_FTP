@@ -1,0 +1,85 @@
+body
+{
+	-moz-user-select: -moz-none;
+	-webkit-user-select: none; 
+	-khtml-user-select: none;
+	-o-user-select: none;   
+	user-select: none;
+	background-color: #fff;
+}
+.content
+{
+	margin-top: 35px;
+	padding: 10px 0px 20px 0px;	
+	color: #000;
+	border: none;
+}
+.logo
+{
+	text-align: middle;
+	margin: 0 auto 0 auto;
+	padding: 0;
+	display: block;
+	line-height: 52px;
+	height: 52px;
+}
+.logo span
+{
+	vertical-align: middle;
+}
+.logo img#GuestLoginLogo
+{
+	vertical-align: middle;
+	float: left;
+	margin:3px 10px 0 0;
+}
+#LoginTitleProduct, #LoginTitleSharing
+{
+	font-weight: bold;
+	color: #474747;
+	float: left;
+}
+#LoginTitleProduct
+{
+	font-size: 17pt;
+	padding: 0px 7px 0px 10px;
+}
+#LoginTitleSharing
+{
+	font-size: 16pt;
+	padding: 0px 0px 0px 5px;
+}
+.loginTitleSep
+{
+ 	border-left: 2px solid #C0C0C0;
+	float: left;
+	height: 32px;
+	margin: 10px 0px 0px 0px;
+	padding: 0px;
+}
+
+.pword #PasswordInput
+{
+	width: 460px !important;
+}
+
+.topRightMenu
+{
+	text-align: right;
+	padding: 10px 100px 0px 0px;
+	width: auto;
+	vertical-align: top;
+}
+.topRightMenu a
+{
+    color: #378DE5;
+	text-decoration:none;
+}
+.topRightMenu a:hover
+{
+    color: #0000CC;
+}
+.topRightMenu span
+{
+	color: #C6C7C4;
+}

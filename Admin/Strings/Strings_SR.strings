@@ -1,0 +1,1819 @@
+﻿<!-- Strings.strings - For ease of localization, strings have been separated into this file.  Place all localizable strings here. -->
+<!-- NOTE: assignments require left justification and the assignment to appear as "$=" without whitespace between the $ and =. -->
+<!-- File location: <<Install>>\Client\Admin\Include\ -->
+
+<!-- Server -->
+$WEB_ADMIN$=Web Administrator
+
+<!-- Time Format: This string is used to define how the time of day is displayed in your locale.  The following are possible values: -->
+<!-- %H: Hour in 24-hour format (00-23), %I: Hour in 12-hour format (1-12), %M: Minute as a decimal number (00-59), %p: Current locale’s A.M./P.M. indicator for 12-hour clock (optional) -->
+<!-- US time is the default, which is displayed as "12:34 PM" -->
+$LOCALE_TIME_FORMAT$=%I:%M %p
+$TIME_AM$=AM
+$TIME_PM$=PM
+
+<!-- The following values indicate the width to be used for certain HTML elements since some languages require more space to display the same text and -->
+<!-- unilaterally increasing the available space for all languages based upon this creates a lot of white space.  Translators do not need to do anything -->
+<!-- with these values. -->
+$FILTER_GROUPBOX_WIDTH$=305
+$USER_ATTRS_DIALOG_WIDTH$=680
+$GROUP_ATTRS_DIALOG_WIDTH$=700
+$VISTA_DIALOG_INCREASE$=20
+$TREE_NAV_WIDTH$=205
+$CONNECTION_GROUP_WIDTH$=565
+$CONTAINER_CONNECTION_GROUP_WIDTH$=570
+$LOG_FILE_GROUP_HEIGHT$=345
+$OPERA_LOG_FILE_GROUP_HEIGHT$=370
+$USER_LOG_FILE_GROUP_HEIGHT$=250
+$OPERA_USER_LOG_FILE_GROUP_HEIGHT$=270
+$LOG_MESSAGE_OPTIONS_GROUP_HEIGHT$=165
+$DOMAIN_INFO_GROUP_HEIGHT$=225
+$USER_INFO_LEFT_CONTAIN_WIDTH$=200
+$USER_INFO_RIGHT_CONTAIN_WIDTH$=325
+$USER_INFO_INPUT_WIDTH_ADD$=0
+$USER_INFO_RIGHT_PUBKEY_WIDTH$=395
+$EDITION_INFO_GROUP_BOX_WIDTH$=645
+$LISTENER_PORT_COL_WIDTH$=45
+$USER_TABLE_MAPPING_WIDTH$=250
+$GROUP_TABLE_MAPPING_WIDTH$=278
+$DISCONNECT_DURATION_OFFSET$=-62
+$DISCONNECT_DURATION_LABEL_OFFSET$=-55
+$LIMIT_SELECT_COMBO_WIDTH$=415
+$LIMIT_DIALOG_WIDTH$=435
+$MEMBERS_LIST_COL_SIZES$=140, 140, 150, 100, 100
+$LIMITS_LIST_COL_SIZES$=308, 70, 225
+$SQL_TEMPLATE_DIALOG_WIDTH$=550
+$SQL_TEMPLATE_LIST_COL_SIZES$=150, 370
+$OS_INFO_WIDTH$=100
+
+<!-- **************** header.htm **************** -->
+$CONSOLE_TITLE$=Serv-U File Server Management Console
+$FVJV$=FTP Voyager JV
+$BASIC_WEB_CLIENT$=Web Klijent
+$CURRENTLYLOGGEDIN$=Ulogovan
+$CURRENTLY_EDITING_DOMAIN$=Upravljanje Domenom
+$CURRENTLY_EDITING_SERVER$=Upravljanje Serverom
+$HOME$=Početna
+
+<!-- **************** Console.htm **************** -->
+<!-- HTML -->
+$MANAGE_SERVER$=Upravljanje serverom
+$SERVER$=Server
+$NAVIGATION$=Navigacija
+<!-- Javascript -->
+$SELECT_DOMAIN_MSG$=Molimo Vas da izaberete ili kreirate domen izborom "$MANAGE_DOMAIN_BUTTON$" dugmeta.
+$SELECT_A_DOMAIN_TO_DELETE$=Izaberite domen za brisanje.
+$ASK_DELETE_DOMAIN$=Da li ste sigurni da želite da izbrišete izabrani/e domen(e)?
+$SELECT_ONLY_ONE_DOMAIN$=Molimo Vas da izaberete samo jedan domen.
+$SELECT_ONLY_ONE_DOMAIN_EDIT$=Molimo Vas da odaberete samo jedan domen da uredite.
+$SELECT_ONE_DOMAIN_EDIT$=Molimo Vas da odaberete samo jedan domen da uredite.
+$SELECT_A_DOMAIN$=Izaberite domen
+$ODBC_64_UPGRADE_TITLE$=Serv-U 64-bit Baza podataka za nadogradnju
+$WARN_ODBC_64BIT_UPGRADE$=Ne može se otvoriti bar jedna baza podataka. Ovo može biti zbog nadogradnje sa Serv-U 32-bitni na Serv-U 64-bitni. Molimo Vas da pregledate postavke baze podataka i log za server i svaki domen.<br><br>Koristeći 64-bit \"Izvori podataka (ODBC)\" u \"Kontrol Panel | Administrativni alati\" kreirate odgovarajući 64-bit DSN za Vašu Serv-U bazu podataka. Nakon kreiranja podudaranja 64-bit DSN, restartujte Serv-U.<br><br>Za dodatnu pomoć , posetite <a href='http://www.Serv-U.com/support/?CMP=PRD-TAD-SW-MFT_INPRD-MFT-PP' target='_blank'>http://www.Serv-U.com/support</a>
+$DOMAIN_DOES_NOT_EXIST$=Domen koji ste izabrali ne postoji. Izaberite drugi domen.
+<!-- Manage Domain -->
+$MANAGE_DOMAIN_BUTTON$=Upravljanje Domenom
+$DOMAINS$=Domeni
+$DOMAIN$=Domen
+$DOMAINNAME$=Ime Domena
+$DESCRIPTION$=Opis
+<!-- New Domain Dialog -->
+$NEW_DOMAIN$=Novi Domen
+$NEW_DOMAIN_BUTTON$=Novi Domen
+$CREATE_NEW_DOMAIN$=Kreirajte Novi Domen
+<!-- Domain Details -->
+$DOMAIN_DETAILS$=Detalji Domena
+$DOMAIN_NAME_AND_DESCRIPTION$=Izmenite ime domena i opis.
+$CONFIGURE_LISTENERS$=Konfigurisanje domenskih slušalaca.
+$CONFIGURE_VIRTUAL_HOSTS$=Održavanje virtuelnih imena domaćina.
+$CONFIGURE_IPACCESS$=Konfigurisanje domena IP pristupnih pravila.
+$CONFIGURE_DOMAIN_DATABASE$=Podešavanje baze podataka za pristup podešavanja naloga i grupa domena.
+$CONFIGURE_DOMAIN_EVENTS$=Kreiranje,menjanje i brisanje događaja domena.
+<!-- Users -->
+$USERS$=Korisnici
+$CREATE_MODIFY_DELETE_USER$=Kreiranje,menjanje i brisanje korisničkih naloga.
+$CREATE_MODIFY_DELETE_DB_USER$=Kreiranje, menjanje i brisanje korisničkih naloga uskladištenih u bazi podataka.
+$CONFIG_WIN_AUTH_SETTINGS$=Konfigurisanje Windows autentifikacije podešavanja.
+<!-- Groups-->
+$GROUPS$=Grupe
+$CREATE_MODIFY_DELETE_GROUP$=Kreiranje,menjanje i brisanje grupe korisnika.
+$CREATE_MODIFY_DELETE_DB_GROUP$=Kreirajte,izmenite i brišite korisničke grupe uskladištene u bazi podataka.
+$CREATE_MODIFY_DELETE_WIN_GROUP$=Kreiranje,menjanje i brisanje Windows korisničke grupe.
+<!-- Directories -->
+$CONFIGURE_DIRECTORY_ACCESS$=Konfigurisanje prava Direktorijumskog Pristupa za sve korisnike u domenu.
+$CREATE_MAINTAIN_VIRTUAL_PATHS$=Kreiranje i održavanje virtuelne putanje za pristup na lokacije van matičnog direktorijuma.
+<!-- Limts & Settings -->
+$LIMITS$=Ograničenja i Podešavanja
+$CREATE_MAINTAIN_LIMITS$=Kreiranje i održavanje limita koji se primenjuju na domen.
+$MAINTAIN_DOMAIN_SETTINGS$=Održavanje postavki domena, anti-Hamer, za oporavak lozinke i prilagođenog logoa.
+$MAINTAIN_DOMAIN_FTPCP$=Konfigurišite napredna podešavanja FTP komandi i ponašanja za domen.
+$MAINTAIN_DOMAIN_ENCRYPTION$=Kreirajte i odredite SSL i SSH sertifikate i konfigurišite podešavanja za šifrovanje.
+$MAINTAIN_CUSTOM_HTML$=Konfigurišite prilagođena HTML podešavanja.
+<!-- Domain Activity -->
+$DOMAIN_ACTIVITY$=Aktivnosti Domena
+$VIEW_CONNECTED_USERS$=Pogledajte trenutno konektovane korisnike.
+$VIEW_DOMAIN_STATS$=Pogledaj sesiju domena i statistike transfera.
+$VIEW_USER_GROUP_STATS$=Pogledaj statistiku korisnika i grupe.
+$VIEW_DOMAIN_LOG$=Pogledaj domen log.
+$CONFIGURE_DOMAIN_LOG$=Konfigurišite domen log.
+<!-- Server Details -->
+$SERVERDETAILS$=Podaci o serveru
+$CONFIGURE_SERVER_IP_ACCESS$=Konfigurišite pravila servera za IP pristup.
+$CONFIGURE_SERVER_GATEWAY$=Konfiguriši Serv-U Gateway.
+$CONFIGURE_SERVER_DATABASE$=Podešavanje Pristupa bazi podataka za podešavanje globalnih naloga i grupa.
+$CONFIGURE_SERVER_LICENSE$=Pregledajte informacije o licencama i podesite licencu.
+$VIEW_SERVER_INFO$=Pogledajte informacije o instalaciji.
+$CONFIGURE_SERVER_EVENTS$=Kreiranje, menjanje i brisanje dešavanja na serveru.
+<!-- Global Users -->
+$GLOBALUSERS$=Globalni Korisnici 
+$CREATEMODIFYGLOBALUSER$=Kreiranje, menjanje i brisanje globalnih korisničkih naloga.
+$CREATE_MODIFY_DELETE_DB_GLOBAL_USER$=Kreiranje, menjanje i brisanje globalnih korisničkih naloga sačuvanih u bazi podataka.
+<!-- Global Groups -->
+$GLOBALGROUPS$=Globalne Grupe
+$CREATEMODIFYGLOBALGROUPS$=Kreiranje, menjanje i brisanje globalne grupe korisnika.
+$CREATE_MODIFY_DELETE_DB_GLOBAL_GROUP$=Kreiranje, menjanje i brisanje globalne grupe korisnika sačuvane u bazi podataka.
+<!-- Global Directories -->
+$GLOBALDIRECTORIES$=Globalni Direktorijumi
+$CONFIGURESERVERDIRACCESS$=Konfigurišite prava pristupa direktorijumu za sve korisnike na serveru.
+$CREATEMAINTAINVIRTUALPATHSSERVER$=Kreirajte i održavajte virtuelne putanje da daju pristup na lokacije van početnog direktorijuma.
+<!-- Server Limits & Settings -->
+$SERVERLIMITS$=Server Limiti i Podešavanja
+$CREATEMAINTAINSERVERLIMITS$=Kreirajte i održavajte limite koji se odnose na server.
+$MAINTAINSERVERSETTINGS$=Održavajte podešavanja servera, anti-Hamer, lozinke oporavka i prilagođeni logotip.
+$MAINTAIN_SERVER_FTPCP$=Konfigurišite napredna podešavanja FTP komandi i ponašanja za ceo server.
+$MAINTAINSERVERENCRYPTION$=Kreirajte i odredite SSL i SSH sertifikate i konfigurišite podešavanja za šifrovanje.
+<!-- Server Activity -->
+$SERVERACTIVITY$=Aktivnosti Servera
+$VIEW_SERVER_STATS$=Pogledaj sesiju servera i statistiku transfera.
+$VIEW_SERVER_LOG$=Pogledajte server log
+<!-- Bubble tip dialog -->
+$HOME_LINK_BALLOON_TIP$=Možete da kliknete na Serv-U logo iznad da biste se vratili na početnu stranu iz bilo koje stranice na Serv-u Menadžment konzoli.
+$TREE_NAV_BALLOON_TIP$=Možete da kliknete na pull-down ikonicu sa leve strane za kompletnu listu domena sa brzim lansiranjem linkova ka svakoj od konfiguracionih stranica.
+
+<!-- **************** TreeNav.htm **************** -->
+<!-- Domain Details -->
+$DOMAIN_NAME_AND_DESCRIPTION_TREE$=Ime Domena i Opis
+$CONFIGURE_LISTENERS_TREE$=Slušaoci
+$CONFIGURE_VIRTUAL_HOSTS_TREE$=Virtuelni Hostovi
+$CONFIGURE_IPACCESS_TREE$=IP Pristupna Pravila
+$CONFIGURE_DOMAIN_DATABASE_TREE$=Pristup Bazi podataka
+$CONFIGURE_DOMAIN_EVENTS_TREE$=Dešavanja na Domenu
+<!-- Users -->
+$CREATE_MODIFY_DELETE_USER_TREE$=Korisnički nalozi
+$CREATE_MODIFY_DELETE_DB_USER_TREE$=Baza podataka Korisničkih naloga
+$CONFIG_WIN_AUTH_SETTINGS_TREE$=Windows Autentifikacija
+<!-- Groups-->
+$CREATE_MODIFY_DELETE_GROUP_TREE$=Korisničke grupe
+$CREATE_MODIFY_DELETE_DB_GROUP_TREE$=Grupni Nalozi Baze Podataka
+$CREATE_MODIFY_DELETE_OU_GROUP_TREE$=Windows Grupe
+<!-- Directories -->
+$CONFIGURE_DIRECTORY_ACCESS_TREE$=Direktorijum. Pravo Pristupa
+$CREATE_MAINTAIN_VIRTUAL_PATHS_TREE$=Virtuelni putevi
+<!-- Limts & Settings -->
+$CREATE_MAINTAIN_LIMITS_TREE$=Domenski Limiti
+$MAINTAIN_DOMAIN_SETTINGS_TREE$=Podešavanja Domena
+$MAINTAIN_DOMAIN_FTPCP_TREE$=Podešavanja FTP Komande
+$MAINTAIN_DOMAIN_ENCRYPTION_TREE$=Podešavanje Šifrovanja
+$MAINTAIN_CUSTOM_HTML_TREE$=Prilagođen HTML
+<!-- Domain Activity -->
+$VIEW_CONNECTED_USERS_TREE$=Konektovani Korisnici
+$VIEW_DOMAIN_STATS_TREE$=Statistika i Transfer Sesije
+$VIEW_USER_GROUP_STATS_TREE$=Korisnička i Grupna Statistika
+$VIEW_DOMAIN_LOG_TREE$=Domen Log
+$CONFIGURE_DOMAIN_LOG_TREE$=Konfigurišite Log
+<!-- Server Details -->
+
+$CONFIGURE_SERVER_IP_ACCESS_TREE$=IP Pristupna Pravila
+$CONFIGURE_SERVER_DATABASE_TREE$=Pristup Bazi podataka
+$CONFIGURE_SERVER_LICENSE_TREE$=Informacije o licenci
+$VIEW_SERVER_INFO_TREE$=Informacije o Instalaciji
+$CONFIGURE_SERVER_EVENTS_TREE$=Server Dešavanja
+$CONFIGURE_SERVER_GATEWAY_TREE$=Gateway
+
+<!-- Global Users -->
+$CREATEMODIFYGLOBALUSER_TREE$=Korisnički Nalozi
+$CREATE_MODIFY_DELETE_DB_GLOBAL_USER_TREE$=Baza podataka Korisničkih naloga
+<!-- Global Groups -->
+$CREATEMODIFYGLOBALGROUPS_TREE$=Korisničke grupe
+$CREATE_MODIFY_DELETE_DB_GLOBAL_GROUP_TREE$=Baza podataka Grupe
+<!-- Global Directories -->
+$CONFIGURESERVERDIRACCESS_TREE$=Prava Pristupa Direktorijumu
+$CREATEMAINTAINVIRTUALPATHSSERVER_TREE$=Virtuelne Putanje
+<!-- Server Limits & Settings -->
+$CREATEMAINTAINSERVERLIMITS_TREE$=Server Limiti
+$MAINTAINSERVERSETTINGS_TREE$=Podešavanja servera
+$MAINTAIN_SERVER_FTPCP_TREE$=Podešavanje FTP
+$MAINTAINSERVERENCRYPTION_TREE$=Podešavanje Šifrovanja
+<!-- Server Activity -->
+$VIEW_SERVER_STATS_TREE$=Sesija i Transfer Statistika
+$VIEW_SERVER_LOG_TREE$=Server Log
+
+
+
+<!-- **************** DomainWizardDialog.htm **************** -->
+$DOMAIN_WIZARD$=Domen Čarobnjak 
+$DOMAIN_WIZARD_INFO$=Dobrodošli na Serv-U domen čarobnjaka. Ovaj čarobnjak pomaže vam da kreirate domen na svom fajl serveru.
+$DOMAIN_NAME_WIZARD_DESCR$=Ime svakog domena je jedinstveni identifikator koji ga razlikuje od drugih domena na fajl serveru.
+$DOMAIN_DESCR_WIZARD_DESCR$=Dodatne informacije mogu biti uključene u opisu domena. Opis je opcionalan.
+$DOMAIN_TYPE_WIZARD_DESCR$=Domen može da se koristi da pruži pristup fajl serveru kroz razne protokole. Neki protokoli možda neće biti na raspolaganju ako oni nisu podržani od strane trenutne licence. Izaberite protokole koje ovaj domen treba da koristi i njihove odgovarajuće portove.
+$DOMAIN_IP_WIZARD_DESCR$=IP adresa specificira adresu koju domen treba da sluša za dolazne konekcije. Može biti ostavljena prazna da pokaže da treba sve raspoložive IP adrese da se koriste.
+$PLEASE_ENTER_DOMAIN_NAME$=Unesite jedinstveno ime za domen.
+$CONFIRM_CREATE_DOMAIN$=Dobrodošli na Serv-U.  Nema domena koji su trenutno definisani.<br /><br />Da li bi ste želeli da definišete jedan sada?
+$CONFIRM_CREATE_USER$=Ovaj domen ne sadrži korisnike, da li želite da sada kreirate korisnički nalog za ovaj domen?
+
+<!-- **************** UserInfoLayer.htm **************** -->
+$USERINFO$=Informacije o korisniku
+$USERINFOMSG$=Informacije Korisničkog naloga preciziraju akreditive za prijavljivanje i privilegije dodeljene ovom nalogu..
+$USER_TEMPLATE_INFOMSG$=Podrazumevani korisnički šablon se koristi da podesite podrazumevana podešavanja kada se kreira novi korisnik.Konfigurišite šablon da biste brzo dodali nove korisnike koristeći željeni skup podrazumevanih postavki i opcija.
+$USERNAME$=Login ID
+$FULLNAME$=Puno Ime
+$PASSWORD$=Lozinka
+$PASSWORDTYPE$=Tip Lozinke
+$ADMINPRIV$=Administrativne Privilegije
+$HOMEDIR$=Početni Direktorijum
+$ACCOUNT_TYPE$=Tip naloga
+$ACCOUNT_EXPIRE_DATE$=Datum isteka naloga
+$ENABLE_ACCOUNT$=Omogući nalog
+$LOCK_HOME_DIR$=Zaključajte korisnika u Home direktorijum
+$WEB_CLIENT_STARTUP$=Podrazumevani Web Klijent
+$ALWAYS_ALLOW_LOGIN$=Uvek dopusti login
+$PASSWORD_INVALIDATED$=Promena tipa lozinke poništava uskladištenu lozinku za nalog. Da bi promenili tip lozinke , lozinka korisničkog naloga mora biti resetovana.
+$REQUIRE_CHANGE_EMAIL_WARN$=Da bi krajnji korisnik podesio svoj e-mail\"Dozvoli krajnjim korisnicima da podese nalog e-pošte\"ograničenje mora biti omogućeno.
+$SSH_PUBLIC_KEY_PATH$=Putanja SSH javnog ključa
+$CREATE_SSH_KEY_PAIR$=Napravite Par Ključeva
+$EMAIL$=E-mail Adresa
+$REQUIRE_PASSWORD_CHANGE$=Korisnik mora promeniti lozinku na sledećem logovanju
+<!-- Password Types -->
+$PASSWORD_REGULAR_DESC$=Redovna Lozinka
+$PASSWORD_MD4_DESC$=OTP S/KEY MD4
+$PASSWORD_MD5_DESC$=OTP S/KEY MD5
+<!-- Password Encrypt Types -->
+$PASSWORD_ENCRYPT_ONEWAY_DESC$=One-way Enkripcija (još sigurnija)
+$PASSWORD_ENCRYPT_TWOWAY_DESC$=Jednostavna two-way Enkripcija (manje sigurna)
+$PASSWORD_ENCRYPT_ONEWAY_STR$=One-way Enkripcija
+$PASSWORD_ENCRYPT_TWOWAY_STR$=Jednostavna two-way Enkripcija
+$NO_ENCRYPTION$=Bez Enkripcije (ne preporučuje se)
+$PASSWORD_ENCRYPT_MODE$=Režim Šifrovanja Lozinke
+$USE_SERVER_SETTINGS$=Koristite podešavanja servera
+$ENABLE_PASSWORD_RECOVER_DESC$=Dozvoli korisnicima da povrate lozinke
+$DOMAIN_PASSWORD_ENCRYPT_WIZARD_DESCR$=Serv-U je u stanju da oporavlja lozinke (slanjem e-pošte korisničkih informacija za logovanje).
+$ENCRYPTION$=Šifrovanje
+$ENABLE_PASSWORD_ENCRYPTION_DESC$=Omogućite Šifrovanje Lozinke
+$ON$=Uklj.
+$OFF$=Isklj.
+$CHANGE_SERVER_SETTINGS$=Promenite Podešavanja Servera
+<!-- Administrator Privileges -->
+$PRIV_NONE_DESC$=Bez Privilegija
+$PRIV_DOMAIN_DESC$=Domen Administrator
+$PRIV_GROUP_DESC$=Administrator Grupe
+$PRIV_SYSTEM_DESC$=Sistem Administrator
+$PRIV_DOMAIN_RO_DESC$=Read-Only Domen Admin
+$PRIV_GROUP_RO_DESC$=Read-Only Group Admin
+$PRIV_SYSTEM_RO_DESC$=Read-Only Sistem Admin
+<!-- Account Types -->
+$ACCT_TYPE_PERM_DESC$=Stalan
+$ACCT_TYPE_DISABLE_DESC$=Automatski onemogućiti
+$ACCT_TYPE_DELETE_DESC$=Automatski izbrisati
+<!-- Default Web Client Types -->
+$WEB_CLIENT_BASIC_DESC$=Web Klijent
+$WEB_CLIENT_FVJV_DESC$=FTP Voyager JV
+$WEB_CLIENT_ASK_DESC$=Pitaj korisnika za klijenta
+
+
+<!-- **************** MembershipLayer.htm **************** -->
+$GROUPINFO$=Članstvo Vam omogućava da dodelite različite osnovne atribute za korisnike koji su članovi grupe.Korisnik može biti član više grupa.Redosled Članstva u Grupama je značajan.
+$GROUPLABEL$=Korisnik je član
+$SELECT_ONE_GROUP_MEMBERSHIP_DELETE$=Izaberite jednu grupu da uklonite korisnika iz njene liste članova.
+
+
+<!-- **************** GroupsDialog **************** -->
+$SELECT_GROUP_DIALOG_TITLE$=Dostupne Grupe
+$SELECT_ONLY_ONE_AVAILABLE_GROUP$=Izaberite jednu grupu za korisnika kojeg treba dodati kao člana toj grupi.
+
+
+<!-- **************** EventEmailGroupsDialog **************** -->
+$GROUP_EMAIL_LIST_DIALOG_TITLE$=Grupna Email Lista
+$SELECT_ONLY_ONE_EMAIL_GROUP$=Izaberite neku grupu da se doda na email događaj.
+$ASK_DELETE_GROUP_EMAIL$=Da li ste sigurni da želite da uklonite grupu iz ovog e-mail događaja ?
+$SELECT_ONE_GROUP_EMAIL_DELETE$=Izaberite jednu grupu da uklonite iz liste e-mail događaja.
+$EMAIL_GROUPS_INFO$=Grupe dodate na listi levo su obaveštene kada je aktiviran događaj. Svim pripadnicima ovih grupa sa validnom e-mail adresom se šalju obaveštenja putem emaila.
+
+
+<!-- **************** MessageFileLayer.htm **************** -->
+$MSGFILE$=Fajl Poruke
+$WELCOME_MSG$=Poruka Dobrodošlice
+$MSGFILEINFO$=Pozdravna poruka se šalje korisniku nakon uspešnog FTP ili HTTP logovanja. Ova poruka datoteke zamenjuje bilo koju poruku nasleđenu kroz članstvo u grupi.Poruke fajlova podržavaju korišćenje simboličkih parametara.
+$MSGFILECHKLABEL$=Uključi kod odgovora u tekstu poruke fajla
+$WELCOME_MSG_CHECK_LABEL$=Uključi kod odgovora u tekstu poruke dobrodošlice za FTP konekcije
+$MSGFILELABEL$=Putanja Poruke Fajla
+$WELCOME_MSG_TEXT_INFO$=Umesto navođenja putanje poruka datoteke, tekst se može uneti u polja ispod.Pod uslovom da je tekst poslat kao pozdravna poruka umesto poruke fajla specificirane gore
+$SIGNON_MESSAGE_OVERRIDE$=Zamenite nasleđenu grupnu pozdravnu poruku dobrodošlice sa prilagođenom porukom
+
+
+<!-- **************** IPAccessLayer.htm **************** -->
+$IPACCESS$=IP Pristup
+$USER_IP_ACCESS_INFO$=Korisnička IP pristupna pravila se poslednja proveravaju kada korisnik pokuša da se uloguje. Ova pristupna pravila odnose se samo na određenog korisnika. Pravila mogu biti nasleđena kroz članstvo u grupi.
+$GROUP_IP_ACCESS_INFO$=Grupna IP pristupna pravilima su nasleđena od svih korisničkih naloga koji su članovi ove grupe. Oni su nadjačani suprotstavljenim pravilima navedenim na korisničkom nivou.
+$RULE_ADDRESS$=Adresa
+$RULE_ALLOW$=Dozvoli
+$RULE_DENY$=Zabrani
+$EXPIRES_IN$=Ističe u
+$RULE_EXPIRED$=Istekao
+$SELECT_ONLY_ONE_IPACCESS_EDIT$=Molimo Vas da izaberete samo jedno IP pravilo da uredite.
+$SELECT_ONE_IPACCESS_EDIT$=Molimo Vas da izaberete jedno IP pravilo da uredite
+$SELECT_ONE_IPACCESS_DELETE$=Izaberite neko pristupno IP pravilo da izbrišete.
+$ASK_DELETE_IPACCESS$=Da li ste sigurni da želite da izbrišete izabrano pristupno IP pravilo(a)?
+$ENABLE_SORT_VIEW$=Omogući režim sortiranja
+$CONFIRM_SORT_IP$=Izabrali ste da biste videli ovu listu u modu sortiranja.Dok je u ovom režimu,sortiranje liste neće uticati na redosled u kome se obrađuju ta pravila.<br /><br />Da li ste sigurni da želite da uđete u režim sortiranja?
+$IP_IMPORT_MSG$=IP pristupna pravila su uvezena iz fajla:
+$IP_EXPORT_MSG$=IP pristupna pravila su izvezena u fajl:
+
+<!-- **************** IPAccessDialog.htm **************** -->
+$IP_ACCESS_DIALOG_TITLE$=IP Pristupna Pravila
+$RULE$=Pravilo
+$RULE_ALLOW_LABEL$=Dozvoli pristup
+$RULE_DENY_LABEL$=Zabrani pristup
+$IP_ACCESS_TIPS$=IP Pristupni Saveti
+$IP_RULE_MATCH$=tačno podudaranje
+$IP_RULE_RANGE$=Opseg ( IP brojevi samo )
+$IP_RULE_ANY$=odgovara bilo koji
+$IP_RULE_ANY_CHAR$=odgovara bilo koji karakter
+$DNS4ME_SERVICE$=DNS4Me Dynamic DNS Service
+$DNS4ME_SERVICE_NOTE$=Želite da obezbedite IP zasnovan pristup za klijente sa dinamičkim IP adresama? Napravite pravilo dozvole pristupa za Vaš DNS4Me domen.
+$PLEASE_ENTER_RULE$=Molimo Vas da unesete IP pravilo pristupa.
+$IP_ACCESS_RULE_LABEL$=IP Adresa/Ime/Maska
+$IP_RULE_CIDR$=CIDR obeležavanje
+
+
+<!-- **************** DirAccessLayer.htm **************** -->
+$DIRACCESS$=Pristup Direktorijumu
+$USER_DIR_ACCESS_INFO$=Korisnička direktorijumska pristupna pravila definišu datoteke i direktorijume kojima korisnik ima dozvolu da pristupi. Na korisničkom nivou, ova pravila su nasledjena od svih grupa kojima korisnik pripada, kao i ona pravila definisana na nivou domena i servera.
+$GROUP_DIR_ACCESS_INFO$=Grupna direktorijumska pristupna pravila su nasledili od svih korisničkih naloga koji su članovi ove grupe. Oni se mogu primeniti pre ili poslekorisničkih naloga direktorijumskih pristupnih pravila, kao i poništiti ih.
+$PATH$=Putanja
+$ACCESS$=Pristup
+$MAX_SIZE$=Maksimalna Veličina
+$SELECT_ONLY_ONE_DIRACCESS_EDIT$=Molimo Vas da izaberete samo jedno direktorijumsko pristupno pravilo za uređivanje.
+$SELECT_ONE_DIRACCESS_EDIT$=Molimo Vas da izaberete jedno direktorijumsko pristupno pravilo za uređivanje.
+$SELECT_ONE_DIRACCESS_DELETE$=Molimo Vas da izaberete jedno direktorijumsko pristupno pravilo za brisanje.
+$ASK_DELETE_DIRACCESS$=Da li ste sigurni da želite da izbrišete izabrano direktorijumsko pristupno pravilo(a)?
+
+
+<!-- **************** DirAccessDialog.htm **************** -->
+$DIR_ACCESS_DIALOG_TITLE$=Pravilo Pristupa Direktorijumu
+$DIR_ACCESS_FILES$=Fajlovi
+$DIR_ACCESS_DIRS$=Direktorijumi
+$DIR_ACCESS_SUBDIRS$=Poddirektorijumi
+$MAX_SIZE_DISP$=Maksimalna veličina direktorijumskog sadržaja
+$MAX_SIZE_LABEL$=MB
+$MAX_SIZE_COMMENT$=(Ostavite prazno ako nema limita)
+$EXECUTE_CAUTION$=PAŽNJA: Izvršite omogućavanje pristupa korisniku da daljinski pokrene druge programe i fajlove.
+$DIR_ACCESS_FULL_ACCESS$=Pun Pristup
+$DIR_ACCESS_RO_ACCESS$=Samo Čitaj
+$DIR_ACCESS_AS_WIN_USER$=Pristupi kao Windovs Korisnik
+$USER_NAME$=Korisničko Ime
+
+<!-- Dir Access Mask Labels -->
+$ACCESS_READ$=Čitaj
+$ACCESS_WRITE$=Piši
+$ACCESS_APPEND$=Dodavanje
+$ACCESS_DELETE$=Obriši
+$ACCESS_RENAME$=Preimenuj
+$ACCESS_EXECUTE$=Izvrši
+$ACCESS_LIST$=Listaj
+$ACCESS_CREATE$=Napravi
+$ACCESS_REMOVE$=Ukloni
+$ACCESS_INHERIT$=Nasledi
+$PLEASE_ENTER_PATH$=Molimo Vas da unesete putanju direktorijuma.
+
+
+<!-- **************** VirtualPathLayer.htm **************** -->
+$VIRPATHS$=Virtuelni putevi
+$VIRTUALPATHINFO$=Virtuelne Putanje se koriste da povežete fizičku putanju koja je izvan direktorijumske strukture home direktorijuma korisnika u direktorijumske imenike primljene od tog korisnika. Virtuelni putevi zamenjuju tradicionalnu prečicu link metode.
+$VIRPATH_PHYSICAL$=Fizički Put
+$VIRPATH_MAPPED_TO$=Virtuelni Put
+$SELECT_ONLY_ONE_VIRPATH_EDIT$=Molimo Vas da izaberete samo jednu virtuelnu putanju da izmenite.
+$SELECT_ONE_VIRPATH_EDIT$=Molimo Vas da izaberete jednu virtuelnu putanju da izmenite.
+$SELECT_ONE_VIRPATH_DELETE$=Molimo Vas da izaberete virtuelnu putanju da obrišete..
+$ASK_DELETE_VIRPATH$=Da li ste sigurni da želite da izbrišete izabranu virtuelnu putanju(e)?
+$VIRPATH_INCLUDE_IN_MAX_SIZE$=Ubacite \"Maksimalnu Direktorijumsku Veličinu\" Kalkulaciju
+
+
+<!-- **************** VirtualPathDialog.htm **************** -->
+$VIRPATH_DIALOG_TITLE$=Virtuelni Put
+$VIRPATH_DIALOG_INFO$="Fizički Put" je put kojim želite da mapirate virtuelnu lokaciju."Virtuelni Put" definiše na koju lokaciju treba da bude mapiran direktorijum, uključujući i njegovo displej ime.
+$VIRPATH_VIRTUAL$=Virtuelni Put
+$PLEASE_ENTER_VIRPATH$=Molimo Vas da unesete i fizički i virtuelni put.
+
+
+<!-- **************** EventsLayer.htm **************** -->
+$EVENTS$=Događaji
+$EVENT$=Događaj
+$EVENTS_INFO$=Događaji se koriste za prosledjivanje informacija administratorima kada su se navedeni događaji pokrenuli na serveru.
+$EVENT_TYPE$=Tip Događaja
+$ASK_DELETE_EVENT$=Da li ste sigurni da želite da izbrišete izabrani događaj(e)?
+$SELECT_ONLY_ONE_EVENT_EDIT$=Molimo Vas da izaberete samo jedan događaj za uređivanje.
+$SELECT_ONE_EVENT_EDIT$=Molimo Vas da izaberete jedan događaj za uređivanje.
+$SELECT_ONE_EVENT_DELETE$=Molimo Vas da izaberete jedan događaj za brisanje.
+$CREATE_COMMON_EVENTS_BUTTON$=Kreiranje Uobičajenih Događaja
+$TEST_EVENTS_BUTTON$=Testiraj Događaj
+$SELECT_ONLY_ONE_EVENT_TEST$=Molimo Vas da izaberete samo jedan događaj za testiranje.
+$SELECT_ONE_EVENT_TEST$=Molimo Vas da izaberete jedan događaj za testiranje.
+$CONFIG_SMTP_BUTTON$=Konfiguriši SMTP
+$SMTP_CONFIG_WARN$=SMTP konfiguracija mora da se uradi na nivou domena ili servera.
+$EVENT_DISPATCHED_SUCCESS$=Test događaj je poslat na server uspešno.
+$VIEW_LOG$=Pogledaj Log
+$CONTEXT_ENABLE_EVENT$=Omogući Događaj
+$CONTEXT_DISABLE_EVENT$=Onemogući Događaj
+
+
+<!-- **************** EventsDialog.htm **************** -->
+$EVENTS_NAME_LABEL$=Ime Događaja
+$EVENTS_ACTION_LABEL$=Akcija
+$EVENTS_EMAIL_TO_LABEL$=Kome
+$EVENTS_EMAIL_BCC_LABEL$=BCC
+$EVENTS_EMAIL_TO_NOTE$=Odvojite više email adresa sa zarezima, razmacima, ili dvotačkama.
+$GROUP_EMAIL_TO_NOTE$=Dodaj Grupe da Obavestite putem emaila
+$GROUP_EMAIL_BCC_NOTE$=Dodaj Grupe za Notifikaciju BCC E-mail-a
+$EVENTS_EMAIL_SUBJECT_LABEL$=Tema
+$EVENTS_EMAIL_BODY_LABEL$=Poruka
+$EVENTS_BALLOON_TITLE_LABEL$=Naziv Balona
+$EVENTS_BALLOON_INFO_LABEL$=Informacije Balona
+$EVENTS_COMMAND_LINE_LABEL$=Parametri Komandne Linije
+$EVENTS_MSMQ_WRITE_TITLE_LABEL$=Putanja Poruke redosleda zadataka
+$EVENTS_MSMQ_WRITE_INFO_LABEL$=Telo poruke 
+$SUEVENT_ACTION_WRITE_EVENT_LOG_INFO_LABEL$=Log Informacije
+$EVENT_ACTION_GROUP$=Akcije Događaja
+$EVENT_INFO_GROUP$=Informacija Događaja
+$PLEASE_ENTER_EVENT_NAME$=Molimo unesite ime događaja.
+$WARN_DOMAIN_ADMIN_EVENTS$=Administratori domena nemaju prava pristupa ovoj akciji.
+$DATA$=Podatak
+$EVENTS_EXEC_PATH_LABEL$=Izvršni Put
+$ENABLE_EVENT$=Omogući Događaj
+$CONFIRM_EMAIL_INFO_DELETE$=Onemogućavanje ove funkcije resetuje temu i poruku na podrazumevane vrednosti.<BR /><BR />Da li ste sigurni da želite da onemogućite ovu funkciju ?
+$EVENTS_EXEC_WAIT_LABEL$=Završetak Čekanja
+$EVENTS_EXEC_WAIT_SEC$=0-30 sekundi, 0 za nema čekanja
+$CONFIRM_WAIT_DELAY_EXEC$=Čekanje vremena odlaže svu Serv-U obradu za uneti broj sekundi. Mora se koristiti sa velikim oprezom.<BR /><BR />Da li ste sigurni da želite da postavite ovo vreme čekanja?
+$EVENTS_FILTERS$=Filteri Događaja 
+$EVENTS_FILTER$=Filter Događaja
+$FILTER_EVENT_INFO$=Filteri se mogu koristiti da biste dopustili ili zabranili događaj aktiviran određenim scenarijom koristeći kriterijume izabranih događaja u dijalogu filtera.
+$EVENT_RULE_LOGIC$=Logika
+$EVENTS_RULE_VAR$=Variabile
+$EVENTS_RULE_CONSTANT$=Konstanta
+$EVENTS_RULE_COMP$=Poređenje
+$EVENTS_RULE_DATA_TYPE$=Tip Podatka
+$IF$=Ako
+$FILTER_COMPS$=Filter za Poređenje
+$FILTER_COMP_INFO$=Poređenja mora da se doda filteru događaja da se definiše scenario koji će dopustili ili zabraniti ovaj događaj.
+$AND$=I
+$OR$=ILI
+$RULE_COMP_ADVANCED_OPTION$=Napredne Opcije Poređenja
+$FILTER_ENABLED$=Filter Omogućen
+$SELECT_ONLY_ONE_FILTER_COMP_EDIT$=Molimo Vas da izaberete jedan filter poređenja za uređivanje.
+$ASK_DELETE_FILTER_COMP$=Da li ste sigurni da želite da izbrišete izabrani filter poređenja?
+$SELECT_ONE_FILTER_COMP_DELETE$=Molimo Vas da izaberete jedan filter poređenja za brisanje.
+$SELECT_ONLY_ONE_EVENT_FILTER_EDIT$=Molimo Vas da izaberete samo jedan filter za uređivanje.
+$ASK_DELETE_EVENT_FILTER$=Da li ste sigurni da želite da izbrišete izabrani filter(e) ?
+$SELECT_ONE_EVENT_FILTER_DELETE$=Molimo Vas da izaberete jedan filter za brisanje.
+$FILTER_INFO_GROUP$=Filter Informacij
+$FILTER_RULE_INFO$=Filteri mogu imati jedinstveno ime i opis da ih identifikuju sa drugim filterima. Omogućite ili onemogućite filter , izaberite odgovarajući filter logike i dodaj filter poređenja pomoću alatke u nastavku.
+$PLEASE_ENTER_FILTER_NAME$=Unesite jedinstveno ime za filter.
+$CONTEXT_ENABLE_FILTER$=Omogući Filter
+$CONTEXT_DISABLE_FILTER$=Onemogući Filter
+$WARN_MSMQ_EVENT_NO_LICENSE$=Vaša trenutna Serv-U licenca ne podržava Microsoft Message Queue Events.<br><br>Molimo Vas kliknite  <a href=\"http:\/\/www.RhinoSoft.com\/customer\/\" target=\"_blank\">here</a> da izvršite nadogradnju na Serv-U MFT Server da omogućite ovu karakteristiku.
+
+<!-- **************** LogDialog.htm **************** -->
+$LOG_DIALOG_TITLE$=Log
+
+<!-- *************** Server Events ******************** -->
+$SUEVENT_ID_SERVER_START_TEXT$=Server Startovan
+$SUEVENT_ID_SERVER_STOP_TEXT$=Server Zaustavljen
+<!-- *************** Domain and Server Events ********* -->
+$SUEVENT_ID_DOMAIN_START_TEXT$=Domen Startovan
+$SUEVENT_ID_DOMAIN_STOP_TEXT$=Domen Zaustavljen
+$SUEVENT_ID_SESSION_CONNECT_TEXT$=Konektovana Sesija
+$SUEVENT_ID_SESSION_DISCONNECT_TEXT$=Diskonektovana Sesija
+$SUEVENT_ID_SESSION_CONNECT_FAILURE_TEXT$=Neuspešna Konekcija Sesije
+$SUEVENT_ID_LOG_DELETED_TEXT$=Log Fajl Obrisan
+$SUEVENT_ID_LOG_ROTATED_TEXT$=Log Fajl Rotiran
+$SUEVENT_ID_LISTENER_SUCCESS_TEXT$=Uspeh slušaoca
+$SUEVENT_ID_LISTENER_FAILURE_TEXT$=Greška slušaoca
+$SUEVENT_ID_GATEWAY_LISTENER_SUCCESS_TEXT$=Uspeh za Gateway slušaoca
+$SUEVENT_ID_LISTENER_STOP_TEXT$=Slušaoc stao
+$SUEVENT_ID_GATEWAY_LISTENER_STOP_TEXT$=Gateway slušaoc stao 
+$SUEVENT_ID_GATEWAY_LISTENER_FAILURE_TEXT$=Greška slušaoca za Gateway
+$SUEVENT_ID_PERM_DATA_LISTENER_SUCCESS_TEXT$=Stalan uspeh slušaoca
+$SUEVENT_ID_PERM_DATA_LISTENER_FAILURE_TEXT$=Stalna greška slušaoca
+$SUEVENT_ID_PERM_DATA_LISTENER_STOP_TEXT$=Stalni slušaoc stao
+$SUEVENT_ID_PERM_DATA_GATEWAY_LISTENER_SUCCESS_TEXT$=Stalan uspeh za Gateway slušaoca
+$SUEVENT_ID_PERM_DATA_GATEWAY_LISTENER_FAILURE_TEXT$=Stalna greška za Gateway slušaoca
+$SUEVENT_ID_PERM_DATA_GATEWAY_LISTENER_STOP_TEXT$=Stalni Gateway slušaoc stao
+<!-- *************** User, Group, Domain and Server Events ********* -->
+$SUEVENT_ID_USER_LOGIN_TEXT$=Korisnički Login
+$SUEVENT_ID_USER_LOGOUT_TEXT$=Korisničkir Logout
+$SUEVENT_ID_USER_LOGIN_FAILURE_TEXT$=Korisnički Login Neuspeo
+$SUEVENT_ID_USER_PASSWORD_CHANGE_TEXT$=Promena Korisničke Lozinke 
+$SUEVENT_ID_USER_PASSWORD_CHANGE_FAILURE_TEXT$=Promena Korisničke lozinke Neuspela
+$SUEVENT_ID_USER_ENABLED_TEXT$=Korisnik Dostupan
+$SUEVENT_ID_USER_DISABLED_TEXT$=Korisnik Nedostupan
+$SUEVENT_ID_USER_DELETED_TEXT$=Korisnik Izbrisan
+$SUEVENT_ID_USER_ADDED_TEXT$=Korisnik Dodat
+$SUEVENT_ID_USER_PASSWORD_RECOVERY_SENT_TEXT$=Slanje Oporavka Lozinke
+$SUEVENT_ID_USER_PASSWORD_RECOVERY_FAILED_TEXT$=Oporavka Lozinke Neuspela
+$SUEVENT_ID_USER_PASSWORD_STALE_TEXT$=Lozinka Zastarela
+$SUEVENT_ID_USER_AUTOMATICALLY_DISABLED_TEXT$=Automatski Onemogući Korisnika 
+$SUEVENT_ID_USER_AUTOMATICALLY_DELETED_TEXT$=Korisnik Automatski Izbrisan
+$SUEVENT_ID_USER_PREDISABLE_TEXT$=Korisnika pred-onemogućite
+$SUEVENT_ID_USER_PREDELETE_TEXT$=Korisnika pred-obrišite
+$SUEVENT_ID_USER_EMAIL_ADDRESS_SET_TEXT$=Podešavanje Korisničkog E-maila
+$SUEVENT_ID_USER_EMAIL_ADDRESS_SET_FAILURE_TEXT$=Podešavanje Korisničkog E-maila neuspelo
+
+
+$SUEVENT_ID_IP_BLOCKED_TEXT$=IP Blokirana
+$SUEVENT_ID_IP_BLOCKED_TIME_TEXT$=IP Vreme Blokiranja
+$SUEVENT_ID_TOO_MANY_SESSIONS_TEXT$=Previše Sesija
+$SUEVENT_ID_TOO_MANY_SESSIONS_ON_IP_TEXT$=Previše Sesija na IP
+$SUEVENT_ID_FILE_UPLOAD_TEXT$=Fajl Uploadovan
+$SUEVENT_ID_FILE_UPLOAD_FAIL_TEXT$=Fajl Upload Neuspešan
+$SUEVENT_ID_FILE_DOWNLOAD_TEXT$=Preuzimanje fajla
+$SUEVENT_ID_FILE_DOWNLOAD_FAIL_TEXT$=Preuzimanje fajla Neuspešno
+$SUEVENT_ID_FILE_DELETE_TEXT$=Fajl Obrisan
+$SUEVENT_ID_FILE_MOVE_TEXT$=Fajl Pomeren
+$SUEVENT_ID_DIR_CREATE_TEXT$=Direktorijum Napravljen
+$SUEVENT_ID_DIR_DELETE_TEXT$=Direktorijum Obrisan
+$SUEVENT_ID_DIR_CHANGE_TEXT$=Direktorijum Promenjen
+$SUEVENT_ID_DIR_MOVE_TEXT$=Direktorijum Pomeren
+$SUEVENT_ID_QUOTA_OVERAGE_TEXT$=Preko Kvote
+$SUEVENT_ID_DISK_SPACE_OVERAGE_TEXT$=Više od prostora na disku
+$SUEVENT_ID_IP_ADDR_AUTO_BLOCKED_TIME_TEXT$=IP Automatski Dodan na Pravila Pristupa
+$SUEVENT_ID_SESSION_IDLE_TIMEOUT_TEXT$=Tajmaut mirovanja sesije
+$SUEVENT_ID_SESSION_TIMEOUT_TEXT$=Sesija istekla 
+<!-- *************** Event Actions ********* -->
+$SUEVENT_ACTION_EMAIL_TEXT$=Pošalji Email
+$SUEVENT_ACTION_BALLOON_TIP_TEXT$=Pokaži Balon Savet
+$SUEVENT_ACTION_EXEC_TEXT$=Izvrši Komandu
+$SUEVENT_ACTION_MSMQ_WRITE_TEXT$=Zapišite na Microsoft Message Queue (MSMQ)
+$SUEVENT_ACTION_WRITE_EVENT_LOG_TEXT$=Zapiši na Windows Log-u
+<!-- *************** Event Comparisons ********* -->
+$SURULE_COMP_EQUAL_STR$== (je jednako sa)
+$SURULE_COMP_NOT_EQUAL_STR$=!= (nije jednako sa)
+$SURULE_COMP_LESS_THAN_STR$=< (je manje nego)
+$SURULE_COMP_LESS_THAN_EQUAL_STR$=<= (je manje nego ili je jednako sa)
+$SURULE_COMP_GREATER_THAN_STR$=> (je veće nego)
+$SURULE_COMP_GREATER_THAN_EQUAL_STR$=>= (je veće nego ili je jednako sa)
+<!-- *************** Event Data Types ********* -->
+$SURULE_TYPE_STRING_STR$=(abcd) string
+$SURULE_TYPE_CASE_SENSITIVE_STRING_STR$=(AbCd) osetljiv na veličinu slova string
+$SURULE_TYPE_INTEGER_STR$=(-123) potpisan prirodan broj
+$SURULE_TYPE_UNSIGNED_INTEGER_STR$=(123) nepotpisan prirodan broj
+$SURULE_TYPE_DOUBLE_STR$=(12345.67) preciznost na dve decimale
+$SURULE_TYPE_IP_ADDRESS_STR$=(192.168.5.1) IPv4 i IPv6 adrese
+
+<!-- **************** CommonEventsDialog.htm **************** -->
+$COMMON_EVENTS$=Uobičajeni Događaji
+$COMMON_EVENT_ACTION_GROUP$=Akcije Uobičajenih Događaja 
+$COMMON_EVENT_INFO$=Automatsko kreiranje najčešće korišćenih događaja.
+
+<!-- **************** SMTPConfigDialog.htm **************** -->
+$SMTP_CONFIG_INFO_DOMAIN$=Konfigurišite Serv-U da koristi SMTP server za slanje e-pošte za obaveštenja e-poštom i događajima koji koriste e-akcije. Ovakvu konfiguraciju samo treba jednom postaviti za ceo domen.
+$SMTP_CONFIG_INFO_SERVER$=Konfigurišite Serv-U da koristi SMTP server za slanje e-pošte za obaveštenja e-poštom i događajima koji koriste e-akcije. Ovakvu konfiguraciju samo treba jednom postaviti za ceo domen
+$SMTP_SERVER_LABEL$=SMTP Server
+$SMTP_PORT_LABEL$=SMTP Server Port
+$SMTP_ACCOUNT_NAME_LABEL$=Ime Naloga
+$SMTP_ACCOUNT_PASSWORD_LABEL$=Lozinka
+$SMTP_FROM_ADDRESS_LABEL$=Sa e-mail adrese
+$SMTP_CONFIG_TITLE$=SMTP Konfiguracija
+$SMTP_SERVER_GROUP$=Informacije Servera
+$SMTP_AUTH_GROUP$=Informacije Autentifikacije
+$SMTP_USE_SPA$=Koristi Bezbednu Potvrdu Verodostojnosti lozinke
+$SMTP_REQUIRE_LOGIN$=Moj Server zahteva autentifikaciju
+$SMTP_FROM_NAME_LABEL$=Sa Imena
+$SMTP_REQUIRE_SSL$=Ovaj server zahteva bezbednu vezu (SSL)
+$SMTP_USE_SSL_CERT$=Koristite SSL sertifikat prilikom povezivanja na ovaj server
+$SMTP_USE_EXPLICIT_SSL$=Use Explicit SSL
+
+<!-- **************** LimitsLayer.htm **************** -->
+$LIMITS_INFO$=Limiti se koriste da definišu različite postavke za FTP server. Ograničenja se mogu primeniti na način da se njihove vrednosti razlikuju u različito doba dana ili dana u nedelji.
+$LIMIT_TYPE$=Tip Limita
+$CONNECTION_LIMIT$=Konekcija
+$PASSWORD_LIMIT$=Lozinka
+$DIR_LIST_LIMIT$=Direktorijumski Spisak
+$TRANSFER_LIMIT$=Prenos Podatka
+$EMAIL_LIMIT$=Email
+$ADVANCED_LIMIT$=Napredno
+$LIMIT_APPLIED_TOD$=Primenjen Datum &amp; Vreme
+$MONDAY_ABBREV$=Pon
+$TUESDAY_ABBREV$=Uto
+$WEDNESDAY_ABBREV$=Sre
+$THURSDAY_ABBREV$=Čet
+$FRIDAY_ABBREV$=Pet
+$SATURDAY_ABBREV$=Sub
+$SUNDAY_ABBREV$=Ned
+$LIMIT_NOT_LIMITED$=Bilo kad
+$LIMIT_CHARACTERS$=znakova
+$LIMIT_CHARACTER$=znak
+$LIMIT_SESSIONS$=sesije
+$LIMIT_SESSION$=sesija
+$LIMIT_MINUTES$=minuta
+$LIMIT_MINUTE$=minut
+$LIMIT_UNLIMITED$=Neograničen
+$LIMIT_NO_TIMEOUT$=Bez isteka vremena
+$LIMIT_NEVER_EXPIRES$=Nikad ne ističe
+$LIMIT_NO_MINIMUM$=Bez Minimuma
+$LIMIT_SFTP_VERSION$=Verzija (3-6)
+$LIMIT_VERSION$=Verzija
+$LIMIT_CANT_DELETE_INHERITED$=Podrazumevane granične vrednosti se ne mogu obrisati. Da se premosti ovakvo ograničenje, napravite još jednu granicu sa željenom vrednošću.
+$OWNER_USER_ID_LABEL$=Vlasnik Korisničkog ID-a
+$ASK_DELETE_LIMIT$=Da li ste sigurni da želite da izbrišete izabrani limit?
+$SELECT_A_LIMIT_TO_DELETE$=Izaberite jedan limit za brisanje.
+$LIMIT_CANT_EDIT_INHERITED$=Podrazumevane granične vrednosti ne mogu se uređivati. Da se premosti ovakvo ograničenje, napravite još jednu granicu sa željenom vrednošću.
+$SELECT_A_LIMIT_TO_EDIT$=Izaberite jedan limit za uređivanje.
+$RATIOS_QUOTAS_BUTTON$=Koeficijenti &amp; Kvote
+$LIMIT_CREATE_NEW$=Želite li da napravite limit?
+$SSH_AUTH_TYPE_PWD_AND_PUB$=Lozinka i Javni Ključ
+$SSH_AUTH_TYPE_PWD_OR_PUB$=Lozinka ili Javni Ključ 
+$SSH_AUTH_TYPE_PUB$=Samo Javni Ključ
+$SSH_AUTH_TYPE_PWD$=Samo Lozinka
+$NO_WEB_CLIENT_PRO_LICENSE$=Web Client Pro nije na raspolaganju za ove licence. Nadogradite ili Serv-U srebrni ili zlatni Serv-U da biste omogućil Web Client Pro.
+$NO_FVJV_LICENSE$=FTP Voyager JV nije dostupan za ovu licencu.Molimo kupite FTP Voyager JV licencu za Serv-U.
+$NO_BRAND_REMOVAL_LICENSE$=Web-bazirano uklanjanje klijent brendiranje  nije dostupno za ove licence. Molimo vas da nadogradite na Platinum Serv-U da omogućite web-bazirano uklanjanje klijent-brendiranje.
+
+<!-- **************** LimitsDialog.htm **************** -->
+$LIMIT_EDIT_INFO$=Napredne limit opcije vam omogućavaju da konfigurišete doba dana i dana u sedmici za vrednosti ovog limita da budu primenjene.
+$LIMIT_LABEL$=Limit
+$LIMIT_START_TIME$=Vrene Starta
+$LIMIT_END_TIME$=Vreme Završetka
+$LIMITS_DIALOG_TITLE$=Limit
+$LIMIT_TIME_OF_DAY$=Doba Dana
+$LIMIT_APPLY_TOD$=Primenite ograničenje samo u ovo doba dana
+$LIMIT_DAYS_OF_WEEK$=Dana u nedelji
+$DAY_MONDAY$=Ponedeljak
+$DAY_TUESDAY$=Utorak
+$DAY_WEDNESDAY$=Sreda
+$DAY_THURSDAY$=Četvrtak
+$DAY_FRIDAY$=Petak
+$DAY_SATURDAY$=Subota
+$DAY_SUNDAY$=Nedelja
+$ADVANCED_BUTTON$=Napredno
+$LIMIT_INVALID_TOD$=Unesite tačno doba dana u sledećem formatu - ČČ:MM.
+$ALLOW_HTTP_CHANGE_LIMIT_WARN$=Onemogućavanje ove postavke može da prouzrokuje prekid kod mobilnih klijenata jer oni često menjaju IP adrese.
+
+<!-- **************** LoginLimitDialog.htm **************** -->
+$LOGIN_LIMIT_EDIT_INFO$=Login limit opcije vam omogućavaju da konfigurišete doba dana i dana u nedelji da omogući korisniku ili grupi da se uloguju.
+$AVAILABILITY$=Dostupnost
+$LOGIN_LIMIT_DIALOG_TITLE$=Podešavanja Dostupnosti
+
+<!-- **************** GroupInfoLayer.htm **************** -->
+$GROUPINFOMSG$=Sve grupe podešavanja se primenjuju na korisničke naloge koji su članovi ove grupe. Da se premoste postavka grupe, izmenite podešavanja za određeni korisnički nalog.
+$GROUP_TEMPLATE_INFOMSG$=Šablon Podrazumevane grupe se koristi za podešavanje podrazumevane postavke kada se kreira nova grupa. Konfigurišite šablon da biste brzo dodali nove grupe koristeći željeni skup podrazumevanih podešavanja i opcija.
+$GROUP_INFO_TAB$=Informacije o Grupi
+$GROUPNAME$=Ime Grupe
+$GROUP_APPLY_DIR_ACCESS$=Prvo primeni grupno direktorijumsko pristupno pravilo
+
+
+<!-- **************** MembersLayer.htm **************** -->
+$GROUP_MEMBERS$=Članovi Grupe
+$GROUP_MEMBERS_INFO$=Sledeći na spisku korisnika su trenutno članovi ove grupe. Članovi grupe nasleđuju postavke grupe osim ako nisu poništene na nivou korisničkog naloga. Da biste dodali ili uklonili korisnika iz ove grupe , korisnički nalog mora biti uređen.
+$GROUP_MEMBERS_WINDOWS_GROUP$=Svi Windows korisnički nalozi su članovi ove grupe.
+$MEMBER_OF_GROUPS$=Član Grupa
+$AVAILABLE_GROUPS$=Dostupne Grupe
+
+
+<!-- **************** BrowseDialog.htm **************** -->
+$DIRECTORY_PATH$=Direktorijumski Put
+$APPLY_BUTTON$=Primeni
+$DRIVES$=Drajvovi
+$SELECT_DRIVE$=Izaberi Drajv
+
+
+<!-- **************** CURRENTLY UNCLASSIFIED STRINGS (HOMELESS) **************** -->
+$SSLOPTIONS$=SSL Opcije
+$SSHOPTIONS$=SSH Opcije
+$LOGGING$=Logovanje
+$GLOBALGROUPSLABEL$=Spisak svih grupa prisutnih na FTP domenu.
+$GLOBALIPACCESSINFO$=Server IP pristupna pravila su globalna za ceo FTP server. Ona se odmah primenjuju nakon uspostavljanja fizičke povezanosti na klijentskom računaru pre izdavanja pozdravne poruke.
+$MEMBERS$=Članovi
+$NO_SCRIPT_TEXT$=Izgleda da Vaš browser nije omogućen da pokreće JavaScript.Ova stranica zahteva da je JavaScript omogućen.
+$NO_LOG_EXISTS$=Nijedan log fajl trenutno nije definisan za ovaj domen.<br /><br />Da li želite da definišete jedan sada?
+$FEATURE_NOT_AVAILABLE$=Trenutna licenca ne dozvoljava upotrebu ove funkcije. Razmislite o nadogradnji vaše licence da omogućite ovu funkciju.
+
+
+<!-- **************** GENERAL STRINGS **************** -->
+<!-- General -->
+$VALUE$=Vrednost
+$GLOBAL$=Globalno
+$RULES$=Pravila
+$NORULES$=Ne postoji pravilo
+$USE_INHERITED$=Nasledi podrazumevanu vrednost
+$DAY$=dan
+$DAYS$=dana
+$CAUTION$=PAŽNJA
+$PROPERTIES$=Postavke
+$NEW$=Nov
+$SELECT_ALL$=Selektuj Sve
+$CLEAR_LOG$=Izbriši Log
+$NONE$=Nijedan
+$BITS$=bita
+$USING$=Korišćenje
+
+
+<!-- **************** License Strings **************** -->
+$LICENSE_DISABLED_FEATURE$=Ova funkcija je onemogućena jer nije dostupna preko vaše trenutne licence.
+$UPGRADE_LICENSE_NOTE$=Da biste omogućili ovu funkciju, morate da kupite nadograđenu licencu , što može biti učinjeno preko sledeće URL adrese:
+
+
+<!-- **************** ActivityMonitor.htm **************** -->
+<!-- Grid strings -->
+$NOT_APPLICABLE$=Nije primenljivo
+$ID$=ID
+$CONN_TYPE$=Tip
+$IP_ADDR_OR_HOST$=IP Adresa / Hostname
+$SERVER_ADDRESS$=Adresa Servera 
+$LOCATION$=Lokacija
+$LAST_COMMAND$=Zadnja Komanda
+$CLIENT_SOFTWARE$=Klijent
+<!-- Session info -->
+$ACTIVITY_SESS_INFO$=Informacije Aktivne Sesije
+$IP_ADDRESS$=IP Adresa
+$ACTIVITY_DL$=Preuzeto
+$ACTIVITY_UL$=Uploudovano
+$ACTIVITY_SINCE$=Dok
+$ACTIVITY_SPEED$=Brzina
+$ACTIVITY_TIME_ON$=Na Vreme
+$ACTIVITY_AVG_DL_SPEED$=Pribl. DL brzina
+$ACTIVITY_IDLE$=Neaktivan
+$ACTIVITY_AVG_UL_SPEED$=Pribl. UL brzina
+$ACTIVITY_SEC_ABBREV$=sec
+$ACTIVITY_KBSEC_ABBREV$=KB/sec
+$ACTIVITY_FILES$=fajlova
+$ACTIVTY_ACCESS$=Privilegija Korisnika 
+$NOT_LOGGED_IN$=Još uvek nije ulogovan
+$ACCESS_NONE$=Nijedan
+$ACCESS_SYSADMIN$=Sistem Administrator
+$ACCESS_DOMADMIN$=Domen Administrator
+$SELECTED_PUBLIC_KEY_PROTOCOL$=Javni ključ protokol
+$SERVER_TO_CLIENT$=S--&gt;C
+$CLIENT_TO_SERVER$=C--&gt;S
+
+<!-- Buttons -->
+$KILL_USER_BUTTON$=Diskonektovan
+$SPY_CHAT_BUTTON$=Špijuniraj &amp; Četuj
+$BROADCAST_MESSAGE_BUTTON$=Emitovanje
+$ABORT_BUTTON$=Prekini
+<!-- Alerts -->
+$DISCONNECT_SELECT$=Izaberite sesiju da prekine.
+$SPY_CHAT_SELECT$=Izaberite jednu sesiju da vidite dodatne informacije.
+$SEND_MESSAGE_ONLY_FTP$=Poruke jedino mogu biti poslate na FTP sesije.
+$SPY_CHAT_NO_HTTP$=HTTP sesije se ne mogu posmatrati u Spy dijalogu. Izaberite FTP ili SFTP sesije.
+$ABORT_SELECT_ITEM$=Izaberite sesiju da prekinete njenu najnoviju komandu.
+$ABORT_CONFIRM_SESSION$=Da li ste sigurni da želite da prekinete najnoviju komandu za izabranu sesiju(e) ?
+$BROADCAST_NO_FTP_SESSIONS$=Nema aktivnih FTP sesija da primi poruku emitovanja.
+$COMMAND_DENIED$=Nije moguće izvršiti komandu:  Ciljana privilegija korisničkog naloga je višlja.
+
+
+<!-- **************** DisconnectDialog.htm **************** -->
+<!-- Java Script -->
+$DISCONNECT_DIALOG_TITLE$=Isključite Sesiju
+$DISCONNECT_ACTION$=Akcija
+$DISCONNECT_KICK$=Diskonektuj
+$DISCONNECT_BAN$=Diskonektuj i banuj IP za
+$DISCONNECT_BAN_LABEL$=minuta
+$DISCONNECT_BLOCK$=Diskonektuj and blokiraj IP trajno
+$DISCONNECT_LEVEL_LABEL$=Primeni IP pravilo na
+$DISCONNECT_LEVEL_SERVER$=ceo server
+$DISCONNECT_LEVEL_DOMAIN$=trenutni domen
+$DISCONNECT_DISABLE_ACCT$=Onemogući korisnički nalog
+$DISCONNECT_MESSAGE$=Poruka korisniku
+$DISCONNECT_NO_DURATION$=Molimo unesite broj minuta za zabranu IP adrese.
+
+
+<!-- **************** SendMessageDialog.htm **************** -->
+<!-- Java Script -->
+$SEND_MESSAGE_DIALOG_TITLE$=Pošalji Poruku
+$SEND_MESSAGE_LABEL$=Sadržaj Poruke
+$SEND_MESSAGE_NO_TEXT$=Molimo Vas da unesete poruku, da pošaljete na navedenu sesiju 
+<!-- Session message strings -->
+$SESSION_MESSAGE_DIALOG_TITLE$=Pošalji Poruku
+$SESSION_MESSAGE_LABEL$=Sadržaj Poruke
+$SESSION_MESSAGE_NOTE$=NAPOMENA: Ne podržavaju svi FTP klijenti prijem neželjenih podataka sa servera.
+$SESSION_MESSAGE_NO_TEXT$=Molimo Vas da unesete poruku da pošaljete na određenu FTP sesiju.
+<!-- Broadcast message strings -->
+$BROADCAST_MESSAGE_DIALOG_TITLE$=Emitovanje Poruke
+$BROADCAST_MESSAGE_LABEL$=Sadržaj Poruke
+$BROADCAST_MESSAGE_NOTE$=NAPOMENA: Poruke jedino mogu biti poslate na FTP sesije. Nemogu svi FTP klijenti podržati prijem neželjenih podatke sa servera.
+$BROADCAST_MESSAGE_NO_TEXT$=Molimo Vas da unesete poruku za emitovanje na sve FTP konektovane sesije.
+
+
+<!-- **************** SpyChatDialog.htm **************** -->
+<!-- Java Script -->
+$SPY_CHAT_DIALOG_TITLE$=Detaljna informacija o sesiji
+$SESSION_LOG$=Log Sesije
+$SPY_STATS$=Informacija Sesije
+$SPY_CHAT$=Čet
+$UNKNOWN_USER$=Nepoznati Korisnik
+$SESSION_DISCONNECT$=Sesija je dikonektovana.
+
+
+<!-- **************** Server.htm **************** -->
+<!-- Main Page -->
+$SERVER_PAGE_INFO$=Prikazuje informacije koje se odnose na ceo server fajlova, uključujući i server širom rasprostranjena pravila pristupa, licenciranju i registraciji
+<!-- IP Access Tab -->
+$SERVER_IP_ACCESS_INFO$=Server IP pristupna pravila se proveravaju kada se uspostavlja fizička veza sa fajl serverom, ali pre nego je poslata poruka dobrodošlice.
+<!-- License Information Tab -->
+$EDITION_MAX_USAGE_SECTION$=Maximalno Korišćenje
+$EDITION_CAPABILITIES_SECTION$=Mogućnosti
+$EDITION_ARCHITECTURE_SECTION$=Arhitektura
+$EDITION_PROTOCOLS_SECTION$=Protokoli
+$EDITION_WEB_MOBILE_SECTION$=Web i Mobilni
+$EDITION_ADMIN_SECTION$=Administracija
+$EDITION_CUSTOM_INTEGRATION_SECTION$=Prilagođavanje i Integracije
+$EDITION_ACCESS_ANYWHERE$=Pristup Drajvovima i Deljenjima sa bilo kojeg mesta
+$EDITION_GATEWAY$=Serv-U Gateway (Obrnuti Proxi)
+$EDITION_HIGH_AVAILABILITY$=Visoka Dostupnost (Active-Active)
+$LICENSE$=Informacije o Licenci
+$LICENSE_INFO$=Informacija o trenutnoj Serv-U licenci je prikazana, uključujući restrikcije, ograničenja i informacijama o nadogradnji.Da licencirate svoju Serv-U instalaciju ili promenite trenutnu licencu, kliknite na "Unesi License ID". dugme.
+$LICENSE_INFO_NEW$=Informacija o trenutnoj Serv-U licenci je prikazana, uključujući ograničenja, restrikcije i informacije o nadogradnji.
+$LICENSE_INFO_TRIAL$=Da kupite Serv-u licencu, kliknite "Kupi" dugme ispod. Da biste primenili vašu ID registraciju, kliknite na dugme "Unesi License ID" dugme ispod. Ako ste izgubili vaš ID za registraciju, kliknite na "Izgubljen ID" ,dugme ispod.
+$LICENSE_INFO_REGISTERED$=Da bi obnovili licencu, dodali module, ili nadogradili vašu licencu kliknite ispod na "Ažuriraj licencu" dugme. Da biste primenili ID registraciju, kliknite na dugme "Unesi Licencni ID" ispod. Ako ste izgubili vaš ID za registraciju, kliknite na "Izgubljen ID" dugme ispod.
+$REGGIE_INFO_GROUP$=Informacije o Registraciji
+$REGGIE_NAME$=Ime
+$REGGIE_EMAIL$=E-mail Adresa
+$REGGIE_EDITION$=Serv-U Edicija
+$REGGIE_COPIES$=Kopije
+$REGGIE_DATE$=Datum Kupovine
+$REGGIE_UPDATES$=Updejti
+$REGGIE_UNREGISTERED$=Neregistrovan
+$REGGIE_TRIAL$=Probni
+$REGGIE_PERSONAL$=Lična
+$REGGIE_STANDARD$=Standard
+$REGGIE_HOME$=Početna
+$REGGIE_PRO$=Profesional
+$REGGIE_CORP$=Korporativna
+$REGGIE_BRONZE$=Bronzana
+$REGGIE_SILVER$=Srebrna
+$REGGIE_GOLD$=Zlatna
+$REGGIE_PLATINUM$=Platinasta
+$REGGIE_TEMP$=Privremena
+$REGGIE_SITE$=Sajt
+$REGGIE_DEPT$=Department
+$REGGIE_ENT$=Enterprise
+$REGGIE_EXPIRE$=Ističe
+$REGGIE_DAYS_REMAIN$=dana preostalo
+$REGGIE_TRIAL_EXPIRED$=Probni period je ISTEKAO
+$REGGIE_FREE_FOR_LIFE$=Upgrade zaštita nikada ne prestaje
+$EDITION_INFO_GROUP$=Informacije o Ediciji
+$EDITION_ENABLED$=Omogućen
+$EDITION_DISABLED$=Disabled
+$EDITION_UNLIMITED$=Neograničen
+$EDITION_MAX_DOMAINS$=Maksimalan broj Domena
+$EDITION_MAX_USER$=Maksimalan broj korisničkih naloga
+$EDITION_MAX_SESSIONS$=Maksimalan broj Sesija
+$EDITION_REMOTE_ADMIN$=Udaljena Web Administracija
+$EDITION_REMOTE_ADMIN_IPAD$=Udaljena iPad Administracija
+$EDITION_ODBC$=Baza podataka Autentifikacija
+$EDITION_WEB_CLIENT$=Osnovni Web i Mobilni Klijent
+$EDITION_WINDOWS_AUTH$=Windows/AD Autentifikacija
+$EDITION_EVENTS$=Događaja / Email Notifikacija
+$EDITION_MSMQ$=Microsoft Queue (MSMQ) Events
+$EDITION_USER_PASSWORD_RECOVER$=Samo-Oporavak korisničke Lozinke
+$EDITION_VIRTUAL_PATHS$=Virtuelni Putevi
+$EDITION_VIRTUAL_HOSTS$=Virtuelni Hostovi
+$EDITION_QUOTAS$=Kvote
+$EDITION_RATIOS$=Transfer Koeficijenta
+$EDITION_ENCRYPTION$=FTPS (FTP over SSL)
+$EDITION_FIPS$=FIPS 140-2 Validation
+$ENABLE_FIPS$=Omogući FIPS 140-2 režim
+$CONFIRM_FIPS_MODE_TEXT$=Sertifikati i privatni ključevi koji ne koriste FIPS možda više neće raditi. Možda ćete morati da ponovo kreirate svoje sertifikate i privatne ključeve za oba servera i pojedinačne domene
+$CONFIRM_FIPS_MODE$=Želite li da potvrdite svoj serverski sertifikat i privatni ključ?
+$EDITION_CA_CERTIFICATE$=Commercial CA Cert
+$EDITION_CUSTOM_LOGO$=Prilagođeni HTTP Logo
+$EDITION_CUSTOM_LOGO_TITLE$=Prilagođeni HTTP Logo, Login Strane Tekst &amp; Naslov 
+$EDITION_CUSTOM_HTML$=Prilagođeni HTML
+$EDITION_USER_GROUP_STATS$=Statistika Korisnika i Grupe
+$EDITION_ENCRYPTION_SSH$=SFTP preko SSH2
+$EDITION_ENCRYPTION_HTTPS$=HTTPS (HTTP over SSL)
+$EDITION_FVJV$=FTP Voyager JV (Sync and Side-by-Side)
+$EDITION_INTEGRATION_DLL$=Authentication via Custom Library
+$EDITION_WEB_CLIENT_PRO$=Web Client Pro 
+$ADDITIONAL_PROD_INFO_GROUP$=Dodatni Proizvodi
+$REGISTER_BUTTON$=Registruj
+$UPDATE_BUTTON$=Update
+$LOST_ID_BUTTON$=Izgubljen ID
+$PURCHASE_BUTTON$=Kupi
+$PURCHASE_UPDATE$=Kupi Update
+$UPGRADE_BUTTON$=Ažuriraj Licencu
+$ENTER_LICENCE_ID_BUTTON$=Unesi ID Licence
+$UPDATE_NOTICE_BALLOON_TITLE$=Serv-U Obaveštenje o Isticanju
+$UPDATE_NOTICE_BALLOON_TIP$=Update zaštita ističe za manje od 90 dana.  <p>Da biste obnovili zaštitu ažuriranja kliknite na dugme ispod.</p>
+$UPGRADE_UNLIMITED$=Nadogradnja na Neograničeno!
+$UPGRADE_TO_ENABLE$=Nadogradite da biste omogućili!
+<!-- Program Information Tab -->
+$PROGRAM_INFO$=Informacije o Programu
+$FILE_SERVER$=Fajl Server
+$VERSION$=Verzija
+$DATE_INFO_GROUP$=Informacije o Instalaciji
+$BUILD_DATE$=Datum Izgradnje
+$INSTALL_DATE$=Datum Instalacije
+$CONTACT_INFO_GROUP$=Informacije o kontaktu
+$DEV_INFO_GROUP$=Razvoj
+$DEVELOPED_BY$=Razvijen od strane
+$COPYRIGHT$=Autorska prava
+$LEGAL_INFO_GROUP$=Uslovi korišćenja
+$LEGAL_INFORMATION$=Upozorenje: Ovaj kompjuterski program je zaštićen zakonom o autorskim pravima i međunarodnim ugovorima. Neovlašćeno reprodukcija ili distribucija ovog programa, ili bilo kog njegovog dela, može da dovede do teških krivičnih i građanskih kazni, a prekršioci će biti gonjeni do maksimalnih granica na osnovu zakona.
+$OS_NAME$=Operativni Sistem
+$OS_SERVICE_PACK_NAME$=Servis Pak
+$EDITON_AVAIL_PURCHASE_INFO$=Dostupno za kupovinu.
+$EDITON_INSTALL_INFO$=Instalirano na zasebnoj mašini.
+$EDITON_LIC_REQUIRED_INFO$=Zahteva dodatnu Serv-u licencu.
+$EDITON_WIN_ONLY_INFO$=Dostupno samo na Windows-u.
+$GATEWAY_PRODUCT_INFO$=Reverzni proxi koji sprečava da podaci budu upisani u DMZ ili veza da se otvara iz DMZ na internoj mreži. (<a href="http://www.serv-u.com/gateway/?CMP=PRD-TAD-SW-MFT_INPRD-MFT-PP" target="_blank">Više Informacija</a>)
+$PURCHASE_MORE$=Kupite Više
+$CONFIRM_UPGRADE_GW$=Prijavite se na naš Korisnički Servis Centar i koristite \"Product Manager\" da ažurirate Gateway.
+$APPLY_LICENSE$=Primeni licencu
+$RENEW_LICENSE$=Obnovi Licencu
+
+<!-- **************** RegistrationDialog.htm **************** -->
+$REGISTRATION_DIALOG_TITLE$=Registracijoni ID
+$REGISTRATION_CLEAR_CONFIRM$=Brisanje registracionog ID-a izaziva da Serv-U postane neregistrovan. Da li ste sigurni da želite da obrišete informacije o registraciji?
+$REGISTRATION_FAIL$=Vaša ID registracija važi, ali nije mogla biti sačuvana na disku. Molimo Vas da pratite uputstva koja ste dobili u vašoj poruci za registraciju i registrujete svoj Serv-U File Server.
+$PASTE_REGGIE_BUTTON$=Nalepite registracioni ID
+
+<!-- **************** Domain.htm **************** -->
+<!-- Java Script -->
+$DOMAIN_SAVED_RESULT$=vrednosti Domena su sačuvane.
+$SELECT_ONLY_ONE_LISTENER_EDIT$=Izaberite samo jednog slušaoca da izmenite.
+$SELECT_ONE_LISTENER_EDIT$=Izaberite jednog slušaoca da izmenite..
+$SELECT_ONE_LISTENER_DELETE$=Izaberite jednog slušaoca da izbrišete.
+$ASK_DELETE_LISTENER$=Da li ste sigurni da želite da obrišete izabranog slušaoca(e) ?
+$SELECT_ONLY_ONE_VIRTUAL_HOST_EDIT$=Molimo Vas da izaberete samo jedno virtuelno ime hosta da izmenite
+$SELECT_ONE_VIRTUAL_HOST_EDIT$=Molimo Vas da izaberete jedno virtuelno ime hosta za uređivanje.
+<!-- Main Page -->
+$DOMAIN_PAGE_INFO$=Definiše osnovne informacije o izabranoj oblasti, kako sluša domen za dolazne konekcije, kao i IP pristupna pravila koja regulišu ko može da se poveže na domen.
+<!-- Domain Tab -->
+$SETTINGS_TAB$=Podešavanja
+$DOMAIN_INFO_TAB$=Napravite promene imena domena i opisa , pritisnite dugme Sačuvaj da biste sačuvali promene.
+$ENABLE_DOMAIN$=Omogući Domen
+$DOMAIN_INFO_GROUP$=Informacija O Domenu
+$DOMAIN_HOME_DIR$=Početni Domen Direktorijum
+$MAXIMUM_SIZE$=Maksimalna Veličina
+$MAXIMUM_SIZE_MB_NOTE$=NAPOMENA:Postavljanje maksimalne veličine domenenskog home direktorijuma primorava Serv-U da proveri postojeće datoteke i direktorijume pod, pre i tokom otpremanja. To može biti vrlo dugotrajan rad u zavisnosti od postojeće strukture direktorijuma.
+$BLANK_FOR_NO_LIMIT$=prazno za bez limita
+$PLEASE_ENTER_DOMAIN_HOME_DIR$=Unesite putanju za domen home direktorijum. Ako se ne unese putanja domen home direktorijuma maksimalna veličina mora da bude prazna.
+<!-- Listeners Tab -->
+$LISTENERS_TAB$=Slušaoci
+$LISTENERS_INFO_TAB$=Slušaoci definišu kako domen prihvata dolazne konekcije. Koristite dugmad ispod liste za upravljanje slušaocima domena. Kada određenu domen nema slušaoce, ovaj domen deluje kao virtuelni domen samo, koristeći slušaoca (e) drugog domena.
+$LISTENER_DIALOG_TITLE$=Slušaoc
+$LISTENER_IP$=IP Adresa
+$LISTENER_IP_LABEL$=(prazno za sve)
+$LISTENER_PORT$=Port
+$LISTENER_TYPE$=Tip
+$LISTENER_IP_ALL$=<< Sve Dostupne IP Adrese >>
+$LISTENER_TYPE_FTP_DESC$=FTP i eksplicitno SSL/TLS
+$LISTENER_TYPE_IMPLICIT_SSL_DESC$=Implicitno FTPS (SSL/TLS)
+$LISTENER_TYPE_SSH_DESC$=SFTP koristeći SSH
+$LISTENER_TYPE_HTTP_DESC$=HTTP
+$LISTENER_TYPE_HTTPS_DESC$=HTTPS (SSL encrypted HTTP)
+$ENABLE_LISTENER$=omogući Slušaoca
+$LISTENER_PASV_DOMAIN$=PASV IP Adresa ili Ime Domena 
+$LISTENER_SFTP_UNAVAILABLE$=SFTP nije dostupno kod trenutne Serv-U licence.  Molimo vas da nadogradite licencu da biste omogućili ovu funkcionalnost.
+$LISTENER_SSL_UNAVAILABLE$=SSL je nije dostupan sa trenutnom Serv-U licencom. Molimo vas da nadogradite licencu da biste omogućili ovu funkcionalnost.
+$PASV_IP_ADDRESS$=PASV IP Adresa
+$USE_PASV_IP_SSL_ONLY$=Koristite samo sa SSL konekcijama
+$USE_PASV_IP_LAN_ONLY$=Koristite sa LAN konekcijama
+$LISTENER_IPV4_ALL$=<< Sve Dostupne IPv4 Adrese >>
+$LISTENER_IPV6_ALL$=<< Sve Dostupne IPv6 Adrese >>
+$LISTENER_IPV4$=IPv4 Adresa
+$LISTENER_IPV6$=IPv6 Adresa
+$CREATE_IPV4$=Kreirajte IPv4 slušaoce
+$CREATE_IPV6$=Kreirajte IPv6 slušaoce
+$PLEASE_CREATE_IP_LISTENER$=Molimo Vas kreirajte IPv4 i/ili IPv6 adresu čekiranjem jednog ili oba čekboxa povezan sa IP tipom.
+$CONTEXT_ENABLE_LISTENER$=Omogućite Slušaoca(e)
+$CONTEXT_DISABLE_LISTENER$=Onemogućite Slušaoca(e)
+<!-- Virtual Hosts Tab-->
+$VIRTUAL_HOSTS_TAB$=Virtuelni Hostovi
+$VIRTUAL_HOSTS_INFO_TAB$=Virtuelni hosts se koristi za pristup određenom domenu kada slušaoci se dele od strane više domena. Za FTP konekcije, HOST komanda se koristi. Za HTTP konekcije, Host zaglavlja poslata od strane klijenta se ispituju da se utvrdi odgovarajući domen.
+$VIRTUAL_HOST_NAME$=Virtuelno Ime Hosta
+$ASK_DELETE_VIRTUAL_HOST$=Da li ste sigurni da želite da izbrišete izabrano ime virtuelnog hosta?
+$SELECT_ONE_VIRTUAL_HOST_DELETE$=Molimo Vas da izaberete jedno virtuelno ime hosta da izbrišete.
+<!-- IP Access Tab -->
+$DOMAIN_IP_ACCESS_INFO$=Domen IP pristupna pravila se proveravaju kada klijent računar pokušava da se poveže sa domenom, bilo direktno ili preko virtuelne metode domena. Ova pristupna pravila primenjuju se samo na ovom domenu.
+<!-- Database Tab -->
+$DATABASE$=Baza podataka
+$DATABASE_INFO$=Serv-U može da koristi eksternu bazu podataka da učita dodatne korisnike i grupe.Baza podataka mora imati ODBC upravljački program instaliran i mora da postoji kao ODBC izvor podataka na sistemu. Korisnici i grupe opterećeni na ovaj način koji se sukobljavaju sa lokalno kreiranim korisnicima i grupama su poništeni.
+
+
+<!-- **************** DatabaseTab.htm **************** -->
+$DATA_SOURCE_GROUP$=Baza podataka Izvor informacija
+$ODBC_SOURCE$=Ime Izvora Podataka
+$ODBC_ACCOUNT$=Baza Podataka Login ID
+$ODBC_PASSWORD$=Lozinka Baze Podataka
+$ODBC_AUTO_CREATE_TABLES$=Automatski napraviti potrebne tabele
+$ODBC_AUTO_CREATE_COLUMNS$=Automatski napraviti potrebne kolone
+$ODBC_EDIT_SQL_TEMPLATES$=SQL Obrasci
+$ODBC_COLUMN_MAPPING_INFO$=Po podrazumevanoj vrednosti, Serv-U kreira potrebne tabele i kolone za skladištenje podataka sa odgovarajućim imenima. Međutim, možete ručno da konfigurišete Serv-U da koristi željene tabele i imena kolona.
+$ODBC_MAP_USER_COLUMNS$=Mapiranje Korisničke Tabele
+$ODBC_MAP_GROUP_COLUMNS$=Mapiranje Grupne Tabele
+
+
+<!-- **************** DatabaseDialog.htm **************** -->
+$DATABASE_DIALOG_TITLE$=Mapiranje Baze Podataka
+$DATABASE_MAPPING_INFO$=Izaberite tip objekta ispod da konfigurišete njegovo mapiranje kolone baze podataka. Kolona mapiranja vrednosti se može uređivati duplim klikom, ili koristeći dugme Izmeni.
+$TABLE_MAPPING_OBJ$=Tabela Objekta
+$DATABASE_RENAME_DIALOG_TITLE$=Izmeni Mapirane Vrednosti Baza Podataka
+$DATABASE_RENAME_DIALOG_DESC$=Unesite novu vrednost mapirane baze podataka
+$DB_ATTRIBUTE$=Atribut
+$DB_COLUMN_NAME$=Vrednost Mapirane Baza podataka Vrednost
+$DB_USER_INFO$=Podaci o korisniku Tabela
+$DB_USER_GROUP$=Tabela Korisničke Grupe
+$DB_USER_DIRACCESS$=Korisnik Dir Pristupa Tabela
+$DB_USER_VIRPATH$=Korisnik Tabela Virtuelne Staze 
+$DB_USER_IPACCESS$=Korisnik IP Pristupnih Tabela
+$DB_USER_EVENTS$=Korisnik Tabela Događaja 
+$DB_USER_FREEFILES$=Korisnik Tabela Racio free Fajlova 
+$DB_USER_USERFILES$=Po Korisniku Racio Fajlova tabeli
+$DB_USER_USERBYTES$=Po Tabeli Korisnika Racio Bajtova
+$DB_USER_SESSFILES$=Po Tabeli Sesija Racio Fajlova
+$DB_USER_SESSBYTES$=Po Tabeli Session Bytes Ratio
+$DB_GROUP_INFO$=Tabela Informacija o grupi 
+$DB_GROUP_DIRACCESS$=Grupna Dir Pristupa Tabela
+$DB_GROUP_VIRPATH$=Tabela Staze Virtuelne Grupna
+$DB_GROUP_IPACCESS$=Grupna IP pristupa 
+$DB_GROUP_EVENTS$=Tabela Događaja Grupe 
+$DB_GROUP_FREEFILES$=Tabela Fajlova Grupe Racio free
+$SELECT_DB_COLUMN_EDIT$=Izaberite vrednost mapiranja baze podataka za uređivanje
+$DB_NO_EMPTY_COLUMN$=Ova baza podataka mapiranja vrednosti ne može biti prazna
+$DB_USER_AVAILABILITY$=Tabela Korisnika Pristupačnosti Atributa
+$DB_GROUP_AVAILABILITY$=Tabela Pristupačnosti Grupe Atributa
+$ENABLE_TABLE$=Tabela Omogućena
+
+<!-- **************** SQLTemplateDialog.htm **************** -->
+$SQL_TEMPLATE_DIALOG_TITLE$=SQL Šabloni
+$SQL_TEMPLATE_INFO$=Sledeći šabloni se koriste za izgradnju SKL šablone koje koristi Serv-U da održi eksternu bazu podataka Promena ovih šablona može da prouzrokuje ODBC da prestane sa radom. Izmeni na sopstveni rizik
+$SQLT_TEMPLATE$=Šablon
+$SQLT_SELECT_ALL$=Izlistaj sve redove
+$SQLT_SELECT_ROW$=Izlistaj određeni red
+$SQLT_SELECT_ROW_SORT$=Izlistaj i sortiraj određene redove
+$SQLT_DELETE_ROW$=Obriši red
+$SQLT_INSERT_ROW$=Umetni red
+$SQLT_UPDATE_ROW$=Ažurirajte red
+$SELECT_SQL_TEMPLATE_EDIT$=Izaberite SQL vrednosti šablona za uređivanje
+
+
+<!-- **************** DomainUsers.htm **************** -->
+<!-- Java Script -->
+$VIRTUAL_HOST_DIALOG_TITLE$=Novo Virtuelno Ime Hosta
+$VIRTUAL_HOST_NAME_EMPTY$=Navedite ime virtuelnog hosta za ovaj domen
+
+
+<!-- **************** DomainUsers.htm **************** -->
+<!-- Java Script -->
+$DOMAIN_USERS_TAB$=Korisnici Domena
+$CONFIRM_USE_USER_WIZARD$=Da li želite da koristite čarobnjaka za kreiranje korisnika?
+<!-- Main Page -->
+$DOMAIN_USERS_INFO$=Kreiranje, menjanje i brisanje korisničkih naloga za ovaj domen
+<!-- Users Tab -->
+$DOMAIN_USERS_TAB_DESCRIPTION$=Ova lista prikazuje korisničke naloge kojima je dozvoljeno da se povežu sa aktivnim domenom Koristite ovu listu, i listu dugmadi, za održavanje korisnika u ovom domenu
+
+
+<!-- **************** ServerUsers.htm **************** -->
+<!-- Java Script -->
+$SERVER_USERS_TAB$=Globalni Korisnici
+<!-- Main Page -->
+$SERVER_USERS_INFO$=Kreiranje, menjanje i brisanje globalnih korisničkih naloga za sve domene na fajl serveru
+<!-- Users Tab -->
+$SERVER_USERS_TAB_DESCRIPTION$=Ova lista prikazuje globalne korisničke naloge kojima je dozvoljeno da se povežu na bilo koji domen na fajl serveru. Globalni nalozi mogu biti poništeni tako što ćete kreirati nalog za pojedinačne domene
+
+
+<!-- **************** UsersInclude.htm **************** -->
+<!-- Java Script -->
+$SELECT_ONLY_ONE_USER_EDIT$=Molimo izaberite samo jednog korisnika da izmenite.
+$SELECT_ONE_USER_EDIT$=Molimo izaberite jednog korisnika za uređivanje.
+$SELECT_ONLY_ONE_USER_COPY$=Molimo izaberite samo jednog korisnika da kopirate.
+$SELECT_ONE_USER_COPY$=Molimo izaberite samo jednog korisnika da kopirate.
+$SELECT_A_USER_TO_DELETE$=Izaberite korisnika za brisanje.
+$ASK_DELETE_USER$=Da li ste sigurni da želite da izbrišete izabranog korisnika (e)?
+$NOUSERS$=Nijedan korisnički nalog ne postoji.
+$GENERAL_USERS_NAME$=Opšti
+$GENERAL_ODBC_USERS$=Opšte Baze Podataka
+$USER_TEMPLATE_INFO$=Korisnički šablon može da se konfiguriše da bi kreirao nove korisnike brže. Kada se kreira novi korisnik, njegova podrazumevana podešavanja su uzeti iz šablona korisnika.
+$DEFAULT_USER_TEMPLATE$=Šablon Podrazumevanog Korisnika
+$USER_LIMITS_TAB_INFO$=Limiti su grupisani na osnovu oblasti servera gde su oni odgovorni za konfigurisanje. Limiti dozvoljavaju specifikaciju više vrednosti za istu opciju koje se primenjuju na osnovu doba dana i dana u nedelji. Korisnički nivo ograničenja nadjačava sve granične vrednosti utvrđene za druge nivoe.
+$ODBC_USERS_NOT_CONFIGURED$=Nijedna baza podataka nije konfigurisana.Konekcija baze podataka mora biti konfigurisana pre nego korisnici baze podataka mogu njome upravljati.
+$USER_CANT_LIST_HOMEDIR$=Ovaj korisnički nalog ne može da pristupi svom HOME direktorijumu. Molimo Vas da proverite pravila naloga u direktorijumskom pristupnom pravilu
+$USER_PRIV_CANT_EDIT$=Ovaj nalog se ne može izmeniti, jer administratori domena ne mogu menjati korisničke naloge sa jednakim ili većim administrativnim privilegijama.
+$SELECT_USERS_TO_MOVE$=Izaberite korisnik(a) koje(g) želite da premestite na drugu kolekciju.
+$SELECT_USERS_TO_MOVE_ODBC$=Izaberite korisnik(a) koje(g) želite da premestite na ODBC bazu podataka.
+$CHECK_SYSADMIN_CONFIG$=Sistem Administrator nalozi su najefikasniji kada je njihov home direktorijum \"\\\" i nisu zaključani u svom home direktorijumu. U suprotnom, ovi računi su ograničeni od korišćenja puteva van sopstvenog počrtnog direktorijuma kada administriraju fajl Server.<br /><br />Želite li da napravite dodatne izmene na ovom nalogu?
+$NO_COLLECTION_TO_MOVE_TO$=Nijedna druga kolekcija ne postoji. Želite li da napravite jednu?
+$SELECT_USERS_TO_RECOVER_PASSWORD$=Izaberite korisnika(e) za koje želite da oporavite lozinke.
+$CANNOT_DECRYPT_CONFIRM_MSG_1$=Serv-u ne može dešifrovati lozinku za najmanje jednog od izabranih korisnika Nastavljajući sa oporavkom lozinke promeniće se lozinka za sledeće korisnike:
+$CANNOT_DECRYPT_CONFIRM_MSG_2$=Jeste li sigurni da želite da se oporavi lozinka za izabranog korisnika (e)?
+$NO_SMTP_CONFIG$=Trenutno ne postoji SMTP konfigurisan za slanje e-pošte. SMTP konfiguracija se nalazi u \"Limiti i Podešavanja\" pod \"Podešavanja\" tabom. 
+$COLL_GROUP_WIDTH_1$=465
+$COLL_GROUP_WIDTH_2$=610
+$CONTEXT_ENABLE_ACCOUNT$=Omogući Nalog(e)
+$CONTEXT_DISABLE_ACCOUNT$=Onemogući Nalog(e)
+<!-- Users Tab -->
+$SELECT_USER_COLLECTION$=Izaberite Korisničku kolekciju 
+$USER_ORG_PROPERTIES$=Korisnička kolekcija
+$ORG_NAME$=Ime Kolekcije
+$EMPTY_ORG_NAME$=Molimo unesite ime za ovu korisničku kolekciju.
+$NO_RENAME_GENERAL_ORG$=Podrazumevana opšta kolekcija ne može biti preimenovana.
+$NO_DELETE_GENERAL_ORG$=Podrazumevana opšta kolekcija se ne može izbrisati.
+$ORG_DELETE_CONFIRM$=Da li ste sigurni da želite da izbrišete izabranu korisničku kolekciju?Brisanje kolekcije briše sve korisničke naloge koje sadrži.
+$USER_NAME_LOGIN_ID_COLUMN$=Login ID
+$FULL_NAME_COLUMN$=Puno Ime
+$LAST_LOGIN_TIME$=Poslednje Login vreme
+$USER_PROPERTIES$=Korisničke Postavke
+$DEFAULT_USER_BUTTON$=Šabloni
+$ENABLE_DEFAULT_USER$=Koristi Korisničke Šablone
+$USER_WIZARD_BALLOON_TITLE$=Serv-U Kreiranje Korisnika 
+$USER_WIZARD_BALLOON_TIP$=Serv-U korisnički čarobnjak pomaže vam da brzo i lako kreirate nove korisničke naloge.<p>Kliknite na dugme ispod da biste započeli kreiranje novih korisničkih naloga.</p>
+$MOVE_BUTTON$=Premesti
+$MOVE_USERS_BALLOON_TITLE$=Premesti Korisnike
+$MOVE_USER_BALLOON_TIP$=Poboljšajte perfomanse Serv-U-a pomeranjem korisnika na nove ili različite kolekcije. Izaberite korisnika iz liste koju želite da premestite, a zatim kliknite na 'Premesti...' dugme.
+$MOVE_USERS_TO_ODBC_CONFIRM$=Da li ste sigurni da želite da premestite odabranog korisnika u ODBC bazu podataka?
+$MOVE_ODBC_BUTTON$=Premesti u Bazu Podataka
+$COPY_BUTTON$=Kopiraj
+$FILTER_USERS$=Filtriraj korisnike
+$FILTER_GROUPS$=Filteriši Grupe 
+$ENTER_FILTER_INPUT$=Molimo Vas da unesete filter unos.
+$WILL_DISABLE_ON$=ističe
+$EXPIRED$=istekao
+$WILL_DELETE_ON$=biće obrisan
+				
+<!-- ODBC Users Tab -->
+$ODBC_USERS_TAB_NAME$=Korisnici Baze podataka
+$ODBC_USERS_TAB_INFO$=Korisnici baze podataka se učitavaju iz određenog ODBC izvora podataka. Oni dopunjuju lokalnu bazu podataka korisničkog naloga. Izmene korisničkih naloga koji su uskladišteni na ovaj način mogu se uraditi preko ovog interfejsa ili jednog uz podršku iz baze podataka.
+<!-- Windows Auththentication Tab -->
+$WINDOWS_AUTH_TAB_NAME$=Windows Autentifikacija
+$WINDOWS_AUTH_TAB_INFO$=Kada je Windows autentifikacija omogućena, klijent se može logovati koristeći važeći windows nalog umesto lokalnog naloga iz Serv-U korisničke baze podataka. Ako nalog već postoji u Serv-U korisničkoj bazu podataka,onda ima prednost u odnosu na Windows nalog.
+$WINDOWS_DOMAIN_NAME$=Windows Ime Domena
+$ENABLE_WINDOWS_AUTH$=Omogući Windows Autentifikaciju
+$WINDOWS_AUTH_USE_GROUP_HOMEDIR$=Koristite Windows korisnički Group home direktorijum umesto naloga home direktorijuma
+$OPTIONAL$=opciono
+
+
+<!-- **************** UserWizardDialog.htm **************** -->
+<!-- Main Page -->
+$USER_WIZARD$=Korisnički Čarobnjak
+$ACCESS_RIGHTS$=Pristupna Pravila
+$USER_WIZARD_INFO$=Dobrodošli na Serv-U čarobnjaka korisničkog naloga. Ovaj čarobnjak pomaže vam da brzo kreirate nove korisnike za pristup fajl serveru.
+$READ_WRITE_DESC$=Čitaj I Piši Pristup
+$READ_ONLY_DESC$=Samo Čitaj Pristup
+$USER_NAME_WIZARD_DESCR$=ID za prijavljivanje je obezbeđen od strane klijenta, za identifikaciju njihovog naloga, kada pokušaju da se uloguju na fajl server.
+$USER_PASSWORD_WIZARD_DESCR$=Lozinka nemože biti ostavljena prazna, to omogućava bilo kome sa znanjem login ID-a da pristupe nalogu.
+$USER_HOME_DIR_WIZARD_DESCR$=Home direktorijum je fizička lokacija na kojoj se korisnik nalazi, nakon uspešne prijave na fajl server. Ako je korisnik zaključan u home direktorijumu, lokacija njihovog home direktorijuma je skrivena od njih tako da se prikazuje '/'.
+$USER_ACCESS_RIGHTS_WIZARD_DESCR$=Izaberite prava pristupa da se odobre korisniku u svom početnom direktorijumu. &quot;Samo čitati&quot; pristup omogućava korisniku da pretražuje i preuzima datoteke. Potpuni Pristup daje korisniku punu kontrolu nad fajlovima i direktorijumima u okviru njegovog početnog direktorijuma.
+$FULL_ACCESS$=Potpun Pristup
+$PLEASE_ENTER_USER_NAME$=Molim Vas unesite login ID.
+$PLEASE_ENTER_HOME_DIR$=Molim Vas unesite home direktorijum.
+$USER_EMAIL_WIZARD_DESCR$=E-mail adresa može biti ostavljena prazna , ali se može koristiti za slanje e-poruka klijentu.
+
+
+<!-- **************** DomainGroups.htm **************** -->
+<!-- Java Script -->
+$DOMAIN_GROUPS_TAB$=Domen Grupe
+<!-- Main Page -->
+$DOMAIN_GROUPS_INFO$=Kreiranje, menjanje i brisanje grupe za aktivni domen.
+<!-- Groups Tab -->
+$DOMAIN_GROUPS_TAB_DESCRIPTION$=Ova lista prikazuje raspoložive grupe za korisničke naloge na ovom domenu. Grupe vam omogućavaju da dodelite podešavanja naloga za svaki korisnički nalog koji je član grupe. Nalozi mogu biti članovi više grupa. Grupna podešavanja mogu biti poništena sa odgovarajućim podešavanjem na nivou korisničkog naloga.
+
+
+<!-- **************** ServerGroups.htm **************** -->
+<!-- Java Script -->
+$SERVER_GROUPS_TAB$=Globalne Grupe
+<!-- Main Page -->
+$SERVER_GROUPS_INFO$=Kreiranje, menjanje i brisanje globalne grupe za korišćenje od strane globalnih naloga na fajl serveru.
+<!-- Groups Tab -->
+$SERVER_GROUPS_TAB_DESCRIPTION$=Ova lista prikazuje globalne grupe dostupne za globalne korisničke naloge na fajl serveru. Ove grupe jedino mogu biti pridružene od globalnih korisničkih naloga. Grupe vam omogućavaju da dodelite podešavanja naloga za svaki korisnički nalog koji je član grupe. Nalozi mogu biti članovi više grupa. Grupna podešavanja mogu biti poništena sa odgovarajućim podešavanjem na nivou korisničkog naloga.
+
+
+<!-- **************** GroupsInclude.htm **************** -->
+<!-- Java Script -->
+$SELECT_ONLY_ONE_GROUP_EDIT$=Molimo Vas da izaberete samo jednu grupu da izmenite.
+$SELECT_ONE_GROUP_EDIT$=Molimo Vas da izaberete jednu grupu da izmenite.
+$SELECT_A_GROUP_TO_DELETE$=Molimo izaberite grupu za brisanje.
+$ASK_DELETE_GROUP$=Da li ste sigurni da želite da izbrišete izabranu grupu(e)?
+$GROUP_TEMPLATE_INFO$=Grupa šablon može da se konfiguriše da kreira nove grupe brže. Kada je nova grupa kreirana, njena podrazumevana podešavanja su uzeta iz šablona grupe.
+$DEFAULT_GROUP_TEMPLATE$=Podrazumevani Šablon Grupe
+$GROUP_LIMITS_TAB_INFO$=Limiti su grupisani na osnovu oblasti servera gde su oni odgovorni za konfigurisanje. Limiti dozvoljavaju specifikaciju više vrednosti za istu opciju koje se primenjuju na osnovu doba dana i dana u nedelji. Limiti nivoa grupe nadjačavaju nivo limita domena i servera  , ali ne ograničava nivo korisnika.
+$ODBC_GROUPS_NOT_CONFIGURED$=Nijedna baza podataka trenutno nije konfigurisana.Konekcija baze podataka mora biti konfigurisana pre nego što se se može upravljati grupama baze podataka.
+$SELECT_GROUPS_TO_MOVE$=Molimo izaberite grupu za premeštanje.
+$CONFIRM_MOVE_GROUP_START$=Da li ste sigurni da želite da premestite
+$CONFIRM_MOVE_ODBC_GROUP_END$=grupe(a) kolekciji grupama baze podataka?
+$CONFIRM_MOVE_GROUP_END$=grupe(a) kolekciji grupama baze podataka?
+<!-- Groups Tab -->
+$GROUP_PROPERTIES$=Postavke Grupe
+$DEFAULT_GROUP_BUTTON$=Šabloni
+$ENABLE_DEFAULT_GROUP$=koristi šablone grupe
+$WINDOWS_AUTH_GROUP_CONFIG$=Konfiguriši Windows korisničku Grupu
+$WINDOWS_AUTH_GROUP_NAME$=Podrazumevana Windows korisnička Grupa
+$LDAP_AUTH_GROUP_NAME$=Podrazumevana LDAP korisnička Grupa
+$MOVE_GROUP_BUTTON$=Premesti Grupu
+$OU_GROUP_CONFIG$=Konfiguriši OU Grupu
+$REQUIRE_FULL_QUAL_GRP_MEMB$=Zahtevaju potpuno kvalifikovano članstvo u grupi, za logovanje
+
+<!-- ODBC Groups Tab -->
+$ODBC_GROUPS_TAB_NAME$=Grupe Baze Podataka 
+$ODBC_GROUPS_TAB_INFO$=Baze Podataka grupe se učitavaju iz određenog ODBC izvora podataka. Oni dopunjuju lokalnu bazu podataka. Promene u grupama uskladištene na ovaj način mogu da se urade preko ovog interfejsa ili jednog podržanog od strane baze podataka.
+
+<!-- Windows Groups Tab -->
+$WINDOWS_GROUPS_TAB_NAME$=Windows Grupe
+$WINDOWS_GROUPS_TAB_INFO$=Kreirajte i održavajte grupe koje predstavljaju podešavanja za Windows Organizacione jedinice (OU). Raspored vaše grupe napravite tako da odgovara vašim Windows OUs koristeći ista imena koja se koriste u konfiguraciji domena aktivnog direktorijuma. Windows Aktivni Direktorijum Korisnici koji su članovi ove OUs koriste grupna podešavanja. Ovi korisnici mogu da budu članovi bilo koje grane definisane u ovoj listi. Svi korisnici sa Windows proverenim identitetom su i članovi "Windows korisničke grupe".
+$WIN_AUTH_TURNED_OFF$=Windows Grupa je trenutno onemogućena. Da biste omogućili molimo idite na \"korisnici | Windows Autentifikacija\" karticu i omogući potvrdu da koristite Windows autentifikaciju.<br \/><br \/>
+$ADD_CHILD_BUTTON$=Dodaj Dete
+$SELECT_ONLY_ONE_GROUP_PARENT_EDIT$=Molimo Vas da izaberete samo jednu grupu za koju treba dodati dete .
+$SELECT_ONE_GROUP_PARENT_EDIT$=Molimo Vas da izaberete jednu grupu za koju treba dodati dete .
+
+<!-- **************** ServerDir.htm **************** -->
+<!-- Java Script -->
+<!-- Main Page -->
+$SERVER_DIRECTORIES_PAGE_INFO$=Konfigurišite osnovnu strukturu direktorijuma raspoloživu svim korisnicima na fajl serveru, uključujući podrazumevana pravila direktorijumskog pristupnog pravila i virtuelnih puteva.
+<!-- Directory Access Tab -->
+$SERVER_DIR_ACCESS$=Server direktorijumska pristupna pravila su globalna pravila koja definišu fajlove i direktorijume da im svi korisnici na ovom serveru imaju pristup. Ova pravila mogu biti poništena na nivou korisničkog naloga domena i grupe.
+
+
+<!-- **************** DomainDir.htm **************** -->
+<!-- Java Script -->
+<!-- Main Page -->
+$DOMAIN_DIRECTORIES_PAGE_INFO$=Konfigurišite osnovnu strukturu direktorijuma na raspolaganje svim korisnicima domena, uključujući podrazumevana pravila direktorijumskog pristupa i virtuelnih puteva.
+<!-- Directory Access Tab -->
+$DOMAIN_DIR_ACCESS$=Konfigurišite osnovnu strukturu direktorijuma na raspolaganje svim korisnicima domena, uključujući podrazumevana pravila direktorijumskog pristupa i virtuelnih puteva.
+
+
+<!-- **************** ServerLimits.htm **************** -->
+<!-- Main Page -->
+$SERVER_LIMITS$=Server Limiti i Podešavanja
+$SERVER_LIMITS_PAGE_TITLE$=Server Limit i Podešavanja
+$SERVER_LIMITS_INFO$=Limiti i podešavanja se koriste za konfigurisanje osnovnih podešavanja i ponašanje za ceo fajl server, uključujući prilagođavanja FTP komandnog procesora i SSL / SSH enkripcije i opcijama sertifikata. Limiti konfigurisani na ovom nivou se nasleđuju od svih domena, grupa i korisnika.
+$SERVER_LIMITS_TAB_INFO$=Limiti su grupisani na osnovu oblasti servera gde su oni odgovorni za konfigurisanje. Limiti dozvoljavaju specifikaciju više vrednosti za istu opciju koje se primenjuju na osnovu doba dana i dana u nedelji.Limiti na Nivou servera mogu biti zamenjene sa nivoa domena,grupe i korisničkog nivoa.
+$SERVER_SETTINGS_TAB_INFO$=Podešavanja na Nivou servera konfiguriše globalno ponašanje fajl servera. Neke postavke se koriste od strane domena, korisničkih naloga i grupa kao podrazumevana vrednosti kada nisu poništena. Pogledajte dokumentaciju pomoći za detaljne informacije o svakom okruženju
+$SERVER_ENCRYPTION_TAB_INFO$=Konfigurišite opcije za šifrovanje fajl servera. Encription opcije navedene na nivou servera se koriste po podrazumevanoj vrednosti na nivou domena osim ako nisu zamenjene sa različitim informacijama.Napredna SSL i SSH opcije šifrovanja mogu biti konfigurisane na nivou servera.
+
+
+<!-- **************** DomainLimits.htm **************** -->
+<!-- Main Page -->
+$DOMAIN_LIMITS$=Domain Limiti i Podešavanja
+$DOMAIN_LIMITS_PAGE_TITLE$=Domen Limiti i Podešavanja
+$DOMAIN_LIMITS_INFO$=Limiti i podešavanja se koriste za konfigurisanje osnovnih podešavanja i ponašanje za ovaj domen, uključujući prilagođavanja FTP komandnog procesora i SSL / SSH specifikacije sertifikata.
+$DOMAIN_LIMITS_TAB_INFO$=Limiti su grupisane na osnovu oblasti domena gde su oni odgovorni za konfigurisanje. Limiti dozvoljavaju specifikaciju više vrednosti za istu opciju koje se primenjuju na osnovu doba dana i dana u nedelji. Na nivou domena limiti nadjačavaju one navedene na nivou servera.
+$DOMAIN_SETTINGS_TAB_INFO$=Domen nivo podešavanja nadjačavaju ona koja su propisana od strane servera. Takođe se koriste od strane korisničkih domen naloga i grupe kao podrazumevane vrednosti kada nisu poništena. Pogledajte dokumentaciju za detaljne informacije o svakom okruženju.
+$DOMAIN_ENCRYPTION_TAB_INFO$=Konfigurišite opcije za šifrovanje za ovaj domen, koji zamenjuje Server nivo podešavanja. Opcije šifrovanja  su dostupne za obe SSL i SSH konekcije. Da biste koristili podrazumevane opcije navedene na nivou servera, ostavite sertifikat i put privatnog ključa prazan
+$CERTIFICATE_SHARE_NOTE$=<strong>NAPOMENA:</strong> Domeni koji dele slušaoce mogu da koriste samo jedan sertifikat za svaku metodu šifrovanja.
+
+
+<!-- **************** LimitsInclude.htm **************** -->
+<!-- Limits Tab -->
+$LIMITS_TAB$=Limiti
+<!-- Settings Tab -->
+$LOCAL_ADMIN_CHANGE_PASSWORD_TITLE$=Promeni Šifru Lokalnog Administratora
+$CONNECTION_GROUP$=Podešavanja za Konekciju
+$AH_CHECK_LABEL$=Blokiraj korisnike koji su konektovani više od
+$AH_TIMES_WITHIN$=puta u
+$AH_SECONDS_FOR$=sekundi za
+$SSH_HIDE_SERVER_ID$=Sakrij informacije o serveru od SSH identiteta
+$EDIT_RATIO_FREE_FILES$=Srazmera Slobodnih Fajlova
+$CUSTOM_LOGO$=Prilagođeni Logo
+$CUSTOM_LOGO_TITLE$=Prilagođeni HTTP Logo, Login strana Tekst i Naslov 
+$CUSTOM_LOGO_PATH$=Putanja za Prilagođeni Logo 
+$CUSTOM_LOGO_NOTE$=<strong>NAPOMENA:</strong> Dimenzije za prilagođeni logo slike mora imati širinu od 400 piksela i visinu od 100 piksela.
+$PASSWORD_RECOVERY_EMAIL_GROUP$=Poruka za Oporavak Lozinke
+$PR_CHECK_LABEL$=Koristi nasleđenu podrazumevanu porukU
+$INTEGRATION_DLL_PATH$=Integracioni DLL Put
+$INTEGRATION_DLL_GROUP$=Integracioni DLL
+$INTEGRATION_DLL_TEXT$=Koristeći Integracioni DLL u Serv-u zahteva znanje oko pisanja Windows software-a.Molimo Vas da ne upotrebljavate DLL ovde sem ako niste sami napisali DLL ili znate da dolazi iz pouzdanog izvora.Odluka da koristite eksterni DLL mora biti razmotrena pažljivo imajući u vidu sigurnosne implikacije korišćenja prilagođenog software-a.Da više saznate o pisanju i integraciji DLL,molimo pročitajte pomoć stranu.
+$FOR_PERMANENTLY$=za permanentno
+$CUSTOM_LOGIN_TEXT$=HTTP Login tekstualna strana
+$HTTP_LOGIN_TEXT_GROUP$=Prilagođena HTTP Login Poruka
+$CUSTOM_TITLE_TEXT$=HTTP Login Tekst Naslova (no HTML)
+$CUSTOM_HTML_TAB$=Prilagođeni HTML
+$CUSTOM_HTML_GROUP_TITLE$=Prilagođeni HTML Fajlovi
+$ENABLE_CUSTOM_HTML$=Omogući Prilagođeni HTML
+$CUSTOM_HTML_TAB_INFO$=Prilagođena HTML funkcija se koristi da prilagodite izgled Vašeg Serv-U Fajl servera login stranu. Prvo, direktorijum koji će sadržati vaše prilagođene HTML datoteke mora biti izabran koristeći donji "Prilagodi HTML direktorijum Kontejner" unos. Zatim, možete da odredite zaglavlje, podnožje i prilagođene datoteke ispod pomoću CSS polja za unos.
+$CUSTOM_DIR_PATH$=Prilagodi HTML direktorijum Kontejner 
+$CUSTOM_CSS_PATH$=CSS Fajl
+$CUSTOM_HEADER_PATH$=Zaglavlje Fajl
+$CUSTOM_FOOTER_PATH$=Podnožje Fajl
+$PLEASE_SPECIFY_HTML_FOLDER$=Molimo vas da navedete kontejner direktorijuma pre nego što nastavite.
+$BROWSE_FOLDER_LOCK_ALERT$=Pretraga Direktorijuma zaključana: Pretraživanje dalje od ovog direktorijuma nije dozvoljeno.
+$CUSTOM_WEB_CLIENT_BACKGROUND_STYLE$=HTTP Web Klijent Pozadina
+$CUSTOM_HTML_SAMPLE_TXT$=NAPOMENA:Serv-U dolazi u paketu sa prilagođenim HTML uzorcima koji mogu da se koriste da pomognu u stvaranju sopstvene prilagođene HTML Serv-U stranice. Ovi uzorci, zajedno sa dodatnim informacijama u "ReadMe.txt", nalaze se u "Custom HTML Samples" direktorijumu koji se nalazi u vašem Serv-U instalacionom direktorijumu.
+$PROVIDE_VALID_CUST_HTML_PATH$=Molimo Vas da navedete važeće ime datoteke. Staze nisu dozvoljene za prilagođene CSS, zaglavlja i podnožje fajl inputa.
+
+<!-- FTP Command Processor Tab -->
+$FTP_COMMANDS_TAB$=FTP Podešavanja
+$SERVER_FTPCP_TAB$=FTP servera komandni procesor se koristi od strane svih domena po difoltu. To konfiguriše naprednu ponašanje kao što su tekstualni odgovori na FTP komande, FTP komandna podešavanja, ili čak onemogućava korišćenje FTP komandi od strane klijenata. Ove postavke mogu biti poništene na nivou domena.
+$DOMAIN_FTPCP_TAB$=Domen FTP komanda procesora zamenjuje ekvivalentna podešavanja navedenenih na nivou servera. To konfiguriše naprednu ponašanje kao što su tekst odgovora na FTP komande, podešavanja pojedinačne FTP komandne, ili čak onemogućava korišćenje FTP komandi klijenata.
+$FTPCP_USE_DEFAULT$=Koristi podrazumevana podešavanja
+$FTPCP_USE_OVERRIDE$=Koristi prilagođena podešavanja
+$FTP_COMMAND$=Komanda
+$FTPCP_DEFAULT$=Ovaj domen trenutno koristi podrazumevana podešavanja FTP komandi i odgovora definisano po fajl serveru. Da se premoste ova podešavanja, kliknite na\"$FTPCP_USE_OVERRIDE$\" dugme.
+$FTPCP_OVERRIDE$=Ovaj domen trenutno koristi prilagođena podešavanja FTP komandi i odgovora. Da se vratite nazad na podrazumevana podešavanja definisano po fajl serveru, kliknite na dugme \"$FTPCP_USE_DEFAULT$\" dugme.
+$CONFIRM_FTPCP_DELETE$=Vraćanje na podrazumevana podešavanja uklanja vaše prilagođena podešavanja FTP komandi i odgovora.Domen onda koristi FTP server podešavanja komandi i odgovora. Da li ste sigurni da želite da koristite podrazumevane postavke?
+$SELECT_ONE_COMMAND_EDIT$=Molimo Vas da izaberete FTP komandu za uređivanje.
+$GLOBAL_PROPERTIES$=Globalne Postavke
+$DISABLE_COMMAND$=Onemogući Komandu
+$ENABLE_COMMAND$=Omogući Komandu
+$FIPS_NOTE$=<strong>NAPOMENA :</strong>  Određeni klijenti mogu više ne funkcionisati kada koristite FIPS 140-2 režim. (Važi i za SSH i SSL)
+$SSL_OPTION_NOT_AVAILABLE$=<strong>NAPOMENA:</strong>  Omogućavanje FIPS 140-2 režima zamenjuje ove opcije.
+$FIPS_OPTIONS$=FIPS Opcije
+<!-- Encryption Tab -->
+$ENCRYPTION_TAB$=Enkripcija
+$SSL_CERTIFICATE_OPTIONS$=SSL Sertifikat (za FTPS i HTTPS)
+$SSH_PRIVATE_KEY_OPTIONS$=SSH Privatni ključ (za SFTP)
+$CERTIFICATE$=Sertifikat Put
+$PRIVATE_KEY$=Privatni ključ Put
+$CACERTIFICATE$=CA (Certificate Authority) Sertifikat Put
+$VIEW_CERTIFICATE$=Vidi Sertifikat
+$CREATE_CERTIFICATE$=Kreiraj Sertifikat
+$CREATE_PRIVATE_KEY$=Kreiraj Privatni ključ
+$SSL_OPTIONS$=Napredne SSL Opcije
+$SSL_CIPHERS$=SSL Šifre
+$SSH_CIPHERS$=SSH Šifre
+$SSH_MACs$=SSH MACs
+$SSH_KEXs$=SSH Key Exchange Algorithms
+$SSH_AES128$=AES-128-cbc
+$SSH_3DES$=Triple DES-cbc
+$SSH_AES192$=AES-192-cbc
+$SSH_AES256$=AES-256-cbc
+$SSH_CBC$=Rijndael-cbc
+$SSH_MACMD5$=MD5
+$SSH_MACSHA1$=SHA1
+$SSH_MACSHA1_96$=SHA1 96
+$SSH_AES128CTR$=AES-128-ctr
+$SSH_AES192CTR$=AES-192-ctr
+$SSH_AES256CTR$=AES-256-ctr
+$SSH_256$=SHA2 256
+$SSH_256_96$=SHA2 256-96
+$SSH_512$=SHA2 512
+$SSH_512_96$=SHA2 512-96
+$SSH_DH_GROUP1$=DH-GROUP1-SHA1
+$SSH_DH_GROUP14$=DH-GROUP14-SHA1
+$SSH_DH_GROUP14_SSH_256$=DH-GROUP14-SHA2 256
+$SSH_DH_GROUP16_SSH_512$=DH-GROUP16-SHA2 512
+$SSH_DH_GROUP_EXCHANGE_SSH_256$=DH-GROUP-EXCHANGE-SHA2 256
+$SSH_ECDH_NISTP256$=ECDH-SHA2-NISTP256
+$SSH_ECDH_NISTP384$=ECDH-SHA2-NISTP384
+$SSH_ECDH_NISTP521$=ECDH-SHA2-NISTP521
+$NO_DISABLE_ALL_CIPHERS$=Najmanje jedna SSL šifra mora biti omogućena.
+$ALERT_SSH_KEY_PAIR_CREATE$=SSH generisanje para ključeva  Serv-U obezbeđuje korisnicima samo za svrhe testiranja. Deljenje privatnih ključeva između više od jednog računara negira bezbednosne prednosti SSH Public Key Authentication.SSH par ključeva treba biti generisan na klijentskom računaru, a zatim SSH javni ključ treba poslati na server ili server administratoru. 
+$SU_GEN_FILES$=Serv-U je generisao dve datoteke:
+$PUBLIC_KEY_ON_SERVER$=Javni ključ fajl koji će se koristiti na serveru
+$PRIVATE_KEY_ON_CLIENT$=Privatni ključ koji može da se koristi na računaru klijenta
+$KEY_INSTRUCTION_INFO_PART1$=Obezbedite
+$KEY_INSTRUCTION_INFO_PART2$=file na računaru klijenta, a zatim ga uništi na serveru.Privatni ključ format je kompatibilan sa RFC 4716. Neki SSH klijenti mogu da zahtevaju da ključ bude konvertovan u neki drugi format pomoću alatke kao što je PuTTYgen.
+
+
+<!-- **************** ServerSettingsTab.htm **************** -->
+$NETWORK_SETTINGS$=Mrežna Podešavanja
+$ENABLE_UPNP$=Auto-konfiguracija firewall-a kroz UPnP
+$PACKET_TIMEOUT$=Paket time-out
+$SECONDS$=sekundi
+$PASV_PORT_RANGE$=PASV Port Opseg
+$PASV_CHECK_PEER_IP$=Zahtevaj podudarne IP adrese ravnopravnih uređaja za kontrolne i podatkovne veze
+$ADVANCED_SETTINGS$=Napredna Podešavanja
+$FILE_MODE_READ$=Dozvoli pristup Čitanju Allow read access
+$FILE_MODE_DENY$=Dozvoli bez pristupa
+$FILE_MODE_FULL$=Dozvoli potpuni pristup
+$ADMIN_PASSWORD_BUTTON$=Promeni Admin Lozinku
+
+
+<!-- **************** RatioQuotaDialog.htm **************** -->
+$RATIO_QUOTA_DIALOG_TITLE$=Transfer Ratio i Kvota Menadžment 
+$RATIO_GROUP$=Transfer Ratio
+$RATIO_ENABLE$=Omogući transfer ratio
+$RATIO_FPS$=Izbroj fajlove po sesiji
+$RATIO_BPS$=Izbroj bajtove po sesiji
+$RATIO_FAS$=Izbroj fajlove preko svih sesija
+$RATIO_BAS$=Izbroj bajtove preko svih sesija
+$RATIO_LABEL$=Ratio
+$RATIO_UPLOADS$=Uploads
+$RATIO_DOWNLOADS$=Preuzimanja
+$RATIO_CREDIT$=Kredit
+$QUOTA_GROUP$=Kvota
+$QUOTA_MAXIMUM$=Maksimum
+$QUOTA_CURRENT$=Trenutni
+
+
+<!-- **************** RatioFreeFilesDialog.htm **************** -->
+$RATIO_FREE_FILE_DIALOG_TITLE$=Ratio Free Files
+$RATIO_FREE_FILE_INFO$=Odnos slobodne fajlove možete preneti bez brojanja prema svakom nametnutim upload ili download odnosima. Pojedinačni fajlovi se mogu nepomenuti ili džokeri ("*" i "?") se mogu koristi za specifikaciju maske fajla. Imena fajlova bez puta primenjuju se na sve direktorijume koji sadrže fajlove sa odgovarajućim imenima fajlova.
+$RATIO_FREE_FILE_EDIT_DIALOG_TITLE$=Ratio Free Fajl Informcije
+$FREE_FILE_PATH$=Free Fajl Put
+$FREE_FILE_MASK_EMPTY$=Molimo vas da navedete putanju datoteke ili da koristite masku za odnos Free Fajla.
+$SELECT_ONLY_ONE_RATIO_FREE_FILE_EDIT$=Molimo Vas da izaberete samo jedan ratio slobodan fajl za uređivanje.
+$SELECT_ONE_RATIO_FREE_FILE_EDIT$=Molimo Vas da izaberete jedan ratio slobodan fajl za uređivanje.
+$SELECT_RATIO_FREE_FILE_DELETE$=Molimo Vas da izaberete ratio slobodan fajl za brisanje.
+$ASK_DELETE_RATIO_FREE_FILE$=Da li ste sigurni da želite da izbrišete izabrani ratio Free Fajl ?
+
+
+<!-- **************** NewCertificateDialog.htm **************** -->
+$NEW_CERTIFICATE_DIALOG_TITLE$=Novo Kreiranje Sertifikata 
+$NEW_CERTIFICATE_INFO$=Ova alatka pravi Samo-potpisane sertifikate (.CRT) Kao i sertifikat upit (.CSR) i privatan ključ (key.) fajlove Iz dostavljene informacije
+$CERT_OUTPUT_GROUP$=Izlaz
+$CERT_SET_NAME$=Postavi Ime Sertifikata
+$CERT_OUTPUT_PATH$=Izlazni Direktorijum
+$CERT_INFORMATION$=Informacije Sertifikata
+$CERT_CITY_TOWN$=Grad/mesto
+$CERT_STATE_PROVINCE$=Država/Provincija
+$CERT_COUNTRY$=Zemlja (2 slova skraćenica)
+$CERT_PASSWORD$=Lozinka
+$CERT_ORGANIZATION$=Organizacija
+$CERT_COMMON_NAME$=Zajedničko Ime
+$CERT_DOMAIN_NAME$=Domen Ime
+$CERT_UNIT$=Jedinica
+$NEW_CERT_EMPTY_FIELD$=Sva polja moraju da budu popunjena za kreiranje CF.
+$NEW_CERT_TWO_DIGIT_COUNTRY$=Molimo unesite 2 cifre koda zemlje za sertifikat
+$NEW_CERT_USE_NOW$=kreiranje Sertifikata završeno. 3 sertifikat fajla su smeštena u navedeni izlazni put. Da li želite da sada koristite novi sertifikat?
+
+
+<!-- **************** ViewCertificateDialog.htm **************** -->
+$VIEW_CERTIFICATE_DIALOG_TITLE$=Vidi Sertifikat
+$CERT_ISSUER_GROUP$=Izdavanje Autoriteta
+$CERT_SUBJECT_GROUP$=Tema
+$CERT_VALID_GROUP$=Važeći Termini
+$CERT_COUNTRY_VIEW$=Država
+$CERT_FROM$=Važi od
+$CERT_THROUGH$=Važi do
+
+
+<!-- **************** NewCertificateDialog.htm **************** -->
+$NEW_PRIVATE_KEY_DIALOG_TITLE$=Kreiranje Novih Privatnih Ključeva
+$NEW_PRIVATE_KEY_INFO$=Ova alatka kreira nov privatan ključ fajl koji će se koristiti za SSH sigurne sesije.Veća dužina ključa, više bezbednosti nudi. Međutim, velika dužine ključa mogu negativno uticati na performanse.
+$PRIVATE_KEY_OUTPUT_GROUP$=Izlaz
+$PRIVATE_KEY_NAME$=Ime Privatnog Ključa
+$PRIVATE_KEY_OUTPUT_PATH$=Izlazni Direktorijum
+$PRIVATE_KEY_INFORMATION$=Informacije Privatnog Ključa
+$PRIVATE_KEY_TYPE$=Tip Ključa
+$PRIVATE_KEY_TYPE_DSA$=DSA (većina servera podržava)
+$PRIVATE_KEY_TYPE_RSA$=RSA
+$PRIVATE_KEY_LENGTH$=Dužina Ključa (u bitima)
+$PRIVATE_KEY_LEN_1024$=1024 (najbolje performanse)
+$PRIVATE_KEY_LEN_4096$=4096 (naj sigurniji)
+$PRIVATE_KEY_PASSWORD$=Lozinka
+$NEW_PRIVATE_KEY_EMPTY_FIELD$=Molimo vas unesite ime privatnog ključa i izlazni put.
+$NEW_PRIVATE_KEY_USE_NOW$=završeno kreiranje Privatnog ključa.Da li želite da sada koristite novi privatni ključ?
+<!-- **************** NewSSHKeyPairDialog.htm **************** -->
+$SSH_KEY_PAIR_OUTPUT_GROUP$=Izlaz Para Ključeva
+$SSH_KEY_PAIR_NAME$=Ime Para Ključeva
+$SSH_PUBLIC_KEY_INFORMATION$=Informacije Ključa
+$NEW_SSH_KEY_PAIR_INFO$=Ova alatka stvara novi SSH par ključeva fajlove koji će se koristiti za SSH sigurne sesije.Veća dužina ključa, više bezbednosti nudi. Međutim, Veća dužina ključa može negativno uticati na performanse.
+$NEW_SSH_KEY_PAIR_DIALOG_TITLE$=Kreiranje Novog SSH para Ključeva
+$NEW_PUBLIC_KEY_USE_NOW$=Kreiranje Para Ključeva završeno. Da li želite da sada koristite novi javni ključ?
+<!-- **************** FTPCommandDialog.htm **************** -->
+$FTP_COMMAND_DIALOG_TITLE$=FTP Komandne Postavke
+$FTP_RESPONSES$=FTP Odgovori
+$COMMAND_RESPONSE_INFO$=Mogući odgovori koji se mogu poslati kao odgovor na komandu su navedeni ispod.Odgovor tekst za svaki kod može biti prilagođen.
+$RESPONSE_CODE$=Kod
+$RESPONSE_TEXT$=Odgovor Tekst
+$ADVANCED_OPTIONS$=Napredne Opcije
+<!-- FTP Response Dialog -->
+$FTP_RESPONSE_DIALOG_TITLE$=Uredi FTP Odgovor Tekst
+$EDIT_RESPONSE_INFO$=Tekst deo svakog FTP odgovora može da se menja. Posebne promenljive mogu biti umetnute na odgovoru. Pogledajte dokumentaciju za pomoć za više informacija.
+$SELECT_ONE_RESPONSE_EDIT$=Molimo Vas da izaberete FTP odgovor za uređivanje.
+<!-- Information Tab -->
+$INFORMATION$=Informacije
+$COMMAND_GENERAL_INFO$=Rezultat za FTP komande i njegova upotreba je prikazana. Dodatne detaljne informacije o komandi se mogu naći prateći link. Pojedinačne komande mogu biti tako onemogućene da one nisu prepoznate kada su izdate od strane klijenta.
+$ADDTL_INFO$=Dodatne Informacije
+$CLICK_ADDTL_INFO$=Kliknite ovde za dodatne informacije na komandu
+<!-- Message File Tab -->
+$SECOND_MSG_FILE_INFO$=Ako se fajl naveden gore ne može naći, onda sekundarna poruke putanja datoteke se koristi. 
+$SECOND_MSG_FILE$=Putanja Datoteke Sekundarne Poruke 
+$MSG_FILE_FTPCP$=Ova poruka fajl se koristi za specifikaciju Login-in poruci FTP korisnika. Kada se klijent povezuje na vaš FTP Server, sadržaj poruke se šalju uz fajl sa redovnim FTP pozdravom.
+$MSG_FILE_CDUP$=Kada korisnik promeni svoj trenutni radni direktorijum, sadržaj poruke se šalje zajedno sa fajlom uobičajenim odgovorom na komande. Fajlovi poruka podržavaju korisnika simboličkih parametara i putanje ne moraju da budu apsolutne. Pogledajte dokumentaciju za pomoć radi više informacija.
+$MSG_FILE_CWD$=$MSG_FILE_CDUP$
+$MSG_FILE_QUIT$=Kada korisnik završava svoju FTP sesiju , sadržaj poruke fajla se šalje zajedno sa uobičajenim odgovorom na komande. Poruke fajlova podržavaju korisnike simboličkih parametara. Pogledajte dokumentaciju za pomoć za više informacija.
+<!-- LIST Advanced Tab -->
+$DIR_LIST_STYLE$=Stil direktorijumskog listinga
+$LIST_ADVANCED_INFO$=Format odgovora na komandu LIST može biti podešen ispod. U većini slučajeva, podrazumevano podešavanje bi trebalo da radi za većinu FTP klijenata.
+$LIST_STYLE_UNIX$=UNIX stil listing (default)
+$LIST_STYLE_IIS$=IIS stil listing
+$LIST_STYLE_DOS$=DOS stil listing
+$ALLOW_LIST_STYLE_CHANGE$=Dozvolite klijentu da promeni LIST stil korišćenjem komandne direktive
+$ALLOW_LIST_FULL_PATH$=List file\'s full path when listing a specific file
+$ALLOW_RECURSE_DIRS$=Dozvoli da klijent precizira rekurzivne listinge direktorijuma sa -R parametrom
+<!-- MKD Advanced Tab -->
+$MKD_ADVANCED_INFO$=Ako navedeni roditelj direktorijumi ne postoje, onda će automatski biti kreirani.
+$ALLOW_CREATE_PARENT_DIR$=Dozvolite MKD komandni da kreira direktorijum roditelj, koji ne postoji.
+<!-- MDTM Advanced Tab -->
+$MDTM_ADVANCED_INFO$=MDTM komanda može da se proširi da omogući klijentu da promeni datum udaljene datoteke i vreme. Koristite polja za potvrdu ispod da konfigurišete ovakvo ponašanje.
+$MDTM_CHANGE_TIME$=Dozvolite MDTM komandi da promeni datum / time fajla 
+$MDTM_BLOCK_FUTURE$=Blokirati buduće datume i vreme
+<!-- NLST Advanced Tab -->
+$NLST_ADVANCED_INFO$=Tradicionalno, NLST komanda samo lista fajlove. Potvrdite polje ispod da ga i direktorijum izlista, takođe.
+$NLST_LIST_DIRS$=NLST komanda takođe izlistava direktorijume
+$NLST_LIST_EMPTY$=Izlistaj prazne direktorijume umesto da se vrati 550 error
+<!-- FTPCP Advanced Tab -->
+$FTPCP_ADVANCED_INFO$=Sledeće opcije se primenjuju na FTP protokol u celini. Pogledajte dokumentaciju za pomoć za više informacija o svakoj opciji.
+$FTPCP_BLOCK_FXP$=Blokiraj \"FTP_bounce\" napade i FXP (server-to-server transfere)
+$FTPCP_INC_RESP_CODE$=Uključite kod odgovor na svim linijama multi-line odgovora
+$FTPCP_UTF8_DEFAULT$=Koristi UTF-8 kodni raspored za sve poslate i primljene putanja i imena datoteka
+
+
+<!-- **************** ImportExportUsersDialog.htm **************** -->
+$EXPORT_USER_PATH$=Izvezi Fajl Put
+$IMPORT_USER_PATH$=Uvezi Fajl Put
+$IMPORT_USER_DIALOG_TITLE$=Uvezi Korisnike
+$EXPORT_USER_DIALOG_TITLE$=Izvezi Korisnike
+$IMPORT_MSG$=korisnika su uvezeni iz fajla:
+$IMPORT_MSG_EXIST1$=korisnika su uvezeni.
+$IMPORT_MSG_EXIST2$=korisnika su već postojali i nisu uvezeni iz fajla:
+$EXPORT_MSG$=korisnika su izvezeni u fajl:
+$EXPORT_USERS_CONFIRM$=Da li želite da izvezete sve korisnike ?
+$EXPORT_USERS_YES_CONFIRM$=Odgovori \"Da\" da izvezete sve korisnike u ovaj domen/server.
+$EXPORT_USERS_NO_CONFIRM$=Odgovori \"Ne\" da izvezete korisnike samo u ovu korisničku kolekciju.
+$NO_IMPORT_ODBC_USERS_SAVED$=Nijedan korisnički nalog nije sačuvan, budite sigurni da ste proverili podešavanja baze konfiguracije ili proverite dostupnost definisane baze podataka.
+$NO_IMPORT_USERS_SAVED$=Nijedan korisnički nalog nije sačuvan, budite sigurni da ste proveriili read-write dozvole u operativnom sistemu i proverite da li postoji dovoljno prostora na raspolaganju.
+$SOME_IMPORT_ODBC_USERS_NOT_SAVED$=Neki korisnički nalozi nisu sačuvani, budite sigurni da ste proverili podešavanja baze konfiguracije ili proverite dostupnost definisane baze podataka. 
+$SOME_IMPORT_USERS_NOT_SAVED$=Neki korisnički nalog nije sačuvan, budite sigurni da ste proveriili read-write dozvole u operativnom sistemu i proverite da li postoji dovoljno prostora na raspolaganju.
+<!-- Java Script -->
+$PLEASE_ENTER_IMPORT_PATH$=Molimo Vas da unesete putanju do fajla koji želite da uvezete.
+$PLEASE_ENTER_EXPORT_PATH$=Molimo Vas unesite putanju i ime fajla do kojeg želite da izvezete korisnike.
+<!-- **************** DomainActivity.htm **************** -->
+<!-- Java Script -->
+<!-- Main Page -->
+$DOMAIN_ACTIVITY_INFO$=Prikazuje informacije o trenutnoj aktivnosti domena i logovanju.Podešavanje kartica omogućava konfiguraciju fajla i  informacije o logovanju u realnom vremenu.
+<!-- Sessions Tab -->
+$SESSIONS_TAB$=Sesije
+$SESSIONS_INFO$=Informacije o trenutno aktivnim sesijama je prikazana. Odavde možete da vidite informacije sesije, ćaskanje sa.. ili banovanje korisnika.
+<!-- User and Group Stats Tab -->
+$USER_GROUP_STATS_SELECTION$=Korisnik ili grupa Statistika Selekcija
+$USER_GROUP_STATS_TAB$=Korisnička i Grupna Statistika
+$USER_STATS$=Korisnička Statistika
+$SELECT_USER_STATS$=Korisnik
+$USER_GROUP_STATS_INFO$=Pogledajte statističke podatke o korisnicima i grupama , uključujući sesije , prenos podataka,aktivnosti i statistike kao i ukupne iznose.
+$GROUP_STATS$=Grupna Statistika
+$SELECT_GROUP_STATS$=Grupa
+$SELECT_COLLECTION$=Kolekcija
+$SAVE_STATS_BUTTON$=Sačuvaj statistiku
+<!-- Stats Tab -->
+$STATS_TAB$=Statistika
+$DOMAIN_STATS_INFO$=Pogledaj statistike o trenutnom domenu, uključujući sesije, prenos podataka ,statistike, i zbirova tekuće aktivnosti.
+<!-- Log Tab -->
+$LOG_DISPLAY_INFO$=Trenutni domen dnevnik je prikazan u realnom vremenu ažuriranja. Da biste pauzirali ažuriranje u realnom vremenu, potvrdite izbor u polju pod nazivom "Zamrzni Log".
+$LOG_TAB$=Log
+$FREEZE_LOG$=Zamrzni Log
+$LEGEND_BUTTON$=Legenda
+$LOG_LEGEND$=Log Legenda
+$FILTER_BUTTON$=Filter
+$FILTER_LOG_BUTTON$=Filter Log
+$FILTER_DIALOG_TITLE$=Filter Log po Stringu
+$LOG_FILTER_INFO$=Dnevnik obuhvata samo sadržaj koji sadrži string uneseno.
+$RESET_BUTTON$=Resetuj
+$RESET_All_BUTTON$=Resetuj Sve
+$COPY_CLIPBOARD$=Kopiraj u Clipboard
+$CONFIRM_RESET_ALL_DIALOG_TITLE$=Resetuj Kompletnu Statistiku
+$RESET_ALL_GROUP_STATS_INFO$=Da li ste sigurni da želite da resetujete statistiku za sve grupe?
+$RESET_ALL_STATS_INFO$=Molimo Vas da odaberete da resetujete statistiku svih organizacija ili organizacija koje su trenutno izabrane klikom na odgovarajuće dugme dole.
+$RESET_THIS_ORG_BUTTON$=Resetuj Selektovano
+$RESET_ALL_ORGS_BUTTON$=Resetuj Sve
+
+$RESET_ALL_PROGRESS_DIALOG_TITLE$=Statistika Resetuj Progres
+$RESETTING_GROUP_STATS_PROGRESS$=Resetovanje grupne statistike
+$RESETTING_USER_STATS_PROGRESS$=Resetovanje Korisničke Statistike
+
+<!-- Settings Tab -->
+$LOG_SETTINGS_INFO$=Koristite polja za potvrdu sa leve strane da biste konfigurisali gde želite aktivnost da bude prijavljena. Podešavanja na desnoj kontroli kako su podaci prijavljeni u datoteci.
+$LOG_SETTINGS_INFO_USER_GROUP$=Koristite polja za potvrdu sa leve strane za konfigurisanje informacija koje želite da budu sačuvane u logu."Prijavljivanje i Logovanje podešavanja" opcije kontrolišu kako se informacije čuvaju u fajlu.
+$LOG_MESSAGE_SETTINGS_LABEL$=Opcije Log Poruka
+$LOG_FILE_LABEL$=Fajl
+$LOG_SCREEN_LABEL$=Ekran
+$LOG_FILE_PATH$=Ime Puta Log Fajla
+$ENABLE_LOG_TO_FILE$=Omogući Logovanje u Fajl
+$SYSTEM_MESSAGES_LABEL$=Sistemske Poruke
+$SECURITY_MESSAGES_LABEL$=Sigurnosne Poruke
+$IP_NAMES_LABEL$=IP imena
+$DOWNLOADS_LABEL$=Preuzimanja
+$UPLOADS_LABEL$=Uploadovanje
+$FILE_DELETIONS_LABEL$=Brisanja Fajlova
+$FILE_AND_DIRECTORY_RENAMES_LABEL$=Preimenovanja Fajlova I Direktorijuma
+$DIRECTORY_CREATIONS_LABEL$=Direktorijum kreacije
+$DIRECTORY_DELETIONS_LABEL$=Direktorijum brisanja
+$ODBC_CALLS_LABEL$=ODBC pozivi
+$ODBC_ERRORS_LABEL$=ODBC greške
+$TRIGGERED_EVENT_LABEL$=Uzrokovani Dogadjaji
+$FTP_COMMANDS_LABEL$=FTP komande
+$FTP_REPLIES_LABEL$=FTP odgovori
+$SSH_COMMANDS_LABEL$=SSH komande
+$SSH_REPLIES_LABEL$=SSH odgovori
+$SSH_DETAILED_COMMANDS_LABEL$=SSH detaljne komande
+$SSH_DETAILED_REPLIES_LABEL$=SSH detaljni odgovori
+$HTTP_COMMANDS_LABEL$=HTTP komande
+$HTTP_REPLIES_LABEL$=HTTP odgovori
+$LOG_FILE_SETTINGS$=Logovanje u Fajl Podešavanja
+$LOG_FILE_PARAMETERS_LABEL$=Log Oznake Putanje Fajla
+$HOURLY_LOG_LABEL$=hour (24-časa sat)
+$DAY_OF_MONTH_LABEL$=dan u mesecu
+$MONTH_TEXT_LABEL$=mesec (tekst)
+$MONTH_NUMBER_LABEL$=mesec ciframa (1-12)
+$4_DIGIT_YEAR_LABEL$=4-cifre godina
+$2_DIGIT_YEAR_LABEL$=2-cifre godina
+$DOMAIN_NAME_LABEL$=ime domena
+$LOGIN_LABEL$=Login ID
+$USER_FULL_NAME_LABEL$=korisnikovo Kompletno Ime
+$GROUP_NAME_LABEL$=Ime Grupe
+$LOG_ROTATE_SETTING$=Automatski rotiraj log fajl
+$LOG_ROTATE_NEVER_DESC$=Nikad
+$LOG_ROTATE_HOURLY_DESC$=Na sat
+$LOG_ROTATE_DAILY_DESC$=Dnevno
+$LOG_ROTATE_WEEKLY_DESC$=Nedeljno
+$LOG_ROTATE_MONTHLY_DESC$=Mesečno
+$LOG_ROTATE_YEARLY_DESC$=Godišnje
+$LOG_IP_ACCESS_BUTTON$=Ne piši u Log IPs
+$PLEASE_ENTER_LOG_FILE_NAME$=Molim Vas da uključite ime fajla u za log fajl file.
+$LOG_FILE_NAMING_EXAMPLES$=Primeri:<br>/Serv-U-Log.txt<br>/Serv-U-Log%M.txt<br>/Serv-U-Log%N-%Y.txt<br>/Serv-U-Log%N-%D-%Y.txt<br>/Serv-U-Log-%S.txt
+$KEEP_UP_TO$=Sačuvaj u
+$LOG_EXCEED_FILES$=log fajlovi.
+$LOG_EXCEED_BYTES$=MB of log files.
+$ZERO_NO_DELETE$=0 da zadržite sve log fajlove
+$CONFIRM_RESET_GROUP_STATS$=Da li ste sigurni da želite da resetujete statistiku za izabranu grupu ?
+$CONFIRM_RESET_USER_STATS$=Da li ste sigurni da želite da resetujete statistiku za izabranog korisnika ?
+$SAVE_LOG_SETTINGS_BUTTON$=Sačuvaj Log podešavanja
+
+<!-- **************** LogIPAccessListDialog.htm **************** -->
+$LOG_IP_ACCESS_LIST_DIALOG_TITLE$=Ne Loguj IP Pravila
+$LOG_IP_ACCESS_LIST_INFO$=Sledeća IP pravila identifikuju IP adrese koje nisu evidentirane. Pravila se mogu primeniti na ekranu loga i log fajla, ili oboje.
+$USER_GROUP_LOG_IP_ACCESS_LIST_INFO$=Sledeće IP pravila identifikuju IP adrese koje nisu evidentirane. Pravila će biti primenjena na log fajl.
+$APPLIES_TO$=Primeni na
+$LOG_FILE$=Fajl
+$LOG_SCREEN$=Ekran
+$LOG_BOTH$=Oboje
+$LOG_NONE$=Onemogućeno
+
+
+<!-- **************** LogIPAccessDialog.htm **************** -->
+$LOG_IP_ACCESS_DIALOG_TITLE$=Ne Loguj IP Pravila
+$LOG_APPLY_SCREEN$=Primeni na ekran
+$LOG_APPLY_FILE$=Primeni na fajl
+
+
+<!-- **************** ServerActivity.htm **************** -->
+<!-- Java Script -->
+<!-- Main Page -->
+$SERVER_ACTIVITY_INFO$=Prikazuje informacije o i dozvolama upravljanja korisničkim sesijama u svim domenima na fajl serveru.Log kartica prikazuje širom servera poruke i informacije.
+<!-- Stats Tab -->
+$SERVER_STATS_INFO$=Pogledaj statistike o čitavom fajl serveru u svim domenima, uključujući informacije sesija, statistika prenosa podataka, i zbirove tekućih aktivnosti.
+<!-- Log Tab -->
+$SERVER_LOG_DISPLAY_INFO$=Server Log je prikazan dole u realnom vremenu ažuriranja.Server Log sadrži početne informacije, globalne poruke i greške.
+
+
+<!-- **************** DomainAttrStats.htm **************** -->
+<!-- HTML -->
+$UP_TIME$=Isteklo Vreme
+$SESSIONS_CURRENT$=Trenutna Sesija
+$SESSIONS_LAST_DAY$=24 čas. Sesija
+$SESSIONS_TOTAL$=Ukupno Sesija
+$SESSIONS_PASSWORD_CHANGED_ON$=Poslednja Izmena Lozinke
+$SESSIONS_MAX$=Najveći Br. Sesija
+$SESSIONS_AVG_TIME$=Pribl. Dužina Sesije
+$SESSIONS_LONGEST$=Najduža Sesija
+$TRANSFER_DL_SPEED$=Brzina Preuzimanja
+$TRANSFER_AVG_DL_SPEED$=Pribl.Brzina preuz. 
+$TRANSFER_DOWNLOADED$=Preuzeto
+$TRANSFER_UL_SPEED$=Upload Brzina
+$TRANSFER_AVG_UL_SPEED$=Pribl. UL Brzina
+$TRANSFER_UPLOADED$=Uploadovano
+$LOGIN_STATS_LOGINS$=Logovanja
+$LOGIN_STATS_LOGOUTS$=Odjave
+$LOGIN_STATS_CURRENT_LOGINS$=Trenutno Ulogovani
+$LOGIN_STATS_MOST_CURRENT_LOGINS$=Najčešća Logovanja
+$LOGIN_STATS_LAST_LOGIN$=Poslednje Vreme Logovanja
+$LOGIN_STATS_LAST_LOGOUT$=Poslednje Vreme Odjave
+$LOGIN_STATS_AVERAGE_LOGIN_SEC$=Približna Dužina Logovanja
+$LOGIN_STATS_LONG_LOGIN_SEC$=Najduže Logovanje
+$LOGIN_STATS_SHORT_LOGIN_SEC$=Najkraće Logovanje
+$STATS_DURATION$=Statistika Trajanja
+$STATS_START_TIME$=Početak Statistike
+<!-- Java Script -->
+$SESSION_STATS$=Statistika Sesije 
+$TRANSFER_STATS$=Statistika Prenosa 
+$LOGIN_STATS$=Login Statistika
+
+
+<!-- **************** ChangeDomainDialog.htm **************** -->
+<!-- Java Script -->
+$CHANGE_DOMAIN_BUTTON$=Promena Domena
+<!-- Main Page -->
+
+
+<!-- **************** Common Wizard Nav Dialog **************** -->
+<!-- Java Script -->
+$NEXT_BUTTON$=Sledeći
+$BACK_BUTTON$=Nazad
+$FINISH_BUTTON$=Završi
+<!-- Main Page -->
+$STEP$=Korak
+$OF$=od
+
+<!-- **************** Save Stats Dialog **************** -->
+$SAVE_STATS_DIALOG_TITLE$=Sačuvaj Statistiku U Fajl
+$PLEASE_ENTER_STATS_SAVE_PATH$=Molimo Vas unesite putanju i ime fajla za fajl statistike.
+$SAVE_STATS_PATH$=Putanja Statistike Fajla
+$SAVE_GROUP_STATS_MSG$=grupna statistika je sačuvana u fajl:
+$SAVE_USER_STATS_MSG$=Korisnička statistika je sačuvana u fajl:
+
+
+<!-- **************** Move Users Dialog **************** -->
+$MOVE_USERS_TITLE$=Premesti Korisnike
+$MOVE_USER_DESCR$=Izaberite kolekciju u koju želite da premestite korisnika (e).
+$MOVE_TO_ODBC$=Premesti u bazu podataka
+$MOVE_TO_SERVU$=Premesti u Serv-U
+
+
+<!-- **************** Bubble Tip Dialogs **************** -->
+$DONT_SHOW_AGAIN$=Ne prikazuj ovu poruku više
+
+
+<!-- **************** GatewayTab.htm **************** -->
+$GATEWAY$=Serv-U Gateway
+$GATEWAY_ADDRESS$=Gateway Adresa
+$STATUS$=Status
+$PUBLIC_IP_ADDRESS$=Javna IP Adresa
+$GATEWAY_INFO$=Serv-U Gateway je opciono obrnuta-proksi komponenta koja bezbedno prekida fajl transfer konekcije u DMZ da bi se izbegle dolazne veze ili skladištenje podataka u DMZ. Pogledajte Serv-U Distribuirani Vodič za Arhitekturu za više informacija. Kliknite na dugme "Postavke" da biste primenili Serv-U licence.. 
+$SELECT_ONLY_ONE_GATEWAY_EDIT$=Molimo Vas da odaberete samo jedan gateway da izmenite.
+$SELECT_ONE_GATEWAY_EDIT$=Molimo Vas da odaberete jedan gateway da izmenite.
+$ASK_DELETE_GATEWAY$=Da li ste sigurni da želite da obrišete izabrani gateway(e)?
+$SELECT_A_GATEWAY_TO_DELETE$=Izaberite gateway za brisanje.
+$SELECT_ONLY_ONE_GATEWAY_PROP$=Izaberite samo jedan gateway da biste videli svojstva.
+$SELECT_ONE_GATEWAY_PROP$=Izaberite jedan gateway da biste videli svojstva.
+
+
+<!-- **************** GatewayDialog.htm **************** -->
+$ENABLE_GATEWAY$=Omogući Gateway
+$ENABLED$=Omogući
+$DISABLED$=Onemogući
+$CONTEXT_DISABLE_GATEWAY$=Onemogući Gateway
+$CONTEXT_ENABLE_GATEWAY$=Omogući Gateway
+$PLEASE_ENTER_GATEWAY_IP$=Molimo Vas da unesete IP adresu Gateway-a.
+
+
+<!-- **************** GatewayPropertiesDialog.htm **************** -->
+$REGISTRATION_GATEWAY_CLEAR_CONFIRM$=Brisanje registracijonog ID-a uzrokuje da Serv-U Gateway postane neregistrovan. Da li ste sigurni da želite da obrišete informacije o registraciji?
+$REGISTRATION_GATEWAY_FAIL$=Vaš registracioni ID važi, ali Nije bilo moguće sačuvati na disku. Molimo Vas da pratite uputstva koja su priložena u vašoj registracionoj poruci da se registruje Vaš Serv-U Gateway.
+$GATEWAY_RUNNING_TXT$=Radi Normalno
+$GATEWAY_CANNOT_CONNECT_TXT$=Nemoguća Konekcija
+$GATEWAY_RUNNING_TRIAL_TXT$=Radi normalno kao probna verzija
+$GATEWAY_RUNNING_NEAR_TRIAL_END_TXT$=Radi normalno ali blizu isteka probnog perioda
+$GATEWAY_TRIAL_EXPIRED_TXT$=Probni period istekao, više ne prihvata konekcije
+$GATEWAY_RUNNING_NEAR_UPDATE_END_TXT$=Radi normalno ali ažuriranje je blizu kraja
+$GATEWAY_RUNNING_UPDATE_EXPIRED_TXT$=Radi normalno ali period za ažuriranje je istekao
+$GATEWAY_NO_CONNECTION_ATTEMPT_TXT$=Nemoguća konekcija na Gateway
+$AVAIL_PUBLIC_IPS$=Dostupne Javne IP Adrese
+$REGISTERED_ON$=Registrovano na
+$CANNOT_CONNECT_TO_GATEWAY$=Serv-U nije konektovan na izabrani Serv-U Gateway.
+$NO_PUBLIC_IPS$=Nema javnih IP adresa nađenih na gateway serveru
+$GATEWAY_PURCHASE_INFO$=Za više informacija o Serv-U Gateway i kupovinu posetite: <br><a href="http://www.Serv-U.com/modules/gateway/?CMP=PRD-TAD-SW-MFT_INPRD-MFT-PP" target="_blank">http://www.Serv-U.com/modules/gateway</a>
+
+
+<!-- **************** LDAPServerDialog.htm **************** -->
+$LDAP_BROWSE$=Potraži
+$LDAP_RETRIEVE$=Preuzmi
+$LDAP_ROOT_CERTIFICATE$=Autoritet za izdavanje sertifikata
+$LDAP_DEFAULT_CERTIFICATE$=Podrazumevana konfiguracija operativnog sistema
+$LDAP_BROWSE_CERTIFICATE$=Izaberite osnovni sertifikat
+$LDAP_PICK_CERTIFICATE$=Preuzmi osnovni sertifikat s LDAP servera
+$LDAP_ROOT_PATH_HINT$=Putanja datoteke CA osnovnog sertifikata u lokalnom sistemu datoteka. Uverite se da je datoteka sertifikata base-64 kodirana.
+$LDAP_BROWSE_BUTTON_HINT$=Potraži datoteku CA osnovnog sertifikata u lokalnom sistemu datoteka
+$LDAP_RETRIEVE_BUTTON_HINT$=Preuzmi CA osnovni sertifikat s LDAPS servera
+$LDAP_SERIAL_NUMBER$=Serijski broj
+$LDAP_SIGNATURE_ALGORITHM$=Algoritam potpisa
+$LDAP_PUBLIC_KEY_ALGORITHM$=Algoritam javnog ključa
+$LDAP_ORGANIZATION$=Organizacija
+$LDAP_LOCATION$=Lokacija
+$LDAP_VALID_FROM$=Važi od
+$LDAP_VALID_TO$=Važi do
+$LDAP_VALIDATE$=Potvrdite izabrane informacije o CA sertifikatu u nastavku:
+$LDAP_ALGORITHMS$=Algoritmi
+$LDAP_ISSUER$=Izdavač
+$LDAP_SUBJECT$=Tema
+$LDAP_VALIDITY_PERIOD$=Period važenja
+$LDAP_FINGERPRINTS$=Digitalni otisci
+$LDAP_FILE_PATH$=Putanja datoteke
+$LDAP_CONFIRM_QUESTION$=Da li potvrđujete validnost ovog sertifikata?
+
+
+<!-- **************** MFA **************** -->
+$TOTP_HMAC_SHA1$=SHA-1
+$TOTP_HMAC_SHA256$=SHA-256
+$TOTP_HMAC_SHA512$=SHA-512
+$TOTP_MFA_ENABLED$=Omogućeno
+$TOTP_MFA_DISABLED$=Onemogućeno
+$TOTP_MFA_ENFORCED$=Nametnuto
+$TOTP_MFA_RESET_FOR_USER$=Želite li sigurno da resetujete TOTP za izabranog korisnika?
+$MFA_TAB_NAME$=Višestruka potvrda identiteta
+$MFA_TAB_INFO$=Ako je višestruka potvrda identiteta omogućena, klijent može da koristi jednokratnu šifru koju generiše aplikacija za potvrdu identiteta kao dodatni faktor potvrde identiteta zajedno s korisničkim imenom i lozinkom za sigurnu prijavu. Ako je višestruka potvrda identiteta podešena kao Nametnuto, njena upotreba je obavezna i klijent ne može da se prijavi bez nje.
+$MFA_STATUS$=Status MFA
+$MFA_STATUS_ACTIVE$=Aktivna
+$MFA_STATUS_NOT_CONFIG$=Nije konfigurisano
+$MFA_LOGIN_ID$=ID za prijavu:
+$MFA_AUTHENTICATOR$=Autorizator za višestruku potvrdu identiteta:
+$MFA_COMPANY_NAME$=Ime kompanije:
+$MFA_PRODUCT_NAME$=Serv-U
+$MFA_GENERAL_USERS_NOT_AVAILABLE$=Višestruka potvrda identiteta nije dostupna za trenutni tip korisnika.
+$MFA_GENERAL_GROUPS_NOT_AVAILABLE$=Višestruka potvrda identiteta nije dostupna za trenutni tip grupe.
+$MFA_LDAP_USERS_NOT_AVAILABLE$=Višestruka potvrda identiteta nije dostupna za LDAP korisnike.
+$MFA_LDAP_GROUPS_NOT_AVAILABLE$=Višestruka potvrda identiteta nije dostupna za LDAP grupe.
+$MFA_DB_USERS_NOT_AVAILABLE$=Višestruka potvrda identiteta nije dostupna za korisnike baze podataka.
+$MFA_DB_GROUPS_NOT_AVAILABLE$=Višestruka potvrda identiteta nije dostupna za grupe baza podataka.
+$MFA_WINDOWS_USERS_NOT_AVAILABLE$=Višestruka potvrda identiteta nije dostupna za „Windows“ korisnike.
+$MFA_WINDOWS_GROUPS_NOT_AVAILABLE$=Višestruka potvrda identiteta nije dostupna za „Windows“ grupe.

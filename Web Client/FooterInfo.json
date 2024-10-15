@@ -1,0 +1,7 @@
+<!--#include "../Common/Strings/Result.strings"-->
+{
+    "link": "%PRODUCT_HOME%",
+    "version": "%VERSION%",
+    "copyright": "%COPYRIGHT_END_YEAR%",
+    "company": "%COMPANY_NAME_FORMAL%"
+}

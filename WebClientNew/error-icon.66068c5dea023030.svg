@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>i/general/error-icon</title>
+    <g id="i/general/error-icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon" transform="translate(7.000000, 7.000000)" fill="#0079AA" fill-rule="nonzero">
+            <path d="M7.5,0 C11.6421356,0 15,3.35786438 15,7.5 C15,11.6421356 11.6421356,15 7.5,15 C3.35786438,15 0,11.6421356 0,7.5 C0,3.35786438 3.35786438,0 7.5,0 Z M7.5,10.5 C7.08578644,10.5 6.75,10.8357864 6.75,11.25 C6.75,11.6642136 7.08578644,12 7.5,12 C7.91421356,12 8.25,11.6642136 8.25,11.25 C8.25,10.8357864 7.91421356,10.5 7.5,10.5 Z M7.5,3 C7.08578644,3 6.75,3.33578644 6.75,3.75 L6.75,3.75 L6.75,9 C6.75,9.41421356 7.08578644,9.75 7.5,9.75 C7.91421356,9.75 8.25,9.41421356 8.25,9 L8.25,9 L8.25,3.75 C8.25,3.33578644 7.91421356,3 7.5,3 Z" id="🎨-Icon-Color"></path>
+        </g>
+    </g>
+</svg>

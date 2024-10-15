@@ -1,0 +1,35 @@
+<!--#include "../../Common/Strings/Result.strings"-->
+{
+  "result": "%RESULT%",
+  "resultText": "%RESULT_TEXT%",
+  "dateCreated": %CAdHocShare.%ID%.DateCreated%,
+  "dateExpiration": %CAdHocShare.%ID%.DateExpiration%,
+  "fromEmail": "%CAdHocShare.%ID%.FromAddress%",
+  "fromName": "%CAdHocShare.%ID%.FromName%",
+  "hasPassword": %CAdHocShare.%ID%.HasPassword%,
+  "listFiles": [
+    %DELETE_LIST_STRINGS%
+      %ADD_LIST_STRING%{ "fileID": %CAdHocShareFile.%LIST_ID%.FileID%,
+      %ADD_LIST_STRING%"fileName": "%CAdHocShareFile.%LIST_ID%.FileName%",
+      %ADD_LIST_STRING%"fileToken": "%CAdHocShareFile.%LIST_ID%.FileToken%",
+      %ADD_LIST_STRING%"fileSize": %CAdHocShareFile.%LIST_ID%.FileSize% },
+    %CAdHocShare.%ID%.ListFiles%
+    {}
+  ],
+  "listActivity": [
+    %DELETE_LIST_STRINGS%
+      %ADD_LIST_STRING%{ "fileID": %CAdHocShareActivity.%LIST_ID%.FileID%,
+      %ADD_LIST_STRING%"transferTime": %CAdHocShareActivity.%LIST_ID%.TransferTime%,
+      %ADD_LIST_STRING%"location": "%CAdHocShareActivity.%LIST_ID%.IPAddress%" },
+    %CAdHocShare.%ID%.ListActivity%
+    {}
+  ],
+  "listRecipients": "%CAdHocShare.%ID%.ListRecipientsCSV%",
+  "maxFileSize": %CAdHocShare.%ID%.MaxFileSize%,
+  "shareComment": "%CAdHocShare.%ID%.MsgBody%",
+  "shareStatus": "%CAdHocShare.%ID%.NotificationStatus%",
+  "shareSubject": "%CAdHocShare.%ID%.MsgSubject%",
+  "shareType": %CAdHocShare.%ID%.ShareType%,
+  "shareURL": "%CAdHocShare.%ID%.ShareURL%",
+  "csrfToken": "%ENC_CSRF_TOKEN%"
+}

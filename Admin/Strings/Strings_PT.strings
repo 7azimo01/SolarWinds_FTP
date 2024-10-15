@@ -1,0 +1,64 @@
+﻿<!-- Strings.strings - For ease of localization, strings have been separated into this file.  Place all localizable strings here. -->
+<!-- Strings.strings - For ease of localization, strings have been separated into this file.  Place all localizable strings here. -->
+<!-- NOTE: assignments require left justification and the assignment to appear as "$=" without whitespace between the $ and =. -->
+<!-- File location: <<Install>>\Client\Admin\Include\ -->
+
+<!-- **************** ServerSettingsTab.htm **************** -->
+$PASV_CHECK_PEER_IP$=Exigir que os endereços IP dos pares sejam correspondentes para conexões de dados e controle
+
+<!-- **************** BrowseDialog.htm **************** -->
+$FILE_PATH$=Caminho do arquivo
+
+
+<!-- **************** LDAPServerDialog.htm **************** -->
+$LDAP_BROWSE$=Procurar
+$LDAP_RETRIEVE$=Recuperar
+$LDAP_ROOT_CERTIFICATE$=Autoridade de certificação
+$LDAP_DEFAULT_CERTIFICATE$=Configuração padrão do sistema operacional
+$LDAP_BROWSE_CERTIFICATE$=Selecionar certificado raiz
+$LDAP_PICK_CERTIFICATE$=Recuperar certificado raiz do servidor LDAP
+$LDAP_ROOT_PATH_HINT$=Caminho de arquivo do certificado raiz da autoridade de certificação no sistema de arquivos local. Verifique se o arquivo de certificação é certificado em Base 64.
+$LDAP_BROWSE_BUTTON_HINT$=Procurar caminho do certificado raiz da autoridade de certificação no sistema de arquivos local
+$LDAP_RETRIEVE_BUTTON_HINT$=Recuperar certificado raiz da autoridade de certificação no servidor LDAPS
+$LDAP_SERIAL_NUMBER$=Número de série
+$LDAP_SIGNATURE_ALGORITHM$=Algoritmo de assinatura
+$LDAP_PUBLIC_KEY_ALGORITHM$=Algoritmo de chave pública
+$LDAP_ORGANIZATION$=Organização
+$LDAP_LOCATION$=Local
+$LDAP_VALID_FROM$=Válido a partir de
+$LDAP_VALID_TO$=Válido até
+$LDAP_VALIDATE$=Valide abaixo as informações do certificado da autoridade de certificação selecionado:
+$LDAP_ALGORITHMS$=Algoritmos
+$LDAP_ISSUER$=Emissor
+$LDAP_SUBJECT$=Assunto
+$LDAP_VALIDITY_PERIOD$=Período de validade
+$LDAP_FINGERPRINTS$=Impressões digitais
+$LDAP_FILE_PATH$=Caminho do arquivo
+$LDAP_CONFIRM_QUESTION$=Você confirma a validade do certificado?
+
+
+<!-- **************** MFA **************** -->
+$TOTP_HMAC_SHA1$=SHA-1
+$TOTP_HMAC_SHA256$=SHA-256
+$TOTP_HMAC_SHA512$=SHA-512
+$TOTP_MFA_ENABLED$=Habilitada
+$TOTP_MFA_DISABLED$=Desabilitada
+$TOTP_MFA_ENFORCED$=Aplicada
+$TOTP_MFA_RESET_FOR_USER$=Tem certeza de que deseja redefinir o TOTP para o usuário selecionado?
+$MFA_TAB_NAME$=Autenticação multifator
+$MFA_TAB_INFO$=Se a autenticação multifator estiver Habilitada, o cliente poderá usar o código único gerado pelo aplicativo autenticador como fator de autenticação adicional, bem como o nome de usuário e a senha de login seguro. Se a autenticação multifator estiver definida como Aplicada, sua utilização será obrigatória, e o cliente não poderá fazer login sem ela.
+$MFA_STATUS$=Status do MFA
+$MFA_STATUS_ACTIVE$=Ativo
+$MFA_STATUS_NOT_CONFIG$=Sem configuração
+$MFA_LOGIN_ID$=Identificação de login:
+$MFA_AUTHENTICATOR$=Autenticador multifator:
+$MFA_COMPANY_NAME$=Nome da empresa:
+$MFA_PRODUCT_NAME$=Serv-U
+$MFA_GENERAL_USERS_NOT_AVAILABLE$=A autenticação multifator não está disponível para o tipo de usuário atual.
+$MFA_GENERAL_GROUPS_NOT_AVAILABLE$=A autenticação multifator não está disponível para o tipo de grupo atual.
+$MFA_LDAP_USERS_NOT_AVAILABLE$=A autenticação multifator não está disponível para usuários de LDAP.
+$MFA_LDAP_GROUPS_NOT_AVAILABLE$=A autenticação multifator não está disponível para grupos de LDAP.
+$MFA_DB_USERS_NOT_AVAILABLE$=A autenticação multifator não está disponível para usuários de banco de dados.
+$MFA_DB_GROUPS_NOT_AVAILABLE$=A autenticação multifator não está disponível para grupos de bancos de dados.
+$MFA_WINDOWS_USERS_NOT_AVAILABLE$=A autenticação multifator não está disponível para usuários do Windows.
+$MFA_WINDOWS_GROUPS_NOT_AVAILABLE$=A autenticação multifator não está disponível para grupos do Windows.

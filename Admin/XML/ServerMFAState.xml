@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ServerMfa>
+<TOTPProvisioning>%CServer.%ID%.TOTPProvisioning%</TOTPProvisioning>
+<TOTPProvisioningDefault>%CServer.%ID%.TOTPProvisioning.Default%</TOTPProvisioningDefault>
+<IsTOTPProvisioningDefault>%CServer.%ID%.TOTPProvisioning.IsDefault%</IsTOTPProvisioningDefault>
+<TOTPCompanyName>%CServer.%ID%.TOTPCompanyName%</TOTPCompanyName>
+<TOTPCompanyNameDefault>%CServer.%ID%.TOTPCompanyName.Default%</TOTPCompanyNameDefault>
+<IsTOTPCompanyNameDefault>%CServer.%ID%.TOTPCompanyName.IsDefault%</IsTOTPCompanyNameDefault>
+</ServerMfa>

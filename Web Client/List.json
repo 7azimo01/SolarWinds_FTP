@@ -1,0 +1,38 @@
+<!--#include "../Common/Strings/Result.strings"-->
+{
+    "files": [
+%LIST_MIDDLE_START%
+    {
+        "name": "%FILE_NAME%",
+        "size": %FILE_SIZE%,
+        "path": "%FILE_PATH%",
+        "modified": "%FILE_MDATETIME%",
+        "driveLabel": "%FILE_DRIVE_LABEL%",
+        "driveType": "%FILE_DRIVE_TYPE%",
+        "isDrive": %FILE_IS_DRIVE%,
+        "isDir": %FILE_IS_DIR%,
+        "isImage": %FILE_IS_IMAGE%,
+        "isAudio": %FILE_IS_AUDIO%,
+        "isVideo": %FILE_IS_VIDEO%,
+        "isCompressed": %FILE_IS_COMPRESSED%,
+        "isEncrypted": %FILE_IS_ENCRYPTED%
+    },
+%LIST_MIDDLE_END%
+    {}],
+    "currentDir": {
+        "path": "%CURRENT_DIR%",
+        "created": "%CURRENT_DIR_CDATETIME%",
+        "modified": "%CURRENT_DIR_MDATETIME%",
+        "accessed": "%CURRENT_DIR_ADATETIME%",
+        "canUpload": %CURRENT_DIR_CAN_UPLOAD%,
+        "canCreateDir": %CURRENT_DIR_CAN_CREATE_DIR%,
+        "allowMediaPlayback": %ALLOW_MEDIA_PLAYBACK%,
+        "isHome": %CURRENT_DIR_IS_HOME%,
+        "isDrive": %CURRENT_DIR_IS_DRIVE%,
+        "driveLabel": "%CURRENT_DIR_DRIVE_LABEL%",
+        "driveType": "%CURRENT_DIR_DRIVE_TYPE%",
+        "changeMessage": "%DIR_CHANGE_MESSAGE%"
+    },
+    "errorResponse": %RESULT%,
+    "resultText": "%RESULT_TEXT%"
+}

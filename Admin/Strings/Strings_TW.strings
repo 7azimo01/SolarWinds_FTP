@@ -1,0 +1,1856 @@
+﻿<!-- Strings.strings - For ease of localization, strings have been separated into this file.  Place all localizable strings here. -->
+<!-- NOTE: assignments require left justification and the assignment to appear as "$=" without whitespace between the $ and =. -->
+<!-- File location: <<Install>>\Client\Admin\Include\ -->
+
+<!-- Server -->
+$WEB_ADMIN$=Web 管理人
+
+<!-- Time Format: This string is used to define how the time of day is displayed in your locale.  The following are possible values: -->
+<!-- %H: Hour in 24-hour format (00-23), %I: Hour in 12-hour format (1-12), %M: Minute as a decimal number (00-59), %p: Current locale’s A.M./P.M. indicator for 12-hour clock (optional) -->
+<!-- US time is the default, which is displayed as "12:34 PM" -->
+$LOCALE_TIME_FORMAT$=%I:%M %p
+$TIME_AM$=上午
+$TIME_PM$=下午
+
+<!-- The following values indicate the width to be used for certain HTML elements since some languages require more space to display the same text and -->
+<!-- unilaterally increasing the available space for all languages based upon this creates a lot of white space.  Translators do not need to do anything -->
+<!-- with these values. -->
+$FILTER_GROUPBOX_WIDTH$=305
+$USER_ATTRS_DIALOG_WIDTH$=745
+$GROUP_ATTRS_DIALOG_WIDTH$=645
+$VISTA_DIALOG_INCREASE$=0
+$TREE_NAV_WIDTH$=205
+$CONNECTION_GROUP_WIDTH$=565
+$CONTAINER_CONNECTION_GROUP_WIDTH$=570
+$LOG_FILE_GROUP_HEIGHT$=370
+$OPERA_LOG_FILE_GROUP_HEIGHT$=385
+$USER_LOG_FILE_GROUP_HEIGHT$=260
+$OPERA_USER_LOG_FILE_GROUP_HEIGHT$=295
+$LOG_MESSAGE_OPTIONS_GROUP_HEIGHT$=165
+$DOMAIN_INFO_GROUP_HEIGHT$=225
+$USER_INFO_LEFT_CONTAIN_WIDTH$=200
+$USER_INFO_RIGHT_CONTAIN_WIDTH$=325
+$USER_INFO_INPUT_WIDTH_ADD$=0
+$USER_INFO_RIGHT_PUBKEY_WIDTH$=395
+$EDITION_INFO_GROUP_BOX_WIDTH$=645
+$LISTENER_PORT_COL_WIDTH$=45
+$USER_TABLE_MAPPING_WIDTH$=250
+$GROUP_TABLE_MAPPING_WIDTH$=278
+$DISCONNECT_DURATION_OFFSET$=-62
+$DISCONNECT_DURATION_LABEL_OFFSET$=-55
+$LIMIT_SELECT_COMBO_WIDTH$=415
+$LIMIT_DIALOG_WIDTH$=435
+$MEMBERS_LIST_COL_SIZES$=150, 150, 160, 100, 100
+$LIMITS_LIST_COL_SIZES$=275, 56, 355
+$SQL_TEMPLATE_DIALOG_WIDTH$=550
+$SQL_TEMPLATE_LIST_COL_SIZES$=150, 370
+$OS_INFO_WIDTH$=95
+
+<!-- **************** header.htm **************** -->
+$CONSOLE_TITLE$=Serv-U 檔案伺服器管理控制臺
+$FVJV$=FTP Voyager JV
+$BASIC_WEB_CLIENT$=Web 使用者端
+$CURRENTLYLOGGEDIN$=登入
+$CURRENTLY_EDITING_DOMAIN$=管理域
+$CURRENTLY_EDITING_SERVER$=管理
+$HOME$=首頁
+
+
+<!-- **************** Console.htm **************** -->
+<!-- HTML -->
+$MANAGE_SERVER$=管理伺服器
+$SERVER$=伺服器
+$NAVIGATION$=導航
+<!-- Javascript -->
+$SELECT_DOMAIN_MSG$=請通過選擇 "$MANAGE_DOMAIN_BUTTON$" 按鈕選擇或創建域。
+$SELECT_A_DOMAIN_TO_DELETE$=請選擇要移除的域。
+$ASK_DELETE_DOMAIN$=您確定要移除選取的域嗎？
+$SELECT_ONLY_ONE_DOMAIN$=請只選擇一個域。
+$SELECT_ONLY_ONE_DOMAIN_EDIT$=請只選擇一個要編輯的域。
+$SELECT_ONE_DOMAIN_EDIT$=請選擇一個要編輯的域。
+$SELECT_A_DOMAIN$=選擇一個域 
+$ODBC_64_UPGRADE_TITLE$=Serv-U 64-位資料庫升級
+$WARN_ODBC_64BIT_UPGRADE$=無法打開至少一個資料庫。造成這個問題的原因可能是從 Serv-U 32-位升級到 Serv-U 64-位。請檢查伺服器與每個域的資料庫設定與記錄檔。<br><br>使用 \“控制臺 | 管理工具\”中的 64-位 \“數據源（ODBC）\”為您的 Serv-U 資料庫創建一個相匹配的 64-位 DSN。創建完這個相匹配的64-位 DSN 之後，重啟 Serv-U。<br><br>若需要其他幫助，請訪問<a href='http://www.Serv-U.com/support/?CMP=PRD-TAD-SW-MFT_INPRD-MFT-PP' target='_blank'>http://www.Serv-U.com/support</a>
+$DOMAIN_DOES_NOT_EXIST$=您選擇的域不存在。請選擇不同的域。
+<!-- Manage Domain -->
+$MANAGE_DOMAIN_BUTTON$=管理域
+$DOMAINS$=域
+$DOMAIN$=域
+$DOMAINNAME$=網域名稱
+$DESCRIPTION$=說明
+<!-- New Domain Dialog -->
+$NEW_DOMAIN$=新建域
+$NEW_DOMAIN_BUTTON$=新建域
+$CREATE_NEW_DOMAIN$=創建新的域
+<!-- Domain Details -->
+$DOMAIN_DETAILS$=域詳細資訊
+$DOMAIN_NAME_AND_DESCRIPTION$=編輯網域名稱和說明。
+$CONFIGURE_LISTENERS$=組態域的監聽器。
+$CONFIGURE_VIRTUAL_HOSTS$=維護虛擬主機名。
+$CONFIGURE_IPACCESS$=組態域 IP 訪問規則。
+$CONFIGURE_DOMAIN_DATABASE$=為域中的帳號和群組組態資料庫訪問設定。
+$CONFIGURE_DOMAIN_EVENTS$=創建，修改並移除域事件。
+<!-- Users -->
+$USERS$=使用者
+$CREATE_MODIFY_DELETE_USER$=創建、修改和移除使用者帳號。
+$CREATE_MODIFY_DELETE_DB_USER$=創建、修改和移除存儲在資料庫中的使用者帳號。
+$CONFIG_WIN_AUTH_SETTINGS$=組態 Windows 身份驗證設定。
+$CONFIG_LDAP_AUTH_SETTINGS$=組態 LDAP 驗證設定。
+<!-- Groups-->
+$GROUPS$=群組
+$CREATE_MODIFY_DELETE_GROUP$=創建、修改和移除使用者群組。
+$CREATE_MODIFY_DELETE_DB_GROUP$=創建、修改和移除存儲在資料庫中的使用者群組。
+$CREATE_MODIFY_DELETE_WIN_GROUP$=創建、修改和移除 Windows 使用者群組。
+$CREATE_MODIFY_DELETE_LDAP_GROUP$=創建、修改和移除 LDAP 使用者群組。
+<!-- Directories -->
+$CONFIGURE_DIRECTORY_ACCESS$=為域內所有使用者組態目錄訪問許可權。
+$CREATE_MAINTAIN_VIRTUAL_PATHS$=創建並維護虛擬路徑以便訪問根目錄以外的位置。
+<!-- Limts & Settings -->
+$LIMITS$=限制和設定
+$CREATE_MAINTAIN_LIMITS$=創建並維護應用到域的限制。
+$MAINTAIN_DOMAIN_SETTINGS$=維護域設定，反攻擊，密碼恢復以及自定義標誌。
+$MAINTAIN_DOMAIN_FTPCP$=為域組態進階 FTP 命令設定和行為。
+$MAINTAIN_DOMAIN_ENCRYPTION$=創建並指定 SSL 和 SSH 證書以及組態加密設定。
+$MAINTAIN_CUSTOM_HTML$=保留自定義 HTML設定。
+<!-- Domain Activity -->
+$DOMAIN_ACTIVITY$=域活動
+$VIEW_CONNECTED_USERS$=檢視當前已連接的使用者。
+$VIEW_DOMAIN_STATS$=檢視域連線期間和傳輸統計。
+$VIEW_USER_GROUP_STATS$=檢視使用者和群組統計。
+$VIEW_DOMAIN_LOG$=檢視域記錄檔。
+$CONFIGURE_DOMAIN_LOG$=組態域記錄檔。
+<!-- Server Details -->
+$SERVERDETAILS$=伺服器詳細資訊
+$CONFIGURE_SERVER_IP_ACCESS$=組態伺服器 IP 訪問規則。
+$CONFIGURE_SERVER_GATEWAY$=組態Serv-U 閘道。
+$CONFIGURE_SERVER_DATABASE$=為全局帳號和群組組態資料庫訪問設定。
+$CONFIGURE_SERVER_LICENSE$=檢視您許可證的相關資訊並進行組態。
+$VIEW_SERVER_INFO$=檢視有關安裝程式的資訊。
+$CONFIGURE_SERVER_EVENTS$=創建，修改並移除伺服器事件。
+<!-- Global Users -->
+$GLOBALUSERS$=全局使用者
+$CREATEMODIFYGLOBALUSER$=創建、修改和移除全局使用者帳號。
+$CREATE_MODIFY_DELETE_DB_GLOBAL_USER$=創建、修改和移除存儲在資料庫中的全局使用者帳號。
+<!-- Global Groups -->
+$GLOBALGROUPS$=全局群組
+$CREATEMODIFYGLOBALGROUPS$=創建、修改和移除全局使用者群組。
+$CREATE_MODIFY_DELETE_DB_GLOBAL_GROUP$=創建、修改和移除存儲在資料庫中的全局使用者群組。
+<!-- Global Directories -->
+$GLOBALDIRECTORIES$=全局目錄
+$CONFIGURESERVERDIRACCESS$=為伺服器內所有使用者組態目錄訪問許可權。
+$CREATEMAINTAINVIRTUALPATHSSERVER$=創建並維護虛擬路徑以便訪問根目錄以外的位置。
+<!-- Server Limits & Settings -->
+$SERVERLIMITS$=伺服器限制和設定
+$CREATEMAINTAINSERVERLIMITS$=創建並維護應用到伺服器的限制。
+$MAINTAINSERVERSETTINGS$=維護伺服器設定，反攻擊，密碼恢復與定制標誌。
+$MAINTAIN_SERVER_FTPCP$=為整個伺服器組態進階 FTP 命令設定和行為。
+$MAINTAINSERVERENCRYPTION$=創建並指定 SSL 和 SSH 證書以及組態加密設定。
+<!-- Server Activity -->
+$SERVERACTIVITY$=伺服器活動
+$VIEW_SERVER_STATS$=檢視伺服器連線期間和傳輸統計。
+$VIEW_SERVER_LOG$=檢視伺服器記錄檔
+<!-- Bubble tip dialog -->
+$HOME_LINK_BALLOON_TIP$=在 Serv-U 管理控制臺中的任何頁面只需單擊上面的 Serv-U 標誌便能返回首頁。
+$TREE_NAV_BALLOON_TIP$=您可以將下拉圖示點至左側以獲得域的完整清單，並帶有轉至每個組態頁面的快速啟動鏈結。
+
+<!-- **************** TreeNav.htm **************** -->
+<!-- Domain Details -->
+$DOMAIN_NAME_AND_DESCRIPTION_TREE$=網域名稱與描述
+$CONFIGURE_LISTENERS_TREE$=監聽器
+$CONFIGURE_VIRTUAL_HOSTS_TREE$=虛擬主機
+$CONFIGURE_IPACCESS_TREE$=IP 訪問規則
+$CONFIGURE_DOMAIN_DATABASE_TREE$=資料庫訪問
+$CONFIGURE_DOMAIN_EVENTS_TREE$=域事件
+<!-- Users -->
+$CREATE_MODIFY_DELETE_USER_TREE$=使用者帳號
+$CREATE_MODIFY_DELETE_DB_USER_TREE$=資料庫使用者帳號
+$CONFIG_WIN_AUTH_SETTINGS_TREE$=Windows 驗證
+<!-- Groups-->
+$CREATE_MODIFY_DELETE_GROUP_TREE$=使用者組
+$CREATE_MODIFY_DELETE_DB_GROUP_TREE$=群組資料庫帳號 
+$CREATE_MODIFY_DELETE_OU_GROUP_TREE$=Windows 群組
+<!-- Directories -->
+$CONFIGURE_DIRECTORY_ACCESS_TREE$=目錄訪問許可權
+$CREATE_MAINTAIN_VIRTUAL_PATHS_TREE$=虛擬路徑
+<!-- Limts & Settings -->
+$CREATE_MAINTAIN_LIMITS_TREE$=域限制
+$MAINTAIN_DOMAIN_SETTINGS_TREE$=域設定
+$MAINTAIN_DOMAIN_FTPCP_TREE$=FTP 命令設定
+$MAINTAIN_DOMAIN_ENCRYPTION_TREE$=加密設定
+$MAINTAIN_CUSTOM_HTML_TREE$=自定義 HTML
+<!-- Domain Activity -->
+$VIEW_CONNECTED_USERS_TREE$=已連接的使用者
+$VIEW_DOMAIN_STATS_TREE$=連線期間與傳輸狀態
+$VIEW_USER_GROUP_STATS_TREE$=使用者與群組狀態
+$VIEW_DOMAIN_LOG_TREE$=域記錄檔
+$CONFIGURE_DOMAIN_LOG_TREE$=組態記錄檔
+<!-- Server Details -->
+
+$CONFIGURE_SERVER_IP_ACCESS_TREE$=IP 訪問規則
+$CONFIGURE_SERVER_DATABASE_TREE$=資料庫訪問
+$CONFIGURE_SERVER_LICENSE_TREE$=監聽資訊
+$VIEW_SERVER_INFO_TREE$=安裝資訊
+$CONFIGURE_SERVER_EVENTS_TREE$=伺服器事件
+$CONFIGURE_SERVER_GATEWAY_TREE$=閘道
+
+<!-- Global Users -->
+$CREATEMODIFYGLOBALUSER_TREE$=使用者帳號
+$CREATE_MODIFY_DELETE_DB_GLOBAL_USER_TREE$=資料庫使用者帳號
+<!-- Global Groups -->
+$CREATEMODIFYGLOBALGROUPS_TREE$=使用者組
+$CREATE_MODIFY_DELETE_DB_GLOBAL_GROUP_TREE$=資料庫群組帳號
+<!-- Global Directories -->
+$CONFIGURESERVERDIRACCESS_TREE$=目錄訪問許可權
+$CREATEMAINTAINVIRTUALPATHSSERVER_TREE$=虛擬路徑
+<!-- Server Limits & Settings -->
+$CREATEMAINTAINSERVERLIMITS_TREE$=伺服器限制
+$MAINTAINSERVERSETTINGS_TREE$=伺服器設定
+$MAINTAIN_SERVER_FTPCP_TREE$=FTP 設定
+$MAINTAINSERVERENCRYPTION_TREE$=加密設定
+<!-- Server Activity -->
+$VIEW_SERVER_STATS_TREE$=連線期間與傳輸狀態
+$VIEW_SERVER_LOG_TREE$=伺服器記錄檔
+
+
+
+<!-- **************** DomainWizardDialog.htm **************** -->
+$DOMAIN_WIZARD$=域嚮導
+$DOMAIN_WIZARD_INFO$=歡迎使用 Serv-U 域嚮導。本嚮導將幫助您在檔伺服器上創建域。
+$DOMAIN_NAME_WIZARD_DESCR$=每個網域名稱都是唯一的識別字，用於區分檔伺服器上的其他域。
+$DOMAIN_DESCR_WIZARD_DESCR$=域的說明中可以包含更多資訊。說明為可選內容。
+$DOMAIN_TYPE_WIZARD_DESCR$=可以使用域通過各種通訊協定提供對檔伺服器的訪問。如果當前許可證不支援某些協定，則這些協定可能無法使用。選擇該域應使用的協定及其相應的埠。
+$DOMAIN_IP_WIZARD_DESCR$=IP 位址指定了一個位址，域應對該位址的請求連接進行監聽。
+$PLEASE_ENTER_DOMAIN_NAME$=請為域輸入唯一的網域名稱。
+$CONFIRM_CREATE_DOMAIN$=歡迎使用 Serv-U。當前沒有已定義的域。<br />您現在要定義新域嗎？
+$CONFIRM_CREATE_USER$=域中暫無使用者，您現在要為該域創建使用者帳號嗎？
+
+
+<!-- **************** UserInfoLayer.htm **************** -->
+$USERINFO$=使用者資訊
+$USERINFOMSG$=使用者帳號資訊指定授予該帳號的登入信任書和許可權。
+$USER_TEMPLATE_INFOMSG$=默認使用者範本用於在創建新使用者時組態默認的設定。組態範本，以便使用所需的一組默認設定和選項快速添加新使用者。
+$USERNAME$=登入 ID
+$FULLNAME$=全名
+$PASSWORD$=密碼
+$PASSWORDTYPE$=密碼類型
+$ADMINPRIV$=管理許可權
+$HOMEDIR$=根目錄
+$ACCOUNT_TYPE$=帳號類型
+$ACCOUNT_EXPIRE_DATE$=帳號有效期
+$ENABLE_ACCOUNT$=啟用帳號
+$LOCK_HOME_DIR$=鎖定使用者至根目錄
+$WEB_CLIENT_STARTUP$=默認 Web 使用者端
+$ALWAYS_ALLOW_LOGIN$=總是允許登入
+$PASSWORD_INVALIDATED$=變更密碼類型，則該帳號已存儲的密碼失效。要變更密碼類型，必須重設使用者帳號的密碼。
+$REQUIRE_CHANGE_EMAIL_WARN$=必須啟用\“允許最終使用者設定帳號電子信件位址\”，才能使最終使用者設定其電子信件。
+$SSH_PUBLIC_KEY_PATH$=SSH 公共密鑰路徑
+$CREATE_SSH_KEY_PAIR$=創建密鑰對
+$EMAIL$=電子信件位址
+$REQUIRE_PASSWORD_CHANGE$=使用者必須在下一次登入時變更密碼
+<!-- Password Types -->
+$PASSWORD_REGULAR_DESC$=常規密碼
+$PASSWORD_MD4_DESC$=OTP S/KEY MD4
+$PASSWORD_MD5_DESC$=OTP S/KEY MD5
+<!-- Password Encrypt Types -->
+$PASSWORD_ENCRYPT_ONEWAY_DESC$=單向加密（更安全）
+$PASSWORD_ENCRYPT_TWOWAY_DESC$=簡單的雙向加密（不太安全）
+$PASSWORD_ENCRYPT_ONEWAY_STR$=單向加密
+$PASSWORD_ENCRYPT_TWOWAY_STR$=簡單的雙向加密
+$NO_ENCRYPTION$=無加密（不推薦）
+$PASSWORD_ENCRYPT_MODE$=密碼加密模式
+$USE_SERVER_SETTINGS$=使用伺服器設定
+$ENABLE_PASSWORD_RECOVER_DESC$=允許使用者恢復密碼
+$DOMAIN_PASSWORD_ENCRYPT_WIZARD_DESCR$=Serv-U 能夠恢復密碼（使用電子信件發送使用者登入資訊）。
+$ENCRYPTION$=加密
+$ENABLE_PASSWORD_ENCRYPTION_DESC$=啟用密碼加密
+$ON$=開
+$OFF$=關
+$CHANGE_SERVER_SETTINGS$=變更伺服器設定
+<!-- Administrator Privileges -->
+$PRIV_NONE_DESC$=無許可權
+$PRIV_DOMAIN_DESC$=域管理人
+$PRIV_GROUP_DESC$=組管理人
+$PRIV_SYSTEM_DESC$=系統管理人
+$PRIV_DOMAIN_RO_DESC$=唯讀域管理
+$PRIV_GROUP_RO_DESC$=唯讀組管理
+$PRIV_SYSTEM_RO_DESC$=唯讀系統管理
+<!-- Account Types -->
+$ACCT_TYPE_PERM_DESC$=永久帳號
+$ACCT_TYPE_DISABLE_DESC$=自動禁用
+$ACCT_TYPE_DELETE_DESC$=自動移除
+<!-- Default Web Client Types -->
+$WEB_CLIENT_BASIC_DESC$=Web 使用者端
+$WEB_CLIENT_FVJV_DESC$=FTP Voyager JV
+$WEB_CLIENT_ASK_DESC$=提示使用者使用何種使用者端
+
+
+<!-- **************** MembershipLayer.htm **************** -->
+$GROUPINFO$=群組成員資格使您可以為群組成員指定各種基本屬性。一個使用者可以是多個群組的成員。群組成員資格的順序非常重要。
+$GROUPLABEL$=使用者屬於群組
+$SELECT_ONE_GROUP_MEMBERSHIP_DELETE$=選擇一個群組，以便從其成員清單中移除使用者。
+
+
+<!-- **************** GroupsDialog **************** -->
+$SELECT_GROUP_DIALOG_TITLE$=可用的群組
+$SELECT_ONLY_ONE_AVAILABLE_GROUP$=選擇一個群組，以便向其成員中添加使用者。
+
+
+<!-- **************** EventEmailGroupsDialog **************** -->
+$GROUP_EMAIL_LIST_DIALOG_TITLE$=群組信件清單
+$SELECT_ONLY_ONE_EMAIL_GROUP$=選擇要加入信件事件的群組。
+$ASK_DELETE_GROUP_EMAIL$=您確定您要從該信件事件移除群組嗎？
+$SELECT_ONE_GROUP_EMAIL_DELETE$=選擇要從信件事件清單移除的群組。
+$EMAIL_GROUPS_INFO$=在事件觸發時，將通知加入左側清單的群組。這些群組中擁有有效電子信件位址的所有成員將收到信件通知。
+
+
+<!-- **************** MessageFileLayer.htm **************** -->
+$MSGFILE$=消息檔
+$WELCOME_MSG$=歡迎消息
+$MSGFILEINFO$=通過 FTP 或 HTTP 成功登入後將向使用者發送歡迎消息。該消息檔可以覆蓋任何群組中指定的消息。消息檔支援使用符號參數。
+$MSGFILECHKLABEL$=在消息檔的文本中包含回應代碼
+$WELCOME_MSG_CHECK_LABEL$=在 FTP 連接的歡迎消息文本中包含回應代碼
+$MSGFILELABEL$=消息檔路徑
+$WELCOME_MSG_TEXT_INFO$=如果不指定消息檔路徑，則可以在以下文本框中輸入文本。將使用指定的文本取代以上指定的消息檔作為歡迎消息發送給使用者。
+$SIGNON_MESSAGE_OVERRIDE$=使用定制的歡迎消息覆蓋繼承的群組歡迎消息
+
+
+<!-- **************** IPAccessLayer.htm **************** -->
+$IPACCESS$=IP 訪問
+$USER_IP_ACCESS_INFO$=在上一次使用者嘗試登入時執行使用者 IP 訪問規則的檢查。這些訪問規則僅用於指定的使用者。規則可以從群組成員中繼承。
+$GROUP_IP_ACCESS_INFO$=群組 IP 訪問規則由該群組成員的所有使用者帳號繼承。該規則如果與在使用者級別指定的規則衝突則被覆蓋。
+$RULE_ADDRESS$=位址
+$RULE_ALLOW$=允許
+$RULE_DENY$=拒絕
+$EXPIRES_IN$=有效期
+$RULE_EXPIRED$=已過期
+$SELECT_ONLY_ONE_IPACCESS_EDIT$=請僅選擇一項要編輯的 IP 訪問規則。
+$SELECT_ONE_IPACCESS_EDIT$=請選擇一項要編輯的 IP 訪問規則。
+$SELECT_ONE_IPACCESS_DELETE$=請選擇一項要移除的 IP 訪問規則。
+$ASK_DELETE_IPACCESS$=您確定要移除選取的 IP 訪問規則嗎？
+$ENABLE_SORT_VIEW$=啟用排序模式
+$CONFIRM_SORT_IP$=您已選擇以排序模式查看該清單。在這種模式中，排序清單不會影響處理這些規則的順序。<br /><br />您確定您要進入排序模式嗎？
+$IP_IMPORT_MSG$=已從檔案導入 IP 訪問規則：
+$IP_EXPORT_MSG$=已將 IP 訪問規則導出到檔案：
+
+<!-- **************** IPAccessDialog.htm **************** -->
+$IP_ACCESS_DIALOG_TITLE$=IP 訪問規則
+$RULE$=規則
+$RULE_ALLOW_LABEL$=允許訪問
+$RULE_DENY_LABEL$=拒絕訪問
+$IP_ACCESS_TIPS$=IP 訪問提示
+$IP_RULE_MATCH$=精確匹配
+$IP_RULE_RANGE$=範圍（僅 IP 位址）
+$IP_RULE_ANY$=部分匹配
+$IP_RULE_ANY_CHAR$=匹配任何字元
+$DNS4ME_SERVICE$=DNS4Me 動態 DNS 服務
+$DNS4ME_SERVICE_NOTE$=您希望為動態 IP 位址的使用者端提供基於 IP 的訪問嗎？為您的 DNS4Me 網域名稱創建允許訪問規則。
+$PLEASE_ENTER_RULE$=請輸入 IP 訪問規則。
+$IP_ACCESS_RULE_LABEL$=IP 位址/名稱/遮罩
+$IP_RULE_CIDR$=CIDR 記數法
+
+
+<!-- **************** DirAccessLayer.htm **************** -->
+$DIRACCESS$=目錄訪問
+$USER_DIR_ACCESS_INFO$=使用者目錄訪問規則定義使用者可以訪問的檔和目錄。在使用者級別，這些規則繼承自任何使用者所屬的群組以及在域和伺服器級別定義的規則。
+$GROUP_DIR_ACCESS_INFO$=群組目錄訪問規則由該群組成員的所有使用者帳號繼承。可以在使用者帳號目錄訪問規則之前或之後應用，也可以被使用者帳號目錄訪問規則覆蓋。
+$PATH$=路徑
+$ACCESS$=訪問
+$MAX_SIZE$=最大尺寸
+$SELECT_ONLY_ONE_DIRACCESS_EDIT$=請僅選擇一項要編輯的路徑訪問規則。
+$SELECT_ONE_DIRACCESS_EDIT$=請選擇一項要編輯的目錄訪問規則。
+$SELECT_ONE_DIRACCESS_DELETE$=請選擇一項要移除的目錄訪問規則。
+$ASK_DELETE_DIRACCESS$=您確定要移除選取的目錄訪問規則嗎？
+
+
+<!-- **************** DirAccessDialog.htm **************** -->
+$DIR_ACCESS_DIALOG_TITLE$=目錄訪問規則
+$DIR_ACCESS_FILES$=檔案
+$DIR_ACCESS_DIRS$=目錄
+$DIR_ACCESS_SUBDIRS$=子目錄
+$MAX_SIZE_DISP$=目錄內容的最大尺寸
+$MAX_SIZE_LABEL$=MB
+$MAX_SIZE_COMMENT$=（留空則無限制）
+$EXECUTE_CAUTION$=警告：執行訪問允許使用者遠端執行其他程式和檔。
+$DIR_ACCESS_FULL_ACCESS$=完全訪問
+$DIR_ACCESS_RO_ACCESS$=唯讀
+$DIR_ACCESS_AS_WIN_USER$=作為 Windows 使用者訪問
+$USER_NAME$=使用者名稱
+
+<!-- Dir Access Mask Labels -->
+$ACCESS_READ$=讀
+$ACCESS_WRITE$=寫
+$ACCESS_APPEND$=追加
+$ACCESS_DELETE$=移除
+$ACCESS_RENAME$=重命名
+$ACCESS_EXECUTE$=執行
+$ACCESS_LIST$=清單
+$ACCESS_CREATE$=創建
+$ACCESS_REMOVE$=移除
+$ACCESS_INHERIT$=繼承
+$PLEASE_ENTER_PATH$=請輸入目錄路徑。
+
+
+<!-- **************** VirtualPathLayer.htm **************** -->
+$VIRPATHS$=虛擬路徑
+$VIRTUALPATHINFO$=虛擬路徑用於將使用者根目錄結構以外的物理路徑鏈結到該使用者接受到的目錄清單中。虛擬路徑取代了傳統的快捷方式連接方法。
+$VIRPATH_PHYSICAL$=物理路徑
+$VIRPATH_MAPPED_TO$=虛擬路徑
+$SELECT_ONLY_ONE_VIRPATH_EDIT$=請僅選擇一項要編輯的虛擬路徑。
+$SELECT_ONE_VIRPATH_EDIT$=請選擇一項要編輯的虛擬路徑。
+$SELECT_ONE_VIRPATH_DELETE$=請選擇一項要移除的虛擬路徑。
+$ASK_DELETE_VIRPATH$=您確定要移除選取的虛擬路徑嗎？
+$VIRPATH_INCLUDE_IN_MAX_SIZE$=包括在\"最大目錄尺寸\"計算範圍內
+
+<!-- **************** VirtualPathDialog.htm **************** -->
+$VIRPATH_DIALOG_TITLE$=虛擬路徑
+$VIRPATH_DIALOG_INFO$="物理路徑" 是您要映射到虛擬位置的路徑。"虛擬路徑" 定義您要將該位置映射到的地方，包括它顯示的名稱。
+$VIRPATH_VIRTUAL$=虛擬路徑
+$PLEASE_ENTER_VIRPATH$=請輸入物理路徑和虛擬路徑。
+
+
+<!-- **************** EventsLayer.htm **************** -->
+$EVENTS$=事件
+$EVENT$=事件
+$EVENTS_INFO$=事件用於在觸發時自動運行程式、發送電子信件並顯示託盤圖示消息。
+$EVENT_TYPE$=事件類型
+$ASK_DELETE_EVENT$=您確定要移除選取的事件嗎？
+$SELECT_ONLY_ONE_EVENT_EDIT$=請選擇一個事件來編輯。
+$SELECT_ONE_EVENT_EDIT$=請只選擇一個事件來編輯。
+$SELECT_ONE_EVENT_DELETE$=請選擇要移除的事件。
+$CREATE_COMMON_EVENTS_BUTTON$=創建常規事件
+$TEST_EVENTS_BUTTON$=測試事件
+$SELECT_ONLY_ONE_EVENT_TEST$=僅選擇一個要測試的事件
+$SELECT_ONE_EVENT_TEST$=請選擇一個要測試的事件
+$CONFIG_SMTP_BUTTON$=組態 SMTP
+$SMTP_CONFIG_WARN$=必須在域或伺服器級別上進行 SMTP 組態。
+$EVENT_DISPATCHED_SUCCESS$=測試事件已成功分發到伺服器。
+$VIEW_LOG$=檢視記錄檔
+$CONTEXT_ENABLE_EVENT$=啟用事件
+$CONTEXT_DISABLE_EVENT$=禁用事件
+
+
+<!-- **************** EventsDialog.htm **************** -->
+$EVENTS_NAME_LABEL$=事件名稱
+$EVENTS_ACTION_LABEL$=作業
+$EVENTS_EMAIL_TO_LABEL$=收信人
+$EVENTS_EMAIL_BCC_LABEL$=BCC
+$EVENTS_EMAIL_TO_NOTE$=使用逗號、空格或分號分隔多個信件位址。
+$GROUP_EMAIL_TO_NOTE$=通過電子信件添加群組到通知
+$GROUP_EMAIL_BCC_NOTE$=通過 BCC 電子信件添加群組到通知
+$EVENTS_EMAIL_SUBJECT_LABEL$=主題
+$EVENTS_EMAIL_BODY_LABEL$=正文
+$EVENTS_BALLOON_TITLE_LABEL$=氣球標題
+$EVENTS_BALLOON_INFO_LABEL$=氣球信息
+$EVENTS_COMMAND_LINE_LABEL$=命令行參數
+$EVENTS_MSMQ_WRITE_TITLE_LABEL$=信件佇列路徑
+$EVENTS_MSMQ_WRITE_INFO_LABEL$=信件正文
+$SUEVENT_ACTION_WRITE_EVENT_LOG_INFO_LABEL$=記錄檔資訊
+$EVENT_ACTION_GROUP$=事件作業
+$EVENT_INFO_GROUP$=事件資訊
+$PLEASE_ENTER_EVENT_NAME$=請為事件輸入名稱
+$WARN_DOMAIN_ADMIN_EVENTS$=域管理人對該作業沒有訪問許可權。
+$DATA$=數據
+$EVENTS_EXEC_PATH_LABEL$=可執行程式路徑
+$ENABLE_EVENT$=啟用事件
+$CONFIRM_EMAIL_INFO_DELETE$=禁用該功能會將主題與正文重設為預設值。<BR /><BR />您確定您要禁用該功能嗎？ 
+$EVENTS_EXEC_WAIT_LABEL$=完成等待時間
+$EVENTS_EXEC_WAIT_SEC$=0-30 秒，0 為不等待
+$CONFIRM_WAIT_DELAY_EXEC$=等待時間按照輸入的秒數延遲所有的 Serv-U 處理。<BR /><BR />您確定您要設定該等待時間嗎？
+$EVENTS_FILTERS$=事件篩檢程式
+$EVENTS_FILTER$=事件篩檢程式
+$FILTER_EVENT_INFO$=可以使用篩檢程式來允許或阻止針對特定情況的事件觸發，通過使用在事件篩檢程式對話方塊中選定的條件來實現。
+$EVENT_RULE_LOGIC$=邏輯
+$EVENTS_RULE_VAR$=變數
+$EVENTS_RULE_CONSTANT$=常量
+$EVENTS_RULE_COMP$=比較
+$EVENTS_RULE_DATA_TYPE$=資料類型
+$IF$=如果
+$FILTER_COMPS$=篩檢程式比較
+$FILTER_COMP_INFO$=必須將比較添加到事件篩檢程式來定義將允許或阻止事件的情況。
+$AND$=和
+$OR$=或
+$RULE_COMP_ADVANCED_OPTION$=比較進階選項
+$FILTER_ENABLED$=已啟用的篩檢程式
+$SELECT_ONLY_ONE_FILTER_COMP_EDIT$=請選擇一個要編輯的篩檢程式比較。
+$ASK_DELETE_FILTER_COMP$=您確定要移除選定的篩檢程式比較嗎？
+$SELECT_ONE_FILTER_COMP_DELETE$=請選擇一個要移除的篩檢程式比較。
+$SELECT_ONLY_ONE_EVENT_FILTER_EDIT$=請選擇一個要編輯的篩檢程式。
+$ASK_DELETE_EVENT_FILTER$=您確定要移除選定的篩檢程式嗎？
+$SELECT_ONE_EVENT_FILTER_DELETE$=請選擇一個要移除的篩檢程式。
+$FILTER_INFO_GROUP$=篩檢程式信息
+$FILTER_RULE_INFO$=篩檢程式可以擁有唯一名稱和描述以便與其他篩檢程式區分。使用以下工具來允許或禁用篩檢程式，選擇合適的篩檢程式邏輯並添加篩檢程式比較。
+$PLEASE_ENTER_FILTER_NAME$=請為篩檢程式輸入唯一名稱。
+$CONTEXT_ENABLE_FILTER$=啟用篩檢程式
+$CONTEXT_DISABLE_FILTER$=禁用篩檢程式
+$WARN_MSMQ_EVENT_NO_LICENSE$=您的當前 Serv-U 許可證不支援“Microsoft 信件佇列事件”。<br><br>請按一下<a href=\"http:\/\/www.RhinoSoft.com\/customer\/\" target=\"_blank\">此處</a>升級到 Serv-U MFT Server，以便啟用此事件。
+
+<!-- **************** LogDialog.htm **************** -->
+$LOG_DIALOG_TITLE$=記錄檔
+
+<!-- *************** Server Events ******************** -->
+$SUEVENT_ID_SERVER_START_TEXT$=伺服器啟動
+$SUEVENT_ID_SERVER_STOP_TEXT$=伺服器停止
+<!-- *************** Domain and Server Events ********* -->
+$SUEVENT_ID_DOMAIN_START_TEXT$=域啟動
+$SUEVENT_ID_DOMAIN_STOP_TEXT$=域停止
+$SUEVENT_ID_SESSION_CONNECT_TEXT$=連線期間連接
+$SUEVENT_ID_SESSION_DISCONNECT_TEXT$=連線期間斷開
+$SUEVENT_ID_SESSION_CONNECT_FAILURE_TEXT$=連線期間連接失敗
+$SUEVENT_ID_LOG_DELETED_TEXT$=記錄檔已移除
+$SUEVENT_ID_LOG_ROTATED_TEXT$=記錄檔已翻轉
+$SUEVENT_ID_LISTENER_SUCCESS_TEXT$=監聽器成功
+$SUEVENT_ID_LISTENER_STOP_TEXT$=監聽器停止
+$SUEVENT_ID_LISTENER_FAILURE_TEXT$=監聽器失敗
+$SUEVENT_ID_GATEWAY_LISTENER_SUCCESS_TEXT$=閘道監聽器成功
+$SUEVENT_ID_GATEWAY_LISTENER_FAILURE_TEXT$=閘道監聽器失敗
+$SUEVENT_ID_GATEWAY_LISTENER_STOP_TEXT$=閘道監聽器停止
+$SUEVENT_ID_PERM_DATA_LISTENER_SUCCESS_TEXT$=永久監聽器成功
+$SUEVENT_ID_PERM_DATA_LISTENER_FAILURE_TEXT$=永久監聽器失敗
+$SUEVENT_ID_PERM_DATA_LISTENER_STOP_TEXT$=永久監聽器停止
+$SUEVENT_ID_PERM_DATA_GATEWAY_LISTENER_SUCCESS_TEXT$=永久閘道監聽器成功
+$SUEVENT_ID_PERM_DATA_GATEWAY_LISTENER_FAILURE_TEXT$=永久閘道監聽器失敗
+$SUEVENT_ID_PERM_DATA_GATEWAY_LISTENER_STOP_TEXT$=永久閘道監聽器停止
+<!-- *************** User, Group, Domain and Server Events ********* -->
+$SUEVENT_ID_USER_LOGIN_TEXT$=使用者登入
+$SUEVENT_ID_USER_LOGOUT_TEXT$=使用者登出
+$SUEVENT_ID_USER_LOGIN_FAILURE_TEXT$=使用者登入失敗
+$SUEVENT_ID_USER_PASSWORD_CHANGE_TEXT$=使用者密碼變更
+$SUEVENT_ID_USER_PASSWORD_CHANGE_FAILURE_TEXT$=密碼變更失敗
+$SUEVENT_ID_USER_ENABLED_TEXT$=已啟用使用者
+$SUEVENT_ID_USER_DISABLED_TEXT$=已禁用使用者
+$SUEVENT_ID_USER_DELETED_TEXT$=已移除使用者
+$SUEVENT_ID_USER_ADDED_TEXT$=已添加使用者
+$SUEVENT_ID_USER_PASSWORD_RECOVERY_SENT_TEXT$=已發送密碼恢復
+$SUEVENT_ID_USER_PASSWORD_RECOVERY_FAILED_TEXT$=密碼恢復失敗
+$SUEVENT_ID_USER_PASSWORD_STALE_TEXT$=密碼變舊
+$SUEVENT_ID_USER_AUTOMATICALLY_DISABLED_TEXT$=自動禁用使用者
+$SUEVENT_ID_USER_AUTOMATICALLY_DELETED_TEXT$=自動移除使用者
+$SUEVENT_ID_USER_PREDISABLE_TEXT$=預禁用使用者
+$SUEVENT_ID_USER_PREDELETE_TEXT$=預移除使用者
+$SUEVENT_ID_USER_EMAIL_ADDRESS_SET_TEXT$=使用者電子信件設定
+$SUEVENT_ID_USER_EMAIL_ADDRESS_SET_FAILURE_TEXT$=使用者電子信件設定失敗
+
+
+$SUEVENT_ID_IP_BLOCKED_TEXT$=已阻止 IP 
+$SUEVENT_ID_IP_BLOCKED_TIME_TEXT$=阻止 IP 的時間
+$SUEVENT_ID_TOO_MANY_SESSIONS_TEXT$=連線期間過多
+$SUEVENT_ID_TOO_MANY_SESSIONS_ON_IP_TEXT$=IP 上的連線期間過多
+$SUEVENT_ID_FILE_UPLOAD_TEXT$=已上傳檔案
+$SUEVENT_ID_FILE_UPLOAD_FAIL_TEXT$=檔案上傳失敗
+$SUEVENT_ID_FILE_DOWNLOAD_TEXT$=已下載檔案
+$SUEVENT_ID_FILE_DOWNLOAD_FAIL_TEXT$=檔案下載失敗
+$SUEVENT_ID_FILE_DELETE_TEXT$=已移除檔案
+$SUEVENT_ID_FILE_MOVE_TEXT$=已轉移檔案
+$SUEVENT_ID_DIR_CREATE_TEXT$=已創建目錄
+$SUEVENT_ID_DIR_DELETE_TEXT$=已移除目錄
+$SUEVENT_ID_DIR_CHANGE_TEXT$=已變更目錄
+$SUEVENT_ID_DIR_MOVE_TEXT$=已轉移目錄
+$SUEVENT_ID_QUOTA_OVERAGE_TEXT$=超過配額
+$SUEVENT_ID_DISK_SPACE_OVERAGE_TEXT$=超過磁碟空間
+$SUEVENT_ID_IP_ADDR_AUTO_BLOCKED_TIME_TEXT$=自動將 IP 添加到訪問規則
+$SUEVENT_ID_SESSION_IDLE_TIMEOUT_TEXT$=連線期間閒置逾時
+$SUEVENT_ID_SESSION_TIMEOUT_TEXT$=連線期間逾時
+<!-- *************** Event Actions ********* -->
+$SUEVENT_ACTION_EMAIL_TEXT$=發送電子信件
+$SUEVENT_ACTION_BALLOON_TIP_TEXT$=顯示氣球提示
+$SUEVENT_ACTION_EXEC_TEXT$=執行命令
+$SUEVENT_ACTION_MSMQ_WRITE_TEXT$=寫入“Microsoft 信件佇列（MSMQ）”
+$SUEVENT_ACTION_WRITE_EVENT_LOG_TEXT$=寫入“Windows 事件記錄檔”
+
+<!-- *************** Event Comparisons ********* -->
+$SURULE_COMP_EQUAL_STR$==（等於）
+$SURULE_COMP_NOT_EQUAL_STR$=!=（不等於）
+$SURULE_COMP_LESS_THAN_STR$=< （小於）
+$SURULE_COMP_LESS_THAN_EQUAL_STR$=<= （小於或等於）
+$SURULE_COMP_GREATER_THAN_STR$=> （大於）
+$SURULE_COMP_GREATER_THAN_EQUAL_STR$=>= （大於或等於）
+<!-- *************** Event Data Types ********* -->
+$SURULE_TYPE_STRING_STR$=（abcd）字串
+$SURULE_TYPE_CASE_SENSITIVE_STRING_STR$=（AbCd）區分大小寫的字串
+$SURULE_TYPE_INTEGER_STR$=（-123）帶符號整數
+$SURULE_TYPE_UNSIGNED_INTEGER_STR$=（123）無符號整數
+$SURULE_TYPE_DOUBLE_STR$=（12345.67）雙精度浮點
+$SURULE_TYPE_IP_ADDRESS_STR$=（192.168.5.1）IPv4 與 IPv6 地址
+
+<!-- **************** CommonEventsDialog.htm **************** -->
+$COMMON_EVENTS$=常規事件
+$COMMON_EVENT_ACTION_GROUP$=常規事件作業
+$COMMON_EVENT_INFO$=自動創建常用事件。
+
+<!-- **************** SMTPConfigDialog.htm **************** -->
+$SMTP_CONFIG_INFO_DOMAIN$=組態 Serv-U 使用 SMTP 伺服器來為使用電子信件作業的信件通知和事件發送信件。該組態只需為整個域設定一次。
+$SMTP_CONFIG_INFO_SERVER$=組態 Serv-U 使用 SMTP 伺服器來為使用電子信件作業的信件通知和事件發送信件。該組態只需為整個伺服器或域設定一次。
+$SMTP_SERVER_LABEL$=SMTP 伺服器
+$SMTP_PORT_LABEL$=SMTP 伺服器埠
+$SMTP_ACCOUNT_NAME_LABEL$=帳號名稱
+$SMTP_ACCOUNT_PASSWORD_LABEL$=密碼
+$SMTP_FROM_ADDRESS_LABEL$=從電子信件位址
+$SMTP_CONFIG_TITLE$=SMTP 組態
+$SMTP_SERVER_GROUP$=伺服器資訊
+$SMTP_AUTH_GROUP$=驗證信息
+$SMTP_USE_SPA$=使用安全密碼驗證
+$SMTP_REQUIRE_LOGIN$=我的伺服器要求驗證
+$SMTP_FROM_NAME_LABEL$=從名稱
+$SMTP_REQUIRE_SSL$=此伺服器需要安全連接（SSL）
+$SMTP_USE_SSL_CERT$=連接到此伺服器時使用 SSL 證書
+$SMTP_USE_EXPLICIT_SSL$=Use Explicit SSL
+
+<!-- **************** LimitsLayer.htm **************** -->
+$LIMITS_INFO$=限制用於定義 FTP 伺服器的各種設定。可以在一天中的不同時間或一周中的不同星期應用不同的限制值。
+$LIMIT_TYPE$=限制類型
+$CONNECTION_LIMIT$=連接
+$PASSWORD_LIMIT$=密碼
+$DIR_LIST_LIMIT$=目錄清單
+$TRANSFER_LIMIT$=資料傳輸
+$EMAIL_LIMIT$=電子信件
+$ADVANCED_LIMIT$=進階
+$LIMIT_APPLIED_TOD$=應用的日期和時間
+$MONDAY_ABBREV$=星期一
+$TUESDAY_ABBREV$=星期二
+$WEDNESDAY_ABBREV$=星期三
+$THURSDAY_ABBREV$=星期四
+$FRIDAY_ABBREV$=星期五
+$SATURDAY_ABBREV$=星期六
+$SUNDAY_ABBREV$=星期日
+$LIMIT_NOT_LIMITED$=任何時間
+$LIMIT_CHARACTERS$=字元
+$LIMIT_CHARACTER$=字元
+$LIMIT_SESSIONS$=連線期間
+$LIMIT_SESSION$=連線期間
+$LIMIT_MINUTES$=分
+$LIMIT_MINUTE$=分
+$LIMIT_UNLIMITED$=不限
+$LIMIT_NO_TIMEOUT$=永不逾時
+$LIMIT_NEVER_EXPIRES$=永不過期
+$LIMIT_NO_MINIMUM$=無最小值
+$LIMIT_SFTP_VERSION$=版本（3-6）
+$LIMIT_VERSION$=版本
+$LIMIT_CANT_DELETE_INHERITED$=無法移除默認限制值。要覆蓋此限制值，則需創建具有期望值的限制條件。
+$OWNER_USER_ID_LABEL$=所有者使用者 ID
+$ASK_DELETE_LIMIT$=您確定要移除選取的限制嗎？
+$SELECT_A_LIMIT_TO_DELETE$=請選擇一項要移除的限制。
+$LIMIT_CANT_EDIT_INHERITED$=無法編輯默認限制值。要覆蓋此限制值，則需創建具有期望值的限制條件。
+$SELECT_A_LIMIT_TO_EDIT$=請選擇一項要編輯的限制。
+$RATIOS_QUOTAS_BUTTON$=比例和配額
+$LIMIT_CREATE_NEW$=您想創建限制嗎？
+$SSH_AUTH_TYPE_PWD_AND_PUB$=密碼和公共密鑰
+$SSH_AUTH_TYPE_PWD_OR_PUB$=密碼或公共密鑰 
+$SSH_AUTH_TYPE_PUB$=僅公共密鑰
+$SSH_AUTH_TYPE_PWD$=僅密碼
+$NO_WEB_CLIENT_PRO_LICENSE$=Web Client Pro 不適用於此許可證。請升級到 Serv-U Silver 或 Serv-U Gold 以便啟用 Web Client Pro。
+$NO_FVJV_LICENSE$=FTP Voyager JV 不適用於此許可證。請為 Serv-U 購買一份 FTP Voyager JV 許可證。
+$NO_BRAND_REMOVAL_LICENSE$=此許可證不提供基於 web 的使用者端貼牌移除功能。請升級到 Serv-U Platinum 來啟用基於 web 的使用者端貼牌移除功能。
+
+<!-- **************** LimitsDialog.htm **************** -->
+$LIMIT_EDIT_INFO$=進階限制選項允許您組態限制值應用的時間和星期。
+$LIMIT_LABEL$=限制
+$LIMIT_START_TIME$=開始時間
+$LIMIT_END_TIME$=結束時間
+$LIMITS_DIALOG_TITLE$=限制
+$LIMIT_TIME_OF_DAY$=時間
+$LIMIT_APPLY_TOD$=僅在該時間內應用限制
+$LIMIT_DAYS_OF_WEEK$=星期
+$DAY_MONDAY$=星期一
+$DAY_TUESDAY$=星期二
+$DAY_WEDNESDAY$=星期三
+$DAY_THURSDAY$=星期四
+$DAY_FRIDAY$=星期五
+$DAY_SATURDAY$=星期六
+$DAY_SUNDAY$=星期日
+$ADVANCED_BUTTON$=進階
+$LIMIT_INVALID_TOD$=請按以下格式輸入有效的時間 - HH:MM。
+$ALLOW_HTTP_CHANGE_LIMIT_WARN$=禁用此設定可能引起移動使用者端斷開連接，因為它們頻繁地變更 IP 位址。
+
+<!-- **************** LoginLimitDialog.htm **************** -->
+$LOGIN_LIMIT_EDIT_INFO$=登入限制選項允許您組態時間和星期幾以允許使用者或群組登入。
+$AVAILABILITY$=可用性
+$LOGIN_LIMIT_DIALOG_TITLE$=可用性設定
+
+<!-- **************** GroupInfoLayer.htm **************** -->
+$GROUPINFOMSG$=所有群組設定應用於身份為該組成員的使用者帳號。要覆蓋群組設定，請編輯指定使用者帳號的設定。
+$GROUP_TEMPLATE_INFOMSG$=默認群組範本用於新建群組時為該組組態默認的設定。組態範本，以便使用所需的一組默認設定和資訊快速添加新群組。
+$GROUP_INFO_TAB$=群組資訊
+$GROUPNAME$=群組名稱
+$GROUP_APPLY_DIR_ACCESS$=首先應用群組目錄訪問規則
+
+
+<!-- **************** MembersLayer.htm **************** -->
+$GROUP_MEMBERS$=群組成員
+$GROUP_MEMBERS_INFO$=以下清單中的使用者是該組當前的成員。群組成員繼承群組的設定，除非該設定被使用者級別的設定覆蓋。要向該群組中添加或移除使用者，則需編輯使用者帳號。
+$GROUP_MEMBERS_WINDOWS_GROUP$=所有 Windows 使用者帳號都是該群組成員。
+$MEMBER_OF_GROUPS$=群組成員
+$AVAILABLE_GROUPS$=可用群組
+
+
+<!-- **************** BrowseDialog.htm **************** -->
+$DIRECTORY_PATH$=目錄路徑
+$APPLY_BUTTON$=應用
+$DRIVES$=驅動器
+$SELECT_DRIVE$=選擇驅動器
+
+
+<!-- **************** CURRENTLY UNCLASSIFIED STRINGS (HOMELESS) **************** -->
+$SSLOPTIONS$=SSL 選項
+$SSHOPTIONS$=SSH 選項
+$LOGGING$=正在登入
+$GLOBALGROUPSLABEL$=FTP 域中顯示的所有群組清單。
+$GLOBALIPACCESSINFO$=伺服器 IP 訪問規則是整個 FTP 伺服器的全局規則。一旦伺服器與使用者端機器建立物理連接（在伺服器發出歡迎消息之前）便立即應用該規則。
+$MEMBERS$=成員
+$NO_SCRIPT_TEXT$=您的瀏覽器似乎未啟用運行 JavaScript 的功能。該頁要求啟用 JavaScript。
+$NO_LOG_EXISTS$=該域沒有當前定義的記錄檔。<br /><br />您要立即定義一個嗎？
+$FEATURE_NOT_AVAILABLE$=當前許可證不允許使用該功能。請考慮升級您的許可證以啟用該功能。
+
+
+<!-- **************** GENERAL STRINGS **************** -->
+<!-- General -->
+$VALUE$=值
+$GLOBAL$=全局
+$RULES$=規則
+$NORULES$=沒有已存在的規則
+$USE_INHERITED$=繼承預設值
+$DAY$=日
+$DAYS$=日
+$CAUTION$=警告
+$PROPERTIES$=屬性
+$NEW$=新建
+$SELECT_ALL$=全選
+$CLEAR_LOG$=清除記錄檔
+$NONE$=無
+$BITS$=位
+$USING$=正在使用
+
+
+<!-- **************** License Strings **************** -->
+$LICENSE_DISABLED_FEATURE$=該功能已被禁用，因為您當前的許可證無法使用這一功能。
+$UPGRADE_LICENSE_NOTE$=要啟用該功能必須購買升級許可證，請訪問以下 URL：
+
+
+<!-- **************** ActivityMonitor.htm **************** -->
+<!-- Grid strings -->
+$NOT_APPLICABLE$=N/A
+$ID$=ID
+$CONN_TYPE$=類型
+$IP_ADDR_OR_HOST$=IP 位址 / 主機名
+$SERVER_ADDRESS$=伺服器位址
+$LOCATION$=位置
+$LAST_COMMAND$=上一命令
+$CLIENT_SOFTWARE$=使用者端
+<!-- Session info -->
+$ACTIVITY_SESS_INFO$=活動連線期間資訊
+$IP_ADDRESS$=IP 位址
+$ACTIVITY_DL$=已下載
+$ACTIVITY_UL$=已上傳
+$ACTIVITY_SINCE$=開始時間
+$ACTIVITY_SPEED$=速度
+$ACTIVITY_TIME_ON$=持續時間
+$ACTIVITY_AVG_DL_SPEED$=平均下載速度
+$ACTIVITY_IDLE$=空閒
+$ACTIVITY_AVG_UL_SPEED$=平均上傳速度
+$ACTIVITY_SEC_ABBREV$=秒
+$ACTIVITY_KBSEC_ABBREV$=千位元組/秒
+$ACTIVITY_FILES$=檔案
+$ACTIVTY_ACCESS$=使用者許可權
+$NOT_LOGGED_IN$=尚未登入
+$ACCESS_NONE$=無
+$ACCESS_SYSADMIN$=系統管理人
+$ACCESS_DOMADMIN$=域管理人
+$SELECTED_PUBLIC_KEY_PROTOCOL$=公共密鑰通訊協定
+$SERVER_TO_CLIENT$=S--&gt;C
+$CLIENT_TO_SERVER$=C--&gt;S
+
+<!-- Buttons -->
+$KILL_USER_BUTTON$=斷開
+$SPY_CHAT_BUTTON$=探查和聊天
+$BROADCAST_MESSAGE_BUTTON$=廣播
+$ABORT_BUTTON$=中斷
+<!-- Alerts -->
+$DISCONNECT_SELECT$=請選擇要斷開的連線期間。
+$SPY_CHAT_SELECT$=請選擇一個連線期間以檢視更多資訊。
+$SEND_MESSAGE_ONLY_FTP$=消息只能發送給 FTP 連線期間。
+$SPY_CHAT_NO_HTTP$=探查對話方塊中無法檢視 HTTP 連線期間。請選擇 FTP 或 SFTP 連線期間。
+$ABORT_SELECT_ITEM$=請選擇連線期間以中斷其最新的命令。
+$ABORT_CONFIRM_SESSION$=您確定要中斷選取連線期間的最新命令嗎？
+$BROADCAST_NO_FTP_SESSIONS$=沒有活動的 FTP 連線期間以接收廣播消息。
+$COMMAND_DENIED$=無法執行命令：目標使用者的帳號許可權較高。
+
+
+<!-- **************** DisconnectDialog.htm **************** -->
+<!-- Java Script -->
+$DISCONNECT_DIALOG_TITLE$=斷開連線期間
+$DISCONNECT_ACTION$=作業
+$DISCONNECT_KICK$=斷開
+$DISCONNECT_BAN$=斷開並禁止 IP
+$DISCONNECT_BAN_LABEL$=分鐘
+$DISCONNECT_BLOCK$=斷開並永遠阻止 IP
+$DISCONNECT_LEVEL_LABEL$=將 IP 規則應用到
+$DISCONNECT_LEVEL_SERVER$=整個伺服器
+$DISCONNECT_LEVEL_DOMAIN$=當前域
+$DISCONNECT_DISABLE_ACCT$=禁用使用者帳號
+$DISCONNECT_MESSAGE$=向使用者發送消息
+$DISCONNECT_NO_DURATION$=請輸入禁止該 IP 位址的分鐘數。
+
+
+<!-- **************** SendMessageDialog.htm **************** -->
+<!-- Java Script -->
+$SEND_MESSAGE_DIALOG_TITLE$=發送消息
+$SEND_MESSAGE_LABEL$=消息內容
+$SEND_MESSAGE_NO_TEXT$=請輸入要發送給指定連線期間的消息。
+<!-- Session message strings -->
+$SESSION_MESSAGE_DIALOG_TITLE$=發送消息
+$SESSION_MESSAGE_LABEL$=消息內容
+$SESSION_MESSAGE_NOTE$=注意：並非所有 FTP 使用者端都支援從伺服器接收主動提供的資料。
+$SESSION_MESSAGE_NO_TEXT$=請輸入要發送給指定 FTP 連線期間的消息。
+<!-- Broadcast message strings -->
+$BROADCAST_MESSAGE_DIALOG_TITLE$=廣播消息
+$BROADCAST_MESSAGE_LABEL$=消息內容
+$BROADCAST_MESSAGE_NOTE$=注意：消息只能發送給 FTP 連線期間。並非所有 FTP 使用者端都支援從伺服器接收主動提供的資料。
+$BROADCAST_MESSAGE_NO_TEXT$=請輸入要廣播給所有已連接 FTP 連線期間的消息。
+
+
+<!-- **************** SpyChatDialog.htm **************** -->
+<!-- Java Script -->
+$SPY_CHAT_DIALOG_TITLE$=詳細連線期間資訊
+$SESSION_LOG$=連線期間記錄檔
+$SPY_STATS$=連線期間資訊
+$SPY_CHAT$=聊天
+$UNKNOWN_USER$=未知使用者
+$SESSION_DISCONNECT$=連線期間已斷開。
+
+
+<!-- **************** Server.htm **************** -->
+<!-- Main Page -->
+$SERVER_PAGE_INFO$=顯示關於整個檔伺服器的資訊，包括全局訪問規則、許可證和註冊資訊。
+<!-- IP Access Tab -->
+$SERVER_IP_ACCESS_INFO$=伺服器 IP 訪問規則在與檔伺服器建立物理連接時進行檢查，且在發送歡迎消息之前。
+<!-- License Information Tab -->
+$EDITION_MAX_USAGE_SECTION$=最大使用
+$EDITION_CAPABILITIES_SECTION$=容量
+$EDITION_ARCHITECTURE_SECTION$=架構
+$EDITION_PROTOCOLS_SECTION$=協定
+$EDITION_WEB_MOBILE_SECTION$=網路和移動
+$EDITION_ADMIN_SECTION$=管理
+$EDITION_CUSTOM_INTEGRATION_SECTION$=定制和集成
+$EDITION_ACCESS_ANYWHERE$=從任何位置訪問驅動器和共用
+$EDITION_GATEWAY$=Serv-U Gateway（反向代理伺服器）
+$EDITION_HIGH_AVAILABILITY$=高度可用性（活動-活動）
+$LICENSE$=許可證資訊
+$LICENSE_INFO$=當前 Serv-U 許可證的相關資訊顯示如下，包括約束、限制和升級資訊。要授權您的 Serv-U 安裝或變更當前許可證，請按一下“輸入許可證 ID”按鈕。
+$LICENSE_INFO_NEW$=當前 Serv-U 許可證的相關資訊顯示如下，包括約束、限制和升級資訊。
+$LICENSE_INFO_TRIAL$=要購買一份新的 Serv-U 許可證，請按一下下方的“購買”按鈕。要套用您的註冊 ID，請按一下下方的“輸入許可證 ID”按鈕。如果您已丟失了您的註冊 ID，請按一下下方的“丟失 ID”按鈕。
+$LICENSE_INFO_REGISTERED$=要續訂您的許可證，添加模組或升級您的許可證，請按一下下方的“升級許可證”按鈕。要套用註冊 ID，請按一下下方的“輸入許可證 ID”按鈕。如果您已丟失了您的註冊 ID，請按一下下方的“丟失 ID”按鈕。
+$REGGIE_INFO_GROUP$=註冊資訊
+$REGGIE_NAME$=名稱
+$REGGIE_EMAIL$=Email 位址
+$REGGIE_EDITION$=Serv-U 版本
+$REGGIE_COPIES$=份數
+$REGGIE_DATE$=購買日期
+$REGGIE_UPDATES$=更新
+$REGGIE_UNREGISTERED$=未註冊
+$REGGIE_TRIAL$=試用版
+$REGGIE_PERSONAL$=個人版
+$REGGIE_STANDARD$=標準版
+$REGGIE_HOME$=家庭版
+$REGGIE_PRO$=專業版
+$REGGIE_CORP$=公司版
+$REGGIE_BRONZE$=銅版
+$REGGIE_SILVER$=銀版
+$REGGIE_GOLD$=金版
+$REGGIE_PLATINUM$=白金版
+$REGGIE_TEMP$=臨時版
+$REGGIE_SITE$=站點版
+$REGGIE_DEPT$=部門版
+$REGGIE_ENT$=企業版
+$REGGIE_EXPIRE$=過期
+$REGGIE_DAYS_REMAIN$=日剩餘
+$REGGIE_TRIAL_EXPIRED$=試用版已過期
+$REGGIE_FREE_FOR_LIFE$=升級使程式永不過期
+$EDITION_INFO_GROUP$=版本資訊
+$EDITION_ENABLED$=啟用
+$EDITION_DISABLED$=禁用
+$EDITION_UNLIMITED$=不限
+$EDITION_MAX_DOMAINS$=最大域數
+$EDITION_MAX_USER$=最大使用者帳號數
+$EDITION_MAX_SESSIONS$=最大連線期間數
+$EDITION_REMOTE_ADMIN$=遠端 Web 管理
+$EDITION_REMOTE_ADMIN_IPAD$=遠端 iPad 管理
+$EDITION_ODBC$=資料庫驗證
+$EDITION_WEB_CLIENT$=基本 Web & 移動使用者端
+$EDITION_WINDOWS_AUTH$=Windows/AD 驗證
+$EDITION_LDAP_AUTH$=LDAP 驗證
+$EDITION_EVENTS$=事件 / 電子信件通知
+$EDITION_MSMQ$=Microsoft 佇列（MSMQ）事件
+$EDITION_USER_PASSWORD_RECOVER$=自助式密碼恢復
+$EDITION_VIRTUAL_PATHS$=虛擬路徑
+$EDITION_VIRTUAL_HOSTS$=虛擬主機
+$EDITION_QUOTAS$=配額
+$EDITION_RATIOS$=傳輸率
+$EDITION_ENCRYPTION$=FTPS（通過 SSL 的 FTP）
+$EDITION_FIPS$=FIPS 140-2 驗證
+$ENABLE_FIPS$=啟用 FIPS 140-2 模式
+$CONFIRM_FIPS_MODE_TEXT$=不使用 FIPS 模式創建的證書與私人密鑰不再有效。您必須為伺服器與個別域重新創建您的證書和私人密鑰。
+$CONFIRM_FIPS_MODE$=您要驗證您的伺服器證書和私人密鑰嗎？
+$EDITION_CA_CERTIFICATE$=商業 CA 證書
+$EDITION_CUSTOM_LOGO$=自定義 HTTP 標誌
+$EDITION_CUSTOM_HTML$=自定義 Web Client HTML 和 CSS
+$EDITION_CUSTOM_LOGO_TITLE$=自定義 Web Client 徽標和文本
+$EDITION_USER_GROUP_STATS$=使用者和群組統計
+$EDITION_ENCRYPTION_SSH$=使用 SSH2 的 SFTP
+$EDITION_ENCRYPTION_HTTPS$=HTTPS（通過 SSL 的 HTTP）
+$EDITION_FVJV$=FTP Voyager JV（同步且並列）
+$EDITION_INTEGRATION_DLL$=通過自訂庫驗證
+$EDITION_WEB_CLIENT_PRO$=Web Client Pro（多個大型檔）
+$ADDITIONAL_PROD_INFO_GROUP$=更多產品
+$REGISTER_BUTTON$=註冊
+$UPDATE_BUTTON$=更新
+$LOST_ID_BUTTON$=丟失 ID
+$PURCHASE_BUTTON$=購買
+$PURCHASE_UPDATE$=購買更新
+$UPGRADE_BUTTON$=升級許可證
+$ENTER_LICENCE_ID_BUTTON$=輸入授權 ID
+$UPDATE_NOTICE_BALLOON_TITLE$=Serv-U 過期通知
+$UPDATE_NOTICE_BALLOON_TIP$=更新保護將在 90 天以內過期。<p>要續訂更新保護，請點擊以下按鈕。</p>
+$UPGRADE_UNLIMITED$=升級到無限！
+$UPGRADE_TO_ENABLE$=升級到啟用！
+<!-- Program Information Tab -->
+$PROGRAM_INFO$=程式資訊
+$FILE_SERVER$=檔伺服器
+$VERSION$=版本
+$DATE_INFO_GROUP$=安裝資訊
+$BUILD_DATE$=發佈日期
+$INSTALL_DATE$=安裝日期
+$CONTACT_INFO_GROUP$=接洽方式
+$DEV_INFO_GROUP$=開發
+$DEVELOPED_BY$=開發者
+$COPYRIGHT$=著作權
+$LEGAL_INFO_GROUP$=法律
+$LEGAL_INFORMATION$=警告：本電腦程式受版權法和國際公約的保護。未經授權而複製或分發本軟體，或其任何部分，都可能受到嚴厲的刑事和民事處罰，並將依法追究最大程度的責任。
+$OS_NAME$=作業系統
+$OS_SERVICE_PACK_NAME$=服務包
+$EDITON_AVAIL_PURCHASE_INFO$=提供購買。
+$EDITON_INSTALL_INFO$=安裝在獨立的機器上。
+$EDITON_LIC_REQUIRED_INFO$=需要額外的 Serv-U 許可證。
+$EDITON_WIN_ONLY_INFO$=僅適用於 Windows。
+$GATEWAY_PRODUCT_INFO$=反向代理伺服器防止資料被存儲於 DMZ 中，或阻止從 DMZ 打開進入內部網路的連接。（<a href="http://www.serv-u.com/gateway/?CMP=PRD-TAD-SW-MFT_INPRD-MFT-PP" target="_blank">更多資訊</a>）
+$PURCHASE_MORE$=購買更多
+$CONFIRM_UPGRADE_GW$=在我們的“客戶服務中心”註冊並使用\“產品管理器\”來更新閘道。
+$APPLY_LICENSE$=套用許可證
+$RENEW_LICENSE$=續訂許可證
+
+<!-- **************** RegistrationDialog.htm **************** -->
+$REGISTRATION_DIALOG_TITLE$=註冊 ID
+$REGISTRATION_CLEAR_CONFIRM$=清除註冊 ID 將使 Serv-U 成為未註冊的版本。您確定要清除註冊資訊嗎？
+$REGISTRATION_FAIL$=您的註冊 ID 有效，但無法保存到磁碟。請按註冊消息中的說明註冊您的 Serv-U 檔伺服器。
+$PASTE_REGGIE_BUTTON$=貼上註冊 ID
+
+<!-- **************** Domain.htm **************** -->
+<!-- Java Script -->
+$DOMAIN_SAVED_RESULT$=域的值已保存。
+$SELECT_ONLY_ONE_LISTENER_EDIT$=請只選擇一個要編輯的監聽器。
+$SELECT_ONE_LISTENER_EDIT$=請選擇一個要編輯的監聽器。
+$SELECT_ONE_LISTENER_DELETE$=請選擇一個要移除的監聽器。
+$ASK_DELETE_LISTENER$=您確定要移除選取的監聽器嗎？
+$SELECT_ONLY_ONE_VIRTUAL_HOST_EDIT$=請只選擇一個要編輯的虛擬主機名。
+$SELECT_ONE_VIRTUAL_HOST_EDIT$=請選擇一個要編輯的虛擬主機名。
+<!-- Main Page -->
+$DOMAIN_PAGE_INFO$=定義關於選取域的基本資訊，該域如何監聽請求的連接，以及 IP 訪問規則以管理哪些位址可以連接到該域。
+<!-- Domain Tab -->
+$SETTINGS_TAB$=設定
+$DOMAIN_INFO_TAB$=變更網域名稱和域的說明，按保存按鈕保存變更。
+$ENABLE_DOMAIN$=啟用域
+$DOMAIN_INFO_GROUP$=域信息
+$DOMAIN_HOME_DIR$=域根目錄
+$MAXIMUM_SIZE$=最大尺寸
+$MAXIMUM_SIZE_MB_NOTE$=請注意：設置域根目錄的最大尺寸會迫使 Serv-U 在上傳前和上傳中檢查現有檔和子檔夾。 根據現有的目錄結構，這項作業可能非常耗時。
+$BLANK_FOR_NO_LIMIT$=留空表示無限制
+$PLEASE_ENTER_DOMAIN_HOME_DIR$=請輸入域根目錄路徑。若未輸入路徑，域根目錄的最大尺寸必須留空。
+<!-- Listeners Tab -->
+$LISTENERS_TAB$=監聽器
+$LISTENERS_INFO_TAB$=監聽器定義該域如何接受請求的連接。使用清單下方的按鈕管理該域的監聽器。如果沒有指定監聽器，則該域僅作為虛擬域運行，並使用其他域的監聽器。
+$LISTENER_DIALOG_TITLE$=監聽器
+$LISTENER_IP$=IP 位址或網域名稱
+$LISTENER_IP_LABEL$=（留空則表示全部）
+$LISTENER_PORT$=埠
+$LISTENER_TYPE$=類型
+$LISTENER_IP_ALL$=<< 所有可用的 IP 位址 >>
+$LISTENER_TYPE_FTP_DESC$=FTP 和 Explicit SSL/TLS
+$LISTENER_TYPE_IMPLICIT_SSL_DESC$=Implicit FTPS（SSL/TLS）
+$LISTENER_TYPE_SSH_DESC$=使用 SSH 的 SFTP
+$LISTENER_TYPE_HTTP_DESC$=HTTP
+$LISTENER_TYPE_HTTPS_DESC$=HTTPS（SSL 加密的 HTTP）
+$ENABLE_LISTENER$=啟用監聽器
+$LISTENER_PASV_DOMAIN$=PASV IP 位址或網域名稱
+$LISTENER_SFTP_UNAVAILABLE$=SFTP 僅在 Serv-U 企業版中可用。請升級您的許可證以啟用該項功能。
+$LISTENER_SSL_UNAVAILABLE$=當前的 Serv-U 許可證不支持 SSL。請升級許可證以啟用該功能。
+$PASV_IP_ADDRESS$=PASV IP 位址
+$USE_PASV_IP_SSL_ONLY$=僅使用 SSL 連接
+$USE_PASV_IP_LAN_ONLY$=使用 LAN 連接
+$LISTENER_IPV4_ALL$=<< 所有可用的 IPv4 位址 >>
+$LISTENER_IPV6_ALL$=<< 所有可用的 IPv6 位址 >>
+$LISTENER_IPV4$=IPv4 位址
+$LISTENER_IPV6$=IPv6 位址
+$CREATE_IPV4$=創建 IPv4 監聽器
+$CREATE_IPV6$=創建 IPv6 監聽器
+$PLEASE_CREATE_IP_LISTENER$=請勾選與此 IP 類型相關聯的任一或兩個選擇框，來創建 IPv4 和/或 IPv6 位址。
+$CONTEXT_ENABLE_LISTENER$=啟用監聽器
+$CONTEXT_DISABLE_LISTENER$=禁用監聽器
+<!-- Virtual Hosts Tab-->
+$VIRTUAL_HOSTS_TAB$=虛擬主機
+$VIRTUAL_HOSTS_INFO_TAB$=虛擬主機用於在多個域共用監聽器時訪問指定的域。對於 FTP 連接，則使用 HOST 命令。對於 HTTP 連接，通過檢查由使用者端發送的主機標頭（Host Header）以確定正確的域。
+$VIRTUAL_HOST_NAME$=虛擬主機名
+$ASK_DELETE_VIRTUAL_HOST$=您確定要移除選取的虛擬主機名嗎？
+$SELECT_ONE_VIRTUAL_HOST_DELETE$=請選擇一項要移除的虛擬主機名。
+<!-- IP Access Tab -->
+$DOMAIN_IP_ACCESS_INFO$=當使用者端電腦嘗試通過直接連接或虛擬域方式連接該域時，檢查域 IP 訪問規則。這些訪問規則僅應用於該域。
+<!-- Database Tab -->
+$DATABASE$=資料庫
+$DATABASE_INFO$=Serv-U 可以使用外部資料庫以載入額外的使用者和群組。資料庫必須安裝 ODBC 驅動程式且必須作為系統的 ODBC 資料源。以該方式載入的使用者和群組如果與本地創建的衝突，則被本地使用者和群組覆蓋。
+
+
+<!-- **************** DatabaseTab.htm **************** -->
+$DATA_SOURCE_GROUP$=資料庫源資訊
+$ODBC_SOURCE$=數據源名稱
+$ODBC_ACCOUNT$=資料庫登入 ID
+$ODBC_PASSWORD$=資料庫密碼
+$ODBC_AUTO_CREATE_TABLES$=自動創建需要的表
+$ODBC_AUTO_CREATE_COLUMNS$=自動創建需要的列
+$ODBC_EDIT_SQL_TEMPLATES$=SQL 範本
+$ODBC_COLUMN_MAPPING_INFO$=默認情況下，Serv-U 將使用相應的名稱創建資料存儲所需的表和列。但您可以手動組態 Serv-U，以使用您想要的表和列的名稱。
+$ODBC_MAP_USER_COLUMNS$=使用者表映射
+$ODBC_MAP_GROUP_COLUMNS$=群組表映射
+
+
+<!-- **************** DatabaseDialog.htm **************** -->
+$DATABASE_DIALOG_TITLE$=資料庫映射
+$DATABASE_MAPPING_INFO$=選擇以下物件類型，以組態其資料庫的列映射。要編輯列映射的值，可以按二下滑鼠或使用編輯按鈕。
+$TABLE_MAPPING_OBJ$=物件表
+$DATABASE_RENAME_DIALOG_TITLE$=編輯映射的資料庫值
+$DATABASE_RENAME_DIALOG_DESC$=輸入新映射的資料庫值
+$DB_ATTRIBUTE$=屬性
+$DB_COLUMN_NAME$=映射的資料庫值
+$DB_USER_INFO$=使用者資訊表
+$DB_USER_GROUP$=使用者群組表
+$DB_USER_DIRACCESS$=使用者目錄訪問表
+$DB_USER_VIRPATH$=使用者虛擬路徑表
+$DB_USER_IPACCESS$=使用者 IP 訪問表
+$DB_USER_EVENTS$=使用者事件清單
+$DB_USER_FREEFILES$=使用者上傳/下載率不限的檔表
+$DB_USER_USERFILES$=每個使用者的檔上傳/下載率表
+$DB_USER_USERBYTES$=每個使用者的位元組上傳/下載率表
+$DB_USER_SESSFILES$=每個連線期間的檔上傳/下載率表
+$DB_USER_SESSBYTES$=每個連線期間的位元組上傳/下載率表
+$DB_GROUP_INFO$=群組資訊表
+$DB_GROUP_DIRACCESS$=群組目錄訪問表
+$DB_GROUP_VIRPATH$=群組虛擬路徑表
+$DB_GROUP_IPACCESS$=群組 IP 訪問表
+$DB_GROUP_EVENTS$=群組事件清單
+$DB_GROUP_FREEFILES$=群組上傳/下載率不限的檔案表
+$SELECT_DB_COLUMN_EDIT$=請選擇要編輯的資料庫映射值。
+$DB_NO_EMPTY_COLUMN$=該資料庫映射值不能為空值。
+$DB_USER_AVAILABILITY$=使用者屬性可用性表格
+$DB_GROUP_AVAILABILITY$=群組屬性可用性表格
+$ENABLE_TABLE$=表格已啟用
+
+<!-- **************** SQLTemplateDialog.htm **************** -->
+$SQL_TEMPLATE_DIALOG_TITLE$=SQL 範本
+$SQL_TEMPLATE_INFO$=以下範本用於構建 SQL 範本，Serv-U 使用這些範本維護外部資料庫。變更範本可能造成 ODBC 無法工作。如果要編輯範本，則風險自負。
+$SQLT_TEMPLATE$=範本
+$SQLT_SELECT_ALL$=列出所有行
+$SQLT_SELECT_ROW$=列出指定的行
+$SQLT_SELECT_ROW_SORT$=列出指定的行並排序
+$SQLT_DELETE_ROW$=移除行
+$SQLT_INSERT_ROW$=插入行
+$SQLT_UPDATE_ROW$=更新行
+$SELECT_SQL_TEMPLATE_EDIT$=請選擇要編輯的 SQL 範本值。
+
+
+<!-- **************** DomainUsers.htm **************** -->
+<!-- Java Script -->
+$VIRTUAL_HOST_DIALOG_TITLE$=新建虛擬主機名
+$VIRTUAL_HOST_NAME_EMPTY$=請為該域指定虛擬主機名。
+
+
+<!-- **************** DomainUsers.htm **************** -->
+<!-- Java Script -->
+$DOMAIN_USERS_TAB$=域使用者
+$CONFIRM_USE_USER_WIZARD$=您要使用嚮導創建使用者嗎？
+<!-- Main Page -->
+$DOMAIN_USERS_INFO$=創建、修改和移除該域的使用者帳號。
+<!-- Users Tab -->
+$DOMAIN_USERS_TAB_DESCRIPTION$=該清單顯示了允許連接到活動域的使用者帳號。使用此清單和列出的按鈕對域使用者進行維護。
+
+
+<!-- **************** ServerUsers.htm **************** -->
+<!-- Java Script -->
+$SERVER_USERS_TAB$=全局使用者
+<!-- Main Page -->
+$SERVER_USERS_INFO$=創建、修改和移除該檔伺服器上所有域的全局使用者帳號。
+<!-- Users Tab -->
+$SERVER_USERS_TAB_DESCRIPTION$=該清單顯示了允許連接到檔伺服器上任何域的全局使用者帳號。通過在個別域中創建與全局帳號相同的帳號，可以覆蓋全局帳號。
+
+
+<!-- **************** UsersInclude.htm **************** -->
+<!-- Java Script -->
+$SELECT_ONLY_ONE_USER_EDIT$=請只選擇一個要編輯的使用者。
+$SELECT_ONE_USER_EDIT$=請選擇一個要編輯的使用者。
+$SELECT_ONLY_ONE_USER_COPY$=请选择唯一一个要复制的使用者。
+$SELECT_ONE_USER_COPY$=请选择一个要复制的使用者。
+$SELECT_A_USER_TO_DELETE$=請選擇要移除的使用者。
+$ASK_DELETE_USER$=您確定要移除選取的使用者嗎？
+$NOUSERS$=沒有已存在的使用者帳號。
+$GENERAL_USERS_NAME$=常規
+$GENERAL_ODBC_USERS$=常規資料庫
+$USER_TEMPLATE_INFO$=組態使用者範本有助於更快地創建新使用者。創建新使用者時，從範本使用者中獲取其默認設定。
+$DEFAULT_USER_TEMPLATE$=默認使用者範本
+$USER_LIMITS_TAB_INFO$=限制按其所負責組態的伺服器的區域進行分組。限制允許對相同的選項根據時間和星期幾指定多個限制值。使用者級別的限制優先順序高於在其他級別指定的所有限制值。
+$ODBC_USERS_NOT_CONFIGURED$=當前尚未組態資料庫。在管理資料庫使用者前必須先組態資料庫連接。
+$USER_CANT_LIST_HOMEDIR$=該使用者帳號無法訪問其根目錄。請核對該帳號的目錄訪問規則。
+$USER_PRIV_CANT_EDIT$=無法編輯該帳號，因為域管理人無法編輯許可權與其相同或更高的使用者帳號。
+$SELECT_USERS_TO_MOVE$=請選擇要移動到其他集合的使用者。
+$SELECT_USERS_TO_MOVE_ODBC$=請選擇您要移動到 ODBC 資料庫的使用者。
+$CHECK_SYSADMIN_CONFIG$=當系統管理員帳號的根目錄為 \"\\\" 且未被鎖定在根目錄時最有效。否則這些帳號在管理檔伺服器時將受到限制而無法使用根目錄以外的路徑。<br /><br />您要對該帳號進行其他更改嗎？
+$NO_COLLECTION_TO_MOVE_TO$=不存在其他集合。您要創建一個嗎？
+$SELECT_USERS_TO_RECOVER_PASSWORD$=請選擇您要恢復密碼的使用者。
+$CANNOT_DECRYPT_CONFIRM_MSG_1$=Serv-U 無法解密至少一個選取使用者的密碼。繼續恢復密碼將變更以下使用者的密碼：
+$CANNOT_DECRYPT_CONFIRM_MSG_2$=您確定要為選取的使用者恢復密碼嗎？
+$NO_SMTP_CONFIG$=當前沒有組態為要發送電子信件的 SMTP 。SMTP 組態可以在\"設定\" 選項卡下的\"限制和設定\"中找到。
+$COLL_GROUP_WIDTH_1$=465
+$COLL_GROUP_WIDTH_2$=610
+$CONTEXT_ENABLE_ACCOUNT$=啟用帳號
+$CONTEXT_DISABLE_ACCOUNT$=禁用帳號
+<!-- Users Tab -->
+$SELECT_USER_COLLECTION$=選擇使用者集合
+$USER_ORG_PROPERTIES$=使用者集合
+$ORG_NAME$=集合名稱
+$EMPTY_ORG_NAME$=請為該使用者集合輸入名稱。
+$NO_RENAME_GENERAL_ORG$=無法重命名默認的常規集合。
+$NO_DELETE_GENERAL_ORG$=無法移除默認的常規集合。
+$ORG_DELETE_CONFIRM$=您確定要移除選取的使用者集合嗎？移除集合也將移除其包含的所有使用者帳號。
+$USER_NAME_LOGIN_ID_COLUMN$=登入 ID
+$FULL_NAME_COLUMN$=全名
+$LAST_LOGIN_TIME$=最後登入時間
+$USER_PROPERTIES$=使用者屬性
+$DEFAULT_USER_BUTTON$=範本
+$ENABLE_DEFAULT_USER$=使用使用者範本
+$USER_WIZARD_BALLOON_TITLE$=Serv-U 使用者創建
+$USER_WIZARD_BALLOON_TIP$=使用 Serv-U 嚮導輕鬆創建使用者。<p>只需點擊以下按鈕便可開始創建使用者。</p>
+$MOVE_BUTTON$=移動
+$MOVE_USERS_BALLOON_TITLE$=移動使用者
+$MOVE_USER_BALLOON_TIP$=通過將使用者移動到新的或其他集合以提高 Serv-U 的性能。從清單中選擇要移動的使用者，然後按一下 '移動...' 按鈕。
+$MOVE_USERS_TO_ODBC_CONFIRM$=您確定要將選取的使用者移動到 ODBC 資料庫嗎？
+$MOVE_ODBC_BUTTON$=移動到資料庫
+$COPY_BUTTON$=複製
+$FILTER_USERS$=過濾使用者
+$FILTER_GROUPS$=過濾群組
+$ENTER_FILTER_INPUT$=請鍵入篩檢程式輸入。
+$WILL_DISABLE_ON$=過期
+$EXPIRED$=已過期
+$WILL_DELETE_ON$=將被移除
+
+<!-- ODBC Users Tab -->
+$ODBC_USERS_TAB_NAME$=資料庫使用者
+$ODBC_USERS_TAB_INFO$=資料庫使用者從指定的 ODBC 資料源載入。它們用來補充本地的使用者帳號資料庫。要變更以該方式存儲的使用者帳號，可以使用此介面或資料庫支援的介面。
+<!-- Windows Auththentication Tab -->
+$WINDOWS_AUTH_TAB_NAME$=Windows 驗證
+$WINDOWS_AUTH_TAB_INFO$=如果啟用 Windows 驗證，則客戶可以使用有效的 Windows 帳號代替 Serv-U 使用者資料庫中的本地帳號進行登入。如果該帳號已存在於 Serv-U 使用者資料庫中，則資料庫中的帳號的優先順序要高於 Windows 帳號。
+$WINDOWS_DOMAIN_NAME$=Windows 網域名稱
+$ENABLE_WINDOWS_AUTH$=啟用 Windows 驗證
+$WINDOWS_AUTH_USE_GROUP_HOMEDIR$=使用 Windows 用戶群組（User Group）根目錄而不使用帳戶根目錄
+$OPTIONAL$=可選
+
+
+<!-- **************** UserWizardDialog.htm **************** -->
+<!-- Main Page -->
+$USER_WIZARD$=使用者嚮導
+$ACCESS_RIGHTS$=訪問許可權
+$USER_WIZARD_INFO$=歡迎使用 Serv-U 使用者帳號嚮導。該嚮導幫助您快速創建新使用者，以訪問您的檔伺服器。
+$READ_WRITE_DESC$=讀寫訪問
+$READ_ONLY_DESC$=唯讀訪問
+$USER_NAME_WIZARD_DESCR$=使用者端嘗試登入檔伺服器時通過登入 ID標識其帳號。
+$USER_PASSWORD_WIZARD_DESCR$=密碼可以留空，但會造成任何知道登入 ID的人都可以訪問該帳號。
+$USER_HOME_DIR_WIZARD_DESCR$=根目錄是使用者成功登入檔伺服器後所處的物理位置。如果將使用者鎖定於根目錄，則其根目錄的位址將被隱藏而只顯示為 '/'。
+$USER_ACCESS_RIGHTS_WIZARD_DESCR$=選擇要授予使用者在其根目錄的訪問許可權。唯讀訪問允許使用者瀏覽並下載檔。完全訪問使使用者能夠完全掌控在其根目錄內的檔和目錄。
+$FULL_ACCESS$=完全訪問
+$PLEASE_ENTER_USER_NAME$=請輸入登入 ID。
+$PLEASE_ENTER_HOME_DIR$=請輸入根目錄。
+$USER_EMAIL_WIZARD_DESCR$=電子信件位址可以留空，也可用于向使用者端發送電子信件。
+
+
+<!-- **************** DomainGroups.htm **************** -->
+<!-- Java Script -->
+$DOMAIN_GROUPS_TAB$=域群組
+<!-- Main Page -->
+$DOMAIN_GROUPS_INFO$=創建、修改和移除活動域內的群組。
+<!-- Groups Tab -->
+$DOMAIN_GROUPS_TAB_DESCRIPTION$=該清單顯示此域中使用者帳號可用的群組。使用群組，您可以向身份為群組成員的每個使用者帳號指定帳號設定。帳號可以是多個群組的成員。群組設定可以被使用者帳號級別的相應設定覆蓋。
+
+
+<!-- **************** ServerGroups.htm **************** -->
+<!-- Java Script -->
+$SERVER_GROUPS_TAB$=全局群組
+<!-- Main Page -->
+$SERVER_GROUPS_INFO$=創建、修改和移除檔伺服器上全局帳號使用的全局群組。
+<!-- Groups Tab -->
+$SERVER_GROUPS_TAB_DESCRIPTION$=該清單顯示了檔伺服器上全局使用者帳號可用的全局群組。該群組只能由全局使用者帳號組成。使用群組，您可以向身份為群組成員的每個使用者帳號指定帳號設定。帳號可以是多個群組的成員。群組設定可以被使用者帳號級別的相應設定覆蓋。
+
+
+<!-- **************** GroupsInclude.htm **************** -->
+<!-- Java Script -->
+$SELECT_ONLY_ONE_GROUP_EDIT$=請只選擇一個要編輯的群組。
+$SELECT_ONE_GROUP_EDIT$=請選擇一個要編輯的群組。
+$SELECT_A_GROUP_TO_DELETE$=請選擇要移除的群組。
+$ASK_DELETE_GROUP$=您確定要移除選取的群組嗎？
+$GROUP_TEMPLATE_INFO$=組態群組範本有助於更快地創建新群組。創建新群組時，從範本群組中獲取其默認設定。
+$DEFAULT_GROUP_TEMPLATE$=默認群組範本
+$GROUP_LIMITS_TAB_INFO$=限制按其所負責組態的伺服器的區域進行分組。限制允許對相同的選項根據時間和星期幾指定多個限制值。群組級別的限制可以覆蓋域和伺服器級別的限制，但無法覆蓋使用者級別的限制。
+$ODBC_GROUPS_NOT_CONFIGURED$=當前尚未組態資料庫。在管理資料庫群組前必須先組態資料庫連接。
+$SELECT_GROUPS_TO_MOVE$=請選擇要移動的群組。
+$CONFIRM_MOVE_GROUP_START$=您確定要移動
+$CONFIRM_MOVE_ODBC_GROUP_END$=群組至資料庫群組集合嗎？
+$CONFIRM_MOVE_GROUP_END$=資料庫群組至群組集合嗎？
+<!-- Groups Tab -->
+$GROUP_PROPERTIES$=群組屬性
+$DEFAULT_GROUP_BUTTON$=範本
+$ENABLE_DEFAULT_GROUP$=使用者群組範本
+$WINDOWS_AUTH_GROUP_CONFIG$=組態 Windows 使用者群組
+$WINDOWS_AUTH_GROUP_NAME$=預設 Windows 使用者群組
+$LDAP_AUTH_GROUP_NAME$=預設的 LDAP 使用者群組
+$MOVE_GROUP_BUTTON$=移動群組
+$OU_GROUP_CONFIG$=組態OU 群組
+$REQUIRE_FULL_QUAL_GRP_MEMB$=需要完全資格的群組成員進行登入
+
+<!-- ODBC Groups Tab -->
+$ODBC_GROUPS_TAB_NAME$=資料庫群組
+$ODBC_GROUPS_TAB_INFO$=資料庫群組從指定的 ODBC 資料源載入。它們用來作為本地群組資料庫的補充。要變更以該方式存儲的群組，可以使用此介面或資料庫支援的介面。
+
+<!-- Windows Groups Tab -->
+$WINDOWS_GROUPS_TAB_NAME$=Windows 群組
+$WINDOWS_GROUPS_TAB_INFO$=創建與維護表示您 Windows 部門（OU）設定的群組。規劃您的群組以匹配所用名稱與您網域的活動目錄組態中所用名稱相同的 Windows 部門。作為部門成員的 Windows 活動目錄使用者使用這些群組設定。這些使用者可以是此清單中定義的任何分部的成員。所有的 Windows 驗證使用者也是“Windows 使用者群組”的成員。
+$WIN_AUTH_TURNED_OFF$=當前已禁用 Windows 群組。要啟用該群組，請前往 \“使用者 | Windows 驗證\”選項卡並啟用選擇框以使用 Windows 驗證。<br \/><br \/>
+$ADD_CHILD_BUTTON$=添加子項
+$SELECT_ONLY_ONE_GROUP_PARENT_EDIT$=請選擇要添加子項的唯一群組。
+$SELECT_ONE_GROUP_PARENT_EDIT$=請選擇一個要添加子項的群組。
+
+<!-- **************** ServerDir.htm **************** -->
+<!-- Java Script -->
+<!-- Main Page -->
+$SERVER_DIRECTORIES_PAGE_INFO$=組態檔伺服器上所有使用者都可以使用的基本目錄結構，包括默認目錄的訪問規則和虛擬路徑。
+<!-- Directory Access Tab -->
+$SERVER_DIR_ACCESS$=伺服器目錄訪問規則是全局規則，定義了該檔伺服器上所有使用者都可以訪問的檔和目錄。這些規則可以被域、群組和使用者級別上制定的規則覆蓋。
+
+
+<!-- **************** DomainDir.htm **************** -->
+<!-- Java Script -->
+<!-- Main Page -->
+$DOMAIN_DIRECTORIES_PAGE_INFO$=組態域內所有使用者都可以使用的基本目錄結構，包括默認目錄的訪問規則和虛擬路徑。
+<!-- Directory Access Tab -->
+$DOMAIN_DIR_ACCESS$=域目錄訪問規則是全局規則，定義了該域內所有使用者都可以訪問的檔和目錄。這些規則可以被群組和使用者級別上制定的規則覆蓋。
+
+
+<!-- **************** ServerLimits.htm **************** -->
+<!-- Main Page -->
+$SERVER_LIMITS$=伺服器限制和設定
+$SERVER_LIMITS_PAGE_TITLE$=伺服器限制和設定
+$SERVER_LIMITS_INFO$=限制和設定用於組態整個檔伺服器的基本設定和行為，包括 FTP 命令處理器定制和 SSL/SSH 加密證書選項。在此級別組態的限制和設定被所有域、群組和使用者繼承。
+$SERVER_LIMITS_TAB_INFO$=限制按其所負責組態的伺服器的區域進行分組。限制允許對相同的選項根據時間和星期幾指定多個限制值。伺服器級別的限制可以被域、群組和使用者級別設定的限制覆蓋。
+$SERVER_SETTINGS_TAB_INFO$=伺服器級別的設定可以組態檔伺服器的全局行為。一些設定如果未被覆蓋，則作為域、使用者帳號和群組的預設值。有關每項設定的詳細資訊，請參見幫助文檔。
+$SERVER_ENCRYPTION_TAB_INFO$=組態檔伺服器的加密選項。在伺服器級別指定的加密選項除非被其他資訊覆蓋，否則將作為域級別的默認設定。進階 SSL 和 SSH 加密選項僅可以在伺服器級別進行組態。
+
+
+<!-- **************** DomainLimits.htm **************** -->
+<!-- Main Page -->
+$DOMAIN_LIMITS$=域限制和設定
+$DOMAIN_LIMITS_PAGE_TITLE$=域限制和設定
+$DOMAIN_LIMITS_INFO$=限制和設定用於組態該域的基本設定和行為，包括 FTP 命令處理器定制和 SSL/SSH 證書規範。
+$DOMAIN_LIMITS_TAB_INFO$=限制按其所負責組態的域的區域進行分組。限制允許對相同的選項根據時間和星期幾指定多個限制值。域級別的限制可以覆蓋在伺服器級別指定的限制。
+$DOMAIN_SETTINGS_TAB_INFO$=域級別的設定可以覆蓋在伺服器級別指定的設定。一些設定如果未被覆蓋，則也作為該域的使用者帳號和群組的預設值。有關每項設定的詳細資訊，請參見幫助文檔。
+$DOMAIN_ENCRYPTION_TAB_INFO$=組態該域的加密選項，這些選項將覆蓋伺服器級別的設定。加密選項可用於基於 SSL 和 SSH 的連接。要使用在伺服器級別指定的默認選項，請將證書和私鑰路徑留空。
+$CERTIFICATE_SHARE_NOTE$=<strong>注意：</strong>共用監聽器的域對於每種加密方式只能使用一個證書。
+
+
+<!-- **************** LimitsInclude.htm **************** -->
+<!-- Limits Tab -->
+$LIMITS_TAB$=限制
+<!-- Settings Tab -->
+$LOCAL_ADMIN_CHANGE_PASSWORD_TITLE$=變更本地管理人密碼
+$CONNECTION_GROUP$=連接設定
+$AH_CHECK_LABEL$=阻止使用者，其連接次數超過
+$AH_TIMES_WITHIN$=次，每次不超過
+$AH_SECONDS_FOR$=秒，持續時間
+$SSH_HIDE_SERVER_ID$=從 SSH 標識裏隱藏伺服器資訊
+$EDIT_RATIO_FREE_FILES$=上傳/下載率不限的檔案
+$CUSTOM_LOGO$=自定義標誌
+$CUSTOM_LOGO_TITLE$=自定義 HTTP 標誌、登入頁面文本與標題
+$CUSTOM_LOGO_PATH$=自定義標誌路徑
+$CUSTOM_LOGO_NOTE$=<strong>請注意：</strong> 自定義標誌圖像的尺寸必須為寬 400 圖元 X 高 100 圖元
+$PASSWORD_RECOVERY_EMAIL_GROUP$=密碼恢復消息
+$PR_CHECK_LABEL$=使用繼承預設消息
+$INTEGRATION_DLL_PATH$=集成庫路徑
+$INTEGRATION_DLL_GROUP$=集成庫
+$INTEGRATION_DLL_TEXT$=使用 Serv-U 中的集成庫功能需要您擁有編寫 Windows 軟體的能力。切勿在此處指定 DLL 除非您親自編寫過 DLL 或共用庫（.so），或知曉其來自可信源。若決定使用外部庫則需慎重考慮使用自編軟體的安全性。要瞭解有關編寫集成庫的更多資訊，請閱讀幫助檔案。
+$FOR_PERMANENTLY$=永久性
+$CUSTOM_LOGIN_TEXT$=HTTP 登入頁面文本
+$HTTP_LOGIN_TEXT_GROUP$=自定義 HTTP 登入消息
+$CUSTOM_TITLE_TEXT$=HTTP 登入標題文本（無 HTML）
+$CUSTOM_HTML_TAB$=自定義 HTML
+$CUSTOM_HTML_GROUP_TITLE$=自定義 HTML 檔案
+$ENABLE_CUSTOM_HTML$=啟用自定義 HTML
+$CUSTOM_HTML_TAB_INFO$=自定義 HTML 功能用於定制 Serv-U 檔案伺服器登入頁面的外觀。首先，必須使用以下輸入的“自定義 HTML 容器目錄”選擇一個將包含您自定義 HTML 檔案的目錄。然後，您可以使用以下輸入欄位指定頁眉、頁腳和自定義 CSS 檔案。
+$CUSTOM_DIR_PATH$=自定義 HTML 容器目錄 
+$CUSTOM_CSS_PATH$=CSS 檔案
+$CUSTOM_HEADER_PATH$=頁眉檔案
+$CUSTOM_FOOTER_PATH$=頁腳檔案
+$PLEASE_SPECIFY_HTML_FOLDER$=請在繼續操作前指定一個容器目錄。
+$BROWSE_FOLDER_LOCK_ALERT$=目錄瀏覽鎖定：不允許瀏覽除此目錄以外的內容。
+$CUSTOM_WEB_CLIENT_BACKGROUND_STYLE$=HTTP Web 使用者端背景（僅 CSS）
+$CUSTOM_HTML_SAMPLE_TXT$=注意：Serv-U 自帶定制的 HTML 示例，有助於您創建自定義 HTML Serv-U 佈局頁面。這些示例位於您 Serv-U 安裝目錄下的“Custom HTML Samples”目錄內，附帶的“ReadMe.txt”檔案中提供額外資訊。
+$PROVIDE_VALID_CUST_HTML_PATH$=請指定有效的檔案名。路徑不允許自定義 css、報頭和註腳檔案輸入。
+
+<!-- FTP Command Processor Tab -->
+$FTP_COMMANDS_TAB$=FTP 命令
+$SERVER_FTPCP_TAB$=FTP 命令處理器默認情況下用於所有域。它可以組態進階行為，如對 FTP 命令的文本回應、FTP 命令設定，或甚至禁止使用者端使用 FTP 命令。這些設定可以被域級別的設定覆蓋。
+$DOMAIN_FTPCP_TAB$=域 FTP 命令處理器可以覆蓋在伺服器級別指定的相應設定。它可以組態進階行為，如對 FTP 命令的文本回應、個別 FTP 命令的設定，或甚至禁止使用者端使用 FTP 命令。
+$FTPCP_USE_DEFAULT$=使用者默認設定
+$FTPCP_USE_OVERRIDE$=使用者定制設定
+$FTP_COMMAND$=命令
+$FTPCP_DEFAULT$=該域當前使用檔伺服器定義的默認 FTP 命令設定和回應。要覆蓋這些設定，請按一下 \"$FTPCP_USE_OVERRIDE$\" 按鈕。
+$FTPCP_OVERRIDE$=該域當前使用定制的 FTP 命令和回應。要還原為由檔伺服器定義的默認設定，請按一下 \"$FTPCP_USE_DEFAULT$\" 按鈕。
+$CONFIRM_FTPCP_DELETE$=還原為默認設定將移除您定制的 FTP 命令設定和回應。域隨後將使用伺服器的 FTP 命令設定和回應。您確定要使用默認設定嗎？
+$SELECT_ONE_COMMAND_EDIT$=請選擇要編輯的 FTP 命令。
+$GLOBAL_PROPERTIES$=全局屬性
+$DISABLE_COMMAND$=禁用命令
+$ENABLE_COMMAND$=啟用命令
+$FIPS_NOTE$=<strong>注意：</strong>在使用 FIPS 140-2 模式時，某些使用者端將不再作業。（適用於 SSH 與 SSL）
+$SSL_OPTION_NOT_AVAILABLE$=<strong>注意：</strong>啟用 FIPS 140-2 模式會覆蓋這些選項。
+$FIPS_OPTIONS$=FIPS 選項
+<!-- Encryption Tab -->
+$ENCRYPTION_TAB$=加密
+$SSL_CERTIFICATE_OPTIONS$=SSL 證書（用於 FTPS 和 HTTPS）
+$SSH_PRIVATE_KEY_OPTIONS$=SSH 私鑰（用於 SFTP）
+$CERTIFICATE$=證書路徑
+$PRIVATE_KEY$=私鑰路徑
+$VIEW_CERTIFICATE$=檢視證書
+$CACERTIFICATE$=CA（證書頒發機構）證書路徑
+$CREATE_CERTIFICATE$=創建證書
+$CREATE_PRIVATE_KEY$=創建私鑰
+$SSL_OPTIONS$=進階 SSL 選項
+$SSL_CIPHERS$=SSL 密碼
+$SSH_CIPHERS$=SSH 密碼
+$SSH_MACs$=SSH MAC
+$SSH_KEXs$=SSH Key Exchange Algorithms
+$SSH_AES128$=AES-128-cbc
+$SSH_3DES$=三重 DES-cbc
+$SSH_AES192$=AES-192-cbc
+$SSH_AES256$=AES-256-cbc
+$SSH_CBC$=Rijndael-cbc
+$SSH_MACMD5$=MD5
+$SSH_MACSHA1$=SHA1
+$SSH_MACSHA1_96$=SHA1 96
+$SSH_AES128CTR$=AES-128-ctr
+$SSH_AES192CTR$=AES-192-ctr
+$SSH_AES256CTR$=AES-256-ctr
+$SSH_256$=SHA2 256
+$SSH_256_96$=SHA2 256-96
+$SSH_512$=SHA2 512
+$SSH_512_96$=SHA2 512-96
+$SSH_DH_GROUP1$=DH-GROUP1-SHA1
+$SSH_DH_GROUP14$=DH-GROUP14-SHA1
+$SSH_DH_GROUP14_SSH_256$=DH-GROUP14-SHA2 256
+$SSH_DH_GROUP16_SSH_512$=DH-GROUP16-SHA2 512
+$SSH_DH_GROUP_EXCHANGE_SSH_256$=DH-GROUP-EXCHANGE-SHA2 256
+$SSH_ECDH_NISTP256$=ECDH-SHA2-NISTP256
+$SSH_ECDH_NISTP384$=ECDH-SHA2-NISTP384
+$SSH_ECDH_NISTP521$=ECDH-SHA2-NISTP521
+$NO_DISABLE_ALL_CIPHERS$=必須至少啟用一個 SSL 密碼。
+$ALERT_SSH_KEY_PAIR_CREATE$=由 Serv-U 向使用者提供的 SSH 金鑰對生成僅作測試用途。在多個電腦之間共用私人金鑰將消除“SSH 公共金鑰驗證”的安全優勢。應該在使用者端電腦上生成 SSH 金鑰對，然後將 SSH 公共金鑰發送至伺服器或伺服器管理人。
+$SU_GEN_FILES$=Serv-U 生成了兩個檔案：
+$PUBLIC_KEY_ON_SERVER$=將在伺服器上使用公共金鑰檔案
+$PRIVATE_KEY_ON_CLIENT$=可以在使用者端電腦上使用私人金鑰
+$KEY_INSTRUCTION_INFO_PART1$=提供
+$KEY_INSTRUCTION_INFO_PART2$=檔案給使用者端電腦，然後在伺服器電腦上將其銷毀。私人金鑰格式與 RFC 4716 相容。有些 SSH 使用者端可能要求使用工具（例如 PuTTYgen）將金鑰轉換成不同的格式。
+
+<!-- **************** ServerSettingsTab.htm **************** -->
+$NETWORK_SETTINGS$=網路設定
+$ENABLE_UPNP$=通過 UPnP 自動組態防火牆
+$PACKET_TIMEOUT$=封包逾時
+$SECONDS$=秒
+$PASV_PORT_RANGE$=PASV 埠範圍
+$PASV_CHECK_PEER_IP$=需要相符的對等 IP 位址以進行控制和資料連線。
+$ADVANCED_SETTINGS$=進階設定
+$FILE_MODE_READ$=允許讀取訪問
+$FILE_MODE_DENY$=不允許訪問
+$FILE_MODE_FULL$=允許完全訪問
+$ADMIN_PASSWORD_BUTTON$=變更管理密碼
+
+
+<!-- **************** RatioQuotaDialog.htm **************** -->
+$RATIO_QUOTA_DIALOG_TITLE$=傳輸率和配額管理
+$RATIO_GROUP$=傳輸率
+$RATIO_ENABLE$=啟用傳輸率
+$RATIO_FPS$=計算每個連線期間的檔數
+$RATIO_BPS$=計算每個連線期間的位元組數
+$RATIO_FAS$=計算所有連線期間的檔數
+$RATIO_BAS$=計算所有連線期間的位元組數
+$RATIO_LABEL$=上傳/下載率
+$RATIO_UPLOADS$=上傳
+$RATIO_DOWNLOADS$=下載
+$RATIO_CREDIT$=信用額度
+$QUOTA_GROUP$=配額
+$QUOTA_MAXIMUM$=最大
+$QUOTA_CURRENT$=當前
+
+
+<!-- **************** RatioFreeFilesDialog.htm **************** -->
+$RATIO_FREE_FILE_DIALOG_TITLE$=上傳/下載率不限的檔案
+$RATIO_FREE_FILE_INFO$=上傳/下載率不限的檔在傳輸時可以不受任何指定的上傳或下載率影響。可以指定個別檔，或使用萬用字元（"*" 和 "?"）作為檔案名遮罩。不帶路徑的檔案名將應用於所有目錄中檔案名與之匹配的檔。
+$RATIO_FREE_FILE_EDIT_DIALOG_TITLE$=上傳/下載率不限的檔資訊
+$FREE_FILE_PATH$=上傳/下載率不限的檔路徑
+$FREE_FILE_MASK_EMPTY$=請指定上傳/下載率不限的檔使用的檔路徑或遮罩。
+$SELECT_ONLY_ONE_RATIO_FREE_FILE_EDIT$=請只選擇一個要編輯的上傳/下載率不限的檔案。
+$SELECT_ONE_RATIO_FREE_FILE_EDIT$=請選擇一個要編輯的上傳/下載率不限的檔案。
+$SELECT_RATIO_FREE_FILE_DELETE$=請選擇要移除的上傳/下載率不限的檔案。
+$ASK_DELETE_RATIO_FREE_FILE$=您確定要移除選取的上傳/下載率不限的檔案嗎？
+
+
+<!-- **************** NewCertificateDialog.htm **************** -->
+$NEW_CERTIFICATE_DIALOG_TITLE$=新建證書
+$NEW_CERTIFICATE_INFO$=該實用程式將根據提供的資訊創建自簽署的證書 (.crt)，以及證書請求檔 (.csr) 和私鑰檔案 (.key)。
+$CERT_OUTPUT_GROUP$=輸出
+$CERT_SET_NAME$=證書設定名稱
+$CERT_OUTPUT_PATH$=輸出路徑
+$CERT_INFORMATION$=證書資訊
+$CERT_CITY_TOWN$=市/縣
+$CERT_STATE_PROVINCE$=省/自治區/直轄市
+$CERT_COUNTRY$=國家（2 個字母縮寫）
+$CERT_PASSWORD$=密碼
+$CERT_ORGANIZATION$=組織
+$CERT_COMMON_NAME$=公用名稱
+$CERT_DOMAIN_NAME$=網域名稱
+$CERT_UNIT$=單位
+$NEW_CERT_EMPTY_FIELD$=必須填寫所有欄位以創建證書檔。
+$NEW_CERT_TWO_DIGIT_COUNTRY$=請輸入證書的兩位元數字國家代碼。
+$NEW_CERT_USE_NOW$=證書創建完成。三個證書檔已位於指定的輸出路徑中。您要立即使用新證書嗎？
+
+
+<!-- **************** ViewCertificateDialog.htm **************** -->
+$VIEW_CERTIFICATE_DIALOG_TITLE$=檢視證書
+$CERT_ISSUER_GROUP$=發行機構
+$CERT_SUBJECT_GROUP$=主題
+$CERT_VALID_GROUP$=有效日期
+$CERT_COUNTRY_VIEW$=國家
+$CERT_FROM$=發佈者
+$CERT_THROUGH$=方式
+
+
+<!-- **************** NewCertificateDialog.htm **************** -->
+$NEW_PRIVATE_KEY_DIALOG_TITLE$=新建私鑰
+$NEW_PRIVATE_KEY_INFO$=該實用程式將新建用於 SSH 安全連線期間的私鑰。密鑰長度越長，則連線期間越安全，但也會對性能有一定的負面影響。
+$PRIVATE_KEY_OUTPUT_GROUP$=輸出
+$PRIVATE_KEY_NAME$=私鑰名稱
+$PRIVATE_KEY_OUTPUT_PATH$=輸出路徑
+$PRIVATE_KEY_INFORMATION$=私鑰資訊
+$PRIVATE_KEY_TYPE$=密鑰類型
+$PRIVATE_KEY_TYPE_DSA$=DSA（大多數伺服器支持）
+$PRIVATE_KEY_TYPE_RSA$=RSA
+$PRIVATE_KEY_LENGTH$=密鑰長度（以比特為單位）
+$PRIVATE_KEY_LEN_1024$=1024（性能最佳）
+$PRIVATE_KEY_LEN_4096$=4096（安全性最強）
+$PRIVATE_KEY_PASSWORD$=密碼
+$NEW_PRIVATE_KEY_EMPTY_FIELD$=請輸入私鑰名稱和輸出路徑。
+$NEW_PRIVATE_KEY_USE_NOW$=私鑰創建完成。您要立即使用新私鑰嗎？
+<!-- **************** NewSSHKeyPairDialog.htm **************** -->
+$SSH_KEY_PAIR_OUTPUT_GROUP$=密鑰對輸出
+$SSH_KEY_PAIR_NAME$=密鑰對名稱
+$SSH_PUBLIC_KEY_INFORMATION$=密鑰信息
+$NEW_SSH_KEY_PAIR_INFO$=該工具創建新的 SSH 密鑰對檔案（OpenSSH 格式），以供 SSH 安全連線期間使用。密鑰長度越長，它所提供的安全性越強。不過，較長的密鑰長度可能會對性能產生消極影響。
+$NEW_SSH_KEY_PAIR_DIALOG_TITLE$=新建 SSH 密鑰對
+$NEW_PUBLIC_KEY_USE_NOW$=密鑰對創建完成。您要立即使用新的公共密鑰嗎？
+<!-- **************** FTPCommandDialog.htm **************** -->
+$FTP_COMMAND_DIALOG_TITLE$=FTP 命令屬性
+$FTP_RESPONSES$=FTP 回應
+$COMMAND_RESPONSE_INFO$=以下列出了為了回應命令而可能發送的回應。每個代碼的回應文本可以進行定制。
+$RESPONSE_CODE$=代碼
+$RESPONSE_TEXT$=回應文本
+$ADVANCED_OPTIONS$=進階選項
+<!-- FTP Response Dialog -->
+$FTP_RESPONSE_DIALOG_TITLE$=編輯 FTP 回應文本
+$EDIT_RESPONSE_INFO$=每個 FTP 回應的文本部分都能進行編輯。回應中還可以插入特殊的變數。更多資訊，請參見幫助文檔。
+$SELECT_ONE_RESPONSE_EDIT$=請選擇要編輯的 FTP 回應。
+<!-- Information Tab -->
+$INFORMATION$=資訊
+$COMMAND_GENERAL_INFO$=以下顯示了 FTP 命令及其使用的摘要。有關命令的更多詳細資訊，請檢視以下鏈結。可以將個別命令禁用，因此使用者端發送該命令時便無法被伺服器識別。
+$ADDTL_INFO$=更多資訊
+$CLICK_ADDTL_INFO$=按一下此處獲取關於命令的更多資訊
+<!-- Message File Tab -->
+$SECOND_MSG_FILE_INFO$=如果找不到以上指定的檔，則使用消息檔次要路徑。這在消息檔主要路徑與使用者的當前工作目錄有關時非常有用。
+$SECOND_MSG_FILE$=消息檔次要路徑
+$MSG_FILE_FTPCP$=該消息檔用於向 FTP 使用者指定登入消息。當使用者端連接到 FTP 伺服器時，該消息檔的內容將與常規 FTP 問候一起發送給使用者端。
+$MSG_FILE_CDUP$=當使用者變更其當前的工作目錄時，消息檔的內容將與對該命令的常規回應一起發送給使用者端。消息檔支援使用符號參數，路徑未必要是絕對路徑。更多資訊，請參見幫助文檔。
+$MSG_FILE_CWD$=$MSG_FILE_CDUP$
+$MSG_FILE_QUIT$=當使用者終止其 FTP 連線期間時，消息檔的內容將與對該命令的常規回應一起發送給使用者端。消息檔支援使用符號參數。更多資訊，請參見幫助文檔。
+<!-- LIST Advanced Tab -->
+$DIR_LIST_STYLE$=目錄清單樣式
+$LIST_ADVANCED_INFO$=對 LIST 命令的回應格式可以組態如下。大多數情況下，默認設定可以用於多數 FTP 使用者端。
+$LIST_STYLE_UNIX$=UNIX 樣式清單（默認）
+$LIST_STYLE_IIS$=IIS 樣式清單
+$LIST_STYLE_DOS$=DOS 樣式清單
+$ALLOW_LIST_STYLE_CHANGE$=允許使用者端使用命令指令的方式變更 LIST 樣式
+$ALLOW_LIST_FULL_PATH$=在列出特定檔案時列出檔案\的完整路徑
+$ALLOW_RECURSE_DIRS$=允許使用者端指定帶有 -R 參數的遞迴目錄清單
+<!-- MKD Advanced Tab -->
+$MKD_ADVANCED_INFO$=如果指定的父目錄不存在，它們會自動創建。
+$ALLOW_CREATE_PARENT_DIR$=允准 MKD 命令創建不存在的父目錄。
+<!-- MDTM Advanced Tab -->
+$MDTM_ADVANCED_INFO$=MDTM 命令可以擴展為允許客戶機修改遠端檔的日期和時間。使用以下核取方塊以組態該行為。
+$MDTM_CHANGE_TIME$=允許 MDTM 命令變更檔日期 / 時間
+$MDTM_BLOCK_FUTURE$=阻止將來的日期和時間
+<!-- NLST Advanced Tab -->
+$NLST_ADVANCED_INFO$=通常使用 NLST 命令只能列出檔。選取以下核取方塊則該命令還可以列出目錄。
+$NLST_LIST_DIRS$=NLST 命令也列出目錄
+$NLST_LIST_EMPTY$=列出空目錄而非返回 550 錯誤
+<!-- FTPCP Advanced Tab -->
+$FTPCP_ADVANCED_INFO$=通常情況下可以將以下選項應用於 FTP 協定。關於每個選項的更多資訊，請參見幫助文檔。
+$FTPCP_BLOCK_FXP$=阻止 \"FTP_bounce\" 攻擊和 FXP（伺服器間傳輸）
+$FTPCP_INC_RESP_CODE$=包含多行回應中所有行的回應代碼
+$FTPCP_UTF8_DEFAULT$=對所有已收發的路徑和檔案名使用 UTF-8 編碼
+
+
+<!-- **************** ImportExportUsersDialog.htm **************** -->
+$EXPORT_USER_PATH$=匯出檔案路徑
+$IMPORT_USER_PATH$=匯入檔案路徑
+$IMPORT_USER_DIALOG_TITLE$=匯入使用者
+$EXPORT_USER_DIALOG_TITLE$=匯出使用者
+$IMPORT_MSG$=已從檔案匯入使用者：
+$IMPORT_MSG_EXIST1$=已匯入使用者。
+$IMPORT_MSG_EXIST2$=使用者已存在，並非從檔案匯入：
+$EXPORT_MSG$=已匯出使用者到檔案：
+$EXPORT_USERS_CONFIRM$=您要匯出所有使用者嗎？
+$EXPORT_USERS_YES_CONFIRM$=回答 \"是\" 則匯出此域/伺服器中的所有使用者。
+$EXPORT_USERS_NO_CONFIRM$=回答 \"否\" 則僅匯出此使用者集合中的使用者。
+$NO_IMPORT_ODBC_USERS_SAVED$=未保存任何使用者帳號，請務必檢查資料庫組態設定或檢查已定義資料庫的可用性。
+$NO_IMPORT_USERS_SAVED$=未保存任何使用者帳號，請務必檢查作業系統中的讀寫許可權，並確保存在足夠的可用空間。
+$SOME_IMPORT_ODBC_USERS_NOT_SAVED$=未保存某些使用者帳號，請務必檢查資料庫組態設定或檢查已定義資料庫的可用性。
+$SOME_IMPORT_USERS_NOT_SAVED$=未保存某些使用者帳號，請務必檢查資料庫組態設定或檢查已定義資料庫的可用性。
+
+<!-- Java Script -->
+$PLEASE_ENTER_IMPORT_PATH$=請輸入您希望匯入的檔案路徑。
+$PLEASE_ENTER_EXPORT_PATH$=請輸入您要將使用者匯出的路徑與檔案名。
+<!-- **************** DomainActivity.htm **************** -->
+<!-- Java Script -->
+<!-- Main Page -->
+$DOMAIN_ACTIVITY_INFO$=顯示關於當前域的活動和記錄檔的資訊。使用設定選項卡可以組態檔和即時記錄檔資訊。
+<!-- Sessions Tab -->
+$SESSIONS_TAB$=連線期間
+$SESSIONS_INFO$=有關當前活動連線期間的資訊顯示如下。在此您可以檢視連線期間資訊，與使用者交談或阻止使用者。
+<!-- User and Group Stats Tab -->
+$USER_GROUP_STATS_SELECTION$=使用者或群組統計選擇
+$USER_GROUP_STATS_TAB$=使用者和群組統計
+$USER_STATS$=使用者統計
+$SELECT_USER_STATS$=使用者
+$USER_GROUP_STATS_INFO$=檢視使用者與群組的統計，包括連線期間資訊，傳輸統計以及活動總計。
+$GROUP_STATS$=群組統計
+$SELECT_GROUP_STATS$=群組
+$SELECT_COLLECTION$=集合
+$SAVE_STATS_BUTTON$=保存統計
+<!-- Stats Tab -->
+$STATS_TAB$=統計
+$DOMAIN_STATS_INFO$=檢視關於當前域的統計資訊，包括連線期間資訊、傳輸統計和當前活動的總計。
+<!-- Log Tab -->
+$LOG_DISPLAY_INFO$=當前域的記錄檔顯示如下並即時更新。要暫停即時更新，請選取 "凍結記錄檔" 核取方塊。
+$LOG_TAB$=記錄檔
+$FREEZE_LOG$=凍結記錄檔
+$LEGEND_BUTTON$=圖例
+$LOG_LEGEND$=記錄檔圖例
+$FILTER_BUTTON$=篩選
+$FILTER_LOG_BUTTON$=篩選記錄檔
+$FILTER_DIALOG_TITLE$=按字串顯示的篩選記錄檔
+$LOG_FILTER_INFO$=記錄檔將僅包含輸入的字串內容。
+$RESET_BUTTON$=重設
+$RESET_All_BUTTON$=全部重設
+$COPY_CLIPBOARD$=複製到剪貼簿
+$CONFIRM_RESET_ALL_DIALOG_TITLE$=重設所有統計
+$RESET_ALL_GROUP_STATS_INFO$=您確定要為所有群組重設統計嗎？
+$RESET_ALL_STATS_INFO$=請選擇重設所有企業的統計或重設當前選定企業（通過按一下以下正確的按鈕實現）的統計。
+$RESET_THIS_ORG_BUTTON$=重設選定
+$RESET_ALL_ORGS_BUTTON$=全部重設
+
+$RESET_ALL_PROGRESS_DIALOG_TITLE$=統計重設進度
+$RESETTING_GROUP_STATS_PROGRESS$=正在重設群組統計
+$RESETTING_USER_STATS_PROGRESS$=正在重設使用者統計
+
+<!-- Settings Tab -->
+$LOG_SETTINGS_INFO$=使用左邊的核取方塊來組態活動記錄檔的記錄方式。使用右邊的設定管理資訊記錄到檔的方式。
+$LOG_SETTINGS_INFO_USER_GROUP$=使用左側的勾選框來組態您希望記錄哪些資訊。“記錄到檔案設定”選項控制如何將資訊記錄到檔案中。
+$LOG_MESSAGE_SETTINGS_LABEL$=記錄檔消息選項
+$LOG_FILE_LABEL$=檔案
+$LOG_SCREEN_LABEL$=螢幕
+$LOG_FILE_PATH$=記錄檔路徑名稱
+$ENABLE_LOG_TO_FILE$=啟用記錄到檔
+$SYSTEM_MESSAGES_LABEL$=系統消息
+$SECURITY_MESSAGES_LABEL$=安全消息
+$IP_NAMES_LABEL$=IP 名稱
+$DOWNLOADS_LABEL$=下載
+$UPLOADS_LABEL$=上傳
+$FILE_DELETIONS_LABEL$=檔移除
+$FILE_AND_DIRECTORY_RENAMES_LABEL$=檔和目錄重命名
+$DIRECTORY_CREATIONS_LABEL$=目錄創建
+$DIRECTORY_DELETIONS_LABEL$=目錄移除
+$ODBC_CALLS_LABEL$=ODBC 調用
+$ODBC_ERRORS_LABEL$=ODBC 錯誤
+$TRIGGERED_EVENT_LABEL$=觸發事件
+$FTP_COMMANDS_LABEL$=FTP 命令
+$FTP_REPLIES_LABEL$=FTP 應答
+$SSH_COMMANDS_LABEL$=SSH 命令
+$SSH_REPLIES_LABEL$=SSH 應答
+$SSH_DETAILED_COMMANDS_LABEL$=SSH 詳細命令 
+$SSH_DETAILED_REPLIES_LABEL$=SSH 詳細應答
+$HTTP_COMMANDS_LABEL$=HTTP 命令
+$HTTP_REPLIES_LABEL$=HTTP 應答
+$LOG_FILE_SETTINGS$=記錄到檔設定
+$LOG_FILE_PARAMETERS_LABEL$=記錄檔檔路徑標記
+$HOURLY_LOG_LABEL$=小時（24 小時制）
+$DAY_OF_MONTH_LABEL$=日
+$MONTH_TEXT_LABEL$=月（文本）
+$MONTH_NUMBER_LABEL$=數字表示的月份 (1-12)
+$4_DIGIT_YEAR_LABEL$=四位元數字表示的年份
+$2_DIGIT_YEAR_LABEL$=兩位元數字表示的年份
+$DOMAIN_NAME_LABEL$=網域名稱
+$LOGIN_LABEL$=登入 ID
+$USER_FULL_NAME_LABEL$=使用者全名
+$GROUP_NAME_LABEL$=群組名稱
+$LOG_ROTATE_SETTING$=自動迴圈更新記錄檔檔
+$LOG_ROTATE_NEVER_DESC$=從不
+$LOG_ROTATE_HOURLY_DESC$=每小時
+$LOG_ROTATE_DAILY_DESC$=每日
+$LOG_ROTATE_WEEKLY_DESC$=每週
+$LOG_ROTATE_MONTHLY_DESC$=每月
+$LOG_ROTATE_YEARLY_DESC$=每年
+$LOG_IP_ACCESS_BUTTON$=不記入記錄檔的 IP
+$PLEASE_ENTER_LOG_FILE_NAME$=請確定包含記錄檔的檔案名
+$LOG_FILE_NAMING_EXAMPLES$=示例：<br>/Serv-U-Log.txt<br>/Serv-U-Log%M.txt<br>/Serv-U-Log%N-%Y.txt<br>/Serv-U-Log%N-%D-%Y.txt<br>/Serv-U-Log-%S.txt
+$KEEP_UP_TO$=保持到
+$LOG_EXCEED_FILES$=記錄檔。
+$LOG_EXCEED_BYTES$=MB 記錄檔。
+$ZERO_NO_DELETE$=0 為保存所有記錄檔
+$CONFIRM_RESET_GROUP_STATS$=您確定要為選定的群組重設統計嗎？
+$CONFIRM_RESET_USER_STATS$=您確定要為選定的使用者重設統計嗎？
+$SAVE_LOG_SETTINGS_BUTTON$=保存記錄檔設定
+
+<!-- **************** LogIPAccessListDialog.htm **************** -->
+$LOG_IP_ACCESS_LIST_DIALOG_TITLE$=不記入記錄檔的 IP 規則
+$LOG_IP_ACCESS_LIST_INFO$=以下 IP 規則表示不用記錄到記錄檔的 IP 位址。該規則可應用于螢幕記錄檔和/或檔記錄檔。
+$USER_GROUP_LOG_IP_ACCESS_LIST_INFO$=以下 IP 規則識別未記錄的 IP 位址。這些規則將套用于此檔案的記錄檔。
+$APPLIES_TO$=應用於
+$LOG_FILE$=檔案
+$LOG_SCREEN$=螢幕
+$LOG_BOTH$=二者
+$LOG_NONE$=禁用
+
+
+<!-- **************** LogIPAccessDialog.htm **************** -->
+$LOG_IP_ACCESS_DIALOG_TITLE$=不記入記錄檔的 IP 規則
+$LOG_APPLY_SCREEN$=應用到螢幕
+$LOG_APPLY_FILE$=應用到檔案
+
+
+<!-- **************** ServerActivity.htm **************** -->
+<!-- Java Script -->
+<!-- Main Page -->
+$SERVER_ACTIVITY_INFO$=顯示關於檔伺服器上所有域的使用者連線期間資訊並對其進行管理。記錄檔表顯示整個伺服器範圍內的消息和資訊。
+<!-- Stats Tab -->
+$SERVER_STATS_INFO$=檢視整個檔伺服器中所有域的統計資訊，包括連線期間資訊、傳輸統計和當前活動的總數。
+<!-- Log Tab -->
+$SERVER_LOG_DISPLAY_INFO$=伺服器記錄檔顯示如下並即時更新。伺服器記錄檔包含啟動資訊、全局消息和錯誤。
+
+
+<!-- **************** DomainAttrStats.htm **************** -->
+<!-- HTML -->
+$UP_TIME$=連續運行時間
+$SESSIONS_CURRENT$=當前連線期間
+$SESSIONS_LAST_DAY$=24 小時連線期間
+$SESSIONS_TOTAL$=連線期間總計
+$SESSIONS_PASSWORD_CHANGED_ON$=上一次變更的密碼
+$SESSIONS_MAX$=最大連線期間數量
+$SESSIONS_AVG_TIME$=平均連線期間長度
+$SESSIONS_LONGEST$=最長連線期間
+$TRANSFER_DL_SPEED$=下載速度
+$TRANSFER_AVG_DL_SPEED$=平均下載速度
+$TRANSFER_DOWNLOADED$=已下載
+$TRANSFER_UL_SPEED$=上傳速度
+$TRANSFER_AVG_UL_SPEED$=平均上傳速度
+$TRANSFER_UPLOADED$=已上傳
+$LOGIN_STATS_LOGINS$=登入
+$LOGIN_STATS_LOGOUTS$=登出
+$LOGIN_STATS_CURRENT_LOGINS$=當前已登入
+$LOGIN_STATS_MOST_CURRENT_LOGINS$=最多登入
+$LOGIN_STATS_LAST_LOGIN$=最後登入時間
+$LOGIN_STATS_LAST_LOGOUT$=最後登出時間
+$LOGIN_STATS_AVERAGE_LOGIN_SEC$=平均登入時間
+$LOGIN_STATS_LONG_LOGIN_SEC$=最長登入時間
+$LOGIN_STATS_SHORT_LOGIN_SEC$=最短登入時間
+$STATS_DURATION$=統計持續時間
+$STATS_START_TIME$=統計開始時間
+<!-- Java Script -->
+$SESSION_STATS$=連線期間統計
+$TRANSFER_STATS$=傳輸統計
+$LOGIN_STATS$=登入統計
+
+
+<!-- **************** ChangeDomainDialog.htm **************** -->
+<!-- Java Script -->
+$CHANGE_DOMAIN_BUTTON$=變更域
+<!-- Main Page -->
+
+
+<!-- **************** Common Wizard Nav Dialog **************** -->
+<!-- Java Script -->
+$NEXT_BUTTON$=下一步
+$BACK_BUTTON$=上一步
+$FINISH_BUTTON$=完成
+<!-- Main Page -->
+$STEP$=第 步
+$OF$=共 步
+
+<!-- **************** Save Stats Dialog **************** -->
+$SAVE_STATS_DIALOG_TITLE$=保存統計到檔案
+$PLEASE_ENTER_STATS_SAVE_PATH$=請輸入統計檔案的路徑和檔案名。
+$SAVE_STATS_PATH$=統計檔案路徑
+$SAVE_GROUP_STATS_MSG$=已將群組統計保存到檔案:
+$SAVE_USER_STATS_MSG$=已將使用者統計保存到檔案:
+
+<!-- **************** Move Users Dialog **************** -->
+$MOVE_USERS_TITLE$=移動使用者
+$MOVE_USER_DESCR$=選擇您要將使用者移動到的目標集合。
+$MOVE_TO_ODBC$=移至資料庫
+$MOVE_TO_SERVU$=移至 Serv-U
+
+
+<!-- **************** Bubble Tip Dialogs **************** -->
+$DONT_SHOW_AGAIN$=不再顯示該消息。
+
+
+<!-- **************** GatewayTab.htm **************** -->
+$GATEWAY$=Serv-U 閘道
+$GATEWAY_ADDRESS$=閘道地址
+$STATUS$=狀態
+$PUBLIC_IP_ADDRESS$=公共 IP 地址
+$GATEWAY_INFO$=Serv-U Gateway 是一個可選的反向代理伺服器元件，安全終止 DMZ 中的檔案傳輸連接，以便避免入站連接或在 DMZ 中存儲資料。請參閱 Serv-U 分散式架構指南來獲得更多資訊。按一下“屬性”來套用 Serv-U Gateway 許可證。
+$SELECT_ONLY_ONE_GATEWAY_EDIT$=請僅選擇一個要編輯的閘道。
+$SELECT_ONE_GATEWAY_EDIT$=請選擇一個要編輯的閘道。
+$ASK_DELETE_GATEWAY$=您確定您要移除選定的閘道嗎？
+$SELECT_A_GATEWAY_TO_DELETE$=請選擇一個要移除的閘道。
+$SELECT_ONLY_ONE_GATEWAY_PROP$=請僅選擇一個要檢視其屬性的閘道。
+$SELECT_ONE_GATEWAY_PROP$=請選擇一個要檢視其屬性的閘道。
+
+
+
+<!-- **************** GatewayDialog.htm **************** -->
+$ENABLE_GATEWAY$=啟用閘道
+$ENABLED$=已啟用
+$DISABLED$=已禁用
+$CONTEXT_DISABLE_GATEWAY$=禁用閘道
+$CONTEXT_ENABLE_GATEWAY$=啟用閘道
+$PLEASE_ENTER_GATEWAY_IP$=請輸入一個閘道 IP 位址。
+
+
+<!-- **************** GatewayPropertiesDialog.htm **************** -->
+$REGISTRATION_GATEWAY_CLEAR_CONFIRM$=清除註冊 ID 將使 Serv-U 閘道變成未註冊狀態。您確定要清除您的註冊資訊嗎？
+$REGISTRATION_GATEWAY_FAIL$=您的註冊 ID 有效，但是無法保存到磁片。請遵照您註冊信件中的指示來註冊您的 Serv-U 閘道。
+$GATEWAY_RUNNING_TXT$=正常運行
+$GATEWAY_CANNOT_CONNECT_TXT$=無法連接
+$GATEWAY_RUNNING_TRIAL_TXT$=作為試用版正常運行
+$GATEWAY_RUNNING_NEAR_TRIAL_END_TXT$=正常運行，但試用期即將結束
+$GATEWAY_TRIAL_EXPIRED_TXT$=試用版過期，不再接受連接
+$GATEWAY_RUNNING_NEAR_UPDATE_END_TXT$=正常運行，但更新期即將結束
+$GATEWAY_RUNNING_UPDATE_EXPIRED_TXT$=正常運行，但更新期已結束
+$GATEWAY_NO_CONNECTION_ATTEMPT_TXT$=未嘗試聯繫閘道
+$AVAIL_PUBLIC_IPS$=可用公共 IP
+$REGISTERED_ON$=已註冊
+$CANNOT_CONNECT_TO_GATEWAY$=Serv-U 無法連接到閘道
+$NO_PUBLIC_IPS$=未在閘道伺服器上找到公共 IP 位址
+$GATEWAY_PURCHASE_INFO$=要獲得有關 Serv-U Gateway 和購買選項的更多資訊，請訪問：<br><a href="http://www.Serv-U.com/modules/gateway/?CMP=PRD-TAD-SW-MFT_INPRD-MFT-PP" target="_blank">http://www.Serv-U.com/modules/gateway</a>
+
+<!-- **************** LDAPServerTab **************** -->
+$LDAP_AUTH_TAB_NAME$=LDAP 驗證
+$LDAP_AUTH_TAB_INFO$=在啟用 LDAP 驗證時，使用者端可以使用有效的 LDAP 帳號而不是 Serv 使用者資料庫中的本地帳號進行登入。如果在 Serv-U 使用者資料庫中已存在一個帳號，該帳號的優先順序高於 LDAP 帳號。
+$LDAP_LOGIN_ID_SUFFIX$=LDAP 登入 ID 尾碼
+$ENABLE_LDAP_AUTH$=啟用 LDAP 驗證
+$LDAP_AUTH_USE_GROUP_HOMEDIR$=使用 LDAP 群組根目錄而不是帳號根目錄
+$SELECT_ONLY_ONE_LDAPSERVER_EDIT$=請只選擇一個要編輯的 LDAP 伺服器。
+$SELECT_ONE_LDAPSERVER_EDIT$=請選擇一個要編輯的 LDAP 伺服器。
+$ASK_DELETE_LDAPSERVER$=您確定您要移除選定的 LDAP 伺服器嗎？
+$SELECT_ONE_LDAPSERVER_DELETE$=請選擇一個要移除的 LDAP 伺服器。
+$LDAP_GROUPS_CONFIG$=組態 LDAP 群組
+$LDAP_AUTH_TURNED_OFF$=現在已禁用 LDAP 群組。要啟用 LDAP 群組，請前往\“使用者 | LDAP 驗證\”選項卡並啟用勾選框來使用 LDAP 驗證。<br \/><br \/>
+$LDAP_GROUPS_TAB_NAME$=LDAP 群組
+$LDAP_GROUPS_TAB_INFO$=創建和維護表示您 LDAP 群組設定的群組。使用與您 LDAP 組態中一致的名稱來對您的群組進行佈局，以便匹配您的 LDAP 群組。作為 LDAP 群組成員的 LDAP 使用者使用這些群組設定。這些使用者可以是此清單中定義的任何分支的成員。所有已驗證的 LDAP 使用者也是“預設 LDAP 群組”的成員。
+$GROUP_MEMBERS_LDAP_GROUP$=所有 LDAP 使用者帳號是此群組的成員。
+$LDAP_AUTH_GROUP_CONFIG$=組態預設的 LDAP 群組
+$SELECT_ONLY_ONE_LDAPSERVER_COPY$=請只選擇一個要複製的 LDAP 伺服器。
+$SELECT_ONE_LDAPSERVER_COPY$=請選擇一個要複製的 LDAP 伺服器。
+$CONTEXT_ENABLE_LDAP_SERVER$=啟用 LDAP 伺服器
+$CONTEXT_DISABLE_LDAP_SERVER$=禁用 LDAP 伺服器
+
+<!-- **************** LDAPServerDialog.htm **************** -->
+$LDAP_SERVER$=LDAP 伺服器
+$LDAP_SERVERS$=LDAP 伺服器
+$HOST$=主機
+$SERVER_NAME$=伺服器名稱
+$ENABLE_LDAP_SERVER$=啟用 LDAP 伺服器
+$SECURE_LDAP$=Use secure LDAP 
+$BASE$=基底識別名
+$SEARCH_FILTER$=搜索篩檢程式
+$GROUP_MEMBERSHIP$=群組成員
+$FULL_NAME$=全名
+$ATTR_MAPS$=屬性映射
+
+$LDAP_BROWSE$=瀏覽
+$LDAP_RETRIEVE$=擷取
+$LDAP_ROOT_CERTIFICATE$=證書機構
+$LDAP_DEFAULT_CERTIFICATE$=預設的作業系統配置
+$LDAP_BROWSE_CERTIFICATE$=選擇根憑證
+$LDAP_PICK_CERTIFICATE$=從 LDAP 伺服器擷取根證書
+$LDAP_ROOT_PATH_HINT$=本地檔案系統上的 CA 根證書檔案路徑。確保證書檔案是 base-64 編碼的。
+$LDAP_BROWSE_BUTTON_HINT$=瀏覽本地檔案系統中的 CA 根證書檔案
+$LDAP_RETRIEVE_BUTTON_HINT$=從 LDAPS 伺服器擷取 CA 根證書
+$LDAP_SERIAL_NUMBER$=序號
+$LDAP_SIGNATURE_ALGORITHM$=簽名演算法
+$LDAP_PUBLIC_KEY_ALGORITHM$=公鑰演算法
+$LDAP_ORGANIZATION$=組織
+$LDAP_LOCATION$=地點
+$LDAP_VALID_FROM$=有效期自
+$LDAP_VALID_TO$=有效期至
+$LDAP_VALIDATE$=請驗證以下選定的 CA 證書資訊：
+$LDAP_ALGORITHMS$=演算法
+$LDAP_ISSUER$=發行人
+$LDAP_SUBJECT$=主題
+$LDAP_VALIDITY_PERIOD$=有效期
+$LDAP_FINGERPRINTS$=指紋
+$LDAP_FILE_PATH$=檔案路徑
+$LDAP_CONFIRM_QUESTION$=您是否確認該證書的有效性？
+
+
+<!-- **************** MFA **************** -->
+$TOTP_HMAC_SHA1$=SHA-1
+$TOTP_HMAC_SHA256$=SHA-256
+$TOTP_HMAC_SHA512$=SHA-512
+$TOTP_MFA_ENABLED$=已啟用
+$TOTP_MFA_DISABLED$=已禁用
+$TOTP_MFA_ENFORCED$=已強制要求
+$TOTP_MFA_RESET_FOR_USER$=您確定要為選定的使用者重設 TOTP 嗎？
+$MFA_TAB_NAME$=多因素驗證
+$MFA_TAB_INFO$=如果多因素驗證被啟用，客戶端可以使用由驗證器應用程式生成的一次性代碼作為額外的驗證因素，與用戶名和密碼一起用於安全登入。如果多因素驗證被設定為已強制要求，那麼其使用將是強制性的，未進行驗證，客戶就不能登入。
+$MFA_STATUS$=MFA 狀態
+$MFA_STATUS_ACTIVE$=活躍
+$MFA_STATUS_NOT_CONFIG$=未配置
+$MFA_LOGIN_ID$=登入 ID：
+$MFA_AUTHENTICATOR$=多因素驗證器：
+$MFA_COMPANY_NAME$=公司名稱：
+$MFA_PRODUCT_NAME$=Serv-U
+$MFA_GENERAL_USERS_NOT_AVAILABLE$=多因素驗證對當前使用者類型不可用
+$MFA_GENERAL_GROUPS_NOT_AVAILABLE$=多因素驗證對當前組別不可用
+$MFA_LDAP_USERS_NOT_AVAILABLE$=多因素驗證對 LDAP 使用者不可用
+$MFA_LDAP_GROUPS_NOT_AVAILABLE$=多因素驗證對 LDAP 組不可用
+$MFA_DB_USERS_NOT_AVAILABLE$=多因素驗證對資料庫使用者不可用
+$MFA_DB_GROUPS_NOT_AVAILABLE$=多因素驗證對資料庫組不可用
+$MFA_WINDOWS_USERS_NOT_AVAILABLE$=多因素驗證對 Windows 使用者不可用
+$MFA_WINDOWS_GROUPS_NOT_AVAILABLE$=多因素驗證對 Windows 組不可用

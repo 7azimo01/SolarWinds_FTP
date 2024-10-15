@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>i/general/switcher</title>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="platformbar/small/admin" transform="translate(-1257.000000, -15.000000)" fill="#FFFFFF">
+            <g id="i/general/switcher" transform="translate(1257.000000, 15.000000)">
+                <path d="M0,0 L5,0 L5,5 L0,5 L0,0 Z M7,0 L7,5 L12,5 L12,0 L7,0 Z M14,5 L19,5 L19,0 L14,0 L14,5 Z M0,7 L0,12 L5,12 L5,7 L0,7 Z M7,7 L7,12 L12,12 L12,7 L7,7 Z M14,7 L14,12 L19,12 L19,7 L14,7 Z M0,19 L5,19 L5,14 L0,14 L0,19 Z M7,14 L7,19 L12,19 L12,14 L7,14 Z M14,19 L19,19 L19,14 L14,14 L14,19 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,9 @@
+<!--#include "../Common/Strings/Result.strings"-->
+{
+    "result": "%RESULT%",
+    "resultText": "%RESULT_TEXT%",
+    "sessionId": "%ENC_SESSION_ID%",
+    "shareToken": "%SHARE_TOKEN%",
+    "shareUrl": "%SHARE_URL%",
+    "shareDateCreated": "%SHARE_DATE_CREATED%"
+}

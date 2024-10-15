@@ -1,0 +1,248 @@
+﻿<!-- Strings.strings - For ease of localization, strings have been separated into this file. This has strings common to all SU apps.  Place all localizable strings here. -->
+<!-- NOTE: assignments require left justification and the assignment to appear as "$=" without whitespace between the $ and =. -->
+<!-- File location: <<Install>>\Client\Common\ -->
+
+<!-- ----------------------------------------------------------------------------- -->
+<!-- NOTE TO TRANSLATORS: Remove the lines in this block from your translated file -->
+<!-- Stylesheet font override  -->
+$FONT_OVERRIDE$=font-family:Open Sans,Arial,sans-serif !important;font-size:11px;
+<!-- ----------------------------------------------------------------------------- -->
+
+<!-- ******************* SESSION ERRORS ******************* -->
+<!-- **************** GetResultText.htm **************** -->
+<!-- GetResultText() -->
+$LOGIN_FAIL_STR$=GREŠKA: Prijava nije bila uspešna.
+$UNKNOWN_ERROR$=GREŠKA: Operacija nije bila uspešna, došlo je do nepoznate greške. Vaša sesija je možda istekla. Molimo pokušajte da se prijavite ponovo.
+$AJAX_NOT_SUPPORTED$=Vaš browser ne podržava AJAX .
+$ERROR_TITLE$=Došlo je do greške
+$SESS_ORG_HAS_NO_USERS$=Ova kolekcija ne sadrži nijednog korisnika.
+$SESS_CANNOT_CREATE_DIR1_STR$=Kreiranje direktorijuma je neuspešno,nije moguće stvoriti direktorijum.
+$SESS_CANNOT_CREATE_DIR2_STR$=Nemate dozvolu da ovde kreirate direktorijum.
+$SESS_CANNOT_RENAMEDIR1_STR$=Preimenovanje direktorijuma je neuspešno,nije moguće preimenovati imenik:
+$SESS_CANNOT_RENAMEFILE1_STR$=Preimenovanje fajla je neuspešno,nije moguće preimenovati fajl:
+$SESS_CANNOT_RENAMEDIR2_STR$=Nemate dozvolu da preimenujete ovaj fajl.
+$SESS_CANNOT_RENAMEFILE2_STR$=Nemate dozvolu da promenite ime ovog fajla.
+$SU_VALID_OPENSSL_GENERIC_ERROR_STR$=GREŠKA: Došlo je do problema sa učitavanjem šifrovane biblioteke. Molimo Vas da pokušate ponovo da instalirate aplikaciju.
+$SECURITY_ERROR_TITLE$=Bezbednosno upozorenje
+$SECURITY_ERROR_DESC1$=<strong>BEZBEDNOSNA GREŠKA</strong>: Bezbednosna provera Serv-U aplikacije nije uspela. Molimo Vas da ponovo instalirate Serv-U da biste ispravili grešku.
+$SECURITY_ERROR_DESC2$=Za više informacija o tome kako rešiti ovu grešku kontaktirajte <a href="http://www.Serv-U.com/support/?CMP=PRD-TAD-SW-MFT_INPRD-MFT-PP" target="_blank">support</a>.
+
+
+<!-- Common Strings -->
+$CURR_DIR_HOST$=%HOST%
+$FILES$=Fajlovi
+$DIRECTORIES$=Direktorijumi
+$SIZE$=Veličina
+$DIRECTORY_SIZE$=Veličina Direktorijuma
+$AVAILABLE_SIZE$=Dostupan prostor
+$LOGGING_IN_DIALOG_TITLE$=Logovanje
+$HELP$=Pomoć
+$LOGOUT$=Logout
+$NAME$=Ime
+$USER$=Korisnik
+$LOGINID$=Login ID
+$MANAGEMENT_CONSOLE$=Menadžment Konzola
+$SUPPORT$=Podrška
+$FVJV_LICENSE_INFO$=FTP Voyager JV nije dostupan sa Vašom trenutnom licencom. Ukoliko želite da koristite FTP Voyager JV, morate da kupite licencu da biste omogućili njegove karakteristike <br /><br /> Želite li više informacija o kupovini FTP Voyager JV ?
+$WEB_CLIENT_LICENSE_INFO$=Web Klijent nije dostupan sa Vašom trenutnom licencom. Ukoliko želite da koristite Web Klijent, morate da kupite licencu da biste omogućili njegove karakteristike. <br /><br /> Želite li više informacija o kupovini licence za omogućavanje Web Klijenta?
+$FS_ABBREV_GIGABYTE$=GB
+$FS_ABBREV_MEGABYTE$=MB
+$FS_ABBREV_KILOBYTE$=KB
+$FS_BYTES$=bytes
+$DID_YOU_KNOW_BALLOON_TITLE$=Da li ste znali?
+$WINDOWS_ONLY_LABEL$=Samo Windows
+$OPEN$=Open
+$LOCAL_ADMIN$=Lokalni Admin
+$MORE_INFO_BUTTON$=Više Informacija
+$LOST_ID_LINK$=%CORPORATE_HOME%/lostid
+
+<!-- Buttons -->
+$YES_BUTTON$=Da
+$NO_BUTTON$=Ne
+$OK_BUTTON$=Ok
+$CLOSE_BUTTON$=Zatvori
+$SEND_BUTTON$=Pošalji
+$HELP_BUTTON$=Pomoć 
+$SAVE_BUTTON$=Sačuvaj
+$ADD_BUTTON$=Dodaj
+$EDIT_BUTTON$=Uredi
+$DELETE_BUTTON$=Izbriši
+$RENAME_BUTTON$=Preimenuj
+$CANCEL_BUTTON$=Poništi
+$SELECT_BUTTON$=Izaberi
+$CLOSE_CANCEL$=Zatvori/Poništi
+$DEFAULT_BUTTON$=Podrazumevano
+$CREATE_BUTTON$=Kreiraj
+$SKIP_BUTTON$=Preskoči
+$NEXT_BUTTON$=Sledeće
+$BACK_BUTTON$=Nazad
+$COPY_BUTTON$=Kopiraj
+$BROWSE$=Pretraži
+$WIZARD_BUTTON$=Čarobnjak
+$PARENT_DIR$=Roditeljski Direktorijum
+$REFRESH$=Osveži
+$UP_ONE_DIRECTORY$=Jedan Gore Direktorijum
+$REFRESH_ALT$=Osveži
+$NEW_DIR_NAME_LABEL$=Novi Direktorijum 
+$CREATE_DIR$=Kreiraj Direktorijum
+$PLEASE_ENABLE_COOKIES$=Kolačići moraju biti omogućeni da koriste Serv-u.
+$GO$=Idi
+$IMPORT_BUTTON$=Uvezi
+$EXPORT_BUTTON$=Izvezi
+$DOWNLOAD_LOG_BUTTON$=Preuzmi Log
+$RECOVER_PASSWORD_BUTTON$=Povrati lozinku
+$PASSWORD_RECOVER_SENT$=Oporavak lozinke je bio uspešan.Lozinka je poslata korisniku.
+$NO_SUB_DIRS$=Nema Sub Direktorijuma
+$CLEAR_FILTER_BUTTON$=Slobodan filter
+$FAVORITES$=Omiljeni
+$ADD_FAVORITES$=Dodaj u omiljene
+$FAVORITES_INFO$=Dodaj ovaj fajl kao omiljeni. Da biste pristupili favoritima, kliknite na dugme ili zadržite iznad istorije padajućeg menija pored Serv-U loga.
+$INVALID_CHAR_FAVORITES$=Polje sadrži nevažeće znake. Polje ne može da sadrži bilo koji od sledećih znakova: ; |
+
+<!-- **************** BusyDialog.htm **************** -->
+$BUSY_DIALOG_TITLE$=Zauzeto
+$SAVING_DIALOG_TITLE$=Čuvanje
+$LOADING_DIALOG_TITLE$=Loading
+$DELETING_DIALOG_TITLE$=Brisanje
+
+
+<!-- **************** ChangePasswordDialog.htm **************** -->
+$OLD_PASSWORD$=Stara Lozinka
+$NEW_PASSWORD$=Nova Lozinka 
+$USER_CHANGE_PASSWORD_TITLE$=Promeni Šifru
+$VERIFY_PASSWORD$=Potvrdi Lozinku
+$PASSWORDS_DONT_MATCH$=Nova lozinka ne odgovara potvrđenoj lozinci. 
+$PASSWORD_CHANGED$=Vaša lozinka je izmenjena.
+$ERROR_PASSWORD_CHANGE_FAIL$=Promena lozinke nije uspela . Ovaj domen ne može dozvoliti korisnicima da menjaju lozinke . Molimo Vas da proverite sa vašim administratorom.
+
+
+<!-- **************** FVJV Launch.jnlp **************** -->
+$FVJV_LAUNCH_TITLE$=FTP Voyager JV by SolarWinds
+$FVJV_TITLE$=FTP Voyager JV
+$FVJV_VENDOR$=SolarWinds Worldwide LLC
+
+
+<!-- **************** WebClientPro Launch.jnlp **************** -->
+$WCP_TITLE$=Serv-U Web Client Pro
+$WCP_VENDER$=$FVJV_VENDOR$
+
+
+<!-- **************** FVJVLoggedIn.htm **************** -->
+$JAVA_PRODUCT$=$FVJV_TITLE$
+
+
+<!-- **************** FVJVLoggedIn.htm **************** -->
+$FVJV_REQUIRE_JAVA_VERSION$=<strong>Java version 1.6+</strong>
+$FVJV_NO_JAVA_WARNING$=Java Runtime Environment ( JRE ) nije mogao biti otkriven na ovom računaru . Sledite dole navedene korake da biste instalirali Java i restartujte $JAVA_PRODUCT$.
+$FVJV_NO_JRE_STEP_1$=Preuzmite i instalirajte najnoviju verziju Java od Sun Microsystems ($FVJV_REQUIRE_JAVA_VERSION$ je potreban).
+$FVJV_STEP_1$=Korak 1
+$FVJV_STEP_2$=Korak 2
+$FVJV_OVERRIDE_NO_JAVA_1$=<strong>WARNING:</strong>  Ako "Java Web Start Launcher" nije podrazumevani program za otvaranje "JNLP Files", onda pogledajte našu
+$FVJV_OVERRIDE_NO_JAVA_2$=za dalja uputstva.
+$FVJV_KB_OPEN_JNLP_FILES$=Članak baze znanja #1883
+$FVJV_DL_JAVA_LINK$=Preuzmi Java Sada
+$FVJV_JAVA_RESTART$=Molimo Vas da koristite sledeći link da biste ponovo $JAVA_PRODUCT$:
+$FVJV_JAVA_RESTART_LINK$=Ponovo napuniti $JAVA_PRODUCT$.
+$FVJV_IE_CONSIDERATIONS$=Korišćenje $JAVA_PRODUCT$ u programu Internet Ekplorer
+$FVJV_IE_DL_FILE$=Internet Ekplorer može da prikaže poruku sličnu onoj ispod navodeći da je blokirala preuzimanje datoteke da zaštiti svoju bezbednost. Ovaj fajl mora biti preuzet da bi se pokrenuo $JAVA_PRODUCT$.  Ako primite ovu poruku, kliknite na baner prikazan u programu Internet Ekplorer i izaberite "Download File..." opciju.
+$FVJV_IE9_DL_FILE$=Internet Ekplorer zahteva da potvrdite preuzimanje "jnlp" fajla korišćen za pokretanje $JAVA_PRODUCT$.  Molimo Vas da odaberite "Otvori" da bi se pokrenuo $JAVA_PRODUCT$.
+$FVJV_MOZILLA_CONSIDERATIONS$=Korišćenje $JAVA_PRODUCT$ u Mozilla Firefox 
+$FVJV_MOZ_RUN_FILE$=Mozilla Firefox može da prikaže poruku sličnu onoj dole pitajući se kako bi trebalo da otvorite pregledač $JAVA_PRODUCT$ pokrenutog fajla.Otvori ga sa "Java Veb Start Launcher " (podrazumevana radnja ) da ga pokrenete$JAVA_PRODUCT$.Tako što ćete okvir pod nazivom "Od sada Uradi ovo automatski za ovakve fajlove",nećete biti upitani da to uradite ponovo.
+$FVJV_MOZ_RUN_FILE_APPLE$=Mozilla Firefox može da prikaže poruku sličnu onoj ispod pitajući se kako Firefox should open the $JAVA_PRODUCT$ fajl za lansiranje.Otvori ga sa "Java Veb Start Launcher " (podrazumevana radnja ) da pokrenete $JAVA_PRODUCT$.
+$FVJV_SAFARI_CONSIDERATIONS$=Korišćenje $JAVA_PRODUCT$ u Safari
+$FVJV_SAFARI_RUN_FILE$=Safari može da prikaže poruku sličnu onoj ispod pitajući se kako pregledač treba da otvori$JAVA_PRODUCT$ lansirajući fajl.Kliknite na "Otvori" da ga pokrenete $JAVA_PRODUCT$.
+$FVJV_CHROME_CONSIDERATIONS$=Korišćenje $JAVA_PRODUCT$ u Google Chrome
+$FVJV_CHROME_RUN_FILE$=Google Chrome može da prikaže traku preuzimanja koja pokušava da preuzme "jnlp" fajl korišćen za pokretanje.$JAVA_PRODUCT$.Molimo Vas da pratite dole navedene korake da bi se pokrenuo. $JAVA_PRODUCT$.
+$FVJV_CHROME_RUN_FILE1$=Izaberite "Zadržite" za preuzimanje "jnlp" fajla.
+$FVJV_CHROME_RUN_FILE2$=Kada "jnlp" fajl je preuzet, kliknite na dugme ili kliknite na drop-meni i izaberite "Otvori" za početak. $JAVA_PRODUCT$.
+$FVJV_OPERA_CONSIDERATIONS$=Korišćenje $JAVA_PRODUCT$ u Opera
+$FVJV_OPERA_RUN_FILE$=Opera može da prikaže poruku sličnu onoj ispod pitajući se kako pregledač treba da otvori $JAVA_PRODUCT$ fajl lansiranja.Kliknite na "Otvori" da se pokrene $JAVA_PRODUCT$.
+$FVJV_CLOSING$=Zatvaranje $JAVA_PRODUCT$
+$FVJV_SESSION_INFO$=$JAVA_PRODUCT$ može biti zatvoren kada završite da ga koristite.
+$FVJV_RELOGIN_INFO$=Da bi se prijavili na Serv-U Fajl Server ponovo,koristite sledeći link:
+$FVJV_RETURN_CONSOLE$=Da biste se vratili u Menedžment Konzolu,koristite sledeći link:
+$FVJV_RELOGIN$=Kliknite ovde kada završite saćkorišćenjem $JAVA_PRODUCT$.
+$FVJV_RESTART$=Ponovo Pokreni $JAVA_PRODUCT$
+$FVJV_RESTART_LINK$=Kliknite ovde da ponovo pokrenete $JAVA_PRODUCT$.
+$FVJV_JAVA_WARNING$=Java Bezbednosno upozorenje
+$FVJV_JAVA_WARNING_INFO$=Java može da prikaže bezbednosno upozorenje,sličnu poruku ispod tražeći od vas da potvrdite da želite da pokrenete aplikaciju. Kliknite na "Kreni" dugme da biste nastavili učitavanje $JAVA_PRODUCT$.
+$FVJV_JAVA_WARNING_INFO_APPLE$=Java može da prikaže bezbednosno upozorenje,sličnu poruku ispod tražeći od vas da potvrdite da želite da pokrenete aplikaciju. Kliknite na dugme "Poverenje" da biste nastavili učitavanje $JAVA_PRODUCT$.
+$FVJV_APPLE_DETECTED$=Serv-u je otkrio da koristite Apple Mac OS X. Imajte na umu da $JAVA_PRODUCT$ treba $FVJV_REQUIRE_JAVA_VERSION$ da rade.
+$FVJV_TROUBLESHOOTING$=Rešavanje problema
+$FVJV_OPERA_FAILED_TO_OPEN1$=<strong>Opera</strong> Otvaranje "jnlp" fajla je bilo neuspešno.
+$FVJV_OPERA_FAILED_TO_OPEN2$=Proširi ovaj odeljak za uputstva o podešavanju datoteke udruženja za podrazumevani program.
+$FVJV_OPERA_NO_FILE_ASSOCIATION_1$=Iz glavnog menija Opera,izaberite " Alati ", zatim " Podešavanja ".
+$FVJV_OPERA_NO_FILE_ASSOCIATION_2$=Iz "Podešavanja" dijaloga:
+$FVJV_OPERA_NO_FILE_ASSOCIATION_2_1$=(1) Izaberite tab "Napredan"
+$FVJV_OPERA_NO_FILE_ASSOCIATION_2_2$=(2) Izaberite odeljak " Preuizimanja"
+$FVJV_OPERA_NO_FILE_ASSOCIATION_2_3$=(3) Opozovite " Sakrij tipove fajlova otvoren sa Operom "
+$FVJV_OPERA_NO_FILE_ASSOCIATION_2_4$=(4) Pretraga za MIME tip "application / k-java-jnlp-fajl" ili ekstenzija fajla "jnlp"
+$FVJV_OPERA_NO_FILE_ASSOCIATION_2_5$=(5) Ako je pronađen , izaberite ga i kliknite na "Izmeni" dugme. U suprotnom , kliknite na "Dodaj" dugme.
+$FVJV_OPERA_NO_FILE_ASSOCIATION_3$=Iz "Fajl tipa" dijaloga:
+$FVJV_OPERA_NO_FILE_ASSOCIATION_3_1$=(1) Postavite "MIME tip" polja "application / k-java-jnlp-fajl".
+$FVJV_OPERA_NO_FILE_ASSOCIATION_3_2$=(2) Postavite "ekstenzije" polja "jnlp".
+$FVJV_OPERA_NO_FILE_ASSOCIATION_3_3$=(3) Postavite "akcija" opciju "Otvori sa podrazumevanom aplikacijom" ili "Prikaži dijalog preuzimanja".
+$FVJV_OPERA_NO_FILE_ASSOCIATION_3_4$=(4) Kliknite na "OK" dugme da biste sačuvali promene.
+$FVJV_OPERA_NO_FILE_ASSOCIATION_4$=Pokrenite $JAVA_PRODUCT$ tako što ćete ponovo učitati ovu stranu.
+$FVJV_SAFARI_FAILED_TO_OPEN1$=Safari je preuzeo "jnlp" fajl, ali nije uspeo da ga "otvori".
+$FVJV_SAFARI_FAILED_TO_OPEN2$=Proširi ovaj odeljak za uputstva o podešavanju datoteke udruženja za podrazumevani program.
+$FVJV_MAC_FAILED_TO_OPEN_BUG_1$=<strong>Note:</strong>  U nekim slučajevima, Java update 1.6_13 ne resetuje fajl udruženja. Molimo Vas da pratite korake koji se nalaze ispod ili u 
+$FVJV_MAC_FAILED_TO_OPEN_BUG_KB$=Članak baze znanja #1792.
+$FVJV_SAFARI_NO_FILE_ASSOCIATION_TITLE$=Safari korisnici:
+$FVJV_SAFARI_NO_FILE_ASSOCIATION_1$=Iz Safari Download Menadžer, izaberite preuzeti fajl "jnlp", a zatim kliknite na Finder dugme.
+$FVJV_SAFARI_NO_FILE_ASSOCIATION_2$=Iz Findera:
+$FVJV_SAFARI_NO_FILE_ASSOCIATION_2_1$=(1) Izaberite "jnlp" fajl.
+$FVJV_SAFARI_NO_FILE_ASSOCIATION_2_2$=(2) Kliknite na dugme "Pribor".
+$FVJV_SAFARI_NO_FILE_ASSOCIATION_2_3$=(3) Izaberite "Dobiti Informacije" stavku.
+$FVJV_SAFARI_NO_FILE_ASSOCIATION_3$=Iz stranice "Informacije":
+$FVJV_SAFARI_NO_FILE_ASSOCIATION_3_1$=(1) Pod "Otvori sa:" izaberite "Java Web Start.app".
+$FVJV_SAFARI_NO_FILE_ASSOCIATION_3_2$=(2) Kliknite na" Promeni sve... " dugme.
+$FVJV_SAFARI_NO_FILE_ASSOCIATION_4$=Iz potvrde , izaberite " Nastavi ".
+$FVJV_SAFARI_NO_FILE_ASSOCIATION_5$=Pokrenite $JAVA_PRODUCT$ tako što ćete ponovo učitati ovu stranu.
+$FVJV_FIREFOX_NO_FILE_ASSOCIATION_TITLE$=FireFox korisnici:
+$FVJV_FIREFOX_NO_FILE_ASSOCIATION_1$=Otvorite FireFox-ov "Pribor" dijalog.
+$FVJV_FIREFOX_NO_FILE_ASSOCIATION_2$=Iz taba"aplikacija",izaberite "JNLP".
+$FVJV_FIREFOX_NO_FILE_ASSOCIATION_3$=Promenite akciju u "Java Web Start".  <strong>Note:</strong> Možda ćete morati da ga izaberete navigacijom do "/System/Library/CoreServices/Java Web Start".
+$FVJV_APPLE_WRONG_JRE1$=The Java Runtime Environment (JRE) 1.6 je potreban za $JAVA_PRODUCT$.
+$FVJV_APPLE_WRONG_JRE2$=Proširi ovaj odeljak za uputstva o tome kako da proverite koja je verzija JRE instaliran.
+$FVJV_JRE_CHECK_1$=Otvorite "New Window Finder" izborom "Idi | Alatke" iz glavnog menija.
+$FVJV_JRE_CHECK_2_1$=(1) Idite na "java" fajl i izaberite "Java Preferences.app".
+$FVJV_JRE_CHECK_2_2$=(2) Kliknite na dugme "Pribor".
+$FVJV_JRE_CHECK_2_3$=(3) Otvorite "Java Preferences.app" izborom " Otvori ".
+$FVJV_JRE_CHECK_3$=Under "Java Application Runtime Settings", postarajte se da je "Java SE 6" na vrhu liste.
+$FVJV_OTHER_ALTERNATIVES$=Ostale alternative
+$FVJV_SUPPORTED_BROWSERS$=Možete pokušati da pokrenete $JAVA_PRODUCT$ sa drugog pregledača.Ispod je spisak pretraživača koji su podržani uz pomoć $JAVA_PRODUCT$ i Web Klijenta:
+$LI_FVJV_SUPPORTED_BROWSER_IE$=Internet Explorer
+$LI_FVJV_SUPPORTED_BROWSER_FF$=Mozilla Firefox
+$LI_FVJV_SUPPORTED_BROWSER_SAFARI$=Safari
+$LI_FVJV_SUPPORTED_BROWSER_CHROME$=Google Chrome
+$LI_FVJV_SUPPORTED_BROWSER_OPERA$=Opera
+$FVJV_LAUNCH_BWC$=Pokreni Web Client
+
+
+<!-- **************** GoToDialog.htm **************** -->
+$GO_TO_DIRECTORY$=Idi u Direktorijum
+$GO_TO_PATH$=Put
+
+
+<!-- **************** ChangeThemesDialog.htm **************** -->
+$CHANGE_THEMES_DESCR$=Promenite izgled Serv-U tako što ćete izabrati jednu od tema iz liste ispod.
+$CHANGE_THEME_TITLE$=Serv-U Teme
+$CLASSIC_THEME$=Windows Classic
+$XP_THEME$=Windows XP
+$VISTA_THEME$=Windows Vista
+$AQUA_THEME$=Mac Aqua
+$SYSTEM_THEME$=System
+$SU_THEME$=Serv-U Classic
+$CHANGE_THEMES_BUTTON$=Teme
+
+<!-- **************** UserEmailDialog.htm **************** -->
+$EMAIL_DESCR$=Molimo Vas da unesete ili verifikujete svoju adresu e-pošte.
+$EMAIL$=Email Addresa
+$VERIFY_EMAIL$=Potvrdi Email Addresu
+$USER_EMAIL_TITLE$=Korisnička Email Addresa
+$SET_EMAIL_FAILURE_ERROR$=Podešavanje vaše email adrese nije uspelo.  Molim Vas kontaktirajte administratora. 
+$EMAIL_VALS_NO_MATCH$=E-mail adresa i potvrda adrese e-pošte se ne poklapaju. Molimo Vas da ponovo unesete obe adrese.
+
+<!-- **************** Browser Side Error Strings **************** -->
+$SU_VALID_GROUP_NAME_INVALID_STR$=GREŠKA:Obezbeđeno ime grupe je nevažeće. Unesite važeće ime za grupu.

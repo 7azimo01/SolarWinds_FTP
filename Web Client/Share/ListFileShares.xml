@@ -1,0 +1,19 @@
+<!--#include "..\..\Common\Strings\Result.strings"-->
+<?xml version="1.0" encoding="UTF-8" ?>
+<response>
+<TotalNumOfShares>%FILE_SHARE_TOTAL%</TotalNumOfShares>
+%FILE_SHARE_INFO%
+%DELETE_LIST_STRINGS%
+%ADD_LIST_STRING%	<share>
+%ADD_LIST_STRING%		<ShareToken>%CAdHocShare.%LIST_ID%.ShareToken%</ShareToken>
+%ADD_LIST_STRING%		<HasPassword>%CAdHocShare.%LIST_ID%.HasPassword%</HasPassword>
+%ADD_LIST_STRING%		<DateCreated>%CAdHocShare.%LIST_ID%.DateCreated%</DateCreated>
+%ADD_LIST_STRING%		<MsgSubject>%CAdHocShare.%LIST_ID%.MsgSubject%</MsgSubject>
+%ADD_LIST_STRING%		<FirstRecipient>%CAdHocShare.%LIST_ID%.FirstRecipient%</FirstRecipient>
+%ADD_LIST_STRING%		<NumRecipients>%CAdHocShare.%LIST_ID%.NumRecipients%</NumRecipients>
+%ADD_LIST_STRING%		<NotificationStatus>%CAdHocShare.%LIST_ID%.NotificationStatus%</NotificationStatus>
+%ADD_LIST_STRING%		<TotalFileSize>%CAdHocShare.%LIST_ID%.TotalFileSize%</TotalFileSize>
+%ADD_LIST_STRING%		<NumFiles>%CAdHocShare.%LIST_ID%.NumFiles%</NumFiles>
+%ADD_LIST_STRING%		<DateExpiration>%CAdHocShare.%LIST_ID%.DateExpiration%</DateExpiration>
+%ADD_LIST_STRING%	</share>
+</response>

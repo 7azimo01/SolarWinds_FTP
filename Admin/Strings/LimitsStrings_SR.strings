@@ -1,0 +1,108 @@
+﻿<!-- LimitsStrings.strings - For ease of localization, strings have been separated into this file.  Place all localizable strings here. -->
+<!-- NOTE: assignments require left justification and the assignment to appear as "$=" without whitespace between the $ and =. -->
+<!-- File location: <<Install>>\Client\Admin\Include\ -->
+
+<!-- **************** Advanced Limits **************** -->
+$LIMIT_ADV_CONVERTURLCHARS$=Konvertovanje znakova URL komandi ASCII
+$LIMIT_ADV_CHECKDIRSIZE$=Automatski proveri veličinu direktorijuma tokom otpremanja
+$LIMIT_ADV_INLINEOOB$=linijski izvan - pojasni podaci
+$LIMIT_ADV_KEEPALIVE$=Pošalji zadrži-postojeći paket za detekciju neispravne veze
+$LIMIT_ADV_NAGLE$=Onemogući korišćenje Nagle algoritma
+$LIMIT_ADV_ADAPTIVETO$=Koristite adaptivni tajmaut na brzim File uploads
+$LIMIT_ADV_SFTPMAXVERSION$=Maksimalna podržana SFTP verzija
+$LIMIT_ADV_ALLOWRENAMEOVERWRITE$=Dozvoli preimenovanje
+$LIMIT_ADV_WARNOLDBROWSER$=Upozori krajnje korisnike kada koriste stari web pregledač
+$LIMIT_ADV_DEFAULT_LANG$=Podrazumevani jezik za Web Client
+$LIMIT_ADV_SERV_DOM_DIR_ACCESS$=Primeni server i domen pravila pristupa direktorijumu pre nego korisnik i grupa
+$LIMIT_ADV_PRE_DISABLE_DAYS$=Dana pre nego što automatski onemogućava nalog da pokrene pred-onemogućenje događaja
+$LIMIT_ADV_PRE_DELETE_DAYS$=Dana pre brisanja naloga automatski da pokrene unapred brisanje događaja
+$LIMIT_ADV_FILE_OWNER$=Vlasnik ID ( korisničko ime) za kreirane fajlove i direktorijume
+$LIMIT_ADV_FILE_GROUP$=Identifikator grupe ( Group name ) za kreirane fajlove i direktorijume
+$LIMIT_ADV_RESET_USER_STATS_RESTART$=Reset statistike korisnika nakon restarta
+$LIMIT_ADV_RESET_GROUP_STATS_RESTART$=Reset statistike grupe posle restarta
+
+<!-- **************** Connection Limits **************** -->
+$LIMIT_CONN_MAXSERVERSESS$=Maksimalan broj sesija na serveru
+$LIMIT_CONN_MAXSERVERSESSIP$=Maksimum sesija po IP adresi na serveru
+$LIMIT_CONN_MAXDOMAINSESS$=Maksimalan broj sesija na domenu
+$LIMIT_CONN_MAXDOMAINSESSIP$=Maksimum sesija po IP adresa na domenu
+$LIMIT_CONN_MAXGROUPSESS$=Maksimalan broj sesija za grupu
+$LIMIT_CONN_MAXGROUPSESSIP$=Maksimum broj sesija za grupu po IP adresi
+$LIMIT_CONN_MAXSESSUSER$=Maksimalan broj sesija po korisničkom nalogu
+$LIMIT_CONN_MAXSESSIPUSER$=Maksimum sesija po IP adresi za korisnički nalog
+$LIMIT_CONN_REQUIRESECURE$=Zahteva sigurnu vezu pre logovanja
+$LIMIT_CONN_IDLETO$=Automatsko mirovanje do isteka veze
+$LIMIT_CONN_SESSTO$=Automatsko isticanje sesije
+$LIMIT_CONN_BLOCKANTITO$=Blokiranje protiv-timeout šeme
+$LIMIT_CONN_AUTOCREATE$=Automatsko kreiranje početnog direktorijuma 
+$LIMIT_CONN_TIMEOUTBLOCKIP$=Blokiraj IP adresu timed out sesije
+$LIMIT_CONN_FTP$=Dozvoli FTP i FTPS konekcije
+$LIMIT_CONN_SSH$=Dozvoli SFTP konekcije
+$LIMIT_CONN_HTTP$=Dozvoli HTTP i HTTPS konekcije
+$LIMIT_CONN_REQ_REV_DNS$=Zahteva reversno DNS ime
+$LIMIT_CONN_ALLOWXFORWARD$=Dozvoli X-Forwarded-For da promeni IP adresu HTTP veze
+
+<!-- **************** Directory Listing Limits **************** -->
+$LIMIT_DL_HIDEHIDDEN$=Sakrij fajlove označene kao skrivene iz listinga
+$LIMIT_DL_LOWERCASE$=Koristite mala slova za imena datoteka i direktorijuma
+$LIMIT_DL_SCLINKS$=Interpretira Windows prečice kao veze
+$LIMIT_DL_SCLINKS_NON_WIN_OS$=Interpretira simboličke linkove kao veze
+$LIMIT_DL_SCASTARGET$=Tretirati Windows prečice kao cilj u listingu
+$LIMIT_DL_SCASTARGET_NON_WIN_OS$=Tretirati simboličke linkove kao cilj u listingu
+$LIMIT_DL_LOCK$=Zaključaj korisnike u početnom direktorijumu
+$LIMIT_DL_ROOT$=Dozvoli root (\"/\") na listu drajvova za otključane korisnike
+$LIMIT_DL_COMP_STATE$=Sakrijte kompresovano stanje fajlova i direktorijuma
+$LIMIT_DL_ENCRYPT_STATE$=Sakrij šifrovano stanje fajlova i direktorijuma
+$LIMIT_DL_NATURALSORT$=Koristi prirodni jezik za sortiranje za listu sortiranja
+$LIMIT_DL_DIR_MSG$=Poruka putanja datoteke
+$LIMIT_DL_DIR_LIST_MASK$=Direktorijium Listing maska
+
+<!-- **************** Password Limits **************** -->
+$LIMIT_PW_CHECKANON$=Proverite anonimne lozinke
+$LIMIT_PW_REQCOMPLEX$=Zahtevanje složene lozinke
+$LIMIT_PW_MINLENGTH$=Minimalna dužina lozinke
+$LIMIT_PW_EXPIRES$=Automatsko Isticanje lozinke
+$LIMIT_PW_CHANGE$=Dozvoli korisnicima da menjaju lozinke
+$LIMIT_PW_ENCRYPT$=Čuvaj lozinke u šifrovanom obliku
+$LIMIT_PW_HIDEINLOG$=Maska dobila lozinke u logu
+$LIMIT_PW_SSHAUTHTYPE$=Tip autentikacije SSH
+$LIMIT_PW_TYPE$=FTP lozinka Tip
+$LIMIT_PW_ENCRYPT_MODE$=Režim šifrovane lozinke
+$LIMIT_PW_ENABLE_RECOVERY$=Dozvoli korisnicima da povrate lozinke
+$LIMIT_PW_STALE_DAYS$=Dani Pre razmatranja promene lozinke koja zastarela
+
+
+<!-- **************** Transfer Limits **************** -->
+$LIMIT_TRAN_SERVERUP$=Maksimalna brzina učitavanja za server 
+$LIMIT_TRAN_SERVERDN$=Maksimum brzina za Download na serveru
+$LIMIT_TRAN_DOMAINUP$=Maksimalna brzina učitavanja za domen
+$LIMIT_TRAN_DOMAINDN$=Maksimum brzina za Download domen
+$LIMIT_TRAN_GROUPUP$=Maksimalna upload brzina za sve članove grupe
+$LIMIT_TRAN_GROUPDN$=Maksimum brzina dovnloada za sve članove grupe
+$LIMIT_TRAN_USERUP$=Maksimalna upload brzina za korisničke naloge
+$LIMIT_TRAN_USERDN$=Maksimum brzina učitavanja za korisničke naloge
+$LIMIT_TRAN_SESSUP$=Maksimalna upload brzina po sesiji
+$LIMIT_TRAN_SESSDN$=Maksimum brzina preuzimanja po sesiji
+$LIMIT_TRAN_DELETEPARTIAL$=Brisanje delimično otpremljenih datoteka 
+$LIMIT_TRAN_MAX_FILE_SIZE$=Maksimalna upload veličina datoteke
+$LIMIT_TRAN_INTERPRETLFASEOL$=Interpretira bajt line feed kao novi red kada je u ASCII režimu
+$LIMIT_TRAN_ALLOWMEDIAPLAY$=Dozvoli HTTP reprodukciju medija
+$LIMIT_TRAN_UPLOAD_FILE_MODE$=Pristup Slanju fajlova 
+$LIMIT_TRAN_DOWNLOAD_FILE_MODE$=Pristup preuzimanju fajlova 
+$LIMIT_TRAN_MAX_SIMUL_THUMBS$=Maksimum istovremenih sličica
+
+
+<!-- **************** HTTP Limits **************** -->
+$LIMIT_HTTP_ALLOW_REMEMBER_ME$=Dozvolite pregledačima da zapamte login informacije
+$LIMIT_HTTP_ALLOW_SHOW_THEMES$=Dozvoli korisnicima da menjaju teme
+$LIMIT_HTTP_ALLOW_SHOW_LANG$=Dozvoli korisnicima da menjaju jezik
+$LIMIT_HTTP_ALLOW_WEB_CLIENT_PRO$=Dozvoli korisnicima da koriste Web Client Pro
+$LIMIT_HTTP_ALLOW_FVJV$=Dozvoli korisnicima da koriste FTP Voyager JV
+$LIMIT_HTTP_MAINTAIN_UL_TIMES$=Održavati datume datoteka i vremena nakon učitavanja (Samo FTP Voyager JV )
+$LIMIT_HTTP_ALLOW_IP_CHANGE$=Dozvolite HTTP sesiji da promeni IP adresu
+$LIMIT_HTTP_DISABLE_BRANDING$=Disable web-based client branding
+$LIMIT_HTTP_DISABLE_COMPRESSION$=Deaktiviraj HTTP kompresiju
+
+<!-- **************** Email Limits **************** -->
+$LIMIT_EMAIL_REQUIRE_SET$=Zahteva se od krajnjeg korisnika da podesi e-adresu u sledećem HTTP login
+$LIMIT_EMAIL_ALLOW_SET$=Dozvoli krajnjim korisnicima da podese nalog e-pošte

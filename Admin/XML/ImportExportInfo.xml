@@ -1,0 +1,9 @@
+<!--#include "..\..\Common\Strings\Result.strings"-->
+<?xml version="1.0" encoding="UTF-8" ?>
+<response>
+<result>%RESULT%</result>
+<ResultText>%RESULT_TEXT%</ResultText>
+<Count>%COUNT%</Count>
+<ExistedCount>%USERS_ALREADY_EXISTED_COUNT%</ExistedCount>
+<NotSavedCount>%USERS_NOT_SAVED%</NotSavedCount>
+</response>

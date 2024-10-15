@@ -1,0 +1,1255 @@
+html {
+    position: relative;
+    min-width: 1300px;
+}
+
+BODY {
+    background: #818181;
+    color: #333333;
+    min-width: 1250px;
+}
+
+BODY, TABLE {
+    /*font-family: Arial, Helvetica, "sans-serif";
+    font-size: 8pt; */
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+    cursor: default;
+    -moz-user-select: -moz-none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+}
+
+FORM, INPUT, TEXTAREA, SELECT {
+    display: inline;
+    -moz-user-select: text;
+    /*font-family: Arial, Helvetica, "sans-serif";*/
+}
+
+.aw-ie TEXTAREA.aw-control-focus {
+    left: -3px !important;
+}
+
+#container {
+    width: 100%;
+    background: #fff;
+    border-radius: 5px;
+    min-width: 650px;
+}
+
+
+#TreeCol {
+    padding: 15px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(17, 17, 17, 0.7);
+    margin: 0 15px;
+}
+
+.aw-xp #TabsContent, .aw-xp div.tabs-content {
+    background: #f4f3ee url(/Common/Images/dialog-bg-xp.png) repeat-x top left;
+}
+
+.aw-vista #TabsContent, .aw-vista div.tabs-content {
+    background: #cbc9ca url(/Common/Images/dialog-bg-vista.png) repeat-x top left;
+}
+
+.aw-su #TabsContent, .aw-su div.tabs-content {
+    background: #d4d0c8; /*Original*/
+}
+
+.aw-classic #TabsContent, .aw-classic div.tabs-content {
+    background: threedface;
+}
+
+.aw-aqua #TabsContent, .aw-aqua div.tabs-content {
+    background: #eeeeee;
+}
+
+.aw-vista div.tabs-content {
+    border: 1px solid #aaa;
+}
+
+.aw-xp div.tabs-content {
+    border: 1px solid #aaa;
+}
+
+.aw-su div.tabs-content {
+    border: 1px solid #aaa; /*Original*/
+    padding: 10px; /*Original*/
+}
+
+.aw-classic div.tabs-content {
+    border: 1px solid #fff;
+}
+
+.aw-aqua div.tabs-content {
+    border: 1px solid #aaa;
+}
+
+#logwindow, .SpyLogScroll {
+    overflow: auto;
+    background: #fff;
+    white-space: nowrap;
+    width: 100%;
+    border: 1px solid #c5c5c5;
+    padding-left: 5px;
+}
+
+.SpyLogScroll {
+    height: 230px;
+}
+
+#logwindow {
+    height: 400px;
+    border-radius: 3px;
+}
+
+.checkboxlink {
+    text-decoration: none;
+    color: #000;
+    cursor: default;
+}
+
+.head-box {
+    float: right;
+    display: inline;
+}
+
+.navItem {
+    color: #000 !important;
+    text-decoration: none;
+    padding: 3px 0 4px 5px;
+}
+
+img.tab-header {
+    float: left;
+    margin: 0 10px 5px 0;
+}
+
+div.tabs-content {
+    padding: 10px;
+    -moz-user-select: -moz-none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+}
+
+textarea.aw-border {
+    border: 1px solid #7f9db9;
+}
+
+.ExpiresTextBox {
+    cursor: pointer;
+    background-color: #d4d0c8;
+    border: 1px solid #7f9db9;
+    line-height: 20px;
+    padding: 2px 5px 2px 5px;
+    font-size: 100%;
+    font-family: Tahoma;
+}
+
+.aw-ie .ExpiresTextBox {
+    line-height: 12px;
+    height: 18px;
+}
+
+.header-icon {
+    float: left;
+    margin: 0 10px 0 0;
+}
+
+#EditionLabels div {
+    border-bottom: 1px solid #6c6b6b;
+    padding-right: 5px;
+}
+
+#EditionData-Current div, #EditionData-FTPEdition div, #EditionData-MFTEdition div {
+    border-bottom: 1px solid #6c6b6b;
+    font-weight: bold;
+}
+
+#EditionLabels div.NoBorders, #EditionData-Current div.NoBorders, #EditionData-FTPEdition div.NoBorders, #EditionData-MFTEdition div.NoBorders {
+    border-bottom: none;
+}
+
+/********* Console.htm Specific ************/
+
+.uBorder {
+    font-size: 12px;
+    border-bottom: 1px solid #D9D9D9;
+    margin: 0 10px 10px 10px;
+    font-weight: bold;
+    padding-bottom: 8px;
+    vertical-align: bottom;
+    /*white-space: nowrap; */
+}
+
+.uborder2 {
+    font-size: 12px;
+    border-bottom: 1px solid #D9D9D9;
+    margin: 0 10px 10px 10px;
+    font-weight: bold;
+    line-height: 30px;
+    vertical-align: bottom;
+    padding: 0px 0 7px 5px;
+}
+
+.category {
+    margin: 0 10px 10px 10px;
+    padding: 0 0 5px 5px;
+}
+
+.category-bottom {
+    margin: 0 10px 0 10px;
+    padding: 0 0 0 5px;
+}
+
+.category {
+    border-bottom: 1px solid #D9D9D9;
+}
+
+.currdomain {
+    margin: 0 10px 10px 10px;
+    padding-left: 5px;
+}
+
+.cat-list {
+    margin: 5px 0 0 45px;
+}
+
+.category a, .category-bottom a {
+    font-weight: bold;
+    color: #0000FF;
+    text-decoration: none;
+}
+
+.category a:hover, .category-bottom a:hover {
+    color: #ff0000;
+}
+
+a.console-bullet-link {
+    text-decoration: none;
+    font-weight: normal;
+    color: #000;
+}
+
+#CurrentDomainName {
+    font-weight: bold;
+    font-size: 12px;
+    vertical-align: middle;
+}
+
+#CurrentDomainName a {
+    color: #ff0000;
+    text-decoration: none;
+}
+
+.bullet-table td {
+    vertical-align: top;
+    padding: 0px;
+    margin: 0px;
+}
+
+.bullet-table {
+    padding: 0px;
+    margin: 0px;
+}
+
+.StatInfo {
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+div.UpgradeLicenseMsg, div.UpgradeLicenseMsgNoMargin, div.UpgradeLicenseMsgNoAutoMargin {
+    display: none;
+    padding: 15px 15px 15px 15px;
+    width: 350px;
+    border: ridge 2px black;
+    overflow: hidden;
+    background-color: White;
+    text-align: left;
+}
+
+div.UpgradeLicenseMsg {
+    margin: 50px auto 50px auto;
+}
+
+div.UpgradeLicenseMsg {
+    margin: 50px auto 50px auto;
+}
+
+div.UpgradeLicenseMsgNoAutoMargin {
+    margin: 0px;
+}
+
+img.UpgradeLicenseImg {
+    float: left;
+    margin: 0 5px 0 5px;
+}
+
+#PageTabs {
+    width: 100%;
+}
+
+/*Header style classes*/
+.aw-ie7 .sulogo-prodname, .aw-ie8 .sulogo-prodname {
+    position: relative;
+    top: 25px;
+}
+
+.head-divider {
+    background: url(/Common/Images/head-divider.png) center center no-repeat;
+    display: inline-block;
+    height: 75px;
+    width: 2px;
+    margin-left: 20px;
+}
+
+.head-ico {
+    padding: 0 5px 0 0;
+    border: none;
+}
+
+.head-ico.help {
+    position: relative;
+    top: 4px;
+}
+
+
+.LogHeader {
+    margin-bottom: 10px;
+}
+
+h2.LogHeader-title {
+    margin-bottom: 0;
+    font-size: 16px;
+}
+
+.LogHeader-title {
+    color: #333333;
+    font-weight: bold;
+    font-size: 11pt;
+}
+
+.LogHeader-infotxt {
+    color: #999999;
+}
+
+.statcontain__row {
+    font-size: 13px;
+}
+
+.statcontain__row .statcontain__cell.name, .statcontain__row .statcontain__cell.head {
+    padding-left: 16px;
+}
+
+.statcontain__row:nth-child(4) .statcontain__cell {
+    padding-top: 10px;
+}
+
+.statcontain__row.small {
+    font-size: 11px;
+}
+
+.statcontain__cell.head {
+    text-align: left;
+    font-size: 13px;
+    font-weight: 600;
+    color: #111111;
+    font-family: "Open Sans", sans-serif;
+    padding-bottom: 10px;
+}
+
+.statcontain__cell.name {
+    color: rgba(17, 17, 17, 0.6);
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+}
+
+.statcontain__cell.value {
+    color: #111;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    padding-left: 8px;
+}
+
+.PurpleLabelBold {
+    font-size: 13px;
+    font-weight: bold;
+    color: #65518f;
+}
+
+.BlackLabelBold {
+    font-size: 14px;
+    font-weight: bold;
+    color: #000000;
+}
+
+#StatsGroup {
+    margin-top: 14px;
+    color: rgba(17, 17, 17, 0.6);
+}
+
+.statsHeader {
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 16px;
+}
+
+.LargeStatLabel, .LargeStatVal {
+    display: inline-block;
+    font-size: 13px;
+}
+
+.LargeStatLabel {
+    color: #999999;
+    min-width: 50%;
+}
+
+.LargeStatVal {
+    color: #333333;
+    font-weight: bold;
+}
+
+
+.SmallStatLabel, .SmallStatVal {
+    font-size: 13px;
+    display: inline-block;
+}
+
+.SmallStatLabel {
+    color: #999999;
+    min-width: 50%;
+}
+
+.SmallStatVal {
+    color: #333333;
+    font-weight: bold;
+}
+
+.nowraptxt {
+    white-space: nowrap;
+}
+
+.statcontain {
+    overflow: auto;
+    max-width: 100%;
+    width: 100%;
+    position: relative;
+}
+
+#statsscroll .mCSB_container {
+    min-width: 1100px;
+}
+
+.mCSB_horizontal > .mCSB_container {
+    margin-bottom: 10px !important;
+}
+
+#MC-logo a {
+    color: #333333;
+    text-decoration: none;
+}
+
+.tabbox {
+    width: auto;
+    height: 40px;
+    background: transparent;
+    border-bottom: 1px solid #D5D5D5;
+    margin: 0 -15px 10px;
+}
+
+.tabbox a {
+    display: inline-block;
+    position: relative;
+    padding: 0 15px;
+    float: left;
+    height: 40px;
+    line-height: 40px;
+    width: auto;
+    text-decoration: none;
+    color: rgba(17, 17, 17, 0.6);
+    font-size: 13px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/*.tabbox a:hover {*/
+/*    color: #333333;*/
+/*}*/
+
+/*.tabbox a:hover.activetab {*/
+/*    color: #ffffff;*/
+/*}*/
+
+.tabbox a.activetab {
+    color: #111111;
+    background: transparent;
+}
+
+.tabbox a.activetab:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 3px;
+    background-color: #00C4D2;
+}
+
+#FreezeLog {
+    margin-right: 6px;
+}
+
+#FreezeLog .customCheckBox {
+    background: transparent;
+    position: relative;
+    width: 16px;
+    height: 16px;
+    border-radius: 3px;
+    border: 2px solid #888888;
+}
+
+#FreezeLog .aw-item-text  {
+    font-size: 13px;
+    color: #111111;
+    font-weight: 400;
+}
+
+#FreezeLog .aw-value-true .customCheckBox {
+    background: #888888;
+}
+
+#FreezeLog .aw-value-true .customCheckBox:after {
+    content: '\2714';
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+
+#FreezeLog .customCheckBox:hover {
+    cursor: pointer;
+}
+
+#Window-Log .customButton, #Window-Sessions .customButton {
+    display: inline-block;
+    height: auto;
+    background-color: transparent;
+    border: 1px solid rgba(17, 17, 17, 0.3);
+    line-height: 30px;
+    padding: 0 10px;
+    font-size: 13px;
+    font-weight: 400;
+    color: #0079AA;
+    border-radius: 3px;
+    margin-top: 10px;
+}
+
+#Window-Log .customButton-disabled, #Window-Sessions .customButton-disabled {
+    display: inline-block;
+    height: auto;
+    background-color: transparent;
+    border: 1px solid rgba(17, 17, 17, 0.15);
+    line-height: 30px;
+    padding: 0 10px;
+    font-size: 13px;
+    font-weight: 400;
+    color: rgba(0, 121, 170, 0.5);
+    border-radius: 3px;
+    margin-top: 10px;
+}
+
+#Window-Log .customButton:hover, #Window-Sessions .customButton:hover {
+    background-color: rgba(17, 17, 17, 0.05);
+}
+
+.circle {
+    width: 38px;
+    height: 36px;
+    text-align: center;
+    background: url(/Common/Images/circle-gray.png) center center no-repeat;
+}
+
+.circle.active {
+
+    background: url(/Common/Images/circle-purple.png) center center no-repeat;
+}
+
+.circle span {
+    font-size: 11pt;
+    position: relative;
+    top: 10px;
+    color: #c5c1c1;
+}
+
+.circle.active span {
+    color: #65528f;
+}
+
+.wizstep {
+    width: 38px;
+    height: 10px;
+    text-align: center;
+    background: url(/Common/Images/stepbg-inactive.png) center center no-repeat;
+}
+
+.wizstep.active {
+    background: url(/Common/Images/stepbg-active.png) center center no-repeat;
+}
+
+#WizStepTable .steptext {
+    padding: 11px 0 0 10px;
+    vertical-align: top;
+    color: #c5c1c1;
+    font-size: 11pt;
+    font-weight: bold;
+}
+
+#WizStepTable .steptext.active {
+    color: #65528f;
+}
+
+.dialog-Groupbox {
+    display: inline-block;
+    padding: 15px;
+    background: #f5f5f5;
+    border: 1px solid #c5c5c5;
+    -webkit-border-radius: 3px !important;
+    -moz-border-radius: 3px !important;
+    border-radius: 3px !important;
+}
+
+#CreateServerIdentity a {
+    position: relative;
+    padding: 7px 10px 7px 28px;
+    text-align: center;
+    font-size: 12px;
+    border-radius: 3px;
+    color: #fff;
+    background: none repeat scroll 0 0 #950000;
+}
+
+#CreateServerIdentity a:hover {
+    background: #790307;
+}
+
+.CreateSITxt {
+    font-weight: bold;
+}
+
+#CreateServerIdentity a:before {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    content: '';
+    left: 7px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: url(/Common/Images/clock_icon.png) center center no-repeat;
+}
+
+#TrialExpire a {
+    position: relative;
+    padding: 7px 10px 7px 28px;
+    text-align: center;
+    font-size: 12px;
+    border-radius: 3px;
+    color: #fff;
+}
+
+#TrialExpire a:before {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    content: '';
+    left: 7px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: url(/Common/Images/clock_icon.png) center center no-repeat;
+}
+
+#TrialExpire.yellow a:before {
+    background: url(/Common/Images/clock_icon_black.png) center center no-repeat;
+}
+
+#TrialExpire.blue a {
+    background: #1c8eb1;
+}
+
+#TrialExpire.blue a:hover {
+    background: #037598;
+}
+
+#TrialExpire.yellow a, #MaintContain.yellow a {
+    color: #111;
+    background: #fec405;
+}
+
+#TrialExpire.yellow a:hover {
+    background: #e8b408;
+}
+
+#TrialExpire.red a, #MaintContain.red a {
+    background: none repeat scroll 0 0 #dd2c00;
+}
+
+#TrialExpire.red a:hover {
+    background: #c12600;
+}
+
+#TrialExpire.dark-red a {
+    background: #950000;
+}
+
+#TrialExpire.dark-red a:hover {
+    background: #790307;
+}
+
+.DaysExpireTxt {
+    font-weight: bold;
+}
+
+.TrialButtons {
+    display: inline-block;
+    margin: 0 15px;
+    position: relative;
+    top: -12px;
+}
+
+.CloseTrialIco {
+    float: right;
+    height: 16px;
+    position: relative;
+    top: -5px;
+    width: 16px;
+}
+
+.MaintInfoBox {
+    background: #fff;
+    padding: 10px;
+    margin: 0 15px 20px;
+    border: 1px solid #c5c5c5;
+    border-radius: 5px;
+}
+
+#MaintContain {
+    font-size: 9pt;
+    color: #65528f;
+    padding: 10px;
+    display: none;
+}
+
+#MaintContain.yellow {
+    color: #76601e;
+}
+
+#MaintContain.red {
+    color: #ed441c;
+}
+
+#WhatsNew {
+    border: 1px solid #aaaaaa;
+    display: none;
+    max-width: 700px;
+    min-width: 450px;
+    color: #333333;
+}
+
+#WhatsNew a {
+    color: #3a6b9c;
+}
+
+.GreyLabel {
+    color: #999999;
+    font-size: 10pt;
+    font-weight: bold;
+}
+
+.WhatsNew-SUIcon {
+    float: left;
+    width: auto;
+    margin: 15px 10px;
+}
+
+.WhatsNew-SUIcon:before {
+    content: 'i';
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background-color: #1C8EB1;
+    border-radius: 50%;
+    line-height: 15px;
+    text-align: center;
+    font-weight: 600;
+    color: #fff;
+}
+
+.WhatsNew-Descr {
+    text-align: center;
+    width: auto;
+    margin-top: 12px;
+}
+
+#WhatsNew-Close {
+    float: right;
+    position: relative;
+    width: 16px;
+    height: 16px;
+    background: transparent;
+    border: 1px solid #6c6c6c;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+#WhatsNew-Close:before, #WhatsNew-Close:after {
+    content: '';
+    position: absolute;
+    background: #6c6c6c;
+    width: 10px;
+    height: 2px;
+    left: 50%;
+    top: 50%;
+}
+
+#WhatsNew-Close:before {
+    transform: translate(-50%, -50%) rotate(45deg);
+}
+
+#WhatsNew-Close:after {
+    transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+.WhatsNew-Content {
+    clear: both;
+    margin: 15px 16px;
+}
+
+.WhatsNew-Content ul {
+    list-style-type: none;
+    font-size: 13px;
+    line-height: 16px;
+    margin-top: 0;
+}
+
+.WhatsNew-Content ul li {
+    position: relative;
+    margin-bottom: 5px;
+}
+
+.WhatsNew-Content ul li:before {
+    content: '';
+    position: absolute;
+    left: -18px;
+    top: 9px;
+    transform: translateY(-50%);
+    width: 5px;
+    height: 5px;
+    background-color: #111111;
+    border-radius: 50%;
+}
+
+#ReadMoreButton > button {
+    background: #F99D1C !important;
+    padding: 10px;
+    font-size: 13px !important;
+    border: none !important;
+    color: #ffffff !important;
+    font-weight: 600 !important;
+}
+
+#ReadMoreButton > button:hover {
+    border: none;
+    background: #FAAA39 !important;
+}
+
+.Error {
+    color: #FF0000;
+}
+
+.LdapSuccess {
+    color: #5a9b00;
+}
+
+.Hidden {
+    display: none;
+}
+
+.Flex {
+    display: flex;
+}
+
+.LDAPServerConnection {
+    width: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.TextBottomPadding {
+    padding-bottom: 1px;
+}
+
+.BoldText {
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.LDAPUnderscoreBox {
+    clear: both;
+    border-bottom: 1px solid #999999;
+    padding-bottom: 10px;
+}
+
+.LDAPButtons {
+    clear: both;
+    border-top: 1px solid #999999;
+    padding-top: 10px;
+}
+
+.AutoLeft {
+    width: auto;
+    float: left;
+}
+
+.LdapBox {
+
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.LdapCheckBox {
+    -webkit-border-radius: 4px !important;
+    -moz-border-radius: 4px !important;
+    border-radius: 4px !important;
+    position: relative;
+    top: 3px;
+    border-radius: 4px !important;
+
+}
+
+.LdapInputField {
+    width: 215px;
+    height: 14pt;
+    margin: 2px 0px 2px 0px;
+    border-color: #C6C6C6;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 4px 4px 4px 4px;
+    padding-left: 5px;
+}
+
+.LdapGrayText {
+    color: #999999;
+}
+
+.LdapGrayedLink {
+    color: #9baffe;
+}
+
+.LdapCertificate {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.LdapCertificate fieldset {
+    margin: 0;
+    padding-left: 0;
+    border: none;
+}
+
+#LDAP_ldapCertificateType label {
+    position: relative;
+    top: -2px;
+}
+
+#ldapCertificatePath {
+    align-items: center;
+}
+
+#LDAP_CACertificatePath {
+    width: 100%;
+    margin-right: 1em;
+}
+
+.BoldLabel {
+    font-weight: bold;
+}
+
+.gen-floating {
+    float: left;
+    position: relative;
+}
+
+.gen-option {
+    width: 80px;
+}
+
+.gen-option-group {
+    width: 120px;
+    margin: 0px 5px 5px 0px;
+    float: left;
+}
+
+#SSHKEXs .gen-option-group {
+    width: 160px;
+}
+
+.gen-option-category {
+    padding-top: 5px;
+}
+
+/*nova updates*/
+
+.sulogo-prodname {
+    color: #fff;
+}
+
+.header-user-block {
+    display: flex;
+    /*flex-direction: row-reverse;*/
+    align-items: center;
+    color: #fff;
+}
+
+#sulogo-div {
+    display: flex;
+    align-items: center;
+}
+
+.header-logo-container {
+    width: 50px;
+    height: 50px;
+    background: #f99d1c;
+    margin-right: 15px;
+}
+
+.header-logo-container > a {
+    display: flex;
+    width: 100%;
+    height: 100%;
+
+}
+
+.header-logo-container > a img {
+    margin: 10px 7px;
+}
+
+#UserOptList,
+#AdhocNavBarJumpToMenu {
+    height: auto;
+    background: #ffffff;
+    box-shadow: -1px -1px 11px 2px rgba(0, 0, 0, 0.21);
+    padding: 4px 0;
+    left: auto !important;
+}
+
+#UserOptList {
+    right: 191px;
+}
+
+#AdhocNavBarJumpToMenu {
+    right: 34px;
+}
+
+.ui-contextmenu#UserOptList,
+.ui-contextmenu#AdhocNavBarJumpToMenu {
+    border: none;
+}
+
+#UserOptList:before,
+#AdhocNavBarJumpToMenu:before {
+    content: '';
+    position: absolute;
+    top: -10px;
+    right: 8px;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 10px solid #ffffff;
+}
+
+#UserOptList a,
+#AdhocNavBarJumpToMenu a {
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    color: #0079aa;
+    padding: 5px 10px;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+#UserOptList li.hover a,
+#AdhocNavBarJumpToMenu li.hover a {
+    background-color: #f3f3f3;
+    color: #0079aa;
+}
+
+/*nova updates*/
+.header-user-block {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100%;
+    color: #fff;
+}
+
+.head-icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+}
+
+.head-user .head-icon {
+    background: url(/Common/Images/user_icon.png) center no-repeat;
+    margin-right: 5px;
+}
+
+.head-help .head-icon {
+    background: url(/Common/Images/help_icon.png) center no-repeat;
+}
+
+.head-menu .head-icon {
+    background: url(/Common/Images/menu_icon.png) center no-repeat;
+}
+
+.head-user:hover .head-icon {
+    background: url(/Common/Images/user_icon_orange.png) center no-repeat;
+}
+
+.head-help:hover .head-icon {
+    background: url(/Common/Images/help_icon_orange.png) center no-repeat;
+}
+
+.head-menu:hover .head-icon {
+    background: url(/Common/Images/menu_icon_orange.png) center no-repeat;
+}
+
+.head-item {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.head-item.head-menu {
+	border-left: 1px solid grey;
+}
+
+.head-item:hover {
+    background: #292929;
+    color: #f99d1c;
+}
+
+.head-item > span,
+.head-item > a {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+}
+
+.breadcrumb-container {
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    color: rgba(17, 17, 17, 0.6);
+    background: #f0f0f0;
+}
+
+#breadcrumb {
+    padding: 5px 0;
+}
+
+#breadcrumb span {
+    padding: 5px 5px 5px 10px;
+}
+
+/* NOVA STYLES */
+
+.TreeInfoBox__text-panel {
+    line-height: 18px;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #111;
+}
+
+.TreeInfoBox__text-default {
+    font-size: 13px;
+    line-height: 18px;
+    color: #111;
+}
+
+.TreeInfoBox__text-secondary {
+    line-height: 18px;
+    font-size: 13px;
+    color: rgba(17, 17, 17, 0.6);
+}
+
+.TreeInfoBox__text-small {
+    font-size: 11px;
+    color: #111;
+    line-height: 14px;
+}
+
+.TreeInfoBox__text-small-secondary {
+    font-size: 11px;
+    color: rgba(17,17,17,.6);
+    line-height: 14px;
+}
+
+#UpdateLMButton .TreeInfoBox__btn-primary {
+    color: #fff;
+    background-color: #f99d1c;
+    border-color: #00000000;
+    border-width: 1px;
+    min-width: 100px;
+    max-width: 250px;
+    border-radius: 0;
+    padding: 8px 18px;
+    text-transform: uppercase;
+    height: auto;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+#UpdateLMButton .TreeInfoBox__btn-primary:hover {
+    background-color: #fab024;
+}
+
+.pass-hide {
+    position: absolute;
+    top: 1px;
+    right: 0;
+    width: 13px;
+    height: 13px;
+    background: no-repeat url(/Common/Images/event_log.ico);
+    background-position: 80%;
+    background-size: cover;
+}
+
+.pass-hide--opened {
+    background-position: 60%;
+}
+
+.pass-hide:hover {
+    cursor: pointer;
+}
+
+.password-container {
+    position: relative;
+}
+
+.password-container .pass-hide {
+    top: 7.5%;
+}
+
+#LDAPServersDialogBody .password-container .pass-hide {
+    top: 22px;
+    right: 3px;
+}

@@ -1,0 +1,9 @@
+%PRIV_SYSTEM_ADMIN%
+<?xml version="1.0" encoding="UTF-8" ?>
+<response>
+<IP>
+<IPV4>%CDomain.%ID%.AvailableIPv4Addresses%</IPV4>
+<IPV6>%CDomain.%ID%.AvailableIPv6Addresses%</IPV6>
+</IP>
+<listresult>%LIST_RESULT%</listresult>
+</response>

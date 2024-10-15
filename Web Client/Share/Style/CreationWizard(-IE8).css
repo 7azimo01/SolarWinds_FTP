@@ -1,0 +1,21 @@
+.inputRadio
+{
+	margin: 0px 4px 0px 0px;
+}
+.AdhocExpireLinkOpt
+{
+	margin-left: 18px;
+}
+#DateImg, #ExpiresInHoursSel, #ExpiresInDaysSel
+{
+	vertical-align: middle;
+}
+#DateImg img
+{
+	top: -2px;
+}
+.pwordBttn
+{
+	top: -3px;
+	left: -34px;
+}

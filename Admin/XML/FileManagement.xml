@@ -1,0 +1,13 @@
+<!--#include "..\..\Common\Strings\Result.strings"-->
+%PRIV_GROUP_ADMIN%
+<?xml version="1.0" encoding="UTF-8" ?>
+<diraccess>
+<var name="ObjectID" val="%ID%" />
+<var name="RuleType" val="%CFileManagementRule.%ID%.RuleType%" />
+<var name="Enabled" val="%CFileManagementRule.%ID%.Enabled%" />
+<var name="SourcePath" val="%CFileManagementRule.%ID%.SourcePath%" />
+<var name="TargetPath" val="%CFileManagementRule.%ID%.TargetPath%" />
+<var name="ExpireDays" val="%CFileManagementRule.%ID%.ExpireDays%" />
+<var name="Result" val="%RESULT%"/>
+<var name="ResultText" val="%RESULT_TEXT%"/>
+</diraccess>

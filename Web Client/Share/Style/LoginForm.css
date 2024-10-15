@@ -1,0 +1,55 @@
+
+.instructions
+{
+	font-size: 12pt;
+	padding-left: 15px;
+	font-weight: bold;
+	line-height: 30px;
+	color: #636363;
+}
+.fieldname
+{
+	display: table-cell;
+	width: auto;
+	font-weight: bold;
+	padding-right: 5px;
+}
+.fieldinput
+{
+	display:table-cell;
+	height:24px;
+	text-align:right;
+	font-family:Arial,sans-serif;
+}
+.pword
+{
+	margin: 5px 0 24px 0;
+	padding-left: 15px;
+	font-size: 9pt;
+}
+.pword #PasswordInput
+{
+	width: 250px;
+	height: 26px;
+	margin-right: 10px;
+	vertical-align: middle;
+}
+.instructions2
+{
+	padding: 30px 0px 5px 15px;
+	margin-top: 35px;
+	font-size: 9pt;
+	color: #919191;
+	font-style: italic;
+}
+#LoginBlock
+{
+	width: 600px;
+	margin: 100px auto 0 auto;
+	padding-bottom: 30px;				/* height of footer */
+}
+#EnterBtn
+{
+	font-size: 11pt !important;
+	height: 32px;
+}

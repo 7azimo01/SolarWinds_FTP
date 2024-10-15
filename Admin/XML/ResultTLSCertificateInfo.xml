@@ -1,0 +1,18 @@
+<!--#include "..\..\Common\Strings\Result.strings"-->
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+<result>%RESULT%</result>
+<ResultText>%RESULT_TEXT%</ResultText>
+<SerialNumber>%SERIAL_NUMBER%</SerialNumber>
+<SignatureAlgorithm>%SIGNATURE_ALGORITHM%</SignatureAlgorithm>
+<PublicKeyAlgorithm>%PUBLIC_KEY_ALGORITHM%</PublicKeyAlgorithm>
+<IssuerOrganization>%ISSUER_ORGANIZATION%</IssuerOrganization>
+<IssuerLocation>%ISSUER_LOCATION%</IssuerLocation>
+<SubjectOrganization>%SUBJECT_ORGANIZATION%</SubjectOrganization>
+<SubjectLocation>%SUBJECT_LOCATION%</SubjectLocation>
+<ValidityFrom>%VALIDITY_FROM%</ValidityFrom>
+<ValidityTo>%VALIDITY_TO%</ValidityTo>
+<FingerprintSHA1>%FINGERPRINT_SHA1%</FingerprintSHA1>
+<FingerprintSHA256>%FINGERPRINT_SHA256%</FingerprintSHA256>
+<CAFilePath>%CA_FILE_PATH%</CAFilePath>
+</response>

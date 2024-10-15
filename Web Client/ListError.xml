@@ -1,0 +1,34 @@
+<!--#include "..\Common\Strings\Result.strings"-->
+<?xml version="1.0" encoding="UTF-8" ?>
+<response>
+<files>
+<file>
+<FileName></FileName>
+<FileSize></FileSize>
+<FileDate></FileDate>
+<FilePath></FilePath>
+<FileIsDir></FileIsDir>
+<FileIsImage></FileIsImage>
+<FileDriveLabel></FileDriveLabel>
+<FileIsDrive></FileIsDrive>
+<FileDriveType></FileDriveType>
+<FileIsDeleted>0</FileIsDeleted>
+</file>
+</files>
+<hidden>
+<ErrorResponse>%RESULT%</ErrorResponse>
+<ResultText>%RESULT_TEXT%</ResultText>
+<CurrentDir>%CURRENT_DIR%</CurrentDir>
+<CurrentDirIsDrive>%CURRENT_DIR_IS_DRIVE%</CurrentDirIsDrive>
+<CurrentDirDriveType>%CURRENT_DIR_DRIVE_TYPE%</CurrentDirDriveType>
+<CurrentDirDriveLabel>%CURRENT_DIR_DRIVE_LABEL%</CurrentDirDriveLabel>
+<CurrentDirCanUpload>%CURRENT_DIR_CAN_UPLOAD%</CurrentDirCanUpload>
+<CurrentDirIsHome>%CURRENT_DIR_IS_HOME%</CurrentDirIsHome>
+<CurrentDirCanCreate>%CURRENT_DIR_CAN_CREATE_DIR%</CurrentDirCanCreate>
+<CurrentDirMDate>%CURRENT_DIR_MDATETIME%</CurrentDirMDate>
+<CurrentDirCDate>%CURRENT_DIR_CDATETIME%</CurrentDirCDate>
+<CurrentDirADate>%CURRENT_DIR_ADATETIME%</CurrentDirADate>
+<AllowMediaPlayback>%ALLOW_MEDIA_PLAYBACK%</AllowMediaPlayback>
+<DirChangeMessage>%DIR_CHANGE_MESSAGE%</DirChangeMessage>
+</hidden>
+</response>

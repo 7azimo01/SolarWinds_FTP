@@ -1,0 +1,290 @@
+﻿<!-- Strings.strings - For ease of localization, strings have been separated into this file.  Place all localizable strings here. -->
+<!-- NOTE: assignments require left justification and the assignment to appear as "$=" without whitespace between the $ and =. -->
+<!-- File location: <<Install>>\Client\Web Client\Include\ -->
+
+<!-- General -->
+$CLICK_HERE_CURRENT_DIR$=<a href="#" onclick="goBackWithRefresh();return false;">Kliknite ovde da izlistate Vaš trenutni direktorijum.</a>
+$WARN_IMAGE$=<img src="%FILE%Images\warn.gif" style="float:left;">
+$DELETE$=Obriši
+$OPEN$=Otvori
+$CURRENTLY_LOCATED$=Upravo se nalazi u
+$USE_INHERITED$=Nasledjene uobičajene postavke
+$NO_SCRIPT_TEXT$=Izgleda da Vaš pretraživač nema JavaScript.Ova stranica zahteva da je JavaScript omogućen.
+$PLEASE_ENTER_USER_NAME$=Molim Vas unesite login ID.
+$FOLDER_SIZE$=Veličina Foldera
+$DIR_PROPERTIES$=Postavke direktorijuma
+$MODIFIED_TIME$=Modifikovano
+$CREATED_TIME$=Uređeno
+$LAST_ACCESSED_TIME$=Poslednji pristup
+$DONT_SHOW_AGAIN$=Ne prikazuj ovu poruku.
+$PLEASE_SELECT_FILE_UPLOAD_MOBILE$=Molim Vas izaberite fajl
+$LOGGED_IN$=Uloguj se
+$IMAGE_DIALOG_WIDTH$=620
+$MOBILE_LOGIN_BTN_WIDTH$=100
+
+<!-- Menu Text -->
+$SHOW_NO_LABELS$=Nema text nalepnica
+$SHOW_ALL_LABELS$=Pokaži text nalepnice
+$SHOW_SELECTIVE_LABELS$=Selective Text on Right
+
+<!-- Login -->
+$LOGIN_TITLE$=Serv-U
+$LANGUAGE$=Jezik
+$PASSWORD$=Lozinka
+$LOGIN$=Uloguj se
+$CHANGE_PASSWORD$=Promenite Lozinku
+$REMEMBER_USER$=Zapamti me
+$RELOAD$=Učitaj ponovo
+$JSCRIPT_DISABLED_WARN$=JavaScript je onemogućen u vašem pregledaču.  Da bi koristili Serv-U Fajl Server javascript mora biti omogućen. <br /><br />Kliknite na "Učitaj ponovo" ispod nakon što je JavaScript omogućen u vašem pregledaču.
+$IE_NOT_COMPATIBLE_WARN$=Vi koristite nekompatibilnu verziju Internet Ekplorera. Molimo Vas da ažurirate na Internet Eksplorer 6.0 ili noviji da možete koristiti Serv-U.
+$BROWSER_NOT_COMPATIBLE_WARN$=Pretraživač koji koristite nije kompatibilan sa trenutnom verzijom Serv-u. Molimo Vas da koristite Internet Explorer 6.0+, Firefox 1.0+, Safari 3+ ili Opera 9+.
+
+<!-- Languages -->
+$ENGLISH$=English (Engleski)
+$GERMAN$=Deutsch (Nemački)
+$ITALIAN$=Italiano (Italijanski)
+$FRENCH$=Français (Francuski)
+$SPANISH$=Español (Španski)
+$PORTUGUESE$=Português (Portugalski)
+$SERBIAN$=Srpski
+$SWEDISH$=Svenska (Švedski)
+$FINISH$=Suomi (Finski)
+$NORWEGIAN$=Norsk (Norveški)
+$DANISH$=Dansk (Danski)
+$RUSSIAN$=Русский (Ruski)
+$TRADITIONAL_CHINESE$=繁體中文 (Tradicionalni Kineski)
+$SIMPLIFIED_CHINESE$=简体中文 (Običan Kineski)
+$JAPANESE$=日本語 (Japanski)
+
+
+<!-- Logout -->
+$LOGOUT_TITLE$=Izloguj se
+$LOGOUT_DESC$=Upravo ste izlogovani.  <a href="%LOGIN%">Kliknite ovde da bi se ponovo ulogovali.</a>
+$LOGGED_OUT_MSG$=Izlogovali ste se.
+
+
+<!-- Login Change Password -->
+$PASSWORD_EXPIRED_TITLE$=Lozinka istekla - Promenite lozinku
+$PASSWORD_EXPIRED_DESC$=Vaša lozinka je istekla,molimo Vas promenite Vašu lozinku pre nego što nastavite.
+
+
+<!-- Session Not Found -->
+$SESSION_NOT_FOUND_TITLE$=Neautorizovano - Sesija nije pronađena
+$SESSION_NOT_FOUND_HEAD$=401 Neautorizovano, sesija specificirana ali nepostoji 
+$SESSION_NOT_FOUND_DESC$=Sesija ne postoji.To mora da je tokom perioda neaktivnosti.Pokušajte se ponovo ulogovati.
+
+
+<!-- Not Logged In -->
+$NOT_LOGGED_IN_TITLE$=Neautorizovano - Niste ulogovani
+$NOT_LOGGED_IN_HEAD$=401 Neautorizovano, Niste ulogovani
+$NOT_LOGGED_IN_DESC$=Niste autorizovani da izvedete zahtevanu operaciju.  <a href="%LOGIN%">Molimo Vas ulogujte se pre pokušaja ove operacije.</a>
+
+
+<!-- Permission Denied -->
+$PERMISSION_DENIED_TITLE$=Dozvola odbijena
+$PERMISSION_DENIED_DESC$=Dozvola odbijena
+
+<!-- Secure Connection Required -->
+$SECURE_CONN_REQUIRED_TITLE$=Nepravilna konekcija - Sigurna konekcija potrebna
+
+
+<!-- Listing -->
+$CURR_DIR_NAME$=%CURRENT_DIR_NAME%
+$MOD_TIME$=Vreme
+$ATTRS$=Atributi
+$THUMBNAIL_LIST$=Sličice
+$UPLOAD_ACTION$=Učitavanje
+$UPLOAD$=Učitavanje
+$UPLOAD_ALT$=Učitavanje
+$THUMBNAILS_ALT$=Sličice
+$DETAILS_ALT$=Detalji
+$CREATE_DIR_ALT$=Napravite direktorijum
+$FILETOOLS$=Alati
+$DOWNLOAD$=Preuzimanje
+$THUMBNAIL_SIZE$=Veličina sličice
+$SELECT_THUMBNAIL_SIZE$=Izaberirte veličinu
+$PREVIEW_IMAGE$=Pregledaj sliku
+$CHANGE_PASSWORD_BUTTON$=Promenite lozinku
+$CHANGE_EMAIL_BUTTON$=Promenite E-mail adresu
+$FILE_PATH$=Fajl putanja
+$PLAY_MEDIA$=Pokreni mediju
+$PLAY_LIST$=Play Lista
+$AUDIO_PLAY_LIST$=Audio Playlist
+$PLAYLIST_SIZE$=Veličina Playliste 
+$SHUFFLE_PLAYLIST$=Nasumična Playlista
+$NEXT_MEDIA_FILE$=Sledeći Medija Fajl
+$PREVIOUS_MEDIA_FILE$=Prethodni Medija Fajl
+$HOME$=Početna
+$FOLDER_EMPTY$=Folder je prazan
+$BACK$=Nazad
+$FORWARD$=Napred
+$HISTORY_LIST$=Istorija
+$SEARCH_ACTION$=Pretraga
+$NO_FILES_FOUND$=Nema pronadjenih fajlova.
+$HTTP_MEDIA_PLAY_DISABLED$=HTTP media playback poništena od administratora.
+$DISABLE_WEB_CLIENT_PRO$=Onemogući Web Client Pro
+$ENABLE_WEB_CLIENT_PRO$=Omogući Web Client Pro
+$WEB_CLIENT_PRO$=Web Client Pro
+$WAIT_BUTTON$=Sačekajte
+$DIRS_AND_FILES$=Direktorijumi i fajlovi
+$FILES_ONLY$=Samo fajlovi
+$DIRS_ONLY$=Samo direktorijumi
+$SORTING$=Sortiranje
+
+
+<!-- Web Client Transfer Applet -->
+$XFER_APPLET_PRODUCT_NAME$=Serv-U Web Client Pro
+$XFER_APPLET_SHOW_IN_FOLDER$=Prikaži u folderu
+$XFER_APPLET_OPEN_FILE$=Otvori Fajl
+$XFER_APPLET_STOP_AFTER$=Zaustavi posle kompletiranja fajla
+$XFER_APPLET_SKIP$=Izostavi fajl
+$XFER_APPLET_PAUSE$=Pauza
+$XFER_APPLET_RESUME$=Rezimiraj
+$XFER_APPLET_START$=Start
+$XFER_APPLET_RESTART$=Restart / Relist
+$XFER_APPLET_CANCEL$=Otkaži
+$XFER_APPLET_REMOVE$=Ukloni
+$XFER_APPLET_REMOVE_COMPLETED$=Ukloni kompletirano
+$XFER_APPLET_OPTIONS_DLG$=Opcije
+$XFER_APPLET_ABOUT_DLG$=U vezi..
+$XFER_APPLET_ENABLE_TITLE$=Omogući Web Client Pro
+$XFER_APPLET_LOADING$=Serv-U's Web Client Pro plug-in vam dozvoljava da prevučete-i ispuštanjem fajlova (Windows samo), prenesete višestruke datoteke, prenos veoma velikih datoteka (> 2GB) i kontrola dugih transfera.<br><br>Web Client Pro zahteva Javu. Molimo instalirajte je sa <a href="http://www.java.com/" target="_blank">Oracle's Java site</a> ako Java nedostaje.<br><br>Kliknite na "Run", "OK", itd Na narednih nekoliko dijaloga da se uspostavi Web Client Pro priključak.
+$XFER_NO_JAVA_WARNING$=Java Runtime Environment (JRE) nije mogao biti otkriven na ovom računaru. Molimo vas da sledite korake štampane u Veb Client Pro odeljku za pomoć za informacije o instaliranju Java Runtime Environment-a.
+$XFER_NO_SUPPORT_ON_MAC$=Ovaj veb pretraživač na Macintosh OS ne ispunjava zahteve Web Client Pro.<br><br>Ukoliko želite da koristite Web Client Pro, molimo Vas da koristite alternativne pretraživače. Web Client Pro je podržan na Safari i Opera i na MAC OS.
+$XFER_NO_SUPPORT_ON_SAF_WIN$=Safari pretraživač na Windowsu ne ispunjava uslove Web Pro klijenta.<br><br>Da biste koristili Web Pro Client, molimo Vas da koristite alternativne pretraživače , kao što su Internet Explorer , Firefox , Google Chrome ili Opera.
+$MULTI_TRANS_BALLOON_TIP$=Možete da kliknete na \"Omogući Web Client Pro\" dugme ispod da aktivirate mogućnost za istovremeno otpremanje i preuzimanje više datoteka i direktorijuma.
+$XFER_APPLET_REMOVE_CANCELLED$=Ukloni Otkazano
+$WCP_NO_FILE_SYS_ACCESS$=Web Pro klijent nije mogao da pristupi vašem lokalnom sistemu datoteka. Pokušajte drugi browser.
+$WCP_CONFIRM_OPENJDK$=<b>VAŽNO:</b>  IcedTea browser plugin instaliran na Linuksu nije kompatibilan sa Web Client Pro.<br><br>Preporučujemo instaliranje Oracle Java Runtime Environment (JRE) kao alternativu OpenJDK Runtime.  <a href="http://%HELP_BASE_URL%/documentation/serv-u-webclient/help.aspx?topic=Help-WCP-Java.htm" target="_blank">Kliknite ovde za uputstva</a> o tome kako da instalirate Oracle JRE na Linuks/Uniks operativnim sistemima.
+$WCP_CONFIRM_OPENJDK_OK_BTN$=Nastavi - I Have Oracle's JRE Instaliran
+$WCP_CONFIRM_OPENJDK_CANCEL_BTN$=Otkaži - Nemoj Startovati Web Client Pro
+$XFER_APPLET_REMOVE_SKIPPED$=Ukloni prekinuto
+$XFER_APPLET_REMOVE_PAUSED$=Ukloni Pauzirano
+$XFER_APPLET_REMOVE_WAITING$=Ukloni Čekanje
+$XFER_APPLET_REMOVE_STOPPED$=Ukloni Stopirano
+$XFER_APPLET_REMOVE_ALL$=Ukloni Sve
+$CONFIRM_WCP_QUIT$=Web Client Pro upravo procesuira operaciju.  Ova akcija će stopirati ovu operaciju.<br><br>Jeste li sigurni da želite da otkažete operaciju?
+<!-- Thumbnail Listing -->
+$DETAIL_LIST$=Detalji
+
+
+<!-- STOR File Uploaded -->
+$STOR_FILE_UPLOADED_TITLE$=Učitavanje fajla
+$STOR_FILE_UPLOADED_DESC$=Fajl je uspešno učitan.<br><br>$CLICK_HERE_CURRENT_DIR$
+
+
+<!-- Rename -->
+$RENAME_TITLE$=Preimenuj
+$RENAME_DESC$=Unesite novo ime:
+$NEW_NAME$=Novo ime
+$RENAME$=Preimenuj
+
+
+<!-- Delete -->
+$DELETE_DIR$=Jeste li sigurni da želite da izbrišete selektovani direktorijum?
+$DELETE_FILE$=Jeste li sigurni da želite da izbrišete selektovani fajl?
+
+
+<!-- Style Swap Properties -->
+$BOX_WIDTH_SMALL$=boxwidth300
+
+
+<!-- Overwrite file on upload -->
+$OVERWRITE_FILE$=Jeste li sigurni da želite da zamenite ovaj fajl?
+
+<!-- Search -->
+$FILE_SEARCH_DESC$=Sve ili samo deo imena fajla
+$FILE_SEARCH_TITLE$=Pretraga fajla
+$SEARCH_SAMPLES$=Pretraga primera
+$SEARCH_RESULTS$=Pretraga rezultata
+
+
+<!-- Drag and Drop Move File -->
+$DRAG_DROP_CANNOT_MOVE_FILE$=Odredišni direktorijum je isti kao i trenutni direktorijum. Molimo Vas da odaberete drugi direktorijum da biste premestili datoteku.
+$CONFIRM_MOVE_FILE_FROM$=Jeste li sigurni da želite da pomerite
+$TO$=to
+
+
+<!-- **************** ImagePreviewDialog.htm **************** -->
+$IMAGE_DIALOG_TITLE$=Pregled slika
+$PREVIOUS_IMAGE$=Prethodna slika
+$PAUSE_SLIDESHOW$=Pauziraj Slide Show
+$PLAY_SLIDESHOW$=Pusti Slide Show
+$NEXT_IMAGE$=Sledeća slika
+$OF$=od
+$IMAGES$=Slike
+$SLIDE_SHOW$=Slide Show
+$SLIDE_SHOW_SPEED$=Brzina Slide Showa 
+$FAST$=Brzo
+$SLOW$=Polako
+$THUMBNAIL_SCROLL$=Pomeranje sličica
+
+<!-- **************** AlertDialog.htm **************** -->
+$SELECT_FILE_DELETE$=Molimo Vas prvo izaberite fajl ili direktorijum za brisanje.
+$SELECT_FILE_RENAME$=Molimo Vas prvo izaberite fajl ili direktorijum za preimenovanje.
+$RECOMMEND_IE_UPGRADE_1$=Vi koristite stariju verziju programa Microsoft Internet Ekplorera.Internet Ekplorer 8.0 i noviji su mnogo poboljšani.
+$RECOMMEND_IE_UPGRADE_2$=<a class="links" href="http://www.microsoft.com/ie" target="_blank">Kliknite ovde</a> da skinete najnoviju verziju Internet Explorera.
+
+
+<!-- **************** AskUserPlacementDialog.htm **************** -->
+$ASK_USER_TITLE$=Klijentske opcije
+$CLIENT_SELECTION$=Selekcija klijenta
+$USER_PLACEMENT_DESC1$=Izaberite kako želite da pristupite svom nalogu. Web Client je jednostavan za korišćenje , interfejs baziran na pretraživaču.
+$USER_PLACEMENT_DESC2$=FTP Voyager JV omogućava vam da prenos datoteka na i sa ovog servera radite preko tradicionalnog FTP klijent interfejsa.
+$BASIC_WEB_CLIENT$=Web Client
+$FVJV$=FTP Voyager JV
+
+
+<!-- **************** LoggedInDialog.htm **************** -->
+$LOGGED_IN_DIALOG_TITLE$=Trenutno ulogovani
+$LOGGED_IN_DESC$=Trenutno ste ulogovani. Kliknite OK da restartujete Vašu sesiju i logovanje.
+
+
+<!-- **************** FVJVLoggedInDialog.htm **************** -->
+$FVJV_LOGGED_IN_DESC$=Trenutno ste ulogovani.. 
+$FVJV_LOGGED_IN_ACTION$= Kliknite ovde da restartujete Vašu sesiju i logovanje.
+
+
+<!-- **************** UploadProgressDialog.htm **************** -->
+$UPLOAD_PROGRESS$=Progres učitavanja
+$TRANSFER_RATE$=Transfer Rate
+$WRITTEN$=Ispisano
+$REMAINING$=Preostalo
+$TIME_REMAINING$=Preostalo vreme
+$DESTINATION$=Destinacija
+$KB_SEC_LABEL$=KB/sec
+$PLEASE_SELECT_FILE_UPLOAD$=Izaberite fajl za otpremanje koristeći dugme Browse.
+$UPLOADING$=Učitavanje
+$LARGE_FILE_UPLOAD_WARN$=Upload status datoteke veće od 2GB mogu biti nepotpune i / ili netačne zbog Vašeg pretraživača.
+$MOZ_LARGE_FILE_UPLOAD_WARN$=Mozilla pretraživač ne dozvoljava upload fajlova većih od 2GB.
+$UNABLE_TO_UPLOAD$=Web pretraživač nije u stanju da otpremi fajl.Fajl može biti velik za web browser.
+$MOZ_LARGE_FILE_UPLOAD_WARN$
+$WEB_CLIENT_UPLOAD_TXT1$=Da biste otpremili veće datoteke ili pokrenuli više istovremenih transfera, omogućite
+$WEB_CLIENT_UPLOAD_TXT2$=Da biste otpremili veće datoteke ili pokrenuli više istovremenih transfera, pokrenite
+$OR_LAUNCH$=ili pokrenite
+<!-- **************** PasswordRecoveryDialog.htm **************** -->
+$RECOVER_PASSWORD_TITLE$=Povrati lozinku
+$PASSWORD_RECOVERED$=Oporavak Lozinke je bio uspešan. Lozinka je poslata na E-mail.
+$PASSWORD_RECOVER_FAILURE_ERROR$=Oporavak Lozinke neuspešan.  Molim Vas kontaktirajte administratora. 
+
+
+<!-- **************** MFA modal **************** -->
+$MFA_MODAL_TITLE$=Višestruka potvrda identiteta
+$MFA_ADMIN_ENABLED$=Vaš administrator je omogućio višestruku potvrdu identiteta za vašu organizaciju i preporučuje da je podesite.
+$MFA_ADMIN_ENFORCED$=Vaš administrator je nametnuo višestruku potvrdu identiteta za vašu organizaciju. Konfigurišite na sledeći način.
+$MFA_SETUP_HEADER$=Podesite višestruku potvrdu identiteta
+$MFA_SETUP_COMPLETE$=Dovršite sledeće korake da biste konfigurisali MFA za svoju mobilnu aplikaciju.
+$MFA_SETUP_STEP_ONE_INSTALL$=Instalirajte aplikaciju autorizatora na svoj telefon.
+$MFA_SETUP_STEP_ONE_REOMMENDATIONS$=Preporuke
+$MFA_SETUP_STEP_TWO_CHOOSE$=U aplikaciji izaberite da dodate nalog i skenirajte QR šifru.
+$MFA_SETUP_STEP_TWO_SHOW_KEY$=Prikažite tajni ključ za ručnu konfiguraciju.
+$MFA_SETUP_STEP_TWO_HIDE_KEY$=Sakrijte tajni ključ za ručnu konfiguraciju.
+$MFA_SETUP_STEP_TWO_TYPE_KEY$=Unesite tajni ključ za konfiguraciju kada to zatraži aplikacija za MFA.
+$MFA_SETUP_STEP_THREE_NEXT$=Kada je aplikacija konfigurisana, kliknite na Sledeće.
+$MFA_FORM_ENTER$=Unesite šestocifrenu šifru iz aplikacije autorizatora za višestruku potvrdu identiteta i kliknite na Sledeće da biste podesili svoj nalog za MFA.
+$MFA_COPY_TO_CLIPBOARD$=Kopiraj u ostavu
+$MFA_COPIED_TO_CLIPBOARD$=Kopirano u ostavu
+$MFA_FORM_ERROR$=Operacija nije bila uspešna. Pokušajte ponovo!
+$MFA_FORM_TRIES$=Imate još <span class="tries-left"></span> pokušaja. Bićete preusmereni na stranicu za prijavu.
+$MFA_MODAL_SUCCESS$=Višestruka potvrda identiteta je verifikovana!
+$MFA_MODAL_ENTERING$=Ulazak u Serv-U

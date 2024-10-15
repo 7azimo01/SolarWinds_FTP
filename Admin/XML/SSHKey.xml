@@ -1,0 +1,10 @@
+<!--#include "..\..\Common\Strings\Result.strings"-->
+%PRIV_GROUP_ADMIN%
+<?xml version="1.0" encoding="UTF-8" ?>
+<SSHKey>
+<var name="ObjectID" val="%ID%" />
+<var name="SSHPublicKeyName" val="%CSSHPublicKeyFile.%ID%.SSHPublicKeyName%" />
+<var name="SSHPublicKeyFilePath" val="%CSSHPublicKeyFile.%ID%.SSHPublicKeyFilePath%" />
+<var name="Result" val="%RESULT%"/>
+<var name="ResultText" val="%RESULT_TEXT%"/>
+</SSHKey>

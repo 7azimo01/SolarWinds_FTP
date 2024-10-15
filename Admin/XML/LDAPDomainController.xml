@@ -1,0 +1,9 @@
+<!--#include "..\..\Common\Strings\Result.strings"-->
+<?xml version="1.0" encoding="UTF-8" ?>
+<ldapdomain>
+<result>%RESULT%</result>
+<ResultText>%RESULT_TEXT%</ResultText>
+<ErrorCode>%ERROR_CODE%</ErrorCode>
+<ServerName>%SERVER_NAME%</ServerName>
+<BaseDN>%BASE_DN%</BaseDN>
+</ldapdomain>

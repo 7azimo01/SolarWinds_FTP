@@ -1,0 +1,19 @@
+<!--#include "../Common/Strings/Result.strings"-->
+{
+  "hidden": {
+    "ErrorResponse": "%RESULT%",
+    "ResultText": "%RESULT_TEXT%",
+    "CurrentDir": "%CURRENT_DIR%",
+    "CurrentDirIsDrive": "%CURRENT_DIR_IS_DRIVE%",
+    "CurrentDirDriveType": "%CURRENT_DIR_DRIVE_TYPE%",
+    "CurrentDirDriveLabel": "%CURRENT_DIR_DRIVE_LABEL%",
+    "CurrentDirCanUpload": "%CURRENT_DIR_CAN_UPLOAD%",
+    "CurrentDirIsHome": "%CURRENT_DIR_IS_HOME%",
+    "CurrentDirCanCreate": "%CURRENT_DIR_CAN_CREATE_DIR%",
+    "CurrentDirMDate": "%CURRENT_DIR_MDATETIME%",
+    "CurrentDirCDate": "%CURRENT_DIR_CDATETIME%",
+    "CurrentDirADate": "%CURRENT_DIR_ADATETIME%",
+    "AllowMediaPlayback": "%ALLOW_MEDIA_PLAYBACK%",
+    "DirChangeMessage": "%DIR_CHANGE_MESSAGE%"
+  }
+}

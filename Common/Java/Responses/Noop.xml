@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Response>
+<Result>%RESULT%</Result>
+<CaseSensitiveOS>%CASE_SENSITIVE_OS%</CaseSensitiveOS>
+<CsrfToken>%ENC_CSRF_TOKEN%</CsrfToken>
+</Response>

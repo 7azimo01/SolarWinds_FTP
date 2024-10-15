@@ -1,0 +1,23 @@
+<!--#include "../Common/Strings/Result.strings"-->
+{
+    "login": "%LOGIN_ID%",
+    "username": "%USER_FULL_NAME%",
+    "email": "%USER_EMAIL_ADDRESS%",
+    "allowWebClient": %ALLOW_WEB_CLIENT%,
+    "allowFileSharing": %ALLOW_ADHOC_FILE_SHARING%,
+    "allowFVJV": %ALLOW_FTP_VOYAGER_JV%,
+    "isAdmin": %IS_ADMIN%,
+    "isAllowedPasswordChange": %CAN_CHANGE_PASSWORD%,
+    "isAllowedEmailChange": %USER_CAN_SET_EMAIL_ADDRESS%,
+    "isDemo": %IS_DEMO%,
+    "webClientStartupMode": %USER_WEB_CLIENT_STARTUP_MODE%,
+	"isAdHoc": %CUser.%USER_ID%.IsAdHoc%,
+    "allowedUploadSource": "%CUser.%USER_ID%.AdHocAllowedOutgoingSource%",
+    "allowedNotifyAfterGuestDownload": "%CUser.%USER_ID%.NotifyAfterGuestDownload%",
+    "allowedNotifyAfterGuestUpload": "%CUser.%USER_ID%.NotifyAfterGuestUpload%",
+    "allowCustomContactInfoInFileShare": "%CUser.%USER_ID%.AllowCustomContactInfo%",
+    "mfaTotpStatus": "%USER_TOTP_STATUS%",
+    "mfaUriBarcodeUrl": "%USER_TOTP_URI_BAR_CODE_URL%",
+    "mfaTotpSecret": "%USER_TOTP_SECRET%",
+    "totpLoginTriesLeft": "%CHTTPSession.%SESSION_ID%.TOTPLoginTriesLeft%"
+}

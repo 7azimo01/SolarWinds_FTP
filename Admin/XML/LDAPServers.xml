@@ -1,0 +1,16 @@
+%PRIV_GROUP_ADMIN%
+<?xml version="1.0" encoding="UTF-8" ?>
+<response>
+<servers>
+%DELETE_LIST_STRINGS%
+%ADD_LIST_STRING% <server listitem="%LIST_ITEM%">
+%ADD_LIST_STRING% <Host>%CLDAPServer.%LIST_ID%.Host%</Host>
+%ADD_LIST_STRING% <Port>%CLDAPServer.%LIST_ID%.Port%</Port>
+%ADD_LIST_STRING% <Description>%CLDAPServer.%LIST_ID%.Description%</Description>
+%ADD_LIST_STRING% <Enabled>%CLDAPServer.%LIST_ID%.Enabled%</Enabled>
+%ADD_LIST_STRING% <ID>%LIST_ID%</ID>
+%ADD_LIST_STRING% </server>
+%CDomain.%ID%.LDAPServer.List%
+</servers>
+<listresult>%LIST_RESULT%</listresult>
+</response>

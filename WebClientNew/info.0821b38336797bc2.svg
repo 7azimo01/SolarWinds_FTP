@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>i/general/info</title>
+    <g id="i/general/info" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+      <circle stroke="#0079AA" stroke-miterlimit="10" cx="10" cy="10" r="9.5"></circle><path fill="#0079AA" d="M9,5h2v2H9V5z M9,15h2V9H9V15z"></path>
+    </g>
+</svg>

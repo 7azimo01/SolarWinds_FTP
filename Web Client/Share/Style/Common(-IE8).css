@@ -1,0 +1,67 @@
+#topTitleStep
+{
+	padding-left: 5px;
+	position: relative;
+	top: -2px;
+}
+.Refreshico
+{
+	position: relative;
+	top: -20px;
+	margin-right: 5px;
+}
+.rowHeaderShares
+{
+	clear: both;
+}
+.colImgConsole
+{
+    top: 0px;
+}
+.wizardBtmBttns button
+{
+	margin-right: 4px;
+}
+.RefreshLabel
+{
+	position: relative;
+	top: -20px;
+}
+.deleteShareImg
+{
+	top: 3px;
+}
+.expireWarningImg
+{
+	top: 1px;
+}
+#FileSharePword
+{
+	position: relative;
+	top: 2px;
+	left: 0px;
+}
+.Adhocheadlinks
+{
+	margin-top: 28px;
+}
+.expireWarningDiv
+{
+	margin-top: 30px;
+}
+.ShareBottomBoxBtn
+{
+	margin-top: 30px;
+}
+.ShareFileDownload
+{
+	margin-top: 8px;
+}
+.ShareFileDelete
+{
+	margin-top: 8px;
+}
+.dlimg
+{
+	padding-top: 12px;
+}

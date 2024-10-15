@@ -1,0 +1,27 @@
+%PRIV_GROUP_ADMIN%
+<?xml version="1.0" encoding="UTF-8" ?>
+<response>
+<gateways>
+%DELETE_LIST_STRINGS%
+%ADD_LIST_STRING% <gateway listitem="%LIST_ITEM%">
+%ADD_LIST_STRING% <IP>%CGateway.%LIST_ID%.IP%</IP>
+%ADD_LIST_STRING% <Status>%CGateway.%LIST_ID%.Status%</Status>
+%ADD_LIST_STRING% <Enabled>%CGateway.%LIST_ID%.Enabled%</Enabled>
+%ADD_LIST_STRING% <PublicIP>%CGateway.%LIST_ID%.PublicIP%</PublicIP>
+%ADD_LIST_STRING% <Description>%CGateway.%LIST_ID%.Description%</Description>
+%ADD_LIST_STRING% <PublicIPs>%CGateway.%LIST_ID%.PublicIPs%</PublicIPs>
+%ADD_LIST_STRING% <GatewayVersion>%CGateway.%LIST_ID%.GatewayVersion%</GatewayVersion>
+%ADD_LIST_STRING% <InstallTime>%CGateway.%LIST_ID%.InstallTime%</InstallTime>
+%ADD_LIST_STRING% <ReggieName>%CGateway.%LIST_ID%.ReggieName%</ReggieName>
+%ADD_LIST_STRING% <ReggieEmail>%CGateway.%LIST_ID%.ReggieEmail%</ReggieEmail>
+%ADD_LIST_STRING% <ReggieTime>%CGateway.%LIST_ID%.ReggieTime%</ReggieTime>
+%ADD_LIST_STRING% <ReggieDays>%CGateway.%LIST_ID%.ReggieDays%</ReggieDays>
+%ADD_LIST_STRING% <TrialDaysRemaining>%CGateway.%LIST_ID%.TrialDaysRemaining%</TrialDaysRemaining>
+%ADD_LIST_STRING% <BuildDate>%CGateway.%LIST_ID%.BuildDate%</BuildDate>
+%ADD_LIST_STRING% <UpdateDaysRemaining>%CGateway.%LIST_ID%.UpdateDaysRemaining%</UpdateDaysRemaining>
+%ADD_LIST_STRING% <ID>%LIST_ID%</ID>
+%ADD_LIST_STRING% </gateway>
+%CServer.%SERVER_ID%.Gateway.List%
+</gateways>
+<listresult>%LIST_RESULT%</listresult>
+</response>

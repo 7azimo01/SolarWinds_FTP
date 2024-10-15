@@ -1,0 +1,9 @@
+<!--#include "..\..\Common\Strings\Result.strings"-->
+%PRIV_GROUP_ADMIN%
+<?xml version="1.0" encoding="UTF-8" ?>
+<stats>
+<ResetStats>%CUser.%ID%.ResetUserStats%</ResetStats>
+<result>%RESULT%</result>
+<ResultText>%RESULT_TEXT%</ResultText>
+<UnloadResult>%%%CUser.%ID%.Parent%.Parent%.UnloadUser%</UnloadResult>
+</stats>

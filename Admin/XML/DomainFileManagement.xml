@@ -1,0 +1,17 @@
+%PRIV_GROUP_ADMIN%
+<?xml version="1.0" encoding="UTF-8" ?>
+<response>
+<filemanagementrules>
+%DELETE_LIST_STRINGS%
+%ADD_LIST_STRING% <filemanagementrule listitem="%LIST_ITEM%">
+%ADD_LIST_STRING% <RuleType>%CFileManagementRule.%LIST_ID%.RuleType%</RuleType>
+%ADD_LIST_STRING% <SourcePath>%CFileManagementRule.%LIST_ID%.SourcePath%</SourcePath>
+%ADD_LIST_STRING% <TargetPath>%CFileManagementRule.%LIST_ID%.TargetPath%</TargetPath>
+%ADD_LIST_STRING% <ExpireDays>%CFileManagementRule.%LIST_ID%.ExpireDays%</ExpireDays>
+%ADD_LIST_STRING% <Enabled>%CFileManagementRule.%LIST_ID%.Enabled%</Enabled>
+%ADD_LIST_STRING% <ID>%LIST_ID%</ID>
+%ADD_LIST_STRING% </filemanagementrule>
+%CDomain.%ID%.FileManagementRule.List%
+</filemanagementrules>
+<listresult>%LIST_RESULT%</listresult>
+</response>

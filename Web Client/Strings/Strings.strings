@@ -1,0 +1,684 @@
+﻿<!-- Strings.strings - For ease of localization, strings have been separated into this file.  Place all localizable strings here. -->
+<!-- NOTE: assignments require left justification and the assignment to appear as "$=" without whitespace between the $ and =. -->
+<!-- File location: <<Install>>\Client\Web Client\Include\ -->
+
+<!-- ************ Product Information *********** -->
+$PRODUCT_NAME$=Serv-U
+$ABOUT_PRODUCT$=About $PRODUCT_NAME$
+$PRODUCT_FILE_SHARING_NAME$=$PRODUCT_NAME$ File Sharing
+$PRODUCT_FILE_SHARE_NAME$=$PRODUCT_FILE_SHARING_NAME$
+
+
+<!-- General -->
+$CLICK_HERE_CURRENT_DIR$=<a href="#" onclick="goBackWithRefresh();">Click here to list your current directory.</a>
+$WARN_IMAGE$=<img src="%FILE%Images\warn.gif" style="float:left;">
+$DELETE$=Delete
+$OPEN$=Open
+$CURRENTLY_LOCATED$=Currently located in
+$USE_INHERITED$=Inherit default value
+$NO_SCRIPT_TEXT$=It appears that your browser is not enabled to run JavaScript.  This page requires that JavaScript is enabled.
+$PLEASE_ENTER_USER_NAME$=Please enter a login ID.
+$FOLDER_SIZE$=Folder Size
+$DIR_PROPERTIES$=Directory Properties
+$MODIFIED_TIME$=Modified
+$CREATED_TIME$=Created
+$LAST_ACCESSED_TIME$=Last Accessed
+$DONT_SHOW_AGAIN$=Do not show this message again.
+$PLEASE_SELECT_FILE_UPLOAD_MOBILE$=Please choose a file to upload
+$LOGGED_IN$=Logged in
+$IMAGE_DIALOG_WIDTH$=620
+$MOBILE_LOGIN_BTN_WIDTH$=100
+$MORE_ACTIONS$=More Actions
+$NO_FAVS$=No Favorites
+$SMALL$=Small
+$MEDIUM$=Medium
+$LARGE$=Large
+$SMALL_THUMBS$=Small Thumbs
+$MEDIUM_THUMBS$=Medium Thumbs
+$LARGE_THUMBS$=Large Thumbs
+
+
+<!-- Menu Text -->
+$SHOW_NO_LABELS$=No Text Labels
+$SHOW_ALL_LABELS$=Show Text Labels
+$SHOW_SELECTIVE_LABELS$=Selective Text on Right
+
+
+<!-- Login -->
+$LOGIN_TITLE$=Serv-U
+$LANGUAGE$=Language
+$PASSWORD$=Password
+$LOGIN$=Login
+$CHANGE_PASSWORD$=Change Password
+$REMEMBER_USER$=Remember me
+$RELOAD$=Reload
+$JSCRIPT_DISABLED_WARN$=Javascript is disabled in your browser settings.  To use Serv-U File Server javascript must be enabled. <br /><br />Click on "Reload" below after javascript has been enabled in your browser settings.
+$IE_NOT_COMPATIBLE_WARN$=You are using an incompatible version of Internet Explorer. Serv-U is compatible with the following browsers:
+$BROWSER_NOT_COMPATIBLE_WARN$=The browser you are using is incompatible with the current version of Serv-U.  Please use either Internet Explorer 8.0+, Firefox, Chrome, Safari 3+ or Opera 9+.
+$IE_NOT_COMPATIBLE_WARN_ADMIN$=Serv-U is compatible with the following browsers:
+$IE_NOT_COMPATIBLE_SOLUTIONS$=The browser you are using is incompatible with Serv-U. See list of possible solutions to resolve this issue:
+$IE_NOT_COMPATIBLE_SOLUTIONS_LI1$=Upgrade Internet Explorer to version 8 or greater.
+$IE_NOT_COMPATIBLE_SOLUTIONS_LI2$=Disable compatibility mode for Internet Explorer.
+$IE_NOT_COMPATIBLE_SOLUTIONS_LI3$=Use a different compatible browser from list below. Set the browser as the default and configure the Serv-U Tray to use the system browser.
+
+
+<!-- Languages -->
+$ENGLISH$=English
+$GERMAN$=Deutsch (German)
+$ITALIAN$=Italiano (Italian)
+$FRENCH$=Français (French)
+$SPANISH$=Español (Spanish)
+$PORTUGUESE$=Português (Portuguese)
+$SERBIAN$=Srpski (Serbian)
+$SWEDISH$=Svenska (Swedish)
+$FINISH$=Suomi (Finnish)
+$NORWEGIAN$=Norsk (Norwegian)
+$DANISH$=Dansk (Danish)
+$RUSSIAN$=Русский (Russian)
+$TRADITIONAL_CHINESE$=繁體中文 (Traditional Chinese)
+$SIMPLIFIED_CHINESE$=简体中文 (Simplified Chinese)
+$JAPANESE$=日本語 (Japanese)
+
+
+<!-- Logout -->
+$LOGOUT_TITLE$=Logged Out
+$LOGOUT_DESC$=You have been logged out.  <a href="%LOGIN%">Click here to login again.</a>
+$LOGGED_OUT_MSG$=You have been logged out.
+
+
+<!-- Login Change Password -->
+$PASSWORD_EXPIRED_TITLE$=Password Expired - Change Password
+$PASSWORD_EXPIRED_DESC$=Your password is expired, please change your password before continuing.
+
+
+<!-- Session Not Found -->
+$SESSION_NOT_FOUND_TITLE$=Unauthorized - Session Not Found
+$SESSION_NOT_FOUND_HEAD$=401 Unauthorized, session specified but doesn't exist
+$SESSION_NOT_FOUND_DESC$=The specified session does not exist.  This may be due to a long period of inactivity.  Try logging in again.
+
+
+<!-- Not Logged In -->
+$NOT_LOGGED_IN_TITLE$=Unauthorized - Not Logged In
+$NOT_LOGGED_IN_HEAD$=401 Unauthorized, you are not logged in
+$NOT_LOGGED_IN_DESC$=You are not authorized to perform the requested operation.  <a href="%LOGIN%">Please login before attempting this operation.</a>
+
+
+<!-- Permission Denied -->
+$PERMISSION_DENIED_TITLE$=Permission denied
+$PERMISSION_DENIED_DESC$=Permission denied
+
+
+<!-- Secure Connection Required -->
+$SECURE_CONN_REQUIRED_TITLE$=Connection Error - Secure Connection Required
+
+
+<!-- Listing -->
+$CURR_DIR_NAME$=%CURRENT_DIR_NAME%
+$MOD_TIME$=Time
+$ATTRS$=Attributes
+$THUMBNAIL_LIST$=Thumbnails
+$UPLOAD_ACTION$=Upload
+$UPLOAD$=Upload
+$UPLOAD_ALT$=Upload
+$THUMBNAILS_ALT$=Thumbnails
+$DETAILS_ALT$=Details
+$CREATE_DIR_ALT$=Create Directory
+$FILETOOLS$=Tools
+$DOWNLOAD$=Download
+$THUMBNAIL_SIZE$=Thumbnail Size
+$SELECT_THUMBNAIL_SIZE$=Select Size
+$PREVIEW_IMAGE$=Preview Image
+$CHANGE_PASSWORD_BUTTON$=Change Password
+$CHANGE_EMAIL_BUTTON$=Change Email Address
+$FILE_PATH$=File Path
+$PLAY_MEDIA$=Play Media
+$PLAY_LIST$=Play List
+$AUDIO_PLAY_LIST$=Audio Playlist
+$PLAYLIST_SIZE$=Playlist Size
+$SHUFFLE_PLAYLIST$=Shuffle Playlist
+$NEXT_MEDIA_FILE$=Next Media File
+$PREVIOUS_MEDIA_FILE$=Previous Media File
+$HOME$=Home
+$FOLDER_EMPTY$=Folder is empty
+$BACK$=Back
+$FORWARD$=Forward
+$HISTORY_LIST$=History List
+$SEARCH_ACTION$=Search
+$SEARCH_IN$=Search in
+$SEARCHING_FOR$=Searching for
+$SEARCH_OPTIONS$=Search Options
+$SEARCHING$=Searching
+$CLEAR_SEARCH$=Clear Search
+$SEARCH_CANCELED$=Search canceled
+$SEARCH_RESULTS_IN$=Search results in
+$NO_FILES_FOUND$=No files found.
+$HTTP_MEDIA_PLAY_DISABLED$=HTTP media playback has been disabled by the administrator.
+$DISABLE_WEB_CLIENT_PRO$=Disable Web Client Pro
+$ENABLE_WEB_CLIENT_PRO$=Enable Web Client Pro
+$WEB_CLIENT_PRO$=Web Client Pro
+$WAIT_BUTTON$=Wait
+$DIRS_AND_FILES$=Directories and Files
+$FILES_ONLY$=Files Only
+$DIRS_ONLY$=Directories Only
+$SORTING$=Sorting
+$LOADING_WCP$=Cancel loading Web Client Pro...
+$LOADING$=Loading
+$LOADING_DIR_LISTING$=Loading contents...
+
+<!-- Check Java Runtime Dialog -->
+$CHECK_JRE_DLG_TITLE$=Verify Java Runtime
+$CHECK_JRE_DLG_MSG$=We detected that your browser has an older version of the Java Runtime Environment (JRE).  To help you ensure Web Client Pro can run properly within your environment, please follow one of the options below:
+$CHECK_JRE_DLG_OPT_1$=1. <strong>(Recommended)</strong> Install the latest version of the Java Runtime Environment from Oracle which can be found at <a href="http://www.java.com/">www.java.com</a>.
+$CHECK_JRE_DLG_OPT_2$=2. Lower your "Security Settings" within the Java Control Panel.  More detailed instructions can be found at <a href="http://www.serv-u.com/kb/2140">http://www.serv-u.com/kb/2140</a>.
+$CHECK_JRE_DLG_CONTINUE_MSG$=Do you want to continue loading Web Client Pro within your environment?
+
+<!-- Web Client Transfer Applet -->
+$XFER_APPLET_PRODUCT_NAME$=Serv-U Web Client Pro
+$XFER_APPLET_SHOW_IN_FOLDER$=Show in Folder
+$XFER_APPLET_OPEN_FILE$=Open File
+$XFER_APPLET_STOP_AFTER$=Stop After File Completes
+$XFER_APPLET_SKIP$=Skip File
+$XFER_APPLET_PAUSE$=Pause
+$XFER_APPLET_RESUME$=Resume
+$XFER_APPLET_START$=Start
+$XFER_APPLET_RESTART$=Restart / Relist
+$XFER_APPLET_CANCEL$=Cancel
+$XFER_APPLET_REMOVE$=Remove
+$XFER_APPLET_REMOVE_COMPLETED$=Remove Completed
+$XFER_APPLET_OPTIONS_DLG$=Options
+$XFER_APPLET_ABOUT_DLG$=About
+$XFER_APPLET_ENABLE_TITLE$=Enable Web Client Pro
+$XFER_APPLET_LOADING$=Serv-U's Web Client Pro plug-in allows you to drag-and-drop files (Windows-only), transfer multiple files, transfer very large files (>4GB) and control long-running transfers.<br><br>Web Client Pro requires Java. Please install it from <a href="http://www.java.com/" target="_blank">Oracle's Java site</a> if Java is missing.<br><br>Please click "Run", "OK", etc. on the next few dialogs to set up the Web Client Pro plug-in.
+$XFER_NO_JAVA_WARNING$=The Java Runtime Environment (JRE) could not be detected on this computer.  Please follow the steps printed in the Web Client Pro help section for information on installing the Java Runtime Environment.
+$XFER_NO_SUPPORT_ON_MAC$=This web browser on Macintosh OS doesn't meet the requirements of Web Client Pro.<br><br>If you would like to use Web Client Pro, please use an alternate browser.  Web Client Pro is supported with 64-bit browsers that are able to run 64-bit Java Runtumes (e.g., Safari on Mac OS X).
+$XFER_NO_SUPPORT_ON_SAF_WIN$=The Safari browser on Windows does not meet the requirements of Web Client Pro.<br><br>To use Web Client Pro, please use an alternate browser, such as Internet Explorer, Firefox, Google Chrome, or Opera.
+$MULTI_TRANS_BALLOON_TIP$=You can click the \"Enable Web Client Pro\" button below to activate the ability to simultaneously upload and download multiple files and directories.
+$XFER_APPLET_REMOVE_CANCELLED$=Remove Cancelled
+$WCP_NO_FILE_SYS_ACCESS$=Web Client Pro was unable to access your local file system.  Please try a different browser.
+$WCP_CONFIRM_OPENJDK$=<b>IMPORTANT:</b>  The IcedTea browser plugin installed on Linux is incompatible with Web Client Pro.<br><br>We recommend installing Oracle's Java Runtime Environment (JRE) as an alternative to the OpenJDK Runtime.  <a href="http://%HELP_BASE_URL%/documentation/serv-u-webclient/help.aspx?topic=Help-WCP-Java.htm" target="_blank">Click here for instructions</a> on how to install the Oracle JRE on Linux/Unix operating systems.
+$WCP_CONFIRM_OPENJDK_OK_BTN$=Continue - I Have Oracle's JRE Installed
+$WCP_CONFIRM_OPENJDK_CANCEL_BTN$=Cancel - Don't Start Web Client Pro
+$XFER_APPLET_REMOVE_SKIPPED$=Remove Skipped
+$XFER_APPLET_REMOVE_PAUSED$=Remove Paused
+$XFER_APPLET_REMOVE_WAITING$=Remove Waiting
+$XFER_APPLET_REMOVE_STOPPED$=Remove Stopped
+$XFER_APPLET_REMOVE_ALL$=Remove All
+$CONFIRM_WCP_QUIT$=Web Client Pro is currently processing an operation.  This action will stop the operation.<br><br>Are you sure you want to cancel this operation?
+
+
+<!-- Thumbnail Listing -->
+$DETAIL_LIST$=Details View
+
+
+<!-- STOR File Uploaded -->
+$STOR_FILE_UPLOADED_TITLE$=File Uploaded
+$STOR_FILE_UPLOADED_DESC$=The file has been successfully uploaded.<br><br>$CLICK_HERE_CURRENT_DIR$
+
+
+<!-- Rename -->
+$RENAME_TITLE$=Rename
+$RENAME_DESC$=Enter the new name:
+$NEW_NAME$=New Name
+$RENAME$=Rename
+
+
+<!-- Delete -->
+$DELETE_DIR$=Are you sure you want to delete the selected directory?
+$DELETE_FILE$=Are you sure you want to delete the selected file?
+
+
+<!-- Style Swap Properties -->
+$BOX_WIDTH_SMALL$=boxwidth300
+
+
+<!-- Overwrite file on upload -->
+$OVERWRITE_FILE$=Are you sure you want to overwrite this file?
+
+<!-- Search -->
+$FILE_SEARCH_DESC$=All or part of the file name
+$FILE_SEARCH_TITLE$=File Search
+$SEARCH_SAMPLES$=Examples: *.jpg, *IMG_*, [abc].txt, ???.gif
+$SEARCH_IN_FILE_AND_DIRS$=Search in files and directories.
+$SEARCH_IN_FILES_ONLY$=Search in files.
+$SEARCH_IN_DIRS_ONLY$=Search in directories.
+$SEARCH_RESULTS$=Search Results
+
+
+<!-- Drag and Drop Move File -->
+$DRAG_DROP_CANNOT_MOVE_FILE$=The destination directory is the same as the current directory. Please select a different directory to move the file to.
+$CONFIRM_MOVE_FILE_FROM$=Are you sure you want to move
+$TO$=to
+
+
+<!-- **************** ImagePreviewDialog.htm **************** -->
+$IMAGE_DIALOG_TITLE$=Preview Image
+$PREVIOUS_IMAGE$=Previous Image
+$PAUSE_SLIDESHOW$=Pause Slide Show
+$PLAY_SLIDESHOW$=Play Slide Show
+$NEXT_IMAGE$=Next Image
+$OF$=of
+$IMAGES$=Images
+$IMAGE$=Image
+$SLIDE_SHOW$=Slide Show
+$SLIDE_SHOW_SPEED$=Slide Show Speed
+$FAST$=Fast
+$SLOW$=Slow
+$THUMBNAIL_SCROLL$=Thumbnail Scroll
+
+
+<!-- **************** AlertDialog.htm **************** -->
+$SELECT_FILE_DELETE$=Please first select a file or directory to delete.
+$SELECT_FILE_RENAME$=Please first select a file or directory to rename.
+$RECOMMEND_IE_UPGRADE_1$=You are using an older version of Microsoft Internet Explorer. Internet Explorer 8.0 and greater include many performance and feature enhancements to improve your experience.
+$RECOMMEND_IE_UPGRADE_2$=<a class="links" href="http://www.microsoft.com/ie" target="_blank">Click here</a> to download the latest version of Internet Explorer.
+
+
+<!-- **************** AskUserPlacementDialog.htm **************** -->
+$ASK_USER_TITLE$=Access Serv-U
+$CLIENT_SELECTION$=Client Selection
+$USER_PLACEMENT_DESC1$=Select how you would like to access your account.
+$USER_PLACEMENT_DESC1_1$=Upload and download files.
+$USER_PLACEMENT_DESC1_2$=New application to upload and download files.
+$USER_PLACEMENT_DESC2$=Transfer files between servers.
+$USER_PLACEMENT_DESC3$=Share files to users outside of Serv-U.
+$USER_PLACEMENT_DESC2_2$=New application to share to users outside of Serv-U.
+$USER_PLACEMENT_DESC_ALL_DISABLED$=No interfaces are available to you.  Please contact your system administrator.
+$BASIC_WEB_CLIENT$=Web Client
+$WEB_CLIENT_NEW$=New Web Client
+$WEB_CLIENT_SHARE_NEW$=New File Sharing
+$FVJV$=FTP Voyager JV
+$FILE_SHARING$=File Sharing
+$SWITCH_PLACEMENT_ANYTIME$=You can switch between applications/interfaces at any time.
+$OK_CONT_BUTTON$=Continue
+
+
+<!-- **************** LoggedInDialog.htm **************** -->
+$LOGGED_IN_DIALOG_TITLE$=Currently Logged In
+$LOGGED_IN_DESC$=You are currently logged in. Click OK to restart your session and login.
+
+
+<!-- **************** FVJVLoggedInDialog.htm **************** -->
+$FVJV_LOGGED_IN_DESC$=You are currently logged in.
+$FVJV_LOGGED_IN_ACTION$=Click here to restart your session and login.
+
+
+<!-- **************** UploadProgressDialog.htm **************** -->
+$UPLOAD_PROGRESS$=Upload Progress
+$TRANSFER_RATE$=Transfer Rate
+$WRITTEN$=Written
+$REMAINING$=Remaining
+$TIME_REMAINING$=Time Remaining
+$DESTINATION$=Destination
+$KB_SEC_LABEL$=KB/sec
+$PLEASE_SELECT_FILE_UPLOAD$=Please select a file to upload using the browse button.
+$UPLOADING$=Uploading
+$LARGE_FILE_UPLOAD_WARN$=The upload status of files larger than 4GB may be incomplete and/or inaccurate due to your web browser.
+$MOZ_LARGE_FILE_UPLOAD_WARN$=Some browsers may not allow the upload of files larger than 4GB.
+$UNABLE_TO_UPLOAD$=The web browser was unable to upload the file.  The file may be to large for the web browser you are using.  $MOZ_LARGE_FILE_UPLOAD_WARN$
+$WEB_CLIENT_UPLOAD_TXT1$=To upload larger files or initiate multiple concurrent transfers, enable
+$WEB_CLIENT_UPLOAD_TXT2$=To upload larger files or initiate multiple concurrent transfers, launch
+$OR_LAUNCH$=or launch
+
+
+<!-- **************** PasswordRecoveryDialog.htm **************** -->
+$RECOVER_PASSWORD_TITLE$=Recover Password
+$PASSWORD_RECOVERED$=The password for the provided Login ID has been emailed to the address on record.  If you do not receive your password, check your Spam folder or verify your Login ID is correct.
+$PASSWORD_RECOVER_FAILURE_ERROR$=Password recovery failed.  Please contact your administrator for assistance.
+
+<!-- **************** File Share **************** -->
+
+<!-- Reusables -->
+
+$OPTIONAL$=(optional)
+$IN$=in
+$DAYS$=days
+$HOURS$=hours
+$ADD_MORE_FILES$=Add more files
+$CONTINUE$=Continue
+$CANCEL$=Cancel
+$ENTER$=Enter
+$ON_THIS_SPECIFIC_DATE$=on this specific date
+$CHOOSE_DATE_BUTTON$=Select date
+$EXPIRES$=expires
+$NEVER_EXPIRES$=Never Expires
+$NEVER$=never
+$EXPIRED$=Expired
+$DONE$=Done
+$FORMAT_TIMESTAMP_FOR_DATE_TIME$=$Date $Time
+$DAILY_ACTIVITY$=Daily Activity
+$LEARN_MORE$=Learn More
+$JUMP_TO$=Jump to
+$UNDISCLOSED_RECIPIENTS$=Undisclosed recipients
+$SAVE$=Save
+$UPDATE$=Update
+
+
+<!-- NOTE:  05/03/2013 - We had a discussion about a/b testing the text that is shown the user when launching the wizards. -->
+<!-- Send File to Guest			vs.		Send Files -->
+<!-- Request Files From Guest	vs.		Request Files -->
+$ADHOC_BTN_SEND_FILES$=Send Files
+$ADHOC_BTN_REQUEST_FILES$=Request Files
+
+$ADHOC_WIZ_BTN_BACK$=Back
+$ADHOC_WIZ_BTN_NEXT$=Next
+$ADHOC_WIZ_BTN_UPLOAD$=Upload
+$ADHOC_WIZ_BTN_DONE$=Done
+
+$ADHOC_CREATE_EMAIL$=Generate Email
+
+$STEP_1_OF_2$=(Step 1 of 2)
+$STEP_2_OF_2$=(Step 2 of 2)
+$UPLOAD_FILES$=Upload Files
+
+<!-- **************** File Share: Creation Wizards **************** -->
+
+$ADHOC_WIZARD_OUTGOING_TITLE_1$=Send Files to Guest User
+$ADHOC_WIZARD_OUTGOING_DESC_1$=Enter email details and other information to be included with the uploaded file(s).  Email will be sent to the guest user(s) with a link that grants them access to the uploaded file(s).  For added security, set a custom or a system generated password, and specify a download link expiration time or date.
+
+$ADHOC_WIZARD_OUTGOING_TITLE_2$=Send Files to Guest User:  Upload Files
+$ADHOC_WIZARD_OUTGOING_DESC_2$=Upload up to $MaxNumOfFiles files in one file share.
+$ADHOC_WIZARD_OUTGOING_DESC_2_IE$=Please note that some browsers only support file uploads up to 4GB in size.
+
+$ADHOC_WIZARD_INCOMING_TITLE_1$=Request Files From Guest User
+$ADHOC_WIZARD_INCOMING_DESC$=Invite a guest user to temporarily access $PRODUCT_FILE_SHARING_NAME$ to upload files. The user will receive a link, via email, that grants them access to upload files. For added security, there are options to set the page link expiration, add file constraints and a password.
+
+$ADHOC_WIZARD_SECTION_EMAIL_INFO$=Guest Email Addresses
+$ADHOC_WIZARD_SECTION_SHARE_INFO$=Share Information
+$ADHOC_WIZARD_SECTION_CONTACT_INFO$=My Contact Information
+$ADHOC_WIZARD_SECTION_LINK_EXPIRATION$=Serv-U Access Link Expiration
+$ADHOC_WIZARD_SECTION_OTHER_SETTINGS$=Other Settings
+
+$ADHOC_WIZARD_GUEST_EMAIL_ADDRESSES$=User emails who need access to this share (comma separated)
+$ADHOC_WIZARD_EMAIL_SUBJECT$=Subject
+$ADHOC_WIZARD_COMMENTS$=Comments
+
+$ADHOC_WIZARD_USER_NAME$=Name
+$ADHOC_WIZARD_USER_EMAIL$=Email Address
+
+$ADHOC_WIZARD_OUTGOING_LINK_SHOULD_EXPIRE$=The link to download files should expire:
+$ADHOC_WIZARD_INCOMING_LINK_SHOULD_EXPIRE$=The link to upload files should expire:
+
+$ADHOC_WIZARD_LINK_SHOULD_EXPIRE_ON_DATE$=$ON_THIS_SPECIFIC_DATE$
+$ADHOC_WIZARD_LINK_EXPIRE_NOTE$=<strong>Note:</strong>  Expiration dates help keep your files more secure by limiting access.
+
+$ADHOC_WIZARD_OUTGOING_NOTIFY_USER$=Notify me when the file(s) have been downloaded
+$ADHOC_WIZARD_OUTGOING_AUTO_SEND_EMAIL$=Automatically send the download link to the guest user(s) in an email
+$ADHOC_WIZARD_OUTGOING_COPY_EMAIL_TO_USER$=Send me an email copy with the download link
+
+$ADHOC_WIZARD_INCOMING_NOTIFY_USER$=Notify me when the file(s) have been uploaded
+$ADHOC_WIZARD_INCOMING_AUTO_SEND_EMAIL$=Automatically send the upload link to the guest user(s) in an email
+$ADHOC_WIZARD_INCOMING_COPY_EMAIL_TO_USER$=Send me an email copy with the upload link
+
+$ADHOC_WIZARD_INCOMING_CONSTRAIN_FILE_SIZE$=Constrain individual file sizes to:
+
+$ADHOC_WIZARD_PWORD_PROTECT_SHARE$=Require the guest to enter this password to access Serv-U.
+$ADHOC_WIZARD_PWORD_PROTECT_HINT$=(To generate a password, click on the key button)
+$ADHOC_WIZARD_INCLUDE_PWORD_IN_EMAIL$=Include the password in the email (less secure)
+$ADHOC_WIZARD_PWORD_PROTECT_NOTE$=<strong>Note:</strong>  Your passwords are not recoverable. In the case of a lost password, the invitation would need to be resent with a new password.
+$ADHOC_WIZARD_PWORD_PROTECT_NOTE2$=$ADHOC_WIZARD_PWORD_PROTECT_NOTE$  Selecting \"Update\" will send out new invitations if you have any recipients defined.
+
+$ADHOC_WIZARD_INCOMING_SEND_REQUEST$=Send Request
+
+$ADHOC_ADMIN_SET_LIMIT_CANNOT_MODIFY$=This option has been set by the system administrator and cannot be modified.
+$ADHOC_ADMIN_SET_LIMIT_AT_MAX_VALUE$=The maximum value of this option has been set by the system administrator.
+$ADHOC_ADMIN_SET_LIMIT_PWORD_REQUIRED$=The system administrator is requiring a password to be set for this file share.
+
+<!-- **************** File Share: Creation Wizards - Confirmations **************** -->
+
+$ADHOC_WIZ_SUMMARY_DESC_NO_RECIPIENTS$=You did not disclose any recipients for this file share.  You must manually give this link to your recipients.
+$ADHOC_WIZ_SUMMARY_DESC_NO_RECIPIENTS2$=You did not disclose any recipients for this file share.  You must manually give this link to your recipients and don't forget to include the password ($Password).
+
+$ADHOC_WIZARD_OUTGOING_CONFIRM_SHARE_DESC$=You have sent a link to <strong>$Recipients</strong> to download files.  The link will expire on <strong>$AdhocShareExpires</strong>.
+$ADHOC_WIZARD_OUTGOING_CONFIRM_SHARE_MANUAL_DESC$=An invitation email has <strong>NOT</strong> been sent to the recipients of this file share.  You must do this manually.  The link will expire on <strong>$AdhocShareExpires</strong>.
+$ADHOC_WIZARD_OUTGOING_CONFIRM_SHARE_MANUAL_DESC2$=An invitation email has <strong>NOT</strong> been sent to the recipients of this file share.  You must do this manually and don't forget to include the password ($Password).  The link will expire on <strong>$AdhocShareExpires</strong>.
+$ADHOC_WIZARD_OUTGOING_CONFIRM_SHARE_URL_DESC$=This URL will provide access to download your files:
+
+$ADHOC_WIZARD_INCOMING_CONFIRM_SHARE_TITLE$=Confirmation
+$ADHOC_WIZARD_INCOMING_CONFIRM_SHARE_DESC$=You have sent a link to <strong>$Recipients</strong> to upload files.  The link will expire on <strong>$AdhocShareExpires</strong>.
+$ADHOC_WIZARD_INCOMING_CONFIRM_SHARE_MANUAL_DESC$=An invitation email has <strong>NOT</strong> been sent to the recipients of this file share.  You must do this manually.  The link will expire on <strong>$AdhocShareExpires</strong>.
+$ADHOC_WIZARD_INCOMING_CONFIRM_SHARE_MANUAL_DESC2$=An invitation email has <strong>NOT</strong> been sent to the recipients of this file share.  You must do this manually and don't forget to include the password ($Password).  The link will expire on <strong>$AdhocShareExpires</strong>.
+$ADHOC_WIZARD_INCOMING_CONFIRM_SHARE_URL_DESC$=<strong>This URL will provide access to your guest user(s) to upload files:</strong>
+
+$ADHOC_WIZARD_CONFIRM_CANCEL_TITLE$=Cancel?
+$ADHOC_WIZARD_CONFIRM_CANCEL_DESC$=Are you sure you want to cancel your invitation to $Recipients?
+
+
+<!-- **************** File Share: Creation Wizards - Validation errors **************** -->
+$ADHOC_WIZARD_ERR_GENERIC$=Please correct all errors within this form before moving onto the next page.
+$ADHOC_WIZARD_ERR_EMAIL_LINK_IS_ON_WITH_NO_GUESTS$=$PRODUCT_NAME$ cannot send the link to an unspecified guest user.  Either deselect the \"$AutoSendListLabel\" option or enter a valid \"Guest Email Address\".
+
+
+<!-- **************** File Share: Multiple Uploads **************** -->
+
+$ADHOC_SELECT_FILES_TO_UPLOAD$=Select your file(s) to upload
+$NO_FILE_SELECTED$=No file selected
+$LOCAL_FILE_BROWSE$=Files on my Computer
+$REMOTE_FILE_BROWSE$=Files on Serv-U
+
+$ADHOC_FILE_UPLOAD_PROGRESS_TITLE$=File Upload Progress
+$ADHOC_FILE_UPLOAD_PROGRESS_DESC_SINGLE$=1 file is currently being uploaded...
+$ADHOC_FILE_UPLOAD_PROGRESS_DESC_MULTI$=$NumOfFilesUploading files are currently being uploaded...
+
+$ADHOC_FILE_UPLOAD_SUCCESSFUL$=The file has been successfully uploaded.
+$ADHOC_FILE_UPLOAD_PENDING$=The file is being uploaded to the server.
+$ADHOC_FILE_UPLOAD_DUPLICATE_FOUND$=A duplicate filename was found.  This file will not upload unless you remove it, rename it, and then re-insert it into this list.
+$ADHOC_FILE_UPLOAD_TIMED_OUT$=The web browser was unable to upload the file(s).  Please ensure all files are less than 4GB and the browser can still communicate with the server.
+
+$ADHOC_INVALID_SHARE_TOKEN$=A valid access token is required in order to upload files to Serv-U.
+
+
+$ADHOC_CONFIRM_UPLOAD_OF_FILES$=The following $AdhocNumOfFiles files were successfully uploaded:
+$ADHOC_CONFIRM_UPLOAD_OF_ONE_FILE$=The following file was successfully uploaded:
+
+$ADHOC_CONFIRM_UPLOAD_OF_FILES_GUEST$=The following $AdhocNumOfFiles files were successfully uploaded and sent to <span class='AdhocSender'></span> on $CurDate at $CurTime
+$ADHOC_CONFIRM_UPLOAD_OF_ONE_FILE_GUEST$=The following file was successfully uploaded and sent to <span class='AdhocSender'></span> on $CurDate at $CurTime
+$ADHOC_EACH_FILE_UP_TO$=each file up to
+$ADHOC_IN_SIZE$=in size
+
+
+<!-- **************** File Share: Misc. **************** -->
+
+$ADHOC_FMT_EMAIL_SUBJECT$=$PRODUCT_FILE_SHARING_NAME$ Link
+$ADHOC_RESEND_PASSWORD_NOTE$=<strong>Note:</strong>  This share is currently password protected.  The original password cannot be recovered.  Please enter a new password to use or uncheck the box to password protect the share.
+
+
+<!-- Page 3 -->
+$ADHOC_UPLOAD_CONFIRM_TITLE$=File Upload Confirmation
+$ADHOC_WIZ_SUMMARY_DESC$=File uploads were completed on $AdhocCreatedShare.
+
+$ADHOC_NEXT_STEPS_SECTION$=Optional Next Steps:
+
+$ADHOC_NEXT_STEPS_MANUAL_EMAIL_DESC$=Manually send the URL by <strong>copying and pasting the URL</strong> into an email to send to your recipient(s)
+
+$ADHOC_NEXT_STEPS_GENERATE_EMAIL_LINK$=Generate an email
+$ADHOC_NEXT_STEPS_GENERATE_EMAIL_NOTE$=(opens a new email window in your email application like Microsoft Outlook)
+$ADHOC_NEXT_STEPS_GENERATE_EMAIL_DESC$=$GenEmailLink from your email client $GenEmailNote
+
+$ADHOC_NEXT_STEPS_CANCEL_SHARE_LINK$=Cancel File Share
+$ADHOC_NEXT_STEPS_CANCEL_SHARE_DESC$=Select $CancelShare to delete this file share and return to the Home screen
+
+$ADHOC_SUMMARY_SECTION$=Please note:
+
+$ADHOC_SUMMARY_SEND_NOTIFY_ON_DL_IS_OFF$=You will <strong>NOT</strong> be notified when the recipient downloads the file(s)
+$ADHOC_SUMMARY_SEND_NOTIFY_ON_UL_IS_OFF$=You will <strong>NOT</strong> be notified when the recipient uploads the file(s)
+$ADHOC_SUMMARY_SEND_EMAIL_COPY_IS_OFF$=You will <strong>NOT</strong> receive a copy of the email sent to the recipient
+$ADHOC_SUMMARY_URL_EXPIRES_IS_OFF$=This URL does <strong>NOT</strong> have an expiration date
+$ADHOC_SUMMARY_URL_PWORD_IS_OFF$=The File Share is <strong>NOT</strong> password protected
+$ADHOC_SUMMARY_PUT_PWORD_IN_EMAIL_IS_OFF$=The password will <strong>NOT</strong> be included in the email
+$ADHOC_SUMMARY_EMAIL_COMMENTS_ARE_EMPTY$=There are no additional comments to be included in the email
+$ADHOC_SUMMARY_MAX_FILE_SIZE_IS_OFF$=There is <strong>NO</strong> limitation on the maximum file size a guest can upload
+
+
+$ERR_AJAX_NOT_SUPPORTED$=Please use a browser that can use AJAX objects (e.g., Internet Explorer 7+, FireFox, Chrome, Safari, Opera 8+).
+$ADHOC_FAILED_CMD_NOOP$=The server failed to respond to a NOOP command (HTTP code: $HttpCode).  Your session may have timed out. Please try logging in again.
+$ADHOC_FAILED_TO_LIST_SHARES$=The server failed to list the file shares (HTTP code: $HttpCode).  Please contact your system administrator for more details.
+$ADHOC_FAILED_TO_CREATE_SHARE$=The server failed to create the file share (HTTP code: $HttpCode).  Please contact your system administrator for more details.
+$ADHOC_FAILED_TO_DELETE_SHARE$=The server failed to delete the file share (HTTP code: $HttpCode).  Please contact your system administrator for more details.
+$ADHOC_FAILED_TO_AUTO_EMAIL_SHARE$=The server failed to email the file share link (HTTP code: $HttpCode).  Please contact your system administrator for more details.
+
+
+<!-- **************** Adhoc/File Share invitation template **************** -->
+<!-- IMPORTANT:  If you change the mailto link, you must also change it for the email template located in "CHTTPSocketSession::ReplaceAdHocStringMacros"!  See "Serv-U.str : IDS_FILE_SHARE_MESSAGE" -->
+<!-- **************** -->
+$IDS_FILE_SHARE_DOES_NOT_EXPIRE$=[Access to this file share does not expire]
+$IDS_FILE_SHARE_URL_WITH_PASSWORD$=$AdhocShareURL\r\nPassword: $AdhocSharePword
+
+
+<!-- **************** File Share: Guest Login **************** -->
+$GUEST_LOGIN_TITLE$=$PRODUCT_FILE_SHARING_NAME$
+$GUEST_LOGIN_INSTRUCTIONS$=Please enter your password to gain access to your file(s)
+$GUEST_LOGIN_INSTRUCTIONS_2$=If you do not know or have a password, please contact the person who sent you this link.
+
+
+<!-- **************** File Share: Downloads **************** -->
+$ADHOC_DOWNLOAD_FILES$=Download Files
+$ADHOC_DOWNLOAD_RECEIVED_FROM$=You have received these files from
+$ADHOC_DOWNLOAD_EXPIRES$=Access to these files will expire on $AdhocExpiresDate.
+$ADHOC_DOWNLOAD_NO_EXPIRES$=Access to these files will not expire.
+$ADHOC_DOWNLOAD_SEL$=Select your file(s) to download
+$ADHOC_DOWNLOAD_CREATED$=The file(s) were uploaded on
+$ADHOC_DOWNLOAD_COL_SELECT_ALL$=Select All
+$ADHOC_DOWNLOAD_COL_NAME$=Name
+$ADHOC_DOWNLOAD_COL_SIZE$=Size
+$ADHOC_DOWNLOAD_BTN$=Download
+$ADHOC_DOWNLOAD_COMMENT_FROM$=Comments from
+$ADHOC_DOWNLOAD_PLEASE_SEL$=Please select file(s) to download.
+$ADHOC_DOWNLOAD_PREPARING$=Your download is being prepared.  This may take a few moments.
+
+
+<!-- **************** File Share: Guest Uploads **************** -->
+$ADHOC_GUEST_UPLOAD_TITLE$=Welcome
+$ADHOC_GUEST_UPLOAD_DESC$=You have temporary access to $PRODUCT_FILE_SHARING_NAME$ to upload files.  Access to upload files will expire on $AdhocExpiresDate at $AdhocExpiresTime.  The files you upload will be made available to <strong class='AdhocSender'></strong>.
+$ADHOC_GUEST_UPLOAD_DESC_NO_EXPIRE$=You have permanent access to $PRODUCT_FILE_SHARING_NAME$ to upload files.  Access to upload files will not expire.  The files you upload will be made available to <strong class='AdhocSender'></strong>.
+$ADHOC_GUEST_UPLOAD_FILE_SIZE_LIMIT$=Each uploaded file is limited to a maximum size of <strong>$MaxFileSize</strong>.
+$ADHOC_COMMENTS_FROM_SENDER$=Comments from $AdhocSender
+$ADHOC_GUEST_UPLOAD_SEND_MORE_FILES_INFO$=Need to send more files to $AdhocSender?
+$ADHOC_GUEST_UPLOAD_SEND_MORE_FILES$=Send More Files
+$ADHOC_GUEST_UPLOAD_OK_TO_CLOSE$=If you're finished, please close this window.
+
+
+<!-- **************** File Share: Console **************** -->
+$ADHOC_NOTIFICATION_STATUS_PENDING$=Pending
+$ADHOC_NOTIFICATION_STATUS_SENT$=Sent Email
+$ADHOC_NOTIFICATION_STATUS_ERROR_SENDING$=Email Failed
+$ADHOC_NOTIFICATION_STATUS_DOWNLOADED$=Downloaded
+$ADHOC_NOTIFICATION_STATUS_RECEIVED$=Received
+$ADHOC_NOTIFICATION_STATUS_EXPIRED$=$EXPIRED$
+
+$ADHOC_COL_FMT_RECIPIENT_1$=$FirstRecipient
+$ADHOC_COL_FMT_RECIPIENT_2$=$FirstRecipient (+$NumOfRecipients)
+
+$ADHOC_CONSOLE_INCOMING$=Requested Files
+$ADHOC_CONSOLE_OUTGOING$=Sent Files
+$ADHOC_CONSOLE_BOTH_SEARCH$=Sent and Requested Files
+$ADHOC_CONSOLE_LAST_FILE_SHARES$=(Last $ViewNum File Shares)
+$ADHOC_CONSOLE_LAST_UPDATED$=Updated $Date at $Time
+$ADHOC_CONSOLE_TOTAL_NUM_FILE_SHARES$=($TotalNum Shares)
+$SEARCH_RESULTS_FOR$=Search Results for
+$NO_ITEMS_FOUND$=No Items Found
+$NO_COMMENTS_AVAIL$=No comments added
+
+
+$ADHOC_CONSOLE_COL_DATE_RECEIVED$=Date Received
+$ADHOC_CONSOLE_COL_DATE_SENT$=Date Sent
+$ADHOC_CONSOLE_COL_SUBJECT$=Subject
+$ADHOC_CONSOLE_COL_SENDERS$=Sender(s)
+$ADHOC_CONSOLE_COL_RECIPIENTS$=Recipient(s)
+$ADHOC_CONSOLE_COL_STATUS$=Status
+$ADHOC_CONSOLE_COL_PWORD_PROTECTED$=Password Protected
+$ADHOC_CONSOLE_COL_TOTAL_FILE_SIZE_OF_SHARE$=Size
+$ADHOC_CONSOLE_COL_NUM_OF_FILES_IN_SHARE$=# of <br>Files
+$ADHOC_CONSOLE_COL_EXPIRES$=Expires
+$ADHOC_CONSOLE_COL_DOWNLOAD$=$DOWNLOAD$
+$ADHOC_CONSOLE_COL_DELETE$=$DELETE$
+
+$VIEW_ALL_INCOMING$=View All Requested
+$VIEW_ALL_OUTGOING$=View All Sent
+
+$ADHOC_CONFIRM_DELETE_SHARE_TITLE$=Delete File Share?
+$ADHOC_CONFIRM_DELETE_SHARE_DESC$=Are you sure you really want to delete the \"$Subject\" file share for $Recipients?
+$ADHOC_CONFIRM_DELETE_FILE_TITLE$=Delete?
+$ADHOC_CONFIRM_DELETE_FILE_DESC$=Are you sure you want to delete this file?  It will no longer be available from this share.
+
+<!-- **************** File Share: Share Details **************** -->
+$ADHOC_DETAILS_INCOMING_HEADER$=Requested File Share Details
+$ADHOC_DETAILS_OUTGOING_HEADER$=Sent File Share Details
+$ADHOC_DETAILS_FILE_SHARE_URL$=File Share URL
+$ADHOC_DETAILS_FILE_NAME$=File Name
+$ADHOC_DETAILS_FILE_SIZE$=File Size
+$ADHOC_DETAILS_OWNER$=Share Owner
+$ADHOC_DETAILS_DL_HISTORY$=Download History
+$ADHOC_DETAILS_LOCATION$=Location
+$ADHOC_DETAILS_DELETE_NOW$=Delete File Share Now
+$ADHOC_DETAILS_NO_FILES$=No files are available from this file share (yet).
+$ADHOC_DETAILS_NO_ACTIVITY$=There is no download activity for files in this file share.
+$ADHOC_DETAILS_DELETE_NOTICE$=This file share is set to be automatically deleted <strong>%d days</strong> from the expiration date.
+$ADHOC_GUEST_EXPIRED_OWNER_NOTICE$=You are the owner of this <strong>expired</strong> share.  Guest users cannot access <strong>expired</strong> shares.
+$ADHOC_DETAILS_DL_ALL$=Download All
+$ADHOC_DETAILS_REQUIRES_PWORD$=A password is required to access this file share.
+$ADHOC_FILE_PATH_DOES_NOT_EXIST$=The file path does not exist.
+$ADHOC_DL_ALL_FILE_PATHS_DO_NOT_EXIST$=Nothing to download because all the file paths are invalid.
+
+$ADHOC_DETAILS_HAS_PWORD_YES$=Yes
+$ADHOC_DETAILS_HAS_PWORD_NO$=No
+
+$ADHOC_PAGE$=Page
+$ADHOC_NUM_OF_PAGES$=of $NumOfPages
+$ADHOC_ITEMS_ON_PAGE$=Items on page
+$ADHOC_VIEW_ALL$=View all
+$ADHOC_ERROR_INVALID_PAGE_NUM$=Please enter a valid page number.
+$ADHOC_ERROR_INVALID_ITEMS_PER_PAGE$=Please enter a value between <strong>$MinVal and $MaxVal</strong> for the <i>$ADHOC_ITEMS_ON_PAGE$</i> field.
+$ADHOC_PAGING_DISPLAY_STATUS$=Displaying <strong>$TopRow - $BtmRow</strong> of $TotalRows
+$ADHOC_CONSOLE_PAGE_DESC$=($TopRow - $BtmRow of $TotalRows)
+$ADHOC_CONSOLE_INCOMING_EMPTY$=Click on the <strong>Request Files</strong> menu to create a new file share.
+$ADHOC_CONSOLE_OUTGOING_EMPTY$=Click on the <strong>Send Files</strong> menu to create a new file share.
+$ADHOC_SEE_COMMENT$=See full comment
+
+
+
+<!-- **************** File Share: Confirm Last File Delete **************** -->
+$ADHOC_CONFIRM_LAST_DELETE_TEXT$=Deleting the only file in a "sent" file share leaves nothing for the guest to download.  You may want to delete the entire file share instead.  What do you want to delete?
+$ADHOC_FILE_BUTTON$=File
+$ADHOC_SHARE_BUTTON$=Share
+
+<!-- **************** MFA modal **************** -->
+$MFA_MODAL_TITLE$=Multifactor Authentication
+$MFA_ADMIN_ENABLED$=Your administrator has enabled multifactor authentication for your organization and recommends setting it up.
+$MFA_ADMIN_ENFORCED$=Your administrator has enforced multifactor authentication for your organization. Please configure as follows.
+$MFA_ADMIN_ENABLED_MOBILE$=Your administrator has enabled multifactor authentication for your organization and recommends setting it up. Please use the desktop version to configure MFA. Click Skip to proceed without MFA configuration.
+$MFA_ADMIN_ENFORCED_MOBILE$=Your administrator has enforced multifactor authentication for your organization. Please use the desktop version to configure MFA.
+$MFA_SETUP_HEADER$=Set Up Multifactor Authentication
+$MFA_SETUP_COMPLETE$=Complete the following steps to configure MFA for your mobile app.
+$MFA_SETUP_STEP_ONE_INSTALL$=Install the authenticator app on your phone.
+$MFA_SETUP_STEP_ONE_REOMMENDATIONS$=Recommendations
+$MFA_SETUP_STEP_TWO_CHOOSE$=In the app, choose to add an account and scan the QR code.
+$MFA_SETUP_STEP_TWO_SHOW_KEY$=Show the secret key for manual configuration.
+$MFA_SETUP_STEP_TWO_HIDE_KEY$=Hide the secret key for manual configuration.
+$MFA_SETUP_STEP_TWO_TYPE_KEY$=Type the secret configuration key when prompted by your MFA application.
+$MFA_SETUP_STEP_THREE_NEXT$=Once the app is configured, click Next.
+$MFA_FORM_ENTER$=Enter the six-digit code from your multifactor authenticator app and click Next to set up your MFA account.
+$MFA_FORM_ENTER_EXISTING$=Enter the six-digit code from your multifactor authenticator app and click Next to complete authentication.
+$MFA_COPY_TO_CLIPBOARD$=Copy to clipboard
+$MFA_COPIED_TO_CLIPBOARD$=Copied to clipboard
+$MFA_COPIED_TO_CLIPBOARD_FAIL$=Copying to clipboard failed
+$MFA_FORM_ERROR$=The operation was not successful. Try again!
+$MFA_FORM_TRIES$=You have <span class="tries-left"></span> tries left. You will be redirected to login page.
+$MFA_MODAL_SUCCESS$=Multifactor authentication verified!
+$MFA_MODAL_ENTERING$=Entering Serv-U
+
+<!-- NOTE TO TRANSLATORS: The following BLOCK MUST be removed from your translation -->
+<!-- localized strings, keep these at the end of this file, they "overwrite" any previously defined string -->
+<!--#include de "Strings_DE.strings"-->
+<!--#include fr "Strings_FR.strings"-->
+<!--#include it "Strings_IT.strings"-->
+<!--#include es "Strings_ES.strings"-->
+<!--#include pt "Strings_PT.strings"-->
+<!--#include sr "Strings_SR.strings"-->
+<!--#include se "Strings_SE.strings"-->
+<!--#include fi "Strings_FI.strings"-->
+<!--#include no "Strings_NO.strings"-->
+<!--#include dk "Strings_DK.strings"-->
+<!--#include ru "Strings_RU.strings"-->
+<!--#include zh,TW "Strings_TW.strings"-->
+<!--#include zh,CN "Strings_CN.strings"-->
+<!--#include jp "Strings_JP.strings"-->

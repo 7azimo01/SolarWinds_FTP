@@ -1,0 +1,14 @@
+<!--#include "..\..\Common\Strings\Result.strings"-->
+%PRIV_GROUP_ADMIN%
+<?xml version="1.0" encoding="UTF-8" ?>
+<gateway>
+<var name="ObjectID" val="%ID%" />
+<var name="IP" val="%CGateway.%ID%.IP%" />
+<var name="PublicIP" val="%CGateway.%ID%.PublicIP%" />
+<var name="Enabled" val="%CGateway.%ID%.Enabled%" />
+<var name="Port" val="%CGateway.%ID%.Port%" />
+<var name="Description" val="%CGateway.%ID%.Description%" />
+<var name="Status" val="%CGateway.%ID%.Status%" />
+<var name="Result" val="%RESULT%"/>
+<var name="ResultText" val="%RESULT_TEXT%"/>
+</gateway>

@@ -1,0 +1,31 @@
+<!--#include "..\..\Common\Strings\Strings.strings"-->
+<?xml version="1.0" encoding="UTF-8" ?>
+<jnlp spec="1.0+" codebase="%HEADER_URL%%COMMON_FILE%Java/">
+<information>
+<title>$WCP_TITLE$</title>
+<vendor>$WCP_VENDER$</vendor>
+<icon kind="splash" href="Images/WCPro_64x64.png" width="64" height="64" />
+<icon href="Images/WCPro_48x48.png" width="48" height="48" />
+<icon href="Images/WCPro_32x32.png" width="32" height="32" />
+<icon href="Images/WCPro_24x24.png" width="24" height="24" />
+</information>
+<security>
+<all-permissions />
+</security>
+<resources>
+<j2se version="1.7+" href="http://java.sun.com/products/autodl/j2se" />
+<jar href="WebClientPro.jar" download="eager" main="true" />
+<jar href="Libs/RhinoJavaCore.jar" download="eager" />
+</resources>
+<applet-desc name="$WCP_TITLE$" main-class="com.rhinosoft.WebClientPro.CWebClientProApplet" width="500" height="500">
+<param name="-hh" value="%HEADER_HOST%" />					
+<param name="-sp" value="%SERVER_PORT%" />					
+<param name="-hp" value="%HEADER_PORT%" />					
+<param name="-esi" value="%ENC_SESSION_ID%" />				
+<param name="-li" value="%LOGIN_ID%" />						
+<param name="-hl" value="%HEADER_LANGUAGE%" />				
+<param name="-is" value="%IS_SECURE%" />					
+<param name="-ila" value="%IS_LOCAL_ADMIN%" />				
+<param name="-hbu" value="%HELP_BASE_URL%" />				
+</applet-desc>
+</jnlp>

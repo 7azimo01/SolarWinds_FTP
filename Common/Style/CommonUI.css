@@ -1,0 +1,940 @@
+/* START jQuery styles */
+/* TODO:  When we move jQuery into the "Common" directory, we should consider moving these styles into our global stylesheet */
+/* Change jQuery styles so our buttons can be skinned.*/
+.ui-corner-all, .ui-corner-bottom, .ui-corner-right, .ui-corner-br
+{
+	border-bottom-right-radius: 0px;
+}
+.ui-corner-all, .ui-corner-bottom, .ui-corner-left, .ui-corner-bl
+{
+	border-bottom-left-radius: 0px;
+}
+.ui-corner-all, .ui-corner-top, .ui-corner-right, .ui-corner-tr
+{
+	border-top-right-radius: 0px;
+}
+.ui-corner-all, .ui-corner-top, .ui-corner-left, .ui-corner-tl
+{
+	border-top-left-radius: 0px;
+}
+.ui-button-text.ui-button-text-img
+{
+	/* padding: 0.4em 1em 0.4em 0;*/
+}
+.ui-button-text.ui-button-notext-img {
+    padding: 0.4em 1em 0.4em 0;
+}
+.ui-button
+{
+	height:25px;
+}
+
+.aw-opera .ui-button
+{
+	height:24px;
+}
+.button_img
+{
+    display: inline-block;
+    height: 18px;
+    line-height: 1px;
+    margin: -8px 2px -8px -8px;
+    overflow: hidden;
+    vertical-align: middle;
+    width: 18px;
+}
+.button_imgonly
+{
+	display: inline-block;
+    height: 18px;
+    line-height: 1px;
+    margin: -8px 2px -8px 3px !important;
+    overflow: hidden;
+    vertical-align: middle;
+    width: 18px;
+}
+
+.aw-gecko .button_imgonly
+{
+	display: inline-block;
+    height: 18px;
+    line-height: 1px;
+    margin: -8px 2px -8px 3px !important;
+    overflow: hidden;
+    vertical-align: middle;
+    width: 18px;
+}
+.button_disabled
+{
+	cursor: default;
+	opacity: 0.3;						/* Standards Compliant Browsers */
+    filter: alpha(opacity=30);			/* IE 7 and Earlier */
+    /* Next 2 lines IE8 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=30);
+}
+.button_disabled:hover
+{
+	cursor: default;
+	opacity: 0.3;						/* Standards Compliant Browsers */
+    filter: alpha(opacity=30);			/* IE 7 and Earlier */
+    /* Next 2 lines IE8 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=30);
+}
+.button_gray
+{
+	/*height: 25px;*/
+	font-size: 11px !important;
+	font-family: arial, helvetica, sans-serif !important;
+	font-weight: bold !important;
+	color: #FFFFFF !important;
+	border:1px solid #8c8d8d !important;
+	-webkit-border-radius:	3px !important;
+		-moz-border-radius:	3px !important;
+		border-radius:		3px !important;
+	background-color: #787777 !important;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#787777), to(#404040)) !important;
+	background-image: -webkit-linear-gradient(top, #787777, #404040) !important;
+	background-image: -moz-linear-gradient(top, #787777, #404040) !important;
+	background-image: -ms-linear-gradient(top, #787777, #404040) !important;
+	background-image: -o-linear-gradient(top, #787777, #404040) !important;
+	background-image: linear-gradient(to bottom, #787777, #404040) !important; filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#787777, endColorstr=#404040);
+}
+.button_gray:hover
+{
+	border:1px solid #606060 !important;
+	background-color: #6c6c6c !important;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#6c6c6c), top(#353535)) !important;
+	background-image: -webkit-linear-gradient(top, #6c6c6c, #353535) !important;
+	background-image: -moz-linear-gradient(top, #6c6c6c, #353535) !important;
+	background-image: -ms-linear-gradient(top, #6c6c6c, #353535) !important;
+	background-image: -o-linear-gradient(top, #6c6c6c, #353535) !important;
+	background-image: linear-gradient(to bottom, #6c6c6c, #353535) !important; filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#6c6c6c, endColorstr=#353535);
+}
+.button_ltgray
+{
+	/*height: 25px;*/
+	padding: 0 1em 0 1em;
+	font-size: 11px !important;
+	font-family: arial, helvetica, sans-serif !important;
+	font-weight: bold !important;
+	color: #333333 !important;
+	border: 1px solid #8c8d8d !important;
+	-webkit-border-radius:	3px !important;
+		-moz-border-radius:	3px !important;
+		border-radius:		3px !important;
+	background-color: #E9EAE8 !important;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#E9EAE8), to(#DBDCDA)) !important;
+	background-image: -webkit-linear-gradient(top, #E9EAE8, #DBDCDA) !important;
+	background-image: -moz-linear-gradient(top, #E9EAE8, #DBDCDA) !important;
+	background-image: -ms-linear-gradient(top, #E9EAE8, #DBDCDA) !important;
+	background-image: -o-linear-gradient(top, #E9EAE8, #DBDCDA) !important;
+	background-image: linear-gradient(to bottom, #E9EAE8, #DBDCDA) !important; filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#E9EAE8, endColorstr=#DBDCDA);
+}
+.button_ltgray:hover, .button_ltgray.hovered
+{
+	border: 1px solid #606060 !important;
+	background-color: #D4D5D3 !important;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#D4D5D3), top(#C0C0C0)) !important;
+	background-image: -webkit-linear-gradient(top, #D4D5D3, #C0C0C0) !important;
+	background-image: -moz-linear-gradient(top, #D4D5D3, #C0C0C0) !important;
+	background-image: -ms-linear-gradient(top, #D4D5D3, #C0C0C0) !important;
+	background-image: -o-linear-gradient(top, #D4D5D3, #C0C0C0) !important;
+	background-image: linear-gradient(to bottom, #D4D5D3, #C0C0C0) !important; filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#D4D5D3, endColorstr=#C0C0C0);
+}
+
+
+.button_turq
+{
+	/*height: 25px;*/
+	font-size: 11px !important;
+	font-family: arial, helvetica, sans-serif !important;
+	font-weight: bold !important;
+	color: #ffffff !important;
+	border: 1px solid #10606c !important;
+	-webkit-border-radius:	3px !important;
+		-moz-border-radius:	3px !important;
+		border-radius:		3px !important;
+	background-color: #29b8cd !important;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#29b8cd), to(#29b8cd)) !important;
+	background-image: -webkit-linear-gradient(top, #29b8cd, #29b8cd) !important;
+	background-image: -moz-linear-gradient(top, #29b8cd, #29b8cd) !important;
+	background-image: -ms-linear-gradient(top, #29b8cd, #29b8cd) !important;
+	background-image: -o-linear-gradient(top, #29b8cd, #29b8cd) !important;
+	background-image: linear-gradient(to bottom, #29b8cd, #29b8cd) !important; filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#29b8cd, endColorstr=#29b8cd);
+}
+.button_turq:hover, .button_turq.hovered
+{
+	border: 1px solid #10606c !important;
+	background-color: #0A99AE !important;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#0A99AE), top(#12A1B6)) !important;
+	background-image: -webkit-linear-gradient(top, #0A99AE, #12A1B6) !important;
+	background-image: -moz-linear-gradient(top, #0A99AE, #12A1B6) !important;
+	background-image: -ms-linear-gradient(top, #0A99AE, #12A1B6) !important;
+	background-image: -o-linear-gradient(top, #0A99AE, #12A1B6) !important;
+	background-image: linear-gradient(to bottom, #0A99AE, #12A1B6) !important; filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#0A99AE, endColorstr=#12A1B6);
+}
+.button_green
+{
+	/*height: 25px;*/
+	font-size: 11px !important;
+	font-family: arial, helvetica, sans-serif !important;
+	font-weight: bold !important;
+	color: #ffffff !important;
+	border: 1px solid #5a9b00 !important;
+	-webkit-border-radius:	3px !important;
+		-moz-border-radius:	3px !important;
+		border-radius:		3px !important;
+	background-color: #70c000, !important;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#70c000,), to(#70c000)) !important;
+	background-image: -webkit-linear-gradient(top, #70c000, #70c000) !important;
+	background-image: -moz-linear-gradient(top, #70c000, #70c000) !important;
+	background-image: -ms-linear-gradient(top, #70c000, #70c000) !important;
+	background-image: -o-linear-gradient(top, #70c000, #70c000) !important;
+	background-image: linear-gradient(to bottom, #70c000, #70c000) !important; filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#70c000,, endColorstr=#DBDCDA);
+}
+.button_green:hover, .button_green.hovered
+{
+	border: 1px solid #5a9b00 !important;
+	background-color: #378700, !important;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#378700,), top(#5CAC01)) !important;
+	background-image: -webkit-linear-gradient(top, #378700, #5CAC01) !important;
+	background-image: -moz-linear-gradient(top, #378700, #5CAC01) !important;
+	background-image: -ms-linear-gradient(top, #378700, #5CAC01) !important;
+	background-image: -o-linear-gradient(top, #378700, #5CAC01) !important;
+	background-image: linear-gradient(to bottom, #378700, #5CAC01) !important; filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#378700, endColorstr=#5CAC01);
+}
+
+.button_aqua
+{
+	/*height: 25px;*/
+	font-size: 11px !important;
+	font-family: arial, helvetica, sans-serif !important;
+	font-weight: bold !important;
+	color: #ffffff !important;
+	border: 1px solid #34495e !important;
+	-webkit-border-radius:	3px !important;
+		-moz-border-radius:	3px !important;
+		border-radius:		3px !important;
+	background-color: #6eb5cb, !important;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#6eb5cb,), to(#6eb5cb)) !important;
+	background-image: -webkit-linear-gradient(top, #6eb5cb, #6eb5cb) !important;
+	background-image: -moz-linear-gradient(top, #6eb5cb, #6eb5cb) !important;
+	background-image: -ms-linear-gradient(top, #6eb5cb, #6eb5cb) !important;
+	background-image: -o-linear-gradient(top, #6eb5cb, #6eb5cb) !important;
+	background-image: linear-gradient(to bottom, #6eb5cb, #6eb5cb) !important; filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#29b8cd,, endColorstr=#29b8cd);
+}
+.button_aqua:hover, .button_aqua.hovered
+{
+	border: 1px solid #34495e !important;
+	background-color: #4E95AB, !important;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#4E95AB,), top(#6eb5cb)) !important;
+	background-image: -webkit-linear-gradient(top, #4E95AB, #6eb5cb) !important;
+	background-image: -moz-linear-gradient(top, #4E95AB, #6eb5cb) !important;
+	background-image: -ms-linear-gradient(top, #4E95AB, #6eb5cb) !important;
+	background-image: -o-linear-gradient(top, #4E95AB, #6eb5cb) !important;
+	background-image: linear-gradient(to bottom, #4E95AB, #6eb5cb) !important; filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#4E95AB, endColorstr=#6eb5cb);
+}
+
+
+.button_blue:hover
+{
+	border: 1px solid #2d5f79 !important;
+	background-color: #5e8a9d !important;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#5e8a9d), top(#37708f)) !important;
+	background-image: -webkit-linear-gradient(top, #5e8a9d, #37708f) !important;
+	background-image: -moz-linear-gradient(top, #5e8a9d, #37708f) !important;
+	background-image: -ms-linear-gradient(top, #5e8a9d, #37708f) !important;
+	background-image: -o-linear-gradient(top, #5e8a9d, #37708f) !important;
+	background-image: linear-gradient(to bottom, #5e8a9d, #37708f) !important; filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#5e8a9d, endColorstr=#37708f);
+}
+.button_blue, .button_blue.button_disabled:hover
+{
+	/*height: 25px;*/
+	font-size: 11px !important;
+	font-family: arial, helvetica, sans-serif !important;
+	font-weight: bold !important;
+	color: #FFFFFF !important;
+	border: 1px solid #418aaf !important;
+	-webkit-border-radius:	3px !important;
+		-moz-border-radius: 3px !important;
+			border-radius:	3px !important;
+	background-color: #88c8e3 !important;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#88c8e3), to(#50a2cf)) !important;
+	background-image: -webkit-linear-gradient(top, #88c8e3, #50a2cf) !important;
+	background-image: -moz-linear-gradient(top, #88c8e3, #50a2cf) !important;
+	background-image: -ms-linear-gradient(top, #88c8e3, #50a2cf) !important;
+	background-image: -o-linear-gradient(top, #88c8e3, #50a2cf) !important;
+	background-image: linear-gradient(to bottom, #88c8e3, #50a2cf) !important;	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#88c8e3, endColorstr=#50a2cf);
+}
+.button_red
+{
+	/*height: 25px;*/
+	font-size: 11px !important;
+	font-family: arial, helvetica, sans-serif !important;
+	font-weight: bold !important;
+	color: #FFFFFF !important;
+	border: 1px solid #d3922b !important;
+	-webkit-border-radius:	3px !important;
+		-moz-border-radius: 3px !important;
+			border-radius:	3px !important;
+	background-color: #aa3606 !important;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#aa3606), to(#702004)) !important;
+	background-image: -webkit-linear-gradient(top, #aa3606, #702004) !important;
+	background-image: -moz-linear-gradient(top, #aa3606, #702004) !important;
+	background-image: -ms-linear-gradient(top, #aa3606, #702004) !important;
+	background-image: -o-linear-gradient(top, #aa3606, #702004) !important;
+	background-image: linear-gradient(to bottom, #aa3606, #702004) !important;	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#aa3606, endColorstr=#702004);
+}
+.button_red:hover
+{
+	border: 1px solid #d3922b !important;
+	background-color: #800C00 !important;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#800C00), top(#621818)) !important;
+	background-image: -webkit-linear-gradient(top, #800C00, #621818) !important;
+	background-image: -moz-linear-gradient(top, #800C00, #621818) !important;
+	background-image: -ms-linear-gradient(top, #800C00, #621818) !important;
+	background-image: -o-linear-gradient(top, #800C00, #621818) !important;
+	background-image: linear-gradient(to bottom, #800C00, #621818) !important; filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#800C00, endColorstr=#621818);
+}
+
+
+
+input[type=radio].css-checkbox 
+{
+	/*display:none;*/
+	position:absolute;
+
+	opacity: 0.0;						/* Standards Compliant Browsers */
+    filter: alpha(opacity=30);			/* IE 7 and Earlier */
+    /* Next 2 lines IE8 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+}
+
+input[type=radio].css-checkbox + label.option-label{
+	padding-left:23px;
+	height:18px; 
+	display:inline-block;
+	line-height:18px;
+	background-repeat:no-repeat;
+	background-position: 0 0;
+	font-size:18px;
+	vertical-align:middle;
+	cursor:pointer;
+
+}
+
+/*input[type=radio].css-checkbox:checked + label.option-label,*/
+ input[type=radio].css-checkbox + label.option-label.checked{
+	 background-image:url(/Common/Images/radio-selected.png);
+}
+label.option-label {
+	background-image:url(/Common/Images/radio-empty.png);
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+label.option-label span
+{
+	display: block;
+	font-size: 8pt;
+	line-height: normal;
+	width:400px;
+}
+
+table#AskUserPlacementDialogTitleBar.DialogTitle,
+table#RecoverPasswordDialogTitleBar.DialogTitle {
+	height: 56px;
+	background: #fff;
+	border-bottom: 1px solid #d9d9d9;
+}
+
+table#AskUserPlacementDialogTitleBar.DialogTitle .headcontainer,
+table#RecoverPasswordDialogTitleBar.DialogTitle .headcontainer {
+	background: none;
+	padding: 0;
+}
+
+table#AskUserPlacementDialogTitleBar.DialogTitle .headcontainer span,
+table#RecoverPasswordDialogTitleBar.DialogTitle .headcontainer span {
+	color: #111;
+	font-family: Open Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+	font-size: 18px;
+	line-height: 24px;
+	font-weight: 600;
+	padding-left: 20px;
+}
+
+#RecoverPasswordDialogclosebox.closebox {
+	background: url("/Web Client/Images/close.svg") center center no-repeat transparent;
+	background-size: 33%;
+}
+
+#AskUserPlacementDialogTitleContainer img {
+	display: none;
+}
+
+#AskUserPlacementDialog .DialogBody {
+	font-family: Open Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+	padding: 0;
+}
+
+#AskUserPlacementDialogBody .user-placement-dialog-body {
+	padding: 15px 15px 5px;
+}
+.user-placement-dialog-helper-box #Description {
+	font-weight: 600;
+}
+
+#UserPlacementGroup {
+	margin-top: 15px;
+}
+
+.login-menu-option {
+	height: 45px;
+	padding-left: 5px;
+}
+
+.login-menu-option img {
+	float: left;
+	margin: 0 6px 18px 3px;
+}
+
+label.option-label span.option-label-header {
+	color: #111;
+	line-height: 17px;
+	font-size: 13px;
+	font-weight: 600;
+}
+
+label.option-label span.option-label-header-helper {
+	color: rgba(17,17,17,.6);
+}
+
+.user-placement-dialog-footer {
+	text-align: right;
+	border-top: 1px solid #d9d9d9;
+	padding: 15px;
+}
+
+.button_blue_nova {
+	color: #fff;
+	background-color: #0079aa;
+	border-color: transparent;
+	font-weight: 600;
+	border-radius: 3px;
+	min-width: 100px;
+	position: relative;
+	overflow: hidden;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	vertical-align: middle;
+	transition: transform .1s ease-in-out;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.button_blue_nova:hover {
+	background-color: #006d99;
+}
+
+.button-white-nova {
+	color: #0079aa;
+	background-color: transparent;
+	border: 1px solid #d9d9d9;
+	border-radius: 3px;
+	min-width: 100px;
+	position: relative;
+	overflow: hidden;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	vertical-align: middle;
+	transition: transform .1s ease-in-out;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.nui-spinner {
+	display: inline-flex;
+	align-items: center;
+	position: relative;
+	margin: 0 auto;
+	box-sizing: border-box;
+	vertical-align: middle;
+}
+
+.nui-spinner__container--large .nui-spinner__container {
+	width: 50px;
+	height: 50px;
+}
+
+.nui-spinner__container {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	box-sizing: border-box;
+}
+
+.nui svg {
+	overflow: hidden;
+}
+
+.nui-spinner__circular {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	-webkit-animation: rotate 2s linear infinite;
+	animation: rotate 2s linear infinite;
+	transform-origin: center center;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+
+.nui-spinner__path-under {
+	stroke: #d9d9d9;
+}
+
+.nui-spinner__path {
+	stroke-dashoffset: 0px;
+	-webkit-animation: dash 1.5s ease-in-out infinite;
+	animation: dash 1.5s ease-in-out infinite;
+	stroke-linecap: square;
+	stroke: #00c4d2;
+}
+
+ @keyframes rotate {
+	100% {
+	  transform: rotate(360deg);
+	}
+}
+
+@keyframes dash {
+	0% {
+	 stroke-dasharray: 1, 200;
+	 stroke-dashoffset: 0;
+	}
+	50% {
+	 stroke-dasharray: 67, 200;
+	 stroke-dashoffset: -35px;
+	}
+	100% {
+	 stroke-dasharray: 134, 200;
+	 stroke-dashoffset: -134px;
+	}
+}
+#LoggingInDialog {
+	border: none;
+}
+
+#LoggingInDialog .DialogBody {
+	background: transparent;
+}
+
+#LoggingInDialog #LoggingInDialogTitleBar {
+	 display: none;
+ }
+
+#SwitchClientTxt {
+	display: none !important;
+}
+
+.nova-dialog {
+  position: relative;
+	display: flex;
+	flex-direction: column;
+	width: 100vw;
+	max-width: 40rem;
+	min-height: 37.5rem;
+	margin: auto;
+	background-color: #fff;
+	border: 1px solid #E2E2E2;
+	-webkit-box-shadow: 0px 5px 5px 0px rgba(226,226,226,1);
+	-moz-box-shadow: 0px 5px 5px 0px rgba(226,226,226,1);
+	box-shadow: 0px 5px 5px 0px rgba(226,226,226,1);
+}
+
+.nova-dialog-wrapper {
+	position: fixed;
+	width: 100vw;
+	height: 100vh;
+	top: 0;
+	left: 0;
+	z-index: 999;
+	overflow: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.nova-dialog__header {
+	height: 2em;
+	padding: 2em 2.5em;
+	display: flex;
+	align-items: center;
+	border-bottom: 2px solid #F0F0F0;
+}
+
+.nova-dialog__title {
+	flex: 1;
+	margin: 0;
+	font-size: 2.125em;
+	text-align: center;
+}
+
+.nova-dialog__head-text {
+	margin: 0;
+	font-size: 1.125em;
+	font-weight: 500;
+}
+
+.nova-dialog__close {
+	width: 20px;
+	height: 20px;
+}
+
+.nova-dialog__close:hover {
+	cursor: pointer;
+}
+
+.nova-dialog__body {
+	flex: 1;
+	padding: 2rem 1.5rem 1rem 2.25rem;
+	text-align: start;
+}
+
+.nova-dialog__footer {
+	height: 3.5em;
+	padding: 0.55em 1.125em;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	border-top: 2px solid #F0F0F0;
+}
+
+.nova-dialog__footer .nova-dialog__controls {
+	width: 100%;
+	display: flex;
+	justify-content: end;
+}
+
+.nova-dialog__footer .nova-button {
+	margin-left: 1.25em;
+}
+
+.nova-dialog__footer .nova-dialog__skip {
+	margin: 0 auto 0 0;
+}
+
+.entering-text {
+	font-weight: 500;
+	font-size: 1.65em;
+}
+
+.mfa-totp__setup {
+	font-size: 1.275em;
+}
+
+.mfa-setup__step {
+	margin-top: 1.5em;
+}
+
+.mfa-setup__step-description {
+	margin-top: 0.75em;
+	padding-left: 1em;
+}
+
+.mfa-setup__step-description p {
+	margin: 0.5em;
+}
+
+.mfa-setup__step-description a {
+	color: #1371A6;
+}
+
+.mfa-setup__step-info {
+	font-size: 0.875rem;
+	position: relative;
+	top: -1em;
+	display: flex;
+}
+
+.mfa-setup__step-info img {
+	margin-right: 0.75em;
+}
+
+.mfa-setup__barcode {
+	margin-top: 1em;
+	min-width: 8.6em;
+	width: 8.6em;
+	min-height: 8.6em;
+	height: 8.6em;
+}
+
+.mfa-setup__barcode img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.mfa-secret {
+	margin-top: 0.75em;
+}
+
+.mfa-secret__content {
+	position: relative;
+	padding-left: 1.5em;
+}
+
+.mfa-secret__content.opened .mfa-secret__icon {
+	transform: rotateZ(90deg);
+}
+
+.mfa-secret__content.opened .mfa-secret__hidden {
+	max-height: 5em;
+}
+
+.mfa-secret__icon {
+	position: absolute;
+	top: 0.125em;
+	left: 0;
+	-webkit-transition: transform 0.5s;
+  -moz-transition: transform 0.5s;
+  -ms-transition: transform 0.5s;
+  -o-transition: transform 0.5s;
+  transition: transform 0.5s;
+}
+
+.mfa-secret__container {
+	
+}
+
+.mfa-secret__hidden {
+	display: flex;
+	max-height: 0;
+	padding-top: 0.5em;
+	overflow: hidden;
+	flex-direction: column;
+	-webkit-transition: max-height 0.5s;
+  -moz-transition: max-height 0.5s;
+  -ms-transition: max-height 0.5s;
+  -o-transition: max-height 0.5s;
+  transition: max-height 0.5s;
+}
+
+.mfa-secret__head {
+	color: #3477A6;
+}
+
+.mfa-secret__head:hover {
+	cursor: pointer;
+}
+
+.mfa-secret__text {}
+
+.mfa-secret__key {
+	margin-right: 0.75em;
+	padding: 0.25em 0.5em;
+	background-color: rgba(52, 119, 166, 0.2);
+	border: 1px solid #3477A6;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	user-select: text;
+}
+
+.mfa-secret__key-container {
+	max-width: 100%;
+	display: flex;
+	margin-top: 0.75em;
+}
+
+.mfa-secret__copy {
+	position: relative;
+}
+
+.mfa-secret__tooltip {
+	display: inline-block;
+	width: 0;
+	height: 0;
+	position: absolute;
+	left: 0;
+  bottom: 120%;
+	padding: 0.35em 0.5em;
+	background-color: #555;
+	color: #fff;
+	text-align: center;
+  border-radius: 6px;
+	z-index: 9;
+  opacity: 0;
+	visibility: hidden;
+  transition: opacity 0.3s;
+}
+
+
+.mfa-secret__tooltip.visible {
+	display: inline-block;
+	min-width: max-content;
+	width: max-content;
+	height: fit-content;
+	visibility: visible;
+	opacity: 1;
+}
+
+.mfa-secret__copy:hover {
+	cursor: pointer;
+}
+
+.mfa-totp__setup .nova-dialog__head-text {
+	font-size: 1.285em;
+}
+
+.mfa-totp-result__content {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -75%);
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.mfa-totp-result__image {
+	max-width: 8em;
+}
+
+.mfa-totp-result__message {
+	text-align: center;
+	font-size: 1.85em;
+	margin-top: 1.25em;
+	color: #2ABC53;
+	font-weight: 500;
+}
+
+.mfa-totp__form {
+	padding: 0 4.75em;
+}
+
+.mfa-totp__form .nova-dialog__head-text {
+	font-size: 1.45em;
+}
+
+.mfa-totp-form__controls {
+	margin: 2rem 0.75rem 0 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+.mfa-totp-form.invalid .mfa-totp-form__input {
+	background-color: #FFECEC;
+	border: 1px solid #F16262;
+}
+
+.mfa-totp-form.invalid .mfa-totp-form__error {
+	display: block;
+	margin: 1rem 0.75rem 0;
+	color: #CE1F1F;
+	font-size: 1.45em;
+}
+
+.mfa-totp-form.invalid .mfa-totp-form__tries {
+	display: block;
+	margin: 0.75rem 0.75rem 0;
+	color: #3477A6;
+	font-size: 1.275em;
+}
+
+.mfa-totp-form__error, .mfa-totp-form__tries {
+	display: none;
+	text-align: right;
+}
+
+.mfa-totp-form__input {
+	font-size: 2em;
+	width: 2.25em;
+	height: 2.65em;
+	background-color: #F9F9F9;
+	border: 1px solid #CFCFCF;
+	border-radius: 2px;
+	text-align: center;
+}
+
+.recover-password-dialog-main {
+	padding: 15px;
+}
+
+.recover-password-dialog-footer {
+	padding: 15px 15px 5px;
+	display: flex;
+	gap: 10px;
+	justify-content: end;
+	border-top: 1px solid #d9d9d9;
+}
+
+.nova-dialog-field-label {
+	font-size: 13px;
+	font-weight: 600;
+	line-height: 22px;
+	margin-bottom: 5px
+}
+
+.nova-dialog-field-input #recoverID {
+	padding: 5px;
+	overflow: hidden;
+	border: 1px solid #b3b3b3;
+	border-radius: 3px;
+}
+
+.nova-button {
+	width: 7.125em;
+	min-width: fit-content;
+	height: 2.125em;
+	padding: 0.5em 1.125em;
+	font-size: 1.65em;
+	color: #3477A6;
+	background-color: #fff;
+	border: 1px solid #D9D9D9;
+	border-radius: 3px;
+	text-transform: capitalize;
+}
+
+.nova-button:hover {
+	cursor: pointer;
+}
+
+.nova-button--primary {
+	color: #fff;
+	background-color: #3477A6;
+	border: 1px solid #3477A6;
+}
+
+.nova-button--primary:hover {
+	background-color: #006d99;
+}
+
+.nova-button--primary:disabled {
+	background-color: #006d99;
+	opacity: 0.6;
+	cursor: not-allowed;
+}
+
+.nova-button--unsized {
+	font-size: inherit;
+	width: initial;
+	height: initial;
+	padding: 0 0.75em;
+}
+
+.Hidden {
+	display: none !important;
+}

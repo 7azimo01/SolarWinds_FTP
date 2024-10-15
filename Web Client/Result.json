@@ -1,0 +1,7 @@
+<!--#include "../Common/Strings/Result.strings"-->
+{
+    "result": "%RESULT%",
+    "resultText": "%RESULT_TEXT%",
+    "spaceAvailable": "%AVAILABLE_BYTES%",
+    "directorySize": "%DIRECTORY_SIZE%"
+}

@@ -1,0 +1,61 @@
+﻿<!-- Strings.strings - For ease of localization, strings have been separated into this file.  Place all localizable strings here. -->
+<!-- Strings.strings - For ease of localization, strings have been separated into this file.  Place all localizable strings here. -->
+<!-- NOTE: assignments require left justification and the assignment to appear as "$=" without whitespace between the $ and =. -->
+<!-- File location: <<Install>>\Client\Admin\Include\ -->
+
+<!-- **************** ServerSettingsTab.htm **************** -->
+$PASV_CHECK_PEER_IP$=Vaadi vastaavat IP-osoitteet hallinta- ja datayhteyksiin
+
+
+<!-- **************** LDAPServerDialog.htm **************** -->
+$LDAP_BROWSE$=Selaa
+$LDAP_RETRIEVE$=Hae
+$LDAP_ROOT_CERTIFICATE$=Varmenteen myöntäjä
+$LDAP_DEFAULT_CERTIFICATE$=Oletuskäyttöjärjestelmän asetukset
+$LDAP_BROWSE_CERTIFICATE$=Valitse juurivarmenne
+$LDAP_PICK_CERTIFICATE$=Hae juurivarmenne LDAP-palvelimelta
+$LDAP_ROOT_PATH_HINT$=CA-juurivarmenteen polku paikallisessa tiedostojärjestelmässä. Varmista, että varmenne on base64-koodattu.
+$LDAP_BROWSE_BUTTON_HINT$=Etsi CA-juurivarmenne paikallisesta tiedostojärjestelmästä.
+$LDAP_RETRIEVE_BUTTON_HINT$=Hae CA-juurivarmenne LDAPS-palvelimelta
+$LDAP_SERIAL_NUMBER$=Sarjanumero
+$LDAP_SIGNATURE_ALGORITHM$=Allekirjoitusalgoritmi
+$LDAP_PUBLIC_KEY_ALGORITHM$=Julkisen avaimen salausalgoritmi
+$LDAP_ORGANIZATION$=Organisaatio
+$LDAP_LOCATION$=Sijainti
+$LDAP_VALID_FROM$=Voimassaolo alkaa
+$LDAP_VALID_TO$=Voimassaolo päättyy
+$LDAP_VALIDATE$=Vahvista valitun CA-varmenteen tiedot alla:
+$LDAP_ALGORITHMS$=Algoritmit
+$LDAP_ISSUER$=Myöntäjä
+$LDAP_SUBJECT$=Aihe
+$LDAP_VALIDITY_PERIOD$=Voimassaoloaika
+$LDAP_FINGERPRINTS$=Sormenjäljet
+$LDAP_FILE_PATH$=Tiedostopolku
+$LDAP_CONFIRM_QUESTION$=Vahvistatko varmenteen oikeaksi?
+
+
+<!-- **************** MFA **************** -->
+$TOTP_HMAC_SHA1$=SHA-1
+$TOTP_HMAC_SHA256$=SHA-256
+$TOTP_HMAC_SHA512$=SHA-512
+$TOTP_MFA_ENABLED$=Päällä
+$TOTP_MFA_DISABLED$=Pois päältä
+$TOTP_MFA_ENFORCED$=Pakollinen
+$TOTP_MFA_RESET_FOR_USER$=Haluatko varmasti nollata valitun käyttäjän TOTP:n?
+$MFA_TAB_NAME$=Monivaiheinen tunnistautuminen
+$MFA_TAB_INFO$=Jos monivaiheinen tunnistautuminen on Päällä, asiakas voi käyttää tunnistautumissovelluksen luomaa kertakäyttöistä koodia turvalliseen kirjautumiseen käyttäjätunnuksensa ja salasanansa kanssa. Jos monivaiheinen tunnistautuminen on asetettu Pakolliseksi, asiakas ei voi kirjautua sisään ilman sitä.
+$MFA_STATUS$=MFA-tila
+$MFA_STATUS_ACTIVE$=Aktiivinen
+$MFA_STATUS_NOT_CONFIG$=Ei asetettu
+$MFA_LOGIN_ID$=Sisäänkirjautumistunnus:
+$MFA_AUTHENTICATOR$=Monivaiheinen tunnistautuminen:
+$MFA_COMPANY_NAME$=Yrityksen nimi:
+$MFA_PRODUCT_NAME$=Serv-U
+$MFA_GENERAL_USERS_NOT_AVAILABLE$=Monivaiheinen tunnistautuminen ei ole saatavilla tälle käyttäjätyypille.
+$MFA_GENERAL_GROUPS_NOT_AVAILABLE$=Monivaiheinen tunnistautuminen ei ole saatavilla tälle ryhmätyypille.
+$MFA_LDAP_USERS_NOT_AVAILABLE$=Monivaiheinen tunnistautuminen ei ole saatavilla LDAP-käyttäjille.
+$MFA_LDAP_GROUPS_NOT_AVAILABLE$=Monivaiheinen tunnistautuminen ei ole saatavilla LDAP-ryhmille.
+$MFA_DB_USERS_NOT_AVAILABLE$=Monivaiheinen tunnistautuminen ei ole saatavilla tietokantakäyttäjille.
+$MFA_DB_GROUPS_NOT_AVAILABLE$=Monivaiheinen tunnistautuminen ei ole saatavilla tietokantaryhmille.
+$MFA_WINDOWS_USERS_NOT_AVAILABLE$=Monivaiheinen tunnistautuminen ei ole saatavilla Windows-käyttäjille.
+$MFA_WINDOWS_GROUPS_NOT_AVAILABLE$=Monivaiheinen tunnistautuminen ei ole saatavilla Windows-ryhmille.

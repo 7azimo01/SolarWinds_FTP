@@ -1,0 +1,24 @@
+<!--#include "..\..\Common\Strings\Result.strings"-->
+%PRIV_GROUP_ADMIN%
+<?xml version="1.0" encoding="UTF-8" ?>
+<ldapserver>
+<var name="ObjectID" val="%ID%" />
+<var name="Enabled" val="%CLDAPServer.%ID%.Enabled%" />
+<var name="Secure" val="%CLDAPServer.%ID%.Secure%" />
+<var name="Description" val="%CLDAPServer.%ID%.Description%" />
+<var name="Host" val="%CLDAPServer.%ID%.Host%" />
+<var name="Port" val="%CLDAPServer.%ID%.Port%" />
+<var name="Base" val="%CLDAPServer.%ID%.Base%" />
+<var name="SearchFilter" val="%CLDAPServer.%ID%.SearchFilter%" />
+<var name="MapHomeDir" val="%CLDAPServer.%ID%.MapHomeDir%" />
+<var name="MapEmailAddress" val="%CLDAPServer.%ID%.MapEmailAddress%" />
+<var name="MapGroupMembership" val="%CLDAPServer.%ID%.MapGroupMembership%" />
+<var name="MapFullName" val="%CLDAPServer.%ID%.MapFullName%" />
+<var name="MapLoginID" val="%CLDAPServer.%ID%.MapLoginID%" />
+<var name="ConnectionAccount" val="%CLDAPServer.%ID%.ConnectionAccount%" />
+<var name="ConnectionPassword" val="%CLDAPServer.%ID%.ConnectionPassword%" />
+<var name="CACertificatePath" val="%CLDAPServer.%ID%.CACertificatePath%" />
+<var name="CACertificateFingerprintSHA256" val="%CLDAPServer.%ID%.CACertificateFingerprintSHA256%" />
+<var name="Result" val="%RESULT%"/>
+<var name="ResultText" val="%RESULT_TEXT%"/>
+</ldapserver>

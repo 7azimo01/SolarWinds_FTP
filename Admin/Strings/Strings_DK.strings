@@ -1,0 +1,64 @@
+﻿<!-- Strings.strings - For ease of localization, strings have been separated into this file.  Place all localizable strings here. -->
+<!-- Strings.strings - For ease of localization, strings have been separated into this file.  Place all localizable strings here. -->
+<!-- NOTE: assignments require left justification and the assignment to appear as "$=" without whitespace between the $ and =. -->
+<!-- File location: <<Install>>\Client\Admin\Include\ -->
+
+<!-- **************** ServerSettingsTab.htm **************** -->
+$PASV_CHECK_PEER_IP$=Kræver matchende peer IP-adresser til kontrol og dataforbindelser
+
+<!-- **************** BrowseDialog.htm **************** -->
+$FILE_PATH$=Filsti
+
+
+<!-- **************** MFA **************** -->
+$TOTP_HMAC_SHA1$=SHA-1
+$TOTP_HMAC_SHA256$=SHA-256
+$TOTP_HMAC_SHA512$=SHA-512
+$TOTP_MFA_ENABLED$=Aktiveret
+$TOTP_MFA_DISABLED$=Deaktiveret
+$TOTP_MFA_ENFORCED$=Tvungen
+$TOTP_MFA_RESET_FOR_USER$=Er du sikker på, at du vil nulstille TOTP for den valgte bruger?
+$MFA_TAB_NAME$=Multifaktorgodkendelse (MFA)
+$MFA_TAB_INFO$=Hvis multifaktorgodkendelse er Aktiveret, kan klienten anvende engangsadgangskoden, genereret via autentificeringsapplikationen, som en ekstra autentificeringsfaktor sammen med brugernavn og adgangskode for at øge sikkerheden ved login. Hvis multifaktorgodkendelse er sat til Tvungen, er anvendelsen obligatorisk, og klienten vil ikke kunne logge ind uden den.
+$MFA_STATUS$=MFA-status
+$MFA_STATUS_ACTIVE$=Aktiv
+$MFA_STATUS_NOT_CONFIG$=Ikke konfigureret
+$MFA_LOGIN_ID$=Login-id:
+$MFA_AUTHENTICATOR$=Multifaktorgodkendelse:
+$MFA_COMPANY_NAME$=Virksomhedsnavn:
+$MFA_PRODUCT_NAME$=Serv-U
+$MFA_GENERAL_USERS_NOT_AVAILABLE$=Multifaktorgodkendelse er ikke tilgængelig for den aktuelle brugertype.
+$MFA_GENERAL_GROUPS_NOT_AVAILABLE$=Multifaktorgodkendelse er ikke tilgængelig for den aktuelle gruppetype.
+$MFA_LDAP_USERS_NOT_AVAILABLE$=Multifaktorgodkendelse er ikke tilgængelig for LDAP-brugere.
+$MFA_LDAP_GROUPS_NOT_AVAILABLE$=Multifaktorgodkendelse er ikke tilgængelig for LDAP-grupper.
+$MFA_DB_USERS_NOT_AVAILABLE$=Multifaktorgodkendelse er ikke tilgængelig for databasebrugere.
+$MFA_DB_GROUPS_NOT_AVAILABLE$=Multifaktorgodkendelse er ikke tilgængelig for databasegrupper.
+$MFA_WINDOWS_USERS_NOT_AVAILABLE$=Multifaktorgodkendelse er ikke tilgængelig for Windows-brugere.
+$MFA_WINDOWS_GROUPS_NOT_AVAILABLE$=Multifaktorgodkendelse er ikke tilgængelig for Windows-grupper.
+
+
+<!-- **************** LDAPServerDialog.htm **************** -->
+$LDAP_BROWSE$=Gennemse
+$LDAP_RETRIEVE$=Hent
+$LDAP_ROOT_CERTIFICATE$=Certifikatmyndighed (CA)
+$LDAP_DEFAULT_CERTIFICATE$=Standard OS-konfiguration
+$LDAP_BROWSE_CERTIFICATE$=Vælg rodcertifikat
+$LDAP_PICK_CERTIFICATE$=Hent rodcertifikat fra LDAP-server
+$LDAP_ROOT_PATH_HINT$=CA-rodcertifikat-filsti i det lokale filsystem. Sikr dig, at certifikatfilen er base-64-kodet.
+$LDAP_BROWSE_BUTTON_HINT$=Søg efter CA-rodcertifikatfil i det lokale filsystem.
+$LDAP_RETRIEVE_BUTTON_HINT$=Hent CA-rodcertifikat fra LDAPS-server
+$LDAP_SERIAL_NUMBER$=Serienummer
+$LDAP_SIGNATURE_ALGORITHM$=Signaturalgoritme
+$LDAP_PUBLIC_KEY_ALGORITHM$=Offentlig nøgle-algoritme
+$LDAP_ORGANIZATION$=Organisation
+$LDAP_LOCATION$=Placering
+$LDAP_VALID_FROM$=Gyldig fra
+$LDAP_VALID_TO$=Gyldig til
+$LDAP_VALIDATE$=Bekræft informationen på det valgte CA-certifikat nedenfor:
+$LDAP_ALGORITHMS$=Algoritmer
+$LDAP_ISSUER$=Udsteder
+$LDAP_SUBJECT$=Emne
+$LDAP_VALIDITY_PERIOD$=Gyldighedsperiode
+$LDAP_FINGERPRINTS$=Fingeraftryk
+$LDAP_FILE_PATH$=Filsti
+$LDAP_CONFIRM_QUESTION$=Bekræfter du dette certifikats gyldighed?
